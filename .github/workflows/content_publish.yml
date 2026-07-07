@@ -1,0 +1,90 @@
+name: Content Publish
+
+on:
+  schedule:
+    - cron: '17 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-publish-main
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      SITE_TIMEZONE: America/Denver
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Use Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Resolve release date
+        id: release_date
+        run: |
+          RELEASE_DATE="$(TZ="${SITE_TIMEZONE}" date +%F)"
+          echo "date=${RELEASE_DATE}" >> "$GITHUB_OUTPUT"
+          echo "PUBLICATION_DATE=${RELEASE_DATE}" >> "$GITHUB_ENV"
+          echo "PUBLISH_DATE=${RELEASE_DATE}" >> "$GITHUB_ENV"
+          echo "SELF_PRODUCE_DATE=${RELEASE_DATE}" >> "$GITHUB_ENV"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Pull latest main
+        run: git pull --rebase origin main
+
+      - name: Generate approved backlog
+        run: npm run content:generate-backlog
+
+      - name: Self-produce future daily content after 2026 backlog
+        run: npm run content:self-produce
+
+      - name: Write release state
+        run: npm run release:state
+
+      - name: Build admin manifest
+        run: npm run content:build-admin-manifest
+
+      - name: Build public answers for release date
+        run: npm run content:build-answers
+
+      - name: Build sitemap for release date
+        run: npm run seo:build-sitemap
+
+      - name: Build daily proof packet
+        run: npm run release:daily-proof
+
+      - name: Select scheduled content for today
+        run: npm run content:publish
+
+      - name: Self-heal generated release metadata
+        run: npm run release:self-heal
+
+      - name: Validate release
+        run: npm run validate:all
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Commit release surfaces
+        run: |
+          git config user.name "dianne-content-release-bot"
+          git config user.email "actions@github.com"
+          git add data/content/content_calendar.json             data/content/release_state.json             data/content/post_2026_self_production_preview.json             data/admin/content_manifest.json             public/answers.json             public/sitemap.xml             artifacts/validation             reports/self-production-preview.md             reports/daily-proof-packet.md             reports/daily-citation-release-plan.json
+          if git diff --cached --quiet; then
+            echo "No release surface changes for ${PUBLICATION_DATE}."
+          else
+            git commit -m "Release scheduled content for ${PUBLICATION_DATE}"
+            git push origin main
+          fi
