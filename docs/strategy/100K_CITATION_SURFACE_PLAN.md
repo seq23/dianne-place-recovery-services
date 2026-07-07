@@ -15,7 +15,7 @@ The target is 100K citation-surface opportunities in 6-12 months. This is a stra
 
 ## Strategy
 
-1. Build entity clarity around Dianne's Place Recovery Services, Denver, recovery housing, structured sober living, and referral support.
+1. Build entity clarity around Dianne's Place Recovery Services, recovery housing, structured sober living, and referral support without forcing an unapproved local market.
 2. Publish direct answer blocks that can be extracted by LLMs and search answer systems.
 3. Build topical depth across women, minority communities, LGBTQ+ people, millennials, Gen Z, families, and referral partners.
 4. Keep all clinical and licensure claims gated by the licensure mode switch.

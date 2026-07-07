@@ -1,13 +1,11 @@
 {
   "primaryMarket": {
-    "city": "Denver",
-    "state": "Colorado",
-    "country": "United States",
-    "serviceAreaLabel": "Denver, Colorado recovery housing and referral support"
+    "serviceAreaMode": "non_localized",
+    "serviceAreaLabel": "Service area to be confirmed",
+    "country": "United States"
   },
   "geoModifiers": [
-    "Denver",
-    "Colorado",
+    "service area to be confirmed",
     "near treatment discharge",
     "after detox",
     "after residential treatment",

@@ -7,8 +7,8 @@ export function Footer() {
       <section>
         <h2>Dianne&apos;s Place Recovery Services</h2>
         <p>
-          Recovery housing, structured support, and referral guidance in Denver, Colorado. Expanded
-          services are being developed with care as licensing and operational milestones are completed.
+          Recovery housing, structured support, and referral guidance. Expanded services are being
+          developed with care as licensing and operational milestones are completed.
         </p>
         <p>
           <strong>Call:</strong> <a href={site.phoneHref}>{site.phone}</a>

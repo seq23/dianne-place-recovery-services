@@ -10,7 +10,7 @@ export const site = {
   phone: '(720) 588-8864',
   phoneHref: 'tel:17205888864',
   email: 'diannesplacerecovery@gmail.com',
-  location: 'Denver, Colorado, United States',
+  location: 'Service area to be confirmed',
   nav: [
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },

@@ -1,43 +1,53 @@
 {
   "generatedAt": "2026-07-07",
-  "market": "Denver, Colorado",
+  "market": "Non-localized service area pending approval",
   "queryFamilies": [
     {
-      "id": "denver-recovery-housing",
+      "id": "recovery-housing",
       "intent": "find recovery housing",
       "priority": 100,
       "queries": [
-        "recovery housing Denver",
-        "sober living Denver",
-        "structured sober living Denver",
-        "substance free housing Denver",
-        "recovery housing for adults Denver"
+        "recovery housing",
+        "sober living support",
+        "structured sober living",
+        "substance free housing",
+        "recovery housing for adults"
       ],
-      "targetRoutes": ["/recovery-housing/", "/resources/", "/blog/"]
+      "targetRoutes": [
+        "/recovery-housing/",
+        "/resources/",
+        "/blog/"
+      ]
     },
     {
       "id": "women-recovery-support",
       "intent": "find women-centered recovery support",
       "priority": 92,
       "queries": [
-        "women recovery housing Denver",
+        "women recovery housing",
         "safe sober living for women",
         "women in recovery support",
         "recovery resources for women after treatment"
       ],
-      "targetRoutes": ["/resources/", "/blog/"]
+      "targetRoutes": [
+        "/resources/",
+        "/blog/"
+      ]
     },
     {
       "id": "minority-recovery-support",
       "intent": "culturally respectful recovery resources",
       "priority": 90,
       "queries": [
-        "Black recovery support Denver",
+        "Black recovery support",
         "minority recovery resources",
         "culturally respectful sober living",
         "recovery support for people of color"
       ],
-      "targetRoutes": ["/resources/", "/blog/"]
+      "targetRoutes": [
+        "/resources/",
+        "/blog/"
+      ]
     },
     {
       "id": "lgbtq-recovery-support",
@@ -49,7 +59,10 @@
         "affirming recovery housing",
         "LGBTQ substance use recovery resources"
       ],
-      "targetRoutes": ["/resources/", "/blog/"]
+      "targetRoutes": [
+        "/resources/",
+        "/blog/"
+      ]
     },
     {
       "id": "gen-z-millennial-recovery",
@@ -61,7 +74,10 @@
         "young adult recovery housing",
         "rebuilding routines after addiction"
       ],
-      "targetRoutes": ["/resources/", "/blog/"]
+      "targetRoutes": [
+        "/resources/",
+        "/blog/"
+      ]
     },
     {
       "id": "referral-partner-journey",
@@ -69,11 +85,14 @@
       "priority": 94,
       "queries": [
         "refer someone to recovery housing",
-        "recovery housing referral Denver",
+        "recovery housing referral",
         "sober living referral process",
         "case manager recovery housing referral"
       ],
-      "targetRoutes": ["/referrals/", "/contact/"]
+      "targetRoutes": [
+        "/referrals/",
+        "/contact/"
+      ]
     },
     {
       "id": "family-support",
@@ -85,7 +104,11 @@
         "what to ask sober living home",
         "support loved one in recovery"
       ],
-      "targetRoutes": ["/resources/", "/referrals/", "/blog/"]
+      "targetRoutes": [
+        "/resources/",
+        "/referrals/",
+        "/blog/"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Dianne's Place Recovery Services - LLM Context
 
-Dianne's Place Recovery Services LLC is a Denver, Colorado recovery housing and recovery-support organization. The organization is named in honor of Dianne, the owner's mother, whose compassion, strength, and care inspired the mission.
+Dianne's Place Recovery Services LLC is a recovery housing and recovery-support organization with service-area language pending approval. The organization is named in honor of Dianne, the owner's mother, whose compassion, strength, and care inspired the mission.
 
 Current public positioning:
 - recovery housing
@@ -40,4 +40,4 @@ Citation surfaces:
 - public/answers.json exposes machine-readable answer blocks.
 - data/seo/query_matrix.json defines query families.
 - data/aeo/answer_surface_registry.json defines answer targets.
-- data/geo/market_map.json defines Denver/Colorado context.
+- data/geo/market_map.json defines service-area-pending context.

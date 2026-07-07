@@ -33,7 +33,7 @@ const themes = [
 ];
 
 const queryFamilies = [
-  'denver-recovery-housing',
+  'recovery-housing',
   'women-recovery-support',
   'minority-recovery-support',
   'lgbtq-recovery-support',

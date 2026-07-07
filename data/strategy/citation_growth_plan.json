@@ -14,70 +14,129 @@
     {
       "id": "entity_clarity",
       "name": "Entity Clarity",
-      "goal": "Make Dianne's Place unambiguous as a Denver recovery housing and recovery-support entity.",
-      "releaseUnits": ["entity schema", "about page", "Dianne legacy page", "llms files", "organization facts"]
+      "goal": "Make Dianne's Place unambiguous as a recovery housing and recovery-support entity while service-area language remains non-localized until approved.",
+      "releaseUnits": [
+        "entity schema",
+        "about page",
+        "Dianne legacy page",
+        "llms files",
+        "organization facts"
+      ]
     },
     {
       "id": "answer_extraction",
       "name": "Answer Extraction",
       "goal": "Publish direct, short, citable answers for recovery housing, referrals, crisis boundaries, and underserved recovery communities.",
-      "releaseUnits": ["answer blocks", "FAQ atoms", "comparison tables", "decision trees", "public answers.json"]
+      "releaseUnits": [
+        "answer blocks",
+        "FAQ atoms",
+        "comparison tables",
+        "decision trees",
+        "public answers.json"
+      ]
     },
     {
       "id": "topical_depth",
       "name": "Topical Depth",
       "goal": "Build coverage across recovery housing, women, minority communities, LGBTQ+ recovery, millennials, Gen Z, families, and referral partners.",
-      "releaseUnits": ["daily resources", "weekly articles", "monthly pillars", "quarterly white papers"]
+      "releaseUnits": [
+        "daily resources",
+        "weekly articles",
+        "monthly pillars",
+        "quarterly white papers"
+      ]
     },
     {
       "id": "geo_authority",
       "name": "GEO Authority",
-      "goal": "Tie the site to Denver and Colorado recovery-support context without claiming unsupported licensing or treatment capacity.",
-      "releaseUnits": ["Denver page context", "Colorado resource references", "local referral language", "service-area schema"]
+      "goal": "Build service-area-neutral recovery-support context without claiming unsupported licensing, treatment capacity, or an unapproved local market.",
+      "releaseUnits": [
+        "service-area-neutral page context",
+        "approved resource references",
+        "service-area-neutral referral language",
+        "service-area-pending schema"
+      ]
     },
     {
       "id": "source_trust",
       "name": "Source Trust",
       "goal": "Attach factual claims to authoritative public sources and block unsupported healthcare claims.",
-      "releaseUnits": ["source registry", "claim registry", "claim coverage validator", "citation proof packets"]
+      "releaseUnits": [
+        "source registry",
+        "claim registry",
+        "claim coverage validator",
+        "citation proof packets"
+      ]
     },
     {
       "id": "distribution_flywheel",
       "name": "Distribution Flywheel",
       "goal": "Create repeatable, non-spammy release units that can be indexed, shared, cited, and refreshed.",
-      "releaseUnits": ["sitemap updates", "llms updates", "IndexNow/GSC manifest placeholder", "daily proof packet"]
+      "releaseUnits": [
+        "sitemap updates",
+        "llms updates",
+        "IndexNow/GSC manifest placeholder",
+        "daily proof packet"
+      ]
     }
   ],
   "monthlyMilestones": [
     {
       "month": "2026-07",
       "target": "Foundation",
-      "outputs": ["entity clarity", "core pages", "178-item backlog", "answer registry", "query matrix"]
+      "outputs": [
+        "entity clarity",
+        "core pages",
+        "178-item backlog",
+        "answer registry",
+        "query matrix"
+      ]
     },
     {
       "month": "2026-08",
       "target": "Depth",
-      "outputs": ["women/minority/LGBTQ+ clusters", "weekly citation-ready articles", "resource updates"]
+      "outputs": [
+        "women/minority/LGBTQ+ clusters",
+        "weekly citation-ready articles",
+        "resource updates"
+      ]
     },
     {
       "month": "2026-09",
       "target": "Authority",
-      "outputs": ["first quarterly white paper", "Denver recovery housing pillar", "referral partner guide"]
+      "outputs": [
+        "first quarterly white paper",
+        "recovery housing pillar",
+        "referral partner guide"
+      ]
     },
     {
       "month": "2026-10",
       "target": "Expansion",
-      "outputs": ["millennial and Gen Z clusters", "family support cluster", "answer block expansion"]
+      "outputs": [
+        "millennial and Gen Z clusters",
+        "family support cluster",
+        "answer block expansion"
+      ]
     },
     {
       "month": "2026-11",
       "target": "Refresh",
-      "outputs": ["source refresh", "claim repair", "internal link upgrades", "schema improvements"]
+      "outputs": [
+        "source refresh",
+        "claim repair",
+        "internal link upgrades",
+        "schema improvements"
+      ]
     },
     {
       "month": "2026-12",
       "target": "Compounding",
-      "outputs": ["second quarterly white paper", "2027 self-production transition", "citation proof review"]
+      "outputs": [
+        "second quarterly white paper",
+        "2027 self-production transition",
+        "citation proof review"
+      ]
     }
   ],
   "hardBoundaries": [

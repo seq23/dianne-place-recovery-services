@@ -17,7 +17,7 @@ assert(growth.scoreTarget?.aeoSeoGeoReadiness >= 9, 'AEO/SEO/GEO readiness targe
 assert(Array.isArray(queries.queryFamilies) && queries.queryFamilies.length >= 7, 'Query matrix needs at least 7 query families');
 assert(queries.queryFamilies.every((family) => family.queries?.length >= 4), 'Each query family needs at least 4 queries');
 assert(Array.isArray(answers.answerBlocks) && answers.answerBlocks.length >= 5, 'Answer registry needs direct answer blocks');
-assert(geo.primaryMarket?.city === 'Denver', 'GEO map must identify Denver');
+assert(geo.primaryMarket?.serviceAreaMode === 'non_localized', 'GEO map must stay non-localized until service-area strategy is approved');
 assert(Array.isArray(atoms.atoms) && atoms.atoms.length >= 5, 'Atom registry needs reusable atoms');
 assert(Array.isArray(pageContracts.pageFamilies) && pageContracts.pageFamilies.length >= 4, 'Page contracts missing');
 assert(Array.isArray(routes.routes) && routes.routes.some((route) => route.path === '/answers/'), 'Route registry must include /answers/');
