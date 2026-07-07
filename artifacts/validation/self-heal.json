@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T15:13:35.645Z",
+  "generatedAt": "2026-07-07T19:43:18.161Z",
   "repairs": [
     {
       "path": "artifacts/validation",
@@ -12,8 +12,34 @@
     {
       "path": "data/content",
       "action": "ensure_dir"
+    },
+    {
+      "path": "data/admin",
+      "action": "ensure_dir"
+    },
+    {
+      "path": "data/content/content_calendar.json",
+      "action": "attach_self_healing_policy_to_items"
     }
   ],
+  "futureContentPolicy": {
+    "startsAfter": "2026-12-31",
+    "defaultStatus": "approved",
+    "wordCountMargin": "45% below target warns but does not hard-fail",
+    "nonBlocking": [
+      "word count variance",
+      "minor style variance",
+      "optional metadata",
+      "tone polish"
+    ],
+    "hardBlocking": [
+      "legal/compliance risk",
+      "licensure misrepresentation",
+      "missing disclaimer",
+      "missing route",
+      "unsafe medical claim"
+    ]
+  },
   "forbiddenRepairsSkipped": [
     "licensure mode switch",
     "legal policy rewrite",

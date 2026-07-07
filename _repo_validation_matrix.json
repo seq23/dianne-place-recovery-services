@@ -15,11 +15,14 @@
     "validate:admin-security",
     "validate:media-representation",
     "validate:aeo-seo-geo",
+    "validate:blog-routes",
+    "validate:admin-content-controls",
     "validate:repo-work-os-compliance",
     "validate:repo"
   ],
   "strongSoftValidators": [
-    "validate:dependency-lock"
+    "validate:dependency-lock",
+    "validate:future-content-self-heal"
   ],
   "warningValidators": [
     "validate:content-style-policy"

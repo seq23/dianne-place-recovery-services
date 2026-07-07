@@ -86,6 +86,20 @@
       "risk": "Repo Work OS authority files, contracts, content systems, proof packets, and validation boundaries must be audited."
     },
     {
+      "id": "blog-routes",
+      "script": "validate:blog-routes",
+      "severity": "hard",
+      "category": "publishing",
+      "risk": "Approved posts must be clickable from the blog index and render real content pages with atoms, FAQs, and disclaimers."
+    },
+    {
+      "id": "admin-content-controls",
+      "script": "validate:admin-content-controls",
+      "severity": "hard",
+      "category": "admin",
+      "risk": "Admin must expose content controls while preserving Dianne photo, licensure switch, and resources admin functions."
+    },
+    {
       "id": "repo",
       "script": "validate:repo",
       "severity": "hard",
@@ -98,6 +112,13 @@
       "severity": "strong_soft",
       "category": "runtime_readiness",
       "risk": "Missing lockfile means local or CI dependency resolution is not reproducible until install succeeds."
+    },
+    {
+      "id": "future-content-self-heal",
+      "script": "validate:future-content-self-heal",
+      "severity": "strong_soft",
+      "category": "future_publishing",
+      "risk": "Future self-produced posts after 2026-12-31 must have self-healing policy, margin of error, and nonblocking word-count/style handling."
     },
     {
       "id": "content-style-policy",

@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-07-07T19:43:38.328Z",
+  "severity": "strong_soft",
+  "blocksRelease": false,
+  "futurePublishingStartsAfter": "2026-12-31",
+  "defaultFutureStatus": "approved_if_hard_checks_pass",
+  "marginOfError": {
+    "wordCount": "45% below target warns but does not hard-fail",
+    "pettyStyleIssues": "warning only",
+    "optionalMetadata": "warning only"
+  },
+  "hardBlocksOnly": [
+    "legal_compliance",
+    "licensure_claims",
+    "missing_route",
+    "missing_disclaimer",
+    "missing_crisis_boundary",
+    "unsafe_medical_claim"
+  ],
+  "warnings": []
+}

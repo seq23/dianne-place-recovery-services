@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-07T15:13:50.239Z",
+  "generatedAt": "2026-07-07T19:43:37.351Z",
   "severity": "warning",
   "blocksRelease": false,
-  "warnings": []
+  "warnings": [
+    {
+      "code": "SHORT_SUMMARY",
+      "count": 4,
+      "message": "Some generated summaries are short. This is advisory because full article expansion can happen in scheduled release generation."
+    },
+    {
+      "code": "WORD_TARGET_VARIANCE",
+      "count": 31,
+      "message": "Some posts estimate below the preferred word target. This is advisory, not blocking, because word count is a quality target with a margin of error."
+    }
+  ]
 }

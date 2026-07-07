@@ -16,6 +16,7 @@ const checks = [
   ['update_contract', '_repo_update_contract.json'],
   ['validation_matrix', '_repo_validation_matrix.json'],
   ['validation_registry', 'data/validation/validation_registry.json'],
+  ['admin_content_manifest', 'data/admin/content_manifest.json'],
   ['content_release_contract', '_content_release_contract.json'],
   ['citation_contract', '_citation_intelligence_contract.json'],
   ['self_heal_contract', '_self_heal_contract.json'],

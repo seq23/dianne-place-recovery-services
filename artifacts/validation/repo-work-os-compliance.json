@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-07T15:13:38.305Z",
+  "generatedAt": "2026-07-07T19:43:21.296Z",
   "standard": "Repo Work OS v0 source-doc compliance audit",
   "counts": {
-    "present": 33,
+    "present": 34,
     "blocked_until_local_validation": 1
   },
   "results": [
@@ -24,6 +24,11 @@
     {
       "id": "validation_registry",
       "file": "data/validation/validation_registry.json",
+      "status": "present"
+    },
+    {
+      "id": "admin_content_manifest",
+      "file": "data/admin/content_manifest.json",
       "status": "present"
     },
     {
@@ -164,7 +169,7 @@
     {
       "id": "validation_severity_tiers",
       "status": "present",
-      "detail": "hard=11, strong_soft=1, warning=1"
+      "detail": "hard=13, strong_soft=2, warning=1"
     },
     {
       "id": "photo_slots_defined",

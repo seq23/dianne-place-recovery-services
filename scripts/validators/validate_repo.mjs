@@ -9,6 +9,7 @@ const required = [
   '_citation_intelligence_contract.json',
   '_self_heal_contract.json',
   'data/validation/validation_registry.json',
+  'data/admin/content_manifest.json',
   'data/licensure/licensure_status.json',
   'data/strategy/citation_growth_plan.json',
   'data/seo/query_matrix.json',
