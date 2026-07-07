@@ -8,8 +8,9 @@ export default function HomePage() {
     <main>
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow">Denver recovery housing and support services</p>
+          <p className="eyebrow">Recovery housing and support services</p>
           <h1>A safe, structured place to begin again.</h1>
+          <p className="hero-script-line">held with dignity, care, and room to breathe</p>
           <p>
             Dianne&apos;s Place Recovery Services provides compassionate recovery housing
             and connection-focused support for adults rebuilding life after substance use.
@@ -33,10 +34,7 @@ export default function HomePage() {
         <div className="legacy-card hero-media">
           <SiteImage slotId="home-hero-community" />
           <p className="script">A warm place to land</p>
-          <p>
-            The photo direction for this space is a multiracial recovery housing community:
-            home-like, calm, dignified, and visibly inclusive.
-          </p>
+          <p>Home-like, calm, dignified, and visibly inclusive recovery housing support.</p>
           <Link href="/diannes-legacy">Read Dianne&apos;s legacy</Link>
         </div>
       </section>

@@ -77,9 +77,9 @@ select:focus-visible {
 .brand-script,
 .script {
   color: var(--gold);
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Brush Script MT", "Segoe Script", "Apple Chancery", "Snell Roundhand", cursive;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .brand-script {
@@ -131,22 +131,37 @@ h3 {
 
 h1 {
   margin: 0;
-  font-family: Georgia, serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.35rem, 5vw, 4.8rem);
   line-height: 0.98;
 }
 
 .hero h1 {
   max-width: 760px;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  color: var(--brown);
+  font-family: "Brush Script MT", "Segoe Script", "Apple Chancery", "Snell Roundhand", cursive;
   font-style: italic;
-  animation: softFade 5.5s ease-in-out infinite;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 0.92;
+  text-wrap: balance;
+  animation: softScriptFade 5.5s ease-in-out infinite;
 }
 
-@keyframes softFade {
+.hero-script-line {
+  color: #b76f7b;
+  font-family: "Brush Script MT", "Segoe Script", "Apple Chancery", "Snell Roundhand", cursive;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  font-style: italic;
+  line-height: 1.05;
+  margin: 1.2rem 0 1.4rem;
+  animation: softScriptFade 6.2s ease-in-out infinite reverse;
+}
+
+@keyframes softScriptFade {
   0%,
   100% {
-    opacity: 0.72;
+    opacity: 0.64;
     transform: translateY(4px);
   }
 
@@ -215,6 +230,7 @@ h1 {
   align-self: center;
   background: var(--white);
   border: 1px solid rgba(75, 48, 38, 0.14);
+  border-radius: 1.6rem;
   box-shadow: var(--shadow);
   padding: 1.25rem;
 }
@@ -228,6 +244,8 @@ h1 {
   width: 100%;
   min-height: 280px;
   object-fit: cover;
+  border-radius: 1.25rem;
+  box-shadow: 0 14px 42px rgba(75, 48, 38, 0.12);
 }
 
 .site-image-fallback {
@@ -437,6 +455,12 @@ textarea {
   }
 
   .hero h1 {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .hero-script-line {
     animation: none;
     opacity: 1;
     transform: none;

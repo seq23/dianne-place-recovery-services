@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Dianne's Place Recovery Services"
   },
   description:
-    'Denver recovery housing, structured sober living, referral support, and recovery resources with services in development.',
+    'Recovery housing, structured sober living, referral support, and recovery resources with services in development.',
   metadataBase: new URL('https://www.diannesplacerecoveryservices.com'),
   alternates: {
     canonical: '/'
@@ -33,14 +33,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     name: site.legalName,
     telephone: site.phone,
     email: site.email,
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Denver',
-      addressRegion: 'CO',
-      addressCountry: 'US'
-    },
+    areaServed: 'Service area to be confirmed',
     description:
-      'Recovery housing, structured sober living, referral support, and recovery resources in Denver, Colorado.'
+      'Recovery housing, structured sober living, referral support, and recovery resources with services in development.'
   };
 
   return (
