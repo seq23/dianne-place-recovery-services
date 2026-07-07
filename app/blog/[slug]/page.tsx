@@ -12,6 +12,18 @@ type ContentItem = {
   summary: string;
   directAnswer: string;
   bodyOutline: string[];
+  dek: string;
+  humanizedIntro: string;
+  sections: { heading: string; body: string }[];
+  keyTakeaways: string[];
+  practicalNextSteps: string[];
+  reflectionPrompt: string;
+  faq: { question: string; answer: string }[];
+  atomBlocks: { id: string; label: string; text: string }[];
+  internalLinks: { label: string; href: string }[];
+  disclaimerBlock: string;
+  wordTarget: number;
+  contentPromise: string;
   answerSurface: {
     question: string;
     answer: string;
@@ -53,21 +65,64 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
       <section className="page-hero">
         <p className="eyebrow">{item.contentType.replace(/_/g, ' ')} · {item.scheduledAt}</p>
         <h1>{item.title}</h1>
-        <p>{item.directAnswer}</p>
+        <p>{item.dek || item.directAnswer}</p>
       </section>
       <section className="content-section">
-        <article>
+        <article className="post-body">
+          <p className="lede">{item.humanizedIntro}</p>
           <h2>{item.answerSurface.question}</h2>
           <p>{item.answerSurface.answer}</p>
-          <h2>What this resource covers</h2>
+          <h2>Key takeaways</h2>
           <ul>
-            {item.bodyOutline.map((point) => (
+            {item.keyTakeaways.map((point) => (
               <li key={point}>{point}</li>
             ))}
           </ul>
+          {item.sections.map((section) => (
+            <section key={section.heading} className="post-section">
+              <h2>{section.heading}</h2>
+              <p>{section.body}</p>
+            </section>
+          ))}
+          <h2>Practical next steps</h2>
+          <ol>
+            {item.practicalNextSteps.map((step) => (
+              <li key={step}>{step}</li>
+            ))}
+          </ol>
+          <aside className="soft-panel">
+            <h2>Reflection prompt</h2>
+            <p>{item.reflectionPrompt}</p>
+          </aside>
+          <h2>Recovery support atoms</h2>
+          <div className="atom-grid">
+            {item.atomBlocks.map((atom) => (
+              <article className="atom-card" key={atom.id}>
+                <h3>{atom.label}</h3>
+                <p>{atom.text}</p>
+              </article>
+            ))}
+          </div>
+          <h2>Frequently asked questions</h2>
+          {item.faq.map((faq) => (
+            <details className="faq-item" key={faq.question}>
+              <summary>{faq.question}</summary>
+              <p>{faq.answer}</p>
+            </details>
+          ))}
+          <h2>Related next steps</h2>
+          <div className="button-row">
+            {item.internalLinks.map((link) => (
+              <a className="button secondary" href={link.href} key={link.href}>{link.label}</a>
+            ))}
+          </div>
           <p className="small-note">
-            Audience: {item.audience}. Source references: {item.sourceIds.join(', ') || 'none required for this general support topic'}.
+            Audience: {item.audience}. Target depth: {item.wordTarget} words. Source references: {item.sourceIds.join(', ') || 'none required for this general support topic'}.
           </p>
+          <p className="small-note">{item.contentPromise}</p>
+          <aside className="disclaimer-box">
+            <strong>Content disclaimer:</strong> {item.disclaimerBlock}
+          </aside>
         </article>
         <DisclaimerBox />
       </section>

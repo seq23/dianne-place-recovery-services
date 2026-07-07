@@ -1,5 +1,7 @@
 import contentCalendar from '@/data/content/content_calendar.json';
+import contentManifest from '@/data/admin/content_manifest.json';
 import { PageHero } from '@/components/PageHero';
+import { ContentOpsDashboard } from './ContentOpsDashboard';
 
 export const metadata = { title: 'Admin Content' };
 
@@ -30,17 +32,7 @@ export default function AdminContentPage() {
           <article className="admin-card"><h2>Approved</h2><p>{approved}</p></article>
           <article className="admin-card"><h2>Blocked</h2><p>{blocked}</p></article>
         </div>
-        <div className="card-grid">
-          {items.slice(0, 18).map((item) => (
-            <article className="admin-card" key={item.id}>
-              <p className="eyebrow">{item.scheduledAt} · {item.contentType}</p>
-              <h2>{item.title}</h2>
-              <p>Status: <strong>{item.status}</strong></p>
-              <p>Eligible: <strong>{String(item.validation?.eligible)}</strong></p>
-              {item.validation?.blockers?.length ? <p>Blockers: {item.validation.blockers.join(', ')}</p> : null}
-            </article>
-          ))}
-        </div>
+        <ContentOpsDashboard manifest={contentManifest} />
       </section>
     </main>
   );

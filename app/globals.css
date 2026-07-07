@@ -335,12 +335,32 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.blog-grid {
+  align-items: stretch;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.blog-card .button {
+  margin-top: auto;
+}
+
 .card,
 .admin-card,
-.disclaimer-box {
+.disclaimer-box,
+.soft-panel,
+.atom-card {
   background: var(--white);
   border: 1px solid rgba(75, 48, 38, 0.14);
   padding: 1.4rem;
+}
+
+.soft-panel {
+  box-shadow: 0 10px 36px rgba(75, 48, 38, 0.08);
 }
 
 .disclaimer-box {
@@ -354,6 +374,111 @@ h1 {
 
 .admin-grid {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.admin-control-stack {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.admin-stats {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-bottom: 1.5rem;
+}
+
+.admin-stats strong {
+  color: var(--brown);
+  display: block;
+  font-size: 2rem;
+}
+
+.admin-filter-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.table-wrap {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.admin-table {
+  border-collapse: collapse;
+  min-width: 980px;
+  width: 100%;
+}
+
+.admin-table th,
+.admin-table td {
+  border-bottom: 1px solid rgba(75, 48, 38, 0.14);
+  padding: 0.9rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.admin-table th {
+  background: var(--blue);
+  color: var(--blue-ink);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.button-column {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.compact-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.compact-section {
+  margin-top: 2rem;
+  padding: 2rem 0 0;
+}
+
+.post-body {
+  display: grid;
+  gap: 1.2rem;
+  max-width: 920px;
+}
+
+.post-body .lede {
+  color: var(--brown);
+  font-size: 1.25rem;
+  line-height: 1.75;
+}
+
+.post-section {
+  border-top: 1px solid rgba(75, 48, 38, 0.14);
+  padding-top: 1rem;
+}
+
+.atom-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.atom-card {
+  border-left: 4px solid var(--gold);
+}
+
+.faq-item {
+  background: var(--cream);
+  border: 1px solid rgba(75, 48, 38, 0.14);
+  padding: 1rem;
+}
+
+.faq-item summary {
+  color: var(--brown);
+  cursor: pointer;
+  font-weight: 900;
 }
 
 .status-pill {
@@ -492,7 +617,10 @@ textarea {
 
   .trust-row,
   .card-grid,
-  .admin-grid {
+  .admin-grid,
+  .admin-stats,
+  .admin-filter-grid,
+  .atom-grid {
     grid-template-columns: 1fr;
   }
 }
