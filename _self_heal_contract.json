@@ -1,0 +1,21 @@
+{
+  "allowedRepairs": [
+    "missing generated indexes",
+    "sitemap drift",
+    "llms file drift",
+    "content calendar missing generated entries",
+    "manifest status drift",
+    "broken internal generated links",
+    "missing required disclaimer labels"
+  ],
+  "forbiddenRepairs": [
+    "invent missing source facts",
+    "switch licensure mode",
+    "enable PHI collection",
+    "enable insurance verification",
+    "enable tracking scripts",
+    "downgrade hard validators",
+    "rewrite legal policy without source authority"
+  ],
+  "maxPasses": 3
+}

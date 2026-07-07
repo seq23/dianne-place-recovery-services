@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-07-07T10:19:03.132Z",
+  "nextItems": [
+    {
+      "unit_id": "dprs-2026-07-07-001",
+      "unit_type": "weekly_article",
+      "route_target": "/blog/2026-07-07-recovery-housing-readiness/",
+      "selected_or_blocked": "selected",
+      "reason": "approved scheduled backlog item"
+    },
+    {
+      "unit_id": "dprs-2026-07-08-002",
+      "unit_type": "daily_resource",
+      "route_target": "/blog/2026-07-08-daily-sober-routines/",
+      "selected_or_blocked": "selected",
+      "reason": "approved scheduled backlog item"
+    },
+    {
+      "unit_id": "dprs-2026-07-09-003",
+      "unit_type": "daily_resource",
+      "route_target": "/blog/2026-07-09-family-support/",
+      "selected_or_blocked": "selected",
+      "reason": "approved scheduled backlog item"
+    },
+    {
+      "unit_id": "dprs-2026-07-10-004",
+      "unit_type": "daily_resource",
+      "route_target": "/blog/2026-07-10-women-in-recovery/",
+      "selected_or_blocked": "selected",
+      "reason": "approved scheduled backlog item"
+    },
+    {
+      "unit_id": "dprs-2026-07-11-005",
+      "unit_type": "daily_resource",
+      "route_target": "/blog/2026-07-11-lgbtq-recovery-support/",
+      "selected_or_blocked": "selected",
+      "reason": "approved scheduled backlog item"
+    },
+    {
+      "unit_id": "dprs-2026-07-12-006",
+      "unit_type": "daily_resource",
+      "route_target": "/blog/2026-07-12-minority-recovery-support/",
+      "selected_or_blocked": "selected",
+      "reason": "approved scheduled backlog item"
+    },
+    {
+      "unit_id": "dprs-2026-07-13-007",
+      "unit_type": "daily_resource",
+      "route_target": "/blog/2026-07-13-millennial-recovery/",
+      "selected_or_blocked": "selected",
+      "reason": "approved scheduled backlog item"
+    }
+  ]
+}

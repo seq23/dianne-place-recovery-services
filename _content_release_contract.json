@@ -1,0 +1,24 @@
+{
+  "calendarStart": "2026-07-07",
+  "calendarEnd": "2026-12-31",
+  "preBacklogStatus": "approved",
+  "publishRule": "auto_if_validated",
+  "postBacklogSelfProductionStarts": "2027-01-01",
+  "blockedStatuses": [
+    "needs_review",
+    "blocked_compliance",
+    "blocked_sources",
+    "revoked",
+    "archived"
+  ],
+  "hardBlocks": [
+    "licensed claim while mode is pre_license",
+    "unsupported healthcare or legal claim",
+    "guaranteed outcome language",
+    "missing disclaimer",
+    "missing source for factual healthcare claim",
+    "thin or duplicate route intent",
+    "tracking on sensitive forms",
+    "PHI collection without compliant backend"
+  ]
+}

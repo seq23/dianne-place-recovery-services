@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-07-07",
+  "atoms": [
+    {
+      "id": "atom-crisis-boundary",
+      "type": "disclaimer",
+      "text": "Dianne's Place is not an emergency service. Call 911 for immediate danger or call/text 988 for crisis support."
+    },
+    {
+      "id": "atom-prelicense-boundary",
+      "type": "licensure",
+      "text": "Dianne's Place is currently presented as recovery housing and support services while expanded licensed services are in development."
+    },
+    {
+      "id": "atom-recovery-housing-definition",
+      "type": "answer",
+      "text": "Recovery housing is a substance-free living environment that supports stability, routines, accountability, and community."
+    },
+    {
+      "id": "atom-referral-path",
+      "type": "process",
+      "text": "Referral starts with a phone or email conversation about fit, availability, recovery goals, and next steps."
+    },
+    {
+      "id": "atom-outcomes-boundary",
+      "type": "disclaimer",
+      "text": "Recovery outcomes vary and are never guaranteed."
+    }
+  ]
+}

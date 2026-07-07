@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-07-07T14:22:26.212Z",
+  "status": "passed",
+  "brand": "Dianne's Place Recovery Services",
+  "market": "Denver, Colorado",
+  "allowedPageFamilies": [
+    "recovery housing",
+    "referrals",
+    "resources",
+    "blog",
+    "legal",
+    "future services"
+  ],
+  "forbiddenClaims": [
+    "active licensure before licensure mode",
+    "guaranteed outcomes",
+    "unsupported clinical authority",
+    "fabricated accreditation"
+  ]
+}

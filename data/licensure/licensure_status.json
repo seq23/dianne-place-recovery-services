@@ -1,0 +1,30 @@
+{
+  "mode": "pre_license",
+  "lastReviewedAt": "2026-07-07",
+  "lastReviewedBy": "system",
+  "license": {
+    "status": "pending",
+    "licenseType": "",
+    "licenseNumber": "",
+    "issuingAgency": "",
+    "state": "Colorado",
+    "effectiveDate": "",
+    "expirationDate": "",
+    "coveredServices": [],
+    "supportingDocumentPath": ""
+  },
+  "capabilities": {
+    "clinicalIntakeEnabled": false,
+    "insuranceVerificationEnabled": false,
+    "hipaaNoticeActive": false,
+    "accreditationBadgesActive": false,
+    "marketingTrackingAllowedOnSensitiveFlows": false
+  },
+  "activationRequirements": [
+    "License status must be active.",
+    "License type, number, issuing agency, state, effective date, and covered services must be entered.",
+    "Owner must confirm ACTIVATE LICENSED MODE.",
+    "validate:licensure-mode must pass.",
+    "Legal pages must be reviewed before launch."
+  ]
+}

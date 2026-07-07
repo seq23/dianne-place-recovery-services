@@ -1,0 +1,25 @@
+{
+  "mode": "source_backed_free_pipeline",
+  "goals": [
+    "Build entity clarity for Dianne's Place Recovery Services.",
+    "Create citable recovery housing and recovery support resources.",
+    "Support SEO, AEO, GEO, and LLM extraction without fabricating authority."
+  ],
+  "forbidden": [
+    "Fabricated licensure",
+    "Fabricated accreditation",
+    "Invented outcomes",
+    "Unsupported statistics",
+    "Unapproved user-generated quotes",
+    "Private group or personal data exposure"
+  ],
+  "requiredSurfaces": [
+    "llms.txt",
+    "llms-full.txt",
+    "sitemap.xml",
+    "structured data",
+    "source registry",
+    "claim registry",
+    "content atom registry"
+  ]
+}

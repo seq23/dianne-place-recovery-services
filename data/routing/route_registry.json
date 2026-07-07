@@ -1,0 +1,19 @@
+{
+  "routes": [
+    { "path": "/", "family": "home", "citationRole": "entity home" },
+    { "path": "/about/", "family": "about", "citationRole": "organization identity" },
+    { "path": "/diannes-legacy/", "family": "about", "citationRole": "founding story" },
+    { "path": "/recovery-housing/", "family": "core_service", "citationRole": "service definition" },
+    { "path": "/future-services/", "family": "core_service", "citationRole": "licensure boundary" },
+    { "path": "/referrals/", "family": "referral", "citationRole": "referral process" },
+    { "path": "/resources/", "family": "resource", "citationRole": "topic hub" },
+    { "path": "/answers/", "family": "resource", "citationRole": "direct answer hub" },
+    { "path": "/blog/", "family": "resource", "citationRole": "scheduled content index" },
+    { "path": "/contact/", "family": "referral", "citationRole": "contact path" },
+    { "path": "/privacy/", "family": "legal", "citationRole": "privacy boundary" },
+    { "path": "/terms/", "family": "legal", "citationRole": "terms" },
+    { "path": "/medical-disclaimer/", "family": "legal", "citationRole": "medical disclaimer" },
+    { "path": "/outcomes-disclaimer/", "family": "legal", "citationRole": "outcomes disclaimer" },
+    { "path": "/cookie-policy/", "family": "legal", "citationRole": "cookie policy" }
+  ]
+}

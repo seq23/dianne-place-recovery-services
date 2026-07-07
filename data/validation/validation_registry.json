@@ -1,0 +1,110 @@
+{
+  "severityModel": {
+    "hard": {
+      "meaning": "Blocks release because failure creates legal, compliance, security, build, routing, source, or publication-integrity risk.",
+      "blocksRelease": true
+    },
+    "strong_soft": {
+      "meaning": "Does not block artifact handoff, but must be visible because it materially affects production readiness or operator follow-through.",
+      "blocksRelease": false
+    },
+    "warning": {
+      "meaning": "Advisory quality or optimization issue. It should not block release unless it accumulates into a strategic or user-facing risk.",
+      "blocksRelease": false
+    }
+  },
+  "pettyBlockerPolicy": "Cosmetic preferences, optional metadata improvements, minor wording preferences, and low-impact optimization gaps may warn but must not hard-fail release.",
+  "validators": [
+    {
+      "id": "strategy-gate",
+      "script": "strategy:validate",
+      "severity": "hard",
+      "category": "strategy",
+      "risk": "Content automation cannot run without a strategy gate and forbidden-claim boundaries."
+    },
+    {
+      "id": "licensure-mode",
+      "script": "validate:licensure-mode",
+      "severity": "hard",
+      "category": "compliance",
+      "risk": "Pre-license site cannot publish licensed treatment claims or activate sensitive capabilities."
+    },
+    {
+      "id": "content",
+      "script": "validate:content",
+      "severity": "hard",
+      "category": "publishing",
+      "risk": "Approved scheduled content must be complete, dated, source-aware, disclaimer-aware, and eligible before autopublish."
+    },
+    {
+      "id": "legal",
+      "script": "validate:legal",
+      "severity": "hard",
+      "category": "legal",
+      "risk": "Required legal pages and mode-specific disclaimers must exist."
+    },
+    {
+      "id": "a11y-static",
+      "script": "validate:a11y-static",
+      "severity": "hard",
+      "category": "accessibility",
+      "risk": "Critical accessibility affordances must exist for crisis, forms, cookie controls, and animated hero behavior."
+    },
+    {
+      "id": "workflow-contract",
+      "script": "validate:workflow-contract",
+      "severity": "hard",
+      "category": "automation",
+      "risk": "Workflows must not be configured to fail before validation or mutate governance files at runtime."
+    },
+    {
+      "id": "admin-security",
+      "script": "validate:admin-security",
+      "severity": "hard",
+      "category": "security",
+      "risk": "Admin cannot be represented as production-secure without real auth boundary and write-model warnings."
+    },
+    {
+      "id": "aeo-seo-geo",
+      "script": "validate:aeo-seo-geo",
+      "severity": "hard",
+      "category": "citation_intelligence",
+      "risk": "AEO/SEO/GEO strategy must include query, answer, entity, route, atom, market, and public answer surfaces."
+    },
+    {
+      "id": "media-representation",
+      "script": "validate:media-representation",
+      "severity": "hard",
+      "category": "media",
+      "risk": "Strategic photo slots must include representation, alt text, placement, forbidden categories, and Dianne-photo separation."
+    },
+    {
+      "id": "repo-work-os-compliance",
+      "script": "validate:repo-work-os-compliance",
+      "severity": "hard",
+      "category": "governance",
+      "risk": "Repo Work OS authority files, contracts, content systems, proof packets, and validation boundaries must be audited."
+    },
+    {
+      "id": "repo",
+      "script": "validate:repo",
+      "severity": "hard",
+      "category": "repo_integrity",
+      "risk": "Repo authority, contracts, generated surfaces, workflows, and required files must be present."
+    },
+    {
+      "id": "dependency-lock",
+      "script": "validate:dependency-lock",
+      "severity": "strong_soft",
+      "category": "runtime_readiness",
+      "risk": "Missing lockfile means local or CI dependency resolution is not reproducible until install succeeds."
+    },
+    {
+      "id": "content-style-policy",
+      "script": "validate:content-style-policy",
+      "severity": "warning",
+      "category": "content_quality",
+      "risk": "Style, metadata, and optional extraction improvements should be visible without becoming petty blockers."
+    }
+  ]
+}

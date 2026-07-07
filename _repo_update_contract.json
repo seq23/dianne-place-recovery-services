@@ -1,0 +1,18 @@
+{
+  "repo": "dianne-place-recovery-services",
+  "mode": "snapshot",
+  "packageRoot": "dianne-place-recovery-services-main",
+  "expectedBuildCommand": "npm run build",
+  "expectedOutputDirectory": "out",
+  "requiredNodeMajor": 24,
+  "protectedPaths": [
+    "data/licensure/licensure_status.json",
+    "data/legal/legal_copy.json",
+    "data/content/content_calendar.json",
+    "_repo_validation_matrix.json"
+  ],
+  "notes": [
+    "Admin surfaces must be protected by Cloudflare Access or equivalent before production use.",
+    "Licensure mode changes require validator pass and audit log entry."
+  ]
+}

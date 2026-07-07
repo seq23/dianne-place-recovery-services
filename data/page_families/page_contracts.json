@@ -1,0 +1,24 @@
+{
+  "pageFamilies": [
+    {
+      "family": "core_service",
+      "routes": ["/recovery-housing/", "/future-services/"],
+      "requiredBlocks": ["direct_answer", "disclaimer", "cta", "schema"]
+    },
+    {
+      "family": "referral",
+      "routes": ["/referrals/", "/contact/"],
+      "requiredBlocks": ["who_can_refer", "process", "privacy_boundary", "cta"]
+    },
+    {
+      "family": "resource",
+      "routes": ["/resources/", "/blog/", "/answers/"],
+      "requiredBlocks": ["answer_blocks", "topic_clusters", "internal_links", "source_boundary"]
+    },
+    {
+      "family": "legal",
+      "routes": ["/privacy/", "/terms/", "/medical-disclaimer/", "/outcomes-disclaimer/", "/cookie-policy/"],
+      "requiredBlocks": ["mode_specific_copy", "crisis_boundary", "privacy_boundary"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "registry": "data/validation/validation_registry.json",
+  "severityPolicy": {
+    "hard": "Blocks release for legal, compliance, security, build, routing, source, or publication-integrity risk.",
+    "strong_soft": "Does not block artifact handoff, but must be reported because it materially affects production readiness.",
+    "warning": "Advisory only; no petty blockers."
+  },
+  "hardFailValidators": [
+    "strategy:validate",
+    "validate:licensure-mode",
+    "validate:content",
+    "validate:legal",
+    "validate:a11y-static",
+    "validate:workflow-contract",
+    "validate:admin-security",
+    "validate:media-representation",
+    "validate:aeo-seo-geo",
+    "validate:repo-work-os-compliance",
+    "validate:repo"
+  ],
+  "strongSoftValidators": [
+    "validate:dependency-lock"
+  ],
+  "warningValidators": [
+    "validate:content-style-policy"
+  ],
+  "releaseCommand": "npm run validate:release",
+  "completionBoundary": "Hard validators must pass. Strong-soft and warning findings must be emitted in reports without blocking artifact handoff unless reclassified through this matrix. Do not add petty blockers."
+}

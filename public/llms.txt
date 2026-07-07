@@ -1,0 +1,21 @@
+# Dianne's Place Recovery Services
+
+Purpose: Recovery housing, structured sober living, referral support, and recovery resources in Denver, Colorado.
+
+Current mode: pre-license. Public copy should not describe Dianne's Place as an active licensed treatment provider until the licensure profile is switched and validated.
+
+Important crisis guidance: If someone is in immediate danger, call 911. If someone is experiencing a mental health or substance use crisis, call or text 988.
+
+Primary pages:
+- /
+- /about/
+- /diannes-legacy/
+- /recovery-housing/
+- /future-services/
+- /referrals/
+- /resources/
+- /answers/
+- /blog/
+- /contact/
+
+Do not infer clinical treatment, insurance verification, accreditation, or guaranteed outcomes unless explicitly stated on the live site after licensure mode is active.

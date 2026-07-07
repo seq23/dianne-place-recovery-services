@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-07-07T14:22:26.953Z",
+  "standard": "Repo Work OS v0 source-doc compliance audit",
+  "counts": {
+    "present": 33,
+    "blocked_until_local_validation": 1
+  },
+  "results": [
+    {
+      "id": "repo_identity",
+      "file": "REPO_IDENTITY.md",
+      "status": "present"
+    },
+    {
+      "id": "update_contract",
+      "file": "_repo_update_contract.json",
+      "status": "present"
+    },
+    {
+      "id": "validation_matrix",
+      "file": "_repo_validation_matrix.json",
+      "status": "present"
+    },
+    {
+      "id": "validation_registry",
+      "file": "data/validation/validation_registry.json",
+      "status": "present"
+    },
+    {
+      "id": "content_release_contract",
+      "file": "_content_release_contract.json",
+      "status": "present"
+    },
+    {
+      "id": "citation_contract",
+      "file": "_citation_intelligence_contract.json",
+      "status": "present"
+    },
+    {
+      "id": "self_heal_contract",
+      "file": "_self_heal_contract.json",
+      "status": "present"
+    },
+    {
+      "id": "licensure_state",
+      "file": "data/licensure/licensure_status.json",
+      "status": "present"
+    },
+    {
+      "id": "legal_copy",
+      "file": "data/legal/legal_copy.json",
+      "status": "present"
+    },
+    {
+      "id": "content_calendar",
+      "file": "data/content/content_calendar.json",
+      "status": "present"
+    },
+    {
+      "id": "source_registry",
+      "file": "data/citations/source_registry.json",
+      "status": "present"
+    },
+    {
+      "id": "claim_registry",
+      "file": "data/citations/claim_registry.json",
+      "status": "present"
+    },
+    {
+      "id": "content_atoms",
+      "file": "data/atoms/atom_registry.json",
+      "status": "present"
+    },
+    {
+      "id": "query_matrix",
+      "file": "data/seo/query_matrix.json",
+      "status": "present"
+    },
+    {
+      "id": "answer_surface_registry",
+      "file": "data/aeo/answer_surface_registry.json",
+      "status": "present"
+    },
+    {
+      "id": "geo_market_map",
+      "file": "data/geo/market_map.json",
+      "status": "present"
+    },
+    {
+      "id": "page_contracts",
+      "file": "data/page_families/page_contracts.json",
+      "status": "present"
+    },
+    {
+      "id": "route_registry",
+      "file": "data/routing/route_registry.json",
+      "status": "present"
+    },
+    {
+      "id": "media_manifest",
+      "file": "data/media/site_images.json",
+      "status": "present"
+    },
+    {
+      "id": "llms_txt",
+      "file": "public/llms.txt",
+      "status": "present"
+    },
+    {
+      "id": "llms_full",
+      "file": "public/llms-full.txt",
+      "status": "present"
+    },
+    {
+      "id": "answers_json",
+      "file": "public/answers.json",
+      "status": "present"
+    },
+    {
+      "id": "sitemap",
+      "file": "public/sitemap.xml",
+      "status": "present"
+    },
+    {
+      "id": "strategy_gate_doc",
+      "file": "docs/strategy/CITATION_STRATEGY_GATE.md",
+      "status": "present"
+    },
+    {
+      "id": "citation_growth_plan_doc",
+      "file": "docs/strategy/100K_CITATION_SURFACE_PLAN.md",
+      "status": "present"
+    },
+    {
+      "id": "content_pipeline_runbook",
+      "file": "docs/runbooks/CONTENT_RELEASE_PIPELINE.md",
+      "status": "present"
+    },
+    {
+      "id": "licensure_runbook",
+      "file": "docs/runbooks/LICENSURE_MODE_SWITCH.md",
+      "status": "present"
+    },
+    {
+      "id": "github_validate_workflow",
+      "file": ".github/workflows/validate_repo.yml",
+      "status": "present"
+    },
+    {
+      "id": "github_content_publish_workflow",
+      "file": ".github/workflows/content_publish.yml",
+      "status": "present"
+    },
+    {
+      "id": "daily_proof_packet",
+      "file": "artifacts/validation/daily-proof-packet.json",
+      "status": "present"
+    },
+    {
+      "id": "calendar_seeded_2026",
+      "status": "present",
+      "detail": "178 items"
+    },
+    {
+      "id": "validation_severity_tiers",
+      "status": "present",
+      "detail": "hard=11, strong_soft=1, warning=1"
+    },
+    {
+      "id": "photo_slots_defined",
+      "status": "present",
+      "detail": "6 slots"
+    },
+    {
+      "id": "build_validation_boundary",
+      "status": "blocked_until_local_validation",
+      "detail": "Dependency install/build remains local validation boundary when lockfile is absent."
+    }
+  ]
+}

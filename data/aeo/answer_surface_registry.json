@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-07",
+  "answerBlocks": [
+    {
+      "id": "answer-what-is-recovery-housing",
+      "question": "What is recovery housing?",
+      "answer": "Recovery housing is a substance-free living environment designed to support people who are rebuilding routines, accountability, community, and stability during recovery.",
+      "targetRoutes": ["/recovery-housing/", "/resources/"],
+      "sourceIds": []
+    },
+    {
+      "id": "answer-is-dianne-licensed-now",
+      "question": "Is Dianne's Place a licensed treatment provider now?",
+      "answer": "The site is currently in pre-license mode. Public materials describe recovery housing, structured sober living, referral support, and services in development until licensure is active and validated.",
+      "targetRoutes": ["/future-services/", "/medical-disclaimer/"],
+      "sourceIds": []
+    },
+    {
+      "id": "answer-crisis",
+      "question": "What should someone do in a crisis?",
+      "answer": "If someone is in immediate danger, call 911. If someone is experiencing a mental health or substance use crisis, call or text 988 for 24/7 support.",
+      "targetRoutes": ["/", "/contact/"],
+      "sourceIds": ["source-988-lifeline"]
+    },
+    {
+      "id": "answer-referral",
+      "question": "Who can refer someone to Dianne's Place?",
+      "answer": "Individuals, family members, treatment providers, hospitals, therapists, case managers, probation and parole officers, social service agencies, and community partners may contact Dianne's Place to discuss fit and availability.",
+      "targetRoutes": ["/referrals/"],
+      "sourceIds": []
+    },
+    {
+      "id": "answer-contact-sensitive",
+      "question": "Should someone submit medical information through the contact form?",
+      "answer": "No. The general contact form is not a clinical intake, insurance verification, or emergency form. Sensitive health or urgent information should not be submitted through general contact forms.",
+      "targetRoutes": ["/contact/", "/privacy/"],
+      "sourceIds": ["source-hhs-hipaa-tracking"]
+    }
+  ]
+}

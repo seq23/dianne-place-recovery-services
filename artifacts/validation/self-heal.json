@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-07-07T14:22:24.337Z",
+  "repairs": [
+    {
+      "path": "artifacts/validation",
+      "action": "ensure_dir"
+    },
+    {
+      "path": "reports",
+      "action": "ensure_dir"
+    },
+    {
+      "path": "data/content",
+      "action": "ensure_dir"
+    }
+  ],
+  "forbiddenRepairsSkipped": [
+    "licensure mode switch",
+    "legal policy rewrite",
+    "tracking enablement"
+  ]
+}

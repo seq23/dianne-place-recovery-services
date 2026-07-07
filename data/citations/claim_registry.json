@@ -1,0 +1,16 @@
+{
+  "claims": [
+    {
+      "id": "claim-crisis-988",
+      "text": "People in crisis can call or text 988 for support.",
+      "sourceIds": ["source-988-lifeline"],
+      "status": "approved"
+    },
+    {
+      "id": "claim-tracking-risk",
+      "text": "Tracking technologies may create privacy risks for healthcare-adjacent websites when sensitive information is transmitted.",
+      "sourceIds": ["source-hhs-hipaa-tracking"],
+      "status": "approved"
+    }
+  ]
+}

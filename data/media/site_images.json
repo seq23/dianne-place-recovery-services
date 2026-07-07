@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-07-07",
+  "status": "photo_slots_defined_assets_pending",
+  "globalRequirements": {
+    "representation": [
+      "African American / Black adults",
+      "white adults",
+      "Asian adults",
+      "Latino / Latina / Latine adults",
+      "mixed-race adults"
+    ],
+    "hairTextureRequirement": "African American natural hair textures should be visible and prominent across the major photo set, including coils, curls, locs, twists, braids, or afros.",
+    "tone": [
+      "warm",
+      "home-like",
+      "dignified",
+      "hopeful",
+      "trauma-informed",
+      "not clinical"
+    ],
+    "forbidden": [
+      "alcohol",
+      "pills",
+      "syringes",
+      "hospital beds",
+      "detox imagery",
+      "people crying",
+      "police or courtroom imagery",
+      "religious symbols",
+      "children",
+      "before-and-after implication",
+      "stereotypes",
+      "visible brand logos",
+      "fake text"
+    ]
+  },
+  "slots": [
+    {
+      "id": "home-hero-community",
+      "route": "/",
+      "placement": "homepage hero image",
+      "assetPath": "",
+      "fallbackType": "designed_placeholder",
+      "alt": "Multiracial adults in a warm recovery housing community setting.",
+      "direction": "Multiracial adult group in a warm residential porch or living room setting, with a Black woman with natural hair prominent and white, Asian, Latino, and mixed-race adults clearly visible. The scene should feel like safe recovery housing, calm belonging, and community support, not a clinic, therapy office, hospital, church, or generic stock-photo wellness ad.",
+      "required": true,
+      "excludeDiannePhoto": true
+    },
+    {
+      "id": "home-support-community",
+      "route": "/",
+      "placement": "homepage support section",
+      "assetPath": "",
+      "fallbackType": "designed_placeholder",
+      "alt": "Diverse adults sitting together in a calm home-like recovery support setting.",
+      "direction": "Supportive multiracial group sitting together in a home/community room with warm daylight, relaxed body language, visible African American natural hair textures, and clear white, Asian, Latino, and mixed-race adult representation. The scene should feel like belonging and peer support, not treatment, therapy, or a staged stock image.",
+      "required": true,
+      "excludeDiannePhoto": true
+    },
+    {
+      "id": "recovery-housing-kitchen",
+      "route": "/recovery-housing/",
+      "placement": "recovery housing page",
+      "assetPath": "",
+      "fallbackType": "designed_placeholder",
+      "alt": "Multiracial residents sharing a routine-planning conversation around a kitchen table.",
+      "direction": "Residents around a kitchen table with coffee, notebooks, calendars, or routine-planning materials; home-like structured sober living atmosphere. Include African American natural hair textures and clearly visible white, Asian, Latino, and mixed-race adults. The mood should be practical, warm, and accountable without alcohol, medication, medical props, or staged treatment imagery.",
+      "required": true,
+      "excludeDiannePhoto": true
+    },
+    {
+      "id": "referrals-warm-handoff",
+      "route": "/referrals/",
+      "placement": "referrals page",
+      "assetPath": "",
+      "fallbackType": "designed_placeholder",
+      "alt": "A multiracial referral conversation in a comfortable community office.",
+      "direction": "Warm referral handoff with a professional and family/community members in a comfortable community office or living-room style space, printed resources on table, not a hospital exam room. The group should be visibly multiracial, including African American, white, Asian, Latino, and mixed-race adults, with calm body language and no crisis or court imagery.",
+      "required": true,
+      "excludeDiannePhoto": true
+    },
+    {
+      "id": "resources-guidance",
+      "route": "/resources/",
+      "placement": "resources page",
+      "assetPath": "",
+      "fallbackType": "designed_placeholder",
+      "alt": "Diverse adults reviewing recovery resources together.",
+      "direction": "Small multiracial group reviewing printed recovery resources or a tablet together in a warm, comfortable environment. Include African American adults with natural hair textures along with white, Asian, Latino, and mixed-race adults. The scene should feel collaborative and practical, not like a cold tech stock image or clinical consultation.",
+      "required": true,
+      "excludeDiannePhoto": true
+    },
+    {
+      "id": "contact-calm-inquiry",
+      "route": "/contact/",
+      "placement": "contact page",
+      "assetPath": "",
+      "fallbackType": "designed_placeholder",
+      "alt": "A calm adult preparing to contact recovery housing support.",
+      "direction": "Calm phone or email inquiry moment near a window, porch, or quiet community room. The image should show diverse adult representation in a hopeful, non-crisis-coded way, with no tears, emergency cues, medical props, or isolation-heavy mood. It should feel like someone is taking a grounded first step toward support.",
+      "required": true,
+      "excludeDiannePhoto": true
+    }
+  ],
+  "diannePhotoBoundary": "The About / Dianne's Legacy honoree photo is intentionally excluded from generated or stock photo slots and should use the real Dianne photo only when supplied."
+}

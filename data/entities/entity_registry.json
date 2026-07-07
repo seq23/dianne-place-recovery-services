@@ -1,0 +1,20 @@
+{
+  "organization": {
+    "name": "Dianne's Place Recovery Services",
+    "legalName": "Dianne's Place Recovery Services LLC",
+    "location": "Denver, Colorado, United States",
+    "phone": "(720) 588-8864",
+    "email": "diannesplacerecovery@gmail.com",
+    "status": "coming soon",
+    "currentServices": [
+      "recovery housing",
+      "structured sober living",
+      "referral support",
+      "community resource connection"
+    ]
+  },
+  "foundingStory": {
+    "honoree": "Dianne",
+    "summary": "Dianne's Place is named in honor of the owner's mother, Dianne, whose compassion, strength, and unwavering care for others inspired the organization."
+  }
+}

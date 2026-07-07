@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "id": "source-988-lifeline",
+      "name": "988 Suicide & Crisis Lifeline",
+      "url": "https://988lifeline.org/",
+      "allowedUse": ["crisis guidance", "emergency support reference"],
+      "authority": "primary"
+    },
+    {
+      "id": "source-samhsa",
+      "name": "SAMHSA",
+      "url": "https://www.samhsa.gov/",
+      "allowedUse": ["substance use and mental health education", "resource guidance"],
+      "authority": "primary"
+    },
+    {
+      "id": "source-hhs-hipaa-tracking",
+      "name": "HHS HIPAA Online Tracking Technologies Guidance",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html",
+      "allowedUse": ["privacy", "tracking", "PHI risk framing"],
+      "authority": "primary"
+    },
+    {
+      "id": "source-colorado-bha",
+      "name": "Colorado Behavioral Health Administration",
+      "url": "https://bha.colorado.gov/",
+      "allowedUse": ["Colorado behavioral health and licensing context"],
+      "authority": "primary"
+    }
+  ]
+}

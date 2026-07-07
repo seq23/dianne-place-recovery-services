@@ -1,0 +1,11 @@
+{
+  "adminProtectionRequired": "Cloudflare Access or equivalent real auth",
+  "frontendPasswordGateAllowed": false,
+  "sections": [
+    "/admin/content",
+    "/admin/licensure",
+    "/admin/media",
+    "/admin/resources"
+  ],
+  "writeModel": "GitHub-backed manifest edits or protected backend required for production writes"
+}

@@ -1,0 +1,43 @@
+# Dianne's Place Recovery Services - LLM Context
+
+Dianne's Place Recovery Services LLC is a Denver, Colorado recovery housing and recovery-support organization. The organization is named in honor of Dianne, the owner's mother, whose compassion, strength, and care inspired the mission.
+
+Current public positioning:
+- recovery housing
+- structured sober living
+- referral support
+- community resource connection
+- recovery education
+- services in development
+
+Future positioning:
+- licensed recovery services only when licensure mode is active, license data is complete, legal pages are reviewed, and validators pass.
+
+Legal boundaries:
+- The site is not an emergency service.
+- The site does not guarantee recovery outcomes.
+- The site does not replace medical advice, diagnosis, treatment, or therapy.
+- General contact forms are not clinical intake or insurance verification forms.
+
+Primary audiences:
+- adults seeking recovery housing
+- women in recovery
+- minority recovery communities
+- LGBTQ+ people in recovery
+- millennials and Gen Z
+- families and loved ones
+- referral partners
+- hospitals, treatment centers, courts, case managers, and community organizations
+
+Content automation:
+- Approved scheduled backlog runs from 2026-07-07 through 2026-12-31.
+- Self-production begins 2027-01-01.
+- Content publishes only when validators pass.
+
+Citation surfaces:
+- /answers/ contains direct answer blocks.
+- /blog/ contains scheduled recovery resources.
+- public/answers.json exposes machine-readable answer blocks.
+- data/seo/query_matrix.json defines query families.
+- data/aeo/answer_surface_registry.json defines answer targets.
+- data/geo/market_map.json defines Denver/Colorado context.

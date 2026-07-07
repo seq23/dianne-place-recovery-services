@@ -1,0 +1,20 @@
+{
+  "pre_license": {
+    "statusLabel": "Recovery housing and support services in development",
+    "medicalDisclaimer": "The information on this site is for general educational and recovery-support purposes only. It is not medical advice, clinical treatment, diagnosis, therapy, or a substitute for care from a qualified licensed professional. Dianne's Place Recovery Services is preparing expanded services with care as licensing and operational milestones are completed.",
+    "outcomesDisclaimer": "Recovery is personal and lifelong. Individual experiences vary based on many factors, including clinical needs, support systems, personal commitment, safety, housing stability, and access to appropriate care. Dianne's Place does not guarantee recovery outcomes.",
+    "privacyStatement": "Dianne's Place treats inquiries with care and discretion. This baseline website is not configured to collect protected health information through clinical intake or insurance verification forms. Do not submit urgent, highly sensitive, or emergency medical information through general contact forms.",
+    "serviceDisclaimer": "Current public materials describe recovery housing, structured sober living, referral support, and services in development. Licensed clinical treatment services should not be assumed unless clearly stated after licensure is active."
+  },
+  "licensed_provider": {
+    "statusLabel": "Licensed recovery services provider",
+    "medicalDisclaimer": "The information on this site is educational and does not replace individualized advice, diagnosis, or treatment from a qualified professional. Clinical services, if listed, are provided only within the scope of the organization's active license, qualified staff, and program availability.",
+    "outcomesDisclaimer": "Recovery is a lifelong process and individual results vary based on clinical assessment, program fit, personal dedication, support systems, and ongoing care. No treatment provider can guarantee a specific outcome.",
+    "privacyStatement": "Dianne's Place protects health information in accordance with applicable federal and state privacy requirements. Any clinical intake, insurance verification, or protected health information workflow must use approved secure systems and vendor agreements.",
+    "serviceDisclaimer": "Licensed services are offered only within the scope of the active license profile displayed by the organization and are subject to eligibility, assessment, availability, and clinical appropriateness."
+  },
+  "crisisBanner": "In crisis? Call or text 988 for free, confidential, 24/7 support, or call 911 if there is immediate danger.",
+  "footerMedical": "Medical Disclaimer: The information on this site is not a substitute for professional medical advice, diagnosis, or treatment.",
+  "footerOutcomes": "Outcomes Disclaimer: Recovery is a lifelong process and individual results vary based on clinical assessment and personal dedication.",
+  "footerPrivacy": "Privacy & HIPAA: We protect health and personal information according to applicable law and do not enable sensitive clinical collection without compliant systems."
+}

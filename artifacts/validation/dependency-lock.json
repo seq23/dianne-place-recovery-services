@@ -1,0 +1,7 @@
+{
+  "generatedAt": "2026-07-07T14:22:38.136Z",
+  "severity": "strong_soft",
+  "blocksRelease": false,
+  "status": "lockfile_missing",
+  "message": "package-lock.json is missing because dependency install could not complete in this environment. Use npm install locally/GitHub to create and commit the lockfile before relying on npm ci."
+}
