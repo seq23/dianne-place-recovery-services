@@ -59,9 +59,9 @@ const derived = [
   {
     id: 'calendar_seeded_2026',
     status:
-      calendar.items?.length >= 178 &&
-      calendar.items?.[0]?.scheduledAt === '2026-07-07' &&
-      calendar.items?.at(-1)?.scheduledAt === '2026-12-31'
+      calendar.items?.filter((item) => item.scheduledAt >= '2026-07-07' && item.scheduledAt <= '2026-12-31').length >= 178 &&
+      calendar.items?.some((item) => item.scheduledAt === '2026-07-07') &&
+      calendar.items?.some((item) => item.scheduledAt === '2026-12-31')
         ? 'present'
         : 'missing',
     detail: `${calendar.items?.length || 0} items`

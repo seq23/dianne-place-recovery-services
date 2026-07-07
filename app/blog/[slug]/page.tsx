@@ -31,7 +31,8 @@ type ContentItem = {
   sourceIds: string[];
 };
 
-const items = calendar.items as ContentItem[];
+const releaseDate = process.env.PUBLICATION_DATE || process.env.PUBLISH_DATE || new Date().toISOString().slice(0, 10);
+const items = (calendar.items as ContentItem[]).filter((item) => item.status === 'approved' && item.scheduledAt <= releaseDate);
 
 export function generateStaticParams() {
   return items.map((item) => ({ slug: item.slug }));
@@ -63,7 +64,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   return (
     <main>
       <section className="page-hero">
-        <p className="eyebrow">{item.contentType.replace(/_/g, ' ')} · {item.scheduledAt}</p>
+        <p className="eyebrow">{item.scheduledAt}</p>
         <h1>{item.title}</h1>
         <p>{item.dek || item.directAnswer}</p>
       </section>
@@ -116,10 +117,6 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               <a className="button secondary" href={link.href} key={link.href}>{link.label}</a>
             ))}
           </div>
-          <p className="small-note">
-            Audience: {item.audience}. Target depth: {item.wordTarget} words. Source references: {item.sourceIds.join(', ') || 'none required for this general support topic'}.
-          </p>
-          <p className="small-note">{item.contentPromise}</p>
           <aside className="disclaimer-box">
             <strong>Content disclaimer:</strong> {item.disclaimerBlock}
           </aside>

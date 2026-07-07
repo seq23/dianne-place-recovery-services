@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-07-07T20:28:02.826Z",
+  "releaseDate": "2026-07-07",
+  "mode": "seeded_backlog",
+  "calendarStart": "2026-07-07",
+  "seededCalendarEnd": "2026-12-31",
+  "approvedInternalCount": 178,
+  "livePublicCount": 1,
+  "todaysReleaseCount": 1,
+  "todaysRoutes": [
+    "/blog/2026-07-07-recovery-housing-readiness/"
+  ],
+  "futureHiddenCount": 177,
+  "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
+}

@@ -5,7 +5,7 @@
   "description": "Dianne's Place Recovery Services public site, admin surfaces, and governed content automation.",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run content:generate-backlog && npm run content:build-admin-manifest && npm run content:build-answers && npm run seo:build-sitemap && next build",
+    "build": "npm run content:generate-backlog && npm run content:self-produce && npm run release:state && npm run content:build-admin-manifest && npm run content:build-answers && npm run seo:build-sitemap && next build",
     "start": "next start",
     "lint": "eslint .",
     "content:generate-backlog": "node scripts/content/generate_backlog.mjs",
@@ -37,9 +37,10 @@
     "validate:hard": "npm run strategy:gate && npm run repo-work-os:audit && npm run validate:validation-registry && npm run strategy:validate && npm run validate:licensure-mode && npm run validate:content && npm run validate:legal && npm run validate:a11y-static && npm run validate:workflow-contract && npm run validate:admin-security && npm run validate:media-representation && npm run validate:aeo-seo-geo && npm run validate:blog-routes && npm run validate:admin-content-controls && npm run validate:repo-work-os-compliance && npm run validate:repo",
     "validate:soft": "npm run validate:dependency-lock && npm run validate:content-style-policy && npm run validate:future-content-self-heal",
     "validate:all": "npm run validate:hard && npm run validate:soft",
-    "validate:release": "npm run content:generate-backlog && npm run content:build-admin-manifest && npm run content:build-answers && npm run seo:build-sitemap && npm run release:daily-proof && npm run release:self-heal && npm run validate:all",
+    "validate:release": "npm run content:generate-backlog && npm run content:self-produce && npm run release:state && npm run content:build-admin-manifest && npm run content:build-answers && npm run seo:build-sitemap && npm run release:daily-proof && npm run release:self-heal && npm run validate:all",
     "release:daily-proof": "node scripts/content/build_daily_proof_packet.mjs",
-    "release:plan": "node scripts/content/build_release_plan.mjs"
+    "release:plan": "node scripts/content/build_release_plan.mjs",
+    "release:state": "node scripts/release/write_release_state.mjs"
   },
   "dependencies": {
     "next": "14.2.23",

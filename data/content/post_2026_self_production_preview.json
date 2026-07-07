@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-07-07T20:28:02.548Z",
+  "date": "2026-07-07",
+  "status": "blocked_before_2027",
+  "validationPolicy": {
+    "selfHealingEnabled": true,
+    "wordCountIsBlocking": false,
+    "pettyStyleIssuesBlockRelease": false,
+    "hardBlocksOnly": [
+      "legal_compliance",
+      "licensure_claims",
+      "missing_route",
+      "missing_disclaimer",
+      "missing_crisis_boundary",
+      "unsafe_medical_claim"
+    ]
+  }
+}
