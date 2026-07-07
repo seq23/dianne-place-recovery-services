@@ -4,6 +4,7 @@ import { DisclaimerBox } from '@/components/DisclaimerBox';
 
 type ContentItem = {
   id: string;
+  status: string;
   title: string;
   slug: string;
   scheduledAt: string;
