@@ -1,4 +1,4 @@
-# Dianne's Place Recovery Services
+# Dianne's Place Recovery Services - FINAL
 
 Static-first Next.js baseline for Dianne's Place Recovery Services.
 
