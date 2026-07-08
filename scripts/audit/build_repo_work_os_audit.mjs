@@ -40,7 +40,7 @@ const checks = [
   ['citation_growth_plan_doc', 'docs/strategy/100K_CITATION_SURFACE_PLAN.md'],
   ['content_pipeline_runbook', 'docs/runbooks/CONTENT_RELEASE_PIPELINE.md'],
   ['licensure_runbook', 'docs/runbooks/LICENSURE_MODE_SWITCH.md'],
-  ['github_validate_workflow', '.github/workflows/validate_repo.yml'],
+  ['github_ci_workflow', '.github/workflows/ci.yml'],
   ['github_content_publish_workflow', '.github/workflows/content_publish.yml'],
   ['daily_proof_packet', 'artifacts/validation/daily-proof-packet.json']
 ];

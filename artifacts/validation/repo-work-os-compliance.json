@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T20:28:05.487Z",
+  "generatedAt": "2026-07-08T15:53:59.641Z",
   "standard": "Repo Work OS v0 source-doc compliance audit",
   "counts": {
     "present": 34,
@@ -147,8 +147,8 @@
       "status": "present"
     },
     {
-      "id": "github_validate_workflow",
-      "file": ".github/workflows/validate_repo.yml",
+      "id": "github_ci_workflow",
+      "file": ".github/workflows/ci.yml",
       "status": "present"
     },
     {

@@ -30,7 +30,7 @@ const required = [
   'artifacts/validation/repo-work-os-compliance.json',
   'reports/REPO_WORK_OS_COMPLIANCE_AUDIT.md',
   'tsconfig.json',
-  '.github/workflows/validate_repo.yml',
+  '.github/workflows/ci.yml',
   '.github/workflows/content_publish.yml'
 ];
 
