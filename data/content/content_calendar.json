@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T15:52:34.913Z",
+  "generatedAt": "2026-07-09T15:33:59.334Z",
   "calendarStart": "2026-07-07",
   "calendarEnd": "2026-12-31",
   "items": [
@@ -164,20 +164,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -341,20 +328,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -524,20 +498,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -701,20 +662,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -878,20 +826,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -1055,20 +990,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -1238,20 +1160,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -1427,20 +1336,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -1604,20 +1500,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -1781,20 +1664,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -1958,20 +1828,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -2135,20 +1992,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -2312,20 +2156,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -2489,20 +2320,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -2672,20 +2490,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -2855,20 +2660,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -3032,20 +2824,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -3209,20 +2988,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -3386,20 +3152,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -3563,20 +3316,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -3746,20 +3486,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -3929,20 +3656,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -4106,20 +3820,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -4283,20 +3984,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -4454,20 +4142,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -4641,20 +4316,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -4824,20 +4486,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -5001,20 +4650,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -5184,20 +4820,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -5361,20 +4984,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -5544,20 +5154,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -5727,20 +5324,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -5904,20 +5488,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -6081,20 +5652,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -6258,20 +5816,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -6441,20 +5986,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -6618,20 +6150,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -6795,20 +6314,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -6972,20 +6478,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -7155,20 +6648,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -7332,20 +6812,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -7509,20 +6976,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -7692,20 +7146,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -7869,20 +7310,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -8052,20 +7480,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -8229,20 +7644,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -8406,20 +7808,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -8583,20 +7972,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -8754,20 +8130,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -8937,20 +8300,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -9120,20 +8470,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -9297,20 +8634,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -9474,20 +8798,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -9651,20 +8962,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -9834,20 +9132,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -10017,20 +9302,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -10204,20 +9476,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -10381,20 +9640,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -10558,20 +9804,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -10735,20 +9968,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -10912,20 +10132,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -11089,20 +10296,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -11266,20 +10460,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -11455,20 +10636,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -11632,20 +10800,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -11809,20 +10964,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -11986,20 +11128,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -12163,20 +11292,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -12346,20 +11462,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -12523,20 +11626,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -12706,20 +11796,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -12883,20 +11960,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -13054,20 +12118,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -13231,20 +12282,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -13414,20 +12452,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -13591,20 +12616,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -13768,20 +12780,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -13951,20 +12950,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -14134,20 +13120,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -14317,20 +13290,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -14494,20 +13454,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -14671,20 +13618,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -14848,20 +13782,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -15025,20 +13946,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -15208,20 +14116,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -15405,20 +14300,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -15592,20 +14474,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -15775,20 +14644,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -15952,20 +14808,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -16129,20 +14972,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -16306,20 +15136,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -16489,20 +15306,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -16672,20 +15476,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -16849,20 +15640,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -17026,20 +15804,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -17203,20 +15968,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -17374,20 +16126,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -17551,20 +16290,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -17740,20 +16466,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -17917,20 +16630,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -18094,20 +16794,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -18271,20 +16958,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -18454,20 +17128,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -18637,20 +17298,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -18814,20 +17462,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -18997,20 +17632,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -19174,20 +17796,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -19351,20 +17960,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -19528,20 +18124,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -19705,20 +18288,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -19882,20 +18452,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -20065,20 +18622,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -20248,20 +18792,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -20425,20 +18956,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -20602,20 +19120,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -20779,20 +19284,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -20962,20 +19454,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -21149,20 +19628,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -21326,20 +19792,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -21509,20 +19962,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -21680,20 +20120,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -21857,20 +20284,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -22040,20 +20454,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -22217,20 +20618,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -22394,20 +20782,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -22571,20 +20946,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -22760,20 +21122,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -22943,20 +21292,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -23120,20 +21456,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -23297,20 +21620,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -23474,20 +21784,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -23651,20 +21948,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -23828,20 +22112,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -24011,20 +22282,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -24188,20 +22446,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -24371,20 +22616,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -24548,20 +22780,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -24725,20 +22944,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -24902,20 +23108,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -25079,20 +23272,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -25268,20 +23448,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -25445,20 +23612,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -25622,20 +23776,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -25799,20 +23940,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -25970,20 +24098,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -26147,20 +24262,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -26330,20 +24432,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -26517,20 +24606,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -26694,20 +24770,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -26871,20 +24934,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -27054,20 +25104,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -27237,20 +25274,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -27414,20 +25438,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -27591,20 +25602,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -27774,20 +25772,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -27951,20 +25936,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -28128,20 +26100,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -28305,20 +26264,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -28482,20 +26428,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -28665,20 +26598,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -28842,20 +26762,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -29025,20 +26932,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -29202,20 +27096,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -29379,20 +27260,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -29562,20 +27430,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -29739,20 +27594,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -29916,20 +27758,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -30093,20 +27922,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -30270,20 +28086,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -30447,20 +28250,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -30630,20 +28420,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -30807,20 +28584,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -30984,20 +28748,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -31161,20 +28912,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -31344,20 +29082,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -31533,20 +29258,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -31710,20 +29422,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     },
     {
@@ -31907,20 +29606,7 @@
         "blockers": [],
         "warnings": [
           "Full article body should be expanded or reviewed before high-traffic promotion."
-        ],
-        "selfHealingPolicy": {
-          "enabledForFutureContent": false,
-          "wordCountIsBlocking": false,
-          "pettyStyleIssuesBlockRelease": false,
-          "hardBlocksOnly": [
-            "legal_compliance",
-            "licensure_claims",
-            "missing_route",
-            "missing_disclaimer",
-            "missing_crisis_boundary",
-            "unsafe_medical_claim"
-          ]
-        }
+        ]
       }
     }
   ]
