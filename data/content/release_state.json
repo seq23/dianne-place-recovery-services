@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-10T14:51:38.929Z",
-  "releaseDate": "2026-07-10",
+  "generatedAt": "2026-07-11T13:54:26.507Z",
+  "releaseDate": "2026-07-11",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
   "approvedInternalCount": 178,
-  "livePublicCount": 4,
+  "livePublicCount": 5,
   "todaysReleaseCount": 1,
   "todaysRoutes": [
-    "/blog/2026-07-10-women-in-recovery/"
+    "/blog/2026-07-11-lgbtq-recovery-support/"
   ],
-  "futureHiddenCount": 174,
+  "futureHiddenCount": 173,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }

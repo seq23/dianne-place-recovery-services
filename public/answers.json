@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-10T14:51:39.248Z",
-  "releaseDate": "2026-07-10",
+  "generatedAt": "2026-07-11T13:54:26.795Z",
+  "releaseDate": "2026-07-11",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -82,6 +82,17 @@
       "answer": "For LGBTQ+ people in recovery, women in recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-07-10-women-in-recovery/",
       "scheduledAt": "2026-07-10",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-07-11-005",
+      "question": "Choosing recovery spaces that respect identity and belonging?",
+      "answer": "For millennials rebuilding routines, lgbtq+ recovery support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-07-11-lgbtq-recovery-support/",
+      "scheduledAt": "2026-07-11",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
