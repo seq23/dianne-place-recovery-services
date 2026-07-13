@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-12T13:56:17.479Z",
-  "releaseDate": "2026-07-12",
+  "generatedAt": "2026-07-13T15:11:39.620Z",
+  "releaseDate": "2026-07-13",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -104,6 +104,17 @@
       "answer": "For Gen Z recovery support seekers, minority recovery support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-07-12-minority-recovery-support/",
       "scheduledAt": "2026-07-12",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-07-13-007",
+      "question": "Rebuilding work, money, and daily life after substance use?",
+      "answer": "For families and loved ones, millennial recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-07-13-millennial-recovery/",
+      "scheduledAt": "2026-07-13",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
