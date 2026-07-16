@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-15T14:09:29.569Z",
-  "releaseDate": "2026-07-15",
+  "generatedAt": "2026-07-16T14:22:51.719Z",
+  "releaseDate": "2026-07-16",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -137,6 +137,17 @@
       "answer": "For people seeking recovery housing, referral guidance starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-07-15-referral-guidance/",
       "scheduledAt": "2026-07-15",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-07-16-010",
+      "question": "Planning for triggers without shame or panic?",
+      "answer": "For women in recovery, relapse prevention starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-07-16-relapse-prevention/",
+      "scheduledAt": "2026-07-16",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
