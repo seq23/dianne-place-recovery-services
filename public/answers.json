@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T14:03:03.487Z",
-  "releaseDate": "2026-07-17",
+  "generatedAt": "2026-07-18T13:49:18.347Z",
+  "releaseDate": "2026-07-18",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -159,6 +159,17 @@
       "answer": "For Black and minority recovery communities, employment and education starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-07-17-employment-and-education/",
       "scheduledAt": "2026-07-17",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-07-18-012",
+      "question": "Building healthy connection after treatment or a setback?",
+      "answer": "For LGBTQ+ people in recovery, community reintegration starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-07-18-community-reintegration/",
+      "scheduledAt": "2026-07-18",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
