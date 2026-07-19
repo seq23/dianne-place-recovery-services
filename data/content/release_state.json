@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-18T13:49:18.054Z",
-  "releaseDate": "2026-07-18",
+  "generatedAt": "2026-07-19T13:53:26.373Z",
+  "releaseDate": "2026-07-19",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
   "approvedInternalCount": 178,
-  "livePublicCount": 12,
+  "livePublicCount": 13,
   "todaysReleaseCount": 1,
   "todaysRoutes": [
-    "/blog/2026-07-18-community-reintegration/"
+    "/blog/2026-07-19-recovery-housing-readiness/"
   ],
-  "futureHiddenCount": 166,
+  "futureHiddenCount": 165,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }
