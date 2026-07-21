@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-20T14:33:29.040Z",
-  "releaseDate": "2026-07-20",
+  "generatedAt": "2026-07-21T14:21:40.275Z",
+  "releaseDate": "2026-07-21",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
   "approvedInternalCount": 178,
-  "livePublicCount": 14,
+  "livePublicCount": 15,
   "todaysReleaseCount": 1,
   "todaysRoutes": [
-    "/blog/2026-07-20-daily-sober-routines/"
+    "/blog/2026-07-21-family-support/"
   ],
-  "futureHiddenCount": 164,
+  "futureHiddenCount": 163,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }
