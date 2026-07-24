@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-07-23T14:31:07.207Z",
-  "date": "2026-07-23",
+  "generatedAt": "2026-07-24T14:12:48.359Z",
+  "date": "2026-07-24",
   "selectedCount": 1,
   "blockedCount": 0,
   "units": [
     {
-      "unit_id": "dprs-2026-07-23-017",
+      "unit_id": "dprs-2026-07-24-018",
       "unit_type": "daily_resource",
       "source_basis": [
         "source-988-lifeline",
         "source-samhsa"
       ],
       "claim_ids": [],
-      "route_target": "/blog/2026-07-23-lgbtq-recovery-support/",
+      "route_target": "/blog/2026-07-24-minority-recovery-support/",
       "page_family": "blog",
       "priority_score": 55,
       "selected_or_blocked": "selected",
