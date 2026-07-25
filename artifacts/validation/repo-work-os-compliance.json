@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T14:12:49.031Z",
+  "generatedAt": "2026-07-25T17:30:46.930Z",
   "standard": "Repo Work OS v0 source-doc compliance audit",
   "counts": {
     "present": 34,
@@ -169,7 +169,7 @@
     {
       "id": "validation_severity_tiers",
       "status": "present",
-      "detail": "hard=13, strong_soft=2, warning=1"
+      "detail": "hard=18, strong_soft=3, warning=1"
     },
     {
       "id": "photo_slots_defined",
