@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "observed_at": "2026-07-25T00:00:00.000Z",
-  "source_receipt_id": "BASELINE_NOT_CONFIGURED",
+  "observed_at": "2026-07-25T17:31:49.856Z",
+  "source_receipt_id": "2026-07-25T17-31-49.856Z-30167789768",
   "distribution_state": "NOT_CONFIGURED",
   "sitemap_refresh_status": "SUCCESS",
   "indexnow_status": "NOT_CONFIGURED",
