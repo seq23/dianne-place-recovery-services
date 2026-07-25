@@ -18,15 +18,23 @@
     "validate:blog-routes",
     "validate:admin-content-controls",
     "validate:repo-work-os-compliance",
-    "validate:repo"
+    "validate:repo",
+    "validate:protected-client-core",
+    "validate:authority-fanout",
+    "validate:authority-kpi",
+    "validate:authority-distribution",
+    "validate:post-2026-continuity"
   ],
   "strongSoftValidators": [
     "validate:dependency-lock",
-    "validate:future-content-self-heal"
+    "validate:future-content-self-heal",
+    "validate:authority-recommendations"
   ],
   "warningValidators": [
     "validate:content-style-policy"
   ],
   "releaseCommand": "npm run validate:release",
-  "completionBoundary": "Hard validators must pass. Strong-soft and warning findings must be emitted in reports without blocking artifact handoff unless reclassified through this matrix. Do not add petty blockers."
+  "completionBoundary": "Hard validators must pass. Strong-soft and warning findings must be emitted in reports without blocking artifact handoff unless reclassified through this matrix. Do not add petty blockers.",
+  "authorityModernizationCommand": "npm run validate:authority-modernization",
+  "protectedClientBoundary": "Client-facing app/admin/licensure/publishing core and the original 178 editorial identities are protected; future content is append-only through the existing validated release system."
 }
