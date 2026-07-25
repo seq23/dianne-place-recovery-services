@@ -1,0 +1,54 @@
+name: Authority Observation and Distribution
+
+on:
+  workflow_run:
+    workflows: ["Content Publish"]
+    types: [completed]
+  workflow_dispatch:
+  schedule:
+    - cron: '47 13 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dianne-authority-observation
+  cancel-in-progress: false
+
+jobs:
+  observe-and-distribute:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm install
+      - run: git pull --rebase origin main
+      - name: Refresh authority intelligence around the existing client system
+        run: npm run authority:cycle
+      - name: Submit already-public URLs when provider credentials are configured
+        run: npm run distribution:submit
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+          GSC_INSPECTION_LIMIT: 20
+          INDEXNOW_KEY_LOCATION: ${{ secrets.INDEXNOW_KEY_LOCATION }}
+      - name: Validate sidecar and protected client core
+        run: npm run validate:authority-modernization
+      - name: Commit observation and provider receipts only
+        run: |
+          git config user.name "dianne-authority-observer"
+          git config user.email "actions@github.com"
+          git add data/authority_scale data/distribution data/continuity
+          if git diff --cached --quiet; then
+            echo "No authority observation changes."
+          else
+            git commit -m "Observe authority yield and distribution"
+            git push origin main
+          fi
