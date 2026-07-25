@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.0",
+  "generated_at": "2026-07-25T00:00:00.000Z",
+  "url_count": 33,
+  "priority_url_count": 20,
+  "sitemap_path": "public/sitemap.xml",
+  "sitemap_url": "https://www.diannesplacerecoveryservices.com/sitemap.xml",
+  "sitemap_sha256": "e3115c4d7d9ec263494a18d4530c2d446c0bccfbefd70be7ecf4e45169c1deba",
+  "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
+  "chain": [
+    "successful_publish",
+    "sitemap_refresh",
+    "indexnow",
+    "gsc_sitemap_submission",
+    "priority_url_inspection_where_configured",
+    "durable_distribution_receipt",
+    "observation_feedback"
+  ],
+  "provider_success_claimed": false,
+  "truth_boundary": "Preparing a batch does not prove submission, indexing, search visibility, LLM surfacing, external reference, or citation."
+}

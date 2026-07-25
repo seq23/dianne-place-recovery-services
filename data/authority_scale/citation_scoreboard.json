@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-25T00:00:00.000Z",
+  "target_verified_external_citations": 100000,
+  "target_window_days": 180,
+  "guarantee": false,
+  "fanout_opportunities": 100000,
+  "approved_content": 178,
+  "published_content": 0,
+  "observed_counts": {},
+  "verified_external_citations": 0,
+  "remaining_to_target": 100000,
+  "truth_boundary": "No unobserved indexing, LLM surfacing, external reference, or citation is counted."
+}

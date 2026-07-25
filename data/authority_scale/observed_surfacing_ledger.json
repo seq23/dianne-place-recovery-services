@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0",
+  "repo_id": "dianne-place-recovery-services",
+  "events": [],
+  "truth_boundary": "Only externally observed events with evidence may be added."
+}

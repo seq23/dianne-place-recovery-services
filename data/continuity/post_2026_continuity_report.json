@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "run_date": "2026-07-25",
+  "status": "PASS_NO_FUTURE_ITEMS_YET",
+  "original_2026_records": 178,
+  "future_records": 0,
+  "unique_future_titles": 0,
+  "duplicate_ids": 0,
+  "duplicate_slugs": 0,
+  "one_item_per_day": true,
+  "protected_native_generator": true,
+  "errors": []
+}

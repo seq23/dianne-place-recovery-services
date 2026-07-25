@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "repo": "dianne-place-recovery-services",
+  "policy": "Client-facing pages/components/media and native admin/publishing/licensure behavior must remain byte-identical to the uploaded source.",
+  "files": [
+    {
+      "path": ".github/workflows/content_publish.yml",
+      "sha256": "16f8dc4eed0e416e3063341004334e6865c9867d535377e5a240d26f4b56b82c"
+    },
+    {
+      "path": "app/about/page.tsx",
+      "sha256": "3d108ea97be6ac4f1709f379bee156e22cf48b1436bd987d431303474762d4f4"
+    },
+    {
+      "path": "app/admin/content/ContentOpsDashboard.tsx",
+      "sha256": "a7cf3fa3d6785887cb9c1dc4a271bccadccde2ab27f62dc3ef0f5f661a21e2f5"
+    },
+    {
+      "path": "app/admin/content/page.tsx",
+      "sha256": "24a6ea3d51a67893006ff174889a18c537f377f879a5fcc97187363168f8781e"
+    },
+    {
+      "path": "app/admin/licensure/page.tsx",
+      "sha256": "0ba8bd8a2c2e5ee7d7e53d4aa3d41f8950ca4aab94e4afb1171442902b3ceda6"
+    },
+    {
+      "path": "app/admin/media/page.tsx",
+      "sha256": "90af3d08ab48b78e7e9cc0f672963ffebfcf54c444950604fab233c153cdda7d"
+    },
+    {
+      "path": "app/admin/page.tsx",
+      "sha256": "5f38459ecc894a262c38863d4ca9e29e3de66ae19e878e00c53e036e47083cc1"
+    },
+    {
+      "path": "app/admin/resources/page.tsx",
+      "sha256": "70e4068aa218494738c2039db4db6a9a27c69759b0a444c80d7af6da1b109494"
+    },
+    {
+      "path": "app/answers/page.tsx",
+      "sha256": "0c09ff836154e609e2209d5a3d3e4caf0cf13b81b99831359c8161f68997453c"
+    },
+    {
+      "path": "app/blog/[slug]/page.tsx",
+      "sha256": "670c29449d958a232de427b3e184628cd59edf61704588f4b93742ff3478a70d"
+    },
+    {
+      "path": "app/blog/page.tsx",
+      "sha256": "e36153124160229cc0c687424c2aea22398e32ecd84c86c635c29503a1e20a24"
+    },
+    {
+      "path": "app/contact/page.tsx",
+      "sha256": "4d6d9fad622a19fd021398cab773cd06d618e03582131ce58137b877c09e4653"
+    },
+    {
+      "path": "app/cookie-policy/page.tsx",
+      "sha256": "54ef49dda81845b60ab8542bc9c56b4866276c65818dc14787c0e5996669a069"
+    },
+    {
+      "path": "app/diannes-legacy/page.tsx",
+      "sha256": "2b38f7f7aaa55ef56b755be67d742858bd18a21da786a04e80ce9082e5d74f18"
+    },
+    {
+      "path": "app/future-services/page.tsx",
+      "sha256": "f6f3a4143a602649c95ce38c8c3d91d501dd65db8ca8ca045e306f9cb09dba80"
+    },
+    {
+      "path": "app/globals.css",
+      "sha256": "f4dfef8909969f418d3ca67b641bc98e5d30886dc9d81ae4cf3a71faa8de65bf"
+    },
+    {
+      "path": "app/layout.tsx",
+      "sha256": "9ffa6323ecf360b95532a89ceabc472265f3bcf6495002f44bc9b42017599842"
+    },
+    {
+      "path": "app/medical-disclaimer/page.tsx",
+      "sha256": "5f3c130d09d86664440c3cf5323a610b5b9cd81eabb1cff6904ae835b80fbe9d"
+    },
+    {
+      "path": "app/outcomes-disclaimer/page.tsx",
+      "sha256": "a6b3dd16437f3b9f78ea5b71b716ff8b26869a7dbb274594295743b6d4cea2a2"
+    },
+    {
+      "path": "app/page.tsx",
+      "sha256": "32a2618bd498bd1a4f2b033ce9c5d598588d91c012fbb315b3dc50ae8a9fff04"
+    },
+    {
+      "path": "app/privacy/page.tsx",
+      "sha256": "7f5a7028379dff6c9b7dc01d4e6edbf16a94028fbd6ca7d62b756ddd0c4ad19b"
+    },
+    {
+      "path": "app/recovery-housing/page.tsx",
+      "sha256": "8a64a721e4ec81504cb9180828fd33e721a61a1e52c8c73e6d1f5d6f991de84b"
+    },
+    {
+      "path": "app/referrals/page.tsx",
+      "sha256": "ecc610f5fa9de49c79838538d1e9cb1d776434e302b28748c0108ab8875f2642"
+    },
+    {
+      "path": "app/resources/page.tsx",
+      "sha256": "072c36336b74857e3017106bbf2ecd8b8fcb367df0b0bbe628aa699c8947b784"
+    },
+    {
+      "path": "app/terms/page.tsx",
+      "sha256": "56a8359ae4c9092df9ee6403e6d703e82b8d2a957b711c3bdc100fddfca1613f"
+    },
+    {
+      "path": "components/CookieConsent.tsx",
+      "sha256": "5035e6bc8041f258bb93f5a297425d9ec92e5978c480dea0c1fb8116a0600c9b"
+    },
+    {
+      "path": "components/CrisisBanner.tsx",
+      "sha256": "5508837aa3148ef0fa73819c5b9338216443848d2d93f678397abe338c0e1aff"
+    },
+    {
+      "path": "components/DisclaimerBox.tsx",
+      "sha256": "18a70bc6f18a7f86a5ab95527194f4c91865607b05b64a506938d204df04634b"
+    },
+    {
+      "path": "components/Footer.tsx",
+      "sha256": "836be061d9b42df169f08768a356f0d484d708e1348d90878580fc478bebfe1c"
+    },
+    {
+      "path": "components/Header.tsx",
+      "sha256": "ffe2db05a8982647d8eb0ff108cba04ba2b2c83057b7330baab62555529b0bc4"
+    },
+    {
+      "path": "components/PageHero.tsx",
+      "sha256": "35b53ffd585199fd9cac27aedaab386209dfa4cbaedd935ef5f428348dbe21f9"
+    },
+    {
+      "path": "components/media/SiteImage.tsx",
+      "sha256": "fec2fbd940ba85ee0bee22d3f22674e9aff99d7a501cb0082a9599f7a4147b18"
+    },
+    {
+      "path": "data/admin/admin_manifest.json",
+      "sha256": "26d52f9cea41693703a883eb10554123590747e4cdf3901c790c83c3d54a5ffa"
+    },
+    {
+      "path": "data/legal/legal_copy.json",
+      "sha256": "c3b90b112c853f8972217160805215c8351ad91ab21c8b0a0084262b2bd1e0b7"
+    },
+    {
+      "path": "data/media/site_images.json",
+      "sha256": "62059361afb297be9f011f9cdd29a88fc5e719bc875e8732365f40ea54a9237a"
+    },
+    {
+      "path": "lib/content.ts",
+      "sha256": "d86668258f931acb4ad708d97411dec9b5d75dbafca8027b51dce1a156768af9"
+    },
+    {
+      "path": "public/images/site/contact-calm-inquiry.webp",
+      "sha256": "6188bdfd796cf1c07270b540adcd79f1fcce993cce7ca64872d38ec596b9180f"
+    },
+    {
+      "path": "public/images/site/home-hero-community.webp",
+      "sha256": "8ffbf78012090a0a724d2b1f52ced2fb69cf0cc897abec31c04d3359eb9f4ce2"
+    },
+    {
+      "path": "public/images/site/home-support-community.webp",
+      "sha256": "2d233b59cfc80f2704fbd3a6774ebc17d61d2b48b6fd23d11b68084e1bb7da29"
+    },
+    {
+      "path": "public/images/site/recovery-housing-kitchen.webp",
+      "sha256": "0d5f7252736e3855410216fcdba51ef0b88ce4947732bd7bae6ba9d3d99ef551"
+    },
+    {
+      "path": "public/images/site/referrals-warm-handoff.webp",
+      "sha256": "ca69fb861c0cdd886684aceb0a9f3d8294e62927a0fb561c4e1d960a1e16d9bb"
+    },
+    {
+      "path": "public/images/site/resources-guidance.webp",
+      "sha256": "73edea5fa4fe92c4d3e4ea8ecaae9a377a6202da33c9d6f1ebf51b63a6c18612"
+    },
+    {
+      "path": "scripts/content/build_admin_content_manifest.mjs",
+      "sha256": "52cfe53409663d5ffc2b6281a46037f64a51343c8d4dc399561b453d0bb9dafb"
+    },
+    {
+      "path": "scripts/content/generate_backlog.mjs",
+      "sha256": "9e2c57aba72e5a20df101aab349c82bda7aad6a5f7119bf935233159493df895"
+    },
+    {
+      "path": "scripts/content/publish_scheduled_content.mjs",
+      "sha256": "4395bf03a9eca88fe44747cb05401db718db4e0334a3d68d103de30fbfaedbba"
+    },
+    {
+      "path": "scripts/content/self_produce_content.mjs",
+      "sha256": "b5696d40cd41000173413d52b1c60088c4c760182ef0ab0a368d02295e6867c4"
+    }
+  ]
+}

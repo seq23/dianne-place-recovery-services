@@ -126,6 +126,48 @@
       "severity": "warning",
       "category": "content_quality",
       "risk": "Style, metadata, and optional extraction improvements should be visible without becoming petty blockers."
+    },
+    {
+      "id": "protected-client-core",
+      "script": "validate:protected-client-core",
+      "severity": "hard",
+      "category": "client_governance",
+      "risk": "Client-facing pages, admin controls, native publishing code, and original 2026 editorial identity must not drift."
+    },
+    {
+      "id": "authority-fanout",
+      "script": "validate:authority-fanout",
+      "severity": "hard",
+      "category": "authority_scale",
+      "risk": "100K planning runway must be exact-unique, deterministic, compressed, and unable to imply publication."
+    },
+    {
+      "id": "authority-kpi-truth",
+      "script": "validate:authority-kpi",
+      "severity": "hard",
+      "category": "citation_truth",
+      "risk": "Fanout, approval, publication, indexing, surfacing, references, and verified citations must remain distinct."
+    },
+    {
+      "id": "authority-recommendations",
+      "script": "validate:authority-recommendations",
+      "severity": "strong_soft",
+      "category": "content_intelligence",
+      "risk": "Twin-derived lessons must remain recommendation-only and cannot mutate client content."
+    },
+    {
+      "id": "authority-distribution",
+      "script": "validate:authority-distribution",
+      "severity": "hard",
+      "category": "distribution",
+      "risk": "Distribution must follow existing publication and never fabricate provider success."
+    },
+    {
+      "id": "post-2026-continuity",
+      "script": "validate:post-2026-continuity",
+      "severity": "hard",
+      "category": "future_publishing",
+      "risk": "Future content must be deterministic, diverse, append-only, licensure-safe, and visible in the unchanged admin flow."
     }
   ]
 }

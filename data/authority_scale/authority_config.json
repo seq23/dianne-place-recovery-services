@@ -1,0 +1,61 @@
+{
+  "repo_id": "dianne-place-recovery-services",
+  "short_id": "dprs",
+  "max_seed_topics": 500,
+  "intent_patterns": [
+    "What should someone know about {topic}?",
+    "How does {topic} work?",
+    "What questions should someone ask about {topic}?",
+    "How can someone prepare for {topic}?",
+    "What is commonly misunderstood about {topic}?",
+    "What are practical next steps for {topic}?",
+    "How should a family think about {topic}?",
+    "What should a referral partner understand about {topic}?",
+    "How can someone compare options related to {topic}?",
+    "What safety boundaries matter for {topic}?"
+  ],
+  "audiences": [
+    "adults seeking recovery housing",
+    "women in recovery",
+    "families supporting a loved one",
+    "treatment and referral partners",
+    "case managers and community organizations",
+    "LGBTQ+ people seeking identity-respecting support",
+    "Black and minority recovery communities",
+    "young adults rebuilding stability"
+  ],
+  "contexts": [
+    "in plain language",
+    "with a decision framework",
+    "with a practical checklist",
+    "with questions to ask a provider",
+    "with crisis and medical boundaries",
+    "with dignity-first language",
+    "with referral handoff guidance",
+    "with recovery-housing expectations",
+    "with source-aware caveats",
+    "without treatment or outcome promises"
+  ],
+  "formats": [
+    "direct_answer",
+    "guide",
+    "comparison",
+    "decision_matrix",
+    "checklist",
+    "framework",
+    "faq",
+    "article",
+    "monthly_pillar",
+    "quarterly_whitepaper"
+  ],
+  "decision_stages": [
+    "while exploring recovery housing",
+    "after treatment or discharge",
+    "before making a referral",
+    "while comparing support options",
+    "when helping a loved one",
+    "after a setback",
+    "while rebuilding daily structure",
+    "when deciding what to do next"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "starts_on": "2027-01-01",
+  "native_generator": "scripts/content/self_produce_content.mjs",
+  "native_generator_protected": true,
+  "hardener": "scripts/continuity/harden_post_2026_item.mjs",
+  "one_item_per_day": true,
+  "cadence": {
+    "quarterly_whitepaper": "last day of March, June, September, December",
+    "monthly_pillar": "first day of each month",
+    "weekly_article": "Tuesday except higher-order cadence dates",
+    "daily_resource": "all remaining dates"
+  },
+  "status": "approved",
+  "publish_mode": "auto_if_validated",
+  "publication_authority": "EXISTING_VALIDATED_DIANNE_CONTENT_SYSTEM",
+  "admin_flow": "UNCHANGED",
+  "backlog_preservation_wrapper": "scripts/continuity/generate_backlog_preserving_future.mjs",
+  "native_backlog_generator": "scripts/content/generate_backlog.mjs",
+  "native_backlog_generator_protected": true
+}

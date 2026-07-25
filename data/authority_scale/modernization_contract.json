@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "repo": "dianne-place-recovery-services",
+  "full_intended_system": "Authority intelligence, distribution truth, yield feedback, and durable post-2026 content around the existing client site and publishing system.",
+  "protected_client_core": "SOVEREIGN_AND_UNCHANGED",
+  "twin_agent": false,
+  "publication_rule": "No authority sidecar may approve, revoke, reschedule, or bypass the existing Dianne validated publication system.",
+  "continuity_rule": "The untouched native generator remains authoritative; a post-2026-only hardener may diversify the generated item while preserving one-item-per-day cadence, status, publish mode, validation, and admin visibility.",
+  "100k_rule": "100K opportunity runway is planning intelligence, not a page quota or citation count."
+}
