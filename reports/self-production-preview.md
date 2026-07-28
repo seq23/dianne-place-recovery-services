@@ -1,6 +1,6 @@
 # Self-Production Preview
 
-Date: 2026-07-27
+Date: 2026-07-28
 
 Status: BLOCKED_BEFORE_2027
 
