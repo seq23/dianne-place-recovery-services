@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T14:34:58.750Z",
-  "releaseDate": "2026-07-31",
+  "generatedAt": "2026-08-01T13:54:59.297Z",
+  "releaseDate": "2026-08-01",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -313,6 +313,17 @@
       "answer": "For people seeking recovery housing, recovery housing readiness starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-07-31-recovery-housing-readiness/",
       "scheduledAt": "2026-07-31",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-01-026",
+      "question": "Simple structure for rebuilding a day in recovery?",
+      "answer": "For women in recovery, daily sober routines starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-01-daily-sober-routines/",
+      "scheduledAt": "2026-08-01",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
