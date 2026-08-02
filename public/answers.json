@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-01T13:54:59.297Z",
-  "releaseDate": "2026-08-01",
+  "generatedAt": "2026-08-02T13:54:11.042Z",
+  "releaseDate": "2026-08-02",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -324,6 +324,17 @@
       "answer": "For women in recovery, daily sober routines starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-01-daily-sober-routines/",
       "scheduledAt": "2026-08-01",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-02-027",
+      "question": "How families can support recovery without taking over?",
+      "answer": "For Black and minority recovery communities, family support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-02-family-support/",
+      "scheduledAt": "2026-08-02",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
