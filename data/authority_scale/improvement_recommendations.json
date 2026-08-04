@@ -6,10 +6,10 @@
   "recommendation_count": 40,
   "items": [
     {
-      "route": "/blog/2026-07-13-millennial-recovery/",
-      "source_opportunity_id": "dprs_fanout_069531_3ecb349350",
-      "query": "How does Rebuilding work, money, and daily life after substance use? work? with source-aware caveats for families supporting a loved one before making a referral",
-      "priority_score": 51.36,
+      "route": "/blog/2026-07-15-referral-guidance/",
+      "source_opportunity_id": "dprs_fanout_061022_97ef3e4935",
+      "query": "What is commonly misunderstood about What referral partners can prepare before calling?? without treatment or outcome promises for adults seeking recovery housing before making a referral",
+      "priority_score": 50.65,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
         "Answer the exact question clearly near the top.",
@@ -22,10 +22,42 @@
       ]
     },
     {
-      "route": "/blog/2026-07-22-women-in-recovery/",
-      "source_opportunity_id": "dprs_fanout_072512_1b1341abc7",
-      "query": "What safety boundaries matter for Why safety, dignity, and community matter in recovery housing?? with a practical checklist for treatment and referral partners when deciding what to do next",
-      "priority_score": 51,
+      "route": "/blog/2026-07-14-gen-z-recovery/",
+      "source_opportunity_id": "dprs_fanout_063358_c4ffa02b35",
+      "query": "What questions should someone ask about Early recovery support for young adults navigating pressure and change? with crisis and medical boundaries for treatment and referral partners before making a referral",
+      "priority_score": 50.38,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-09-family-support/",
+      "source_opportunity_id": "dprs_fanout_053827_a4c56fd508",
+      "query": "How can someone compare options related to How families can support recovery without taking over? with a practical checklist for Black and minority recovery communities when deciding what to do next",
+      "priority_score": 50,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-16-relapse-prevention/",
+      "source_opportunity_id": "dprs_fanout_075559_6227d04617",
+      "query": "What is commonly misunderstood about Planning for triggers without shame or panic? in plain language for women in recovery before making a referral",
+      "priority_score": 49.74,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
         "Answer the exact question clearly near the top.",
@@ -39,24 +71,8 @@
     },
     {
       "route": "/blog/2026-07-30-community-reintegration/",
-      "source_opportunity_id": "dprs_fanout_048342_1b3497e46c",
-      "query": "How should a family think about Building healthy connection after treatment or a setback? with referral handoff guidance for treatment and referral partners before making a referral",
-      "priority_score": 50.24,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-25-millennial-recovery/",
-      "source_opportunity_id": "dprs_fanout_039501_f9fe10346c",
-      "query": "How does Rebuilding work, money, and daily life after substance use? work? with a decision framework for women in recovery before making a referral",
+      "source_opportunity_id": "dprs_fanout_060445_25a21214e4",
+      "query": "How can someone prepare for Building healthy connection after treatment or a setback? with source-aware caveats for treatment and referral partners when deciding what to do next",
       "priority_score": 49.55,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -70,10 +86,10 @@
       ]
     },
     {
-      "route": "/blog/2026-07-07-recovery-housing-readiness/",
-      "source_opportunity_id": "dprs_fanout_062336_ce881a54e4",
-      "query": "What are practical next steps for How to know when structured recovery housing may help? with a practical checklist for adults seeking recovery housing when deciding what to do next",
-      "priority_score": 49,
+      "route": "/blog/2026-07-10-women-in-recovery/",
+      "source_opportunity_id": "dprs_fanout_052492_efbfdaba10",
+      "query": "What safety boundaries matter for Why safety, dignity, and community matter in recovery housing?? with recovery-housing expectations for LGBTQ+ people seeking identity-respecting support when deciding what to do next",
+      "priority_score": 49.55,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
         "Answer the exact question clearly near the top.",
@@ -86,10 +102,26 @@
       ]
     },
     {
-      "route": "/blog/2026-07-14-gen-z-recovery/",
-      "source_opportunity_id": "dprs_fanout_053348_0186e2e98d",
-      "query": "What questions should someone ask about Early recovery support for young adults navigating pressure and change? with a practical checklist for adults seeking recovery housing before making a referral",
-      "priority_score": 48.85,
+      "route": "/blog/2026-07-30-community-reintegration/",
+      "source_opportunity_id": "dprs_fanout_027321_05f67edf4c",
+      "query": "What should a referral partner understand about Building healthy connection after treatment or a setback? with a decision framework for treatment and referral partners before making a referral",
+      "priority_score": 49.55,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-15-referral-guidance/",
+      "source_opportunity_id": "dprs_fanout_096714_f0b7cf5357",
+      "query": "How should a family think about What referral partners can prepare before calling? with a practical checklist for adults seeking recovery housing when deciding what to do next",
+      "priority_score": 49.4,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
         "Answer the exact question clearly near the top.",
@@ -103,57 +135,9 @@
     },
     {
       "route": "/blog/2026-07-26-gen-z-recovery/",
-      "source_opportunity_id": "dprs_fanout_026412_7eaaca1f2f",
-      "query": "How can someone compare options related to Early recovery support for young adults navigating pressure and change? with crisis and medical boundaries for LGBTQ+ people seeking identity-respecting support when deciding what to do next",
-      "priority_score": 48.79,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-27-referral-guidance/",
-      "source_opportunity_id": "dprs_fanout_052013_8b4f9b6c78",
-      "query": "How can someone prepare for What referral partners can prepare before calling?? with referral handoff guidance for young adults rebuilding stability before making a referral",
-      "priority_score": 48.33,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-14-gen-z-recovery/",
-      "source_opportunity_id": "dprs_fanout_084249_a3b0686277",
-      "query": "What are practical next steps for Early recovery support for young adults navigating pressure and change?? with a decision framework for women in recovery when deciding what to do next",
-      "priority_score": 48.33,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-14-gen-z-recovery/",
-      "source_opportunity_id": "dprs_fanout_023318_646040c846",
-      "query": "What questions should someone ask about Early recovery support for young adults navigating pressure and change? with crisis and medical boundaries for young adults rebuilding stability before making a referral",
-      "priority_score": 48.33,
+      "source_opportunity_id": "dprs_fanout_005391_c44a4e0194",
+      "query": "What safety boundaries matter for Early recovery support for young adults navigating pressure and change? without treatment or outcome promises for LGBTQ+ people seeking identity-respecting support when deciding what to do next",
+      "priority_score": 49.29,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
         "Answer the exact question clearly near the top.",
@@ -167,9 +151,9 @@
     },
     {
       "route": "/blog/2026-07-23-lgbtq-recovery-support/",
-      "source_opportunity_id": "dprs_fanout_090324_cb35bc3731",
-      "query": "What are practical next steps for Choosing recovery spaces that respect identity and belonging? with dignity-first language for LGBTQ+ people seeking identity-respecting support before making a referral",
-      "priority_score": 47.86,
+      "source_opportunity_id": "dprs_fanout_066339_26b774b591",
+      "query": "What should someone know about Choosing recovery spaces that respect identity and belonging? with source-aware caveats for LGBTQ+ people seeking identity-respecting support when deciding what to do next",
+      "priority_score": 49.29,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
         "Answer the exact question clearly near the top.",
@@ -182,9 +166,57 @@
       ]
     },
     {
-      "route": "/blog/2026-07-25-millennial-recovery/",
-      "source_opportunity_id": "dprs_fanout_009471_9782417303",
-      "query": "How does Rebuilding work, money, and daily life after substance use? work? with crisis and medical boundaries for adults seeking recovery housing before making a referral",
+      "route": "/blog/2026-07-15-referral-guidance/",
+      "source_opportunity_id": "dprs_fanout_093733_807a9f8547",
+      "query": "What safety boundaries matter for What referral partners can prepare before calling?? with recovery-housing expectations for families supporting a loved one before making a referral",
+      "priority_score": 48.91,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-14-gen-z-recovery/",
+      "source_opportunity_id": "dprs_fanout_033328_3bd8f4cb8b",
+      "query": "What questions should someone ask about Early recovery support for young adults navigating pressure and change? with recovery-housing expectations for families supporting a loved one before making a referral",
+      "priority_score": 48.33,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-14-gen-z-recovery/",
+      "source_opportunity_id": "dprs_fanout_035421_7cd4470963",
+      "query": "What safety boundaries matter for Early recovery support for young adults navigating pressure and change? with referral handoff guidance for Black and minority recovery communities when deciding what to do next",
+      "priority_score": 48.33,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-10-women-in-recovery/",
+      "source_opportunity_id": "dprs_fanout_008304_753e537299",
+      "query": "How can someone compare options related to Why safety, dignity, and community matter in recovery housing? with dignity-first language for LGBTQ+ people seeking identity-respecting support before making a referral",
       "priority_score": 47.8,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -198,42 +230,10 @@
       ]
     },
     {
-      "route": "/blog/2026-07-11-lgbtq-recovery-support/",
-      "source_opportunity_id": "dprs_fanout_080216_8ddab579a7",
-      "query": "What are practical next steps for Choosing recovery spaces that respect identity and belonging?? with source-aware caveats for women in recovery before making a referral",
-      "priority_score": 47.8,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-29-employment-and-education/",
-      "source_opportunity_id": "dprs_fanout_075261_c7f137e7cf",
-      "query": "What is commonly misunderstood about Small steps toward work, school, and stability?? with dignity-first language for families supporting a loved one before making a referral",
-      "priority_score": 47.8,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-29-employment-and-education/",
-      "source_opportunity_id": "dprs_fanout_066618_77b71b3085",
-      "query": "What questions should someone ask about Small steps toward work, school, and stability?? with a practical checklist for families supporting a loved one when deciding what to do next",
-      "priority_score": 47.8,
+      "route": "/blog/2026-07-07-recovery-housing-readiness/",
+      "source_opportunity_id": "dprs_fanout_041315_735b1011a5",
+      "query": "How should a family think about How to know when structured recovery housing may help? with recovery-housing expectations for adults seeking recovery housing when deciding what to do next",
+      "priority_score": 47.73,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
         "Answer the exact question clearly near the top.",
@@ -247,8 +247,8 @@
     },
     {
       "route": "/blog/2026-07-24-minority-recovery-support/",
-      "source_opportunity_id": "dprs_fanout_054994_846984456b",
-      "query": "How does Why culturally respectful recovery resources matter? work? with a decision framework for women in recovery when deciding what to do next",
+      "source_opportunity_id": "dprs_fanout_095430_40cd40432b",
+      "query": "What safety boundaries matter for Why culturally respectful recovery resources matter?? with a practical checklist for women in recovery before making a referral",
       "priority_score": 47.63,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -262,9 +262,9 @@
       ]
     },
     {
-      "route": "/blog/2026-07-23-lgbtq-recovery-support/",
-      "source_opportunity_id": "dprs_fanout_096631_55246aea0e",
-      "query": "How can someone compare options related to Choosing recovery spaces that respect identity and belonging? with recovery-housing expectations for families supporting a loved one before making a referral",
+      "route": "/blog/2026-07-25-millennial-recovery/",
+      "source_opportunity_id": "dprs_fanout_018480_b228170fff",
+      "query": "What questions should someone ask about Rebuilding work, money, and daily life after substance use?? with referral handoff guidance for women in recovery before making a referral",
       "priority_score": 47.31,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -278,41 +278,57 @@
       ]
     },
     {
-      "route": "/blog/2026-07-15-referral-guidance/",
-      "source_opportunity_id": "dprs_fanout_052624_e9283e83bd",
-      "query": "How can someone prepare for recovery housing referral? with referral handoff guidance for LGBTQ+ people seeking identity-respecting support before making a referral",
-      "priority_score": 47.17,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-15-referral-guidance/",
-      "source_opportunity_id": "dprs_fanout_021983_5a862515ad",
-      "query": "How can someone prepare for What referral partners can prepare before calling?? without treatment or outcome promises for Black and minority recovery communities before making a referral",
-      "priority_score": 47.17,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
       "route": "/blog/2026-07-22-women-in-recovery/",
-      "source_opportunity_id": "dprs_fanout_055718_8b2da46aa8",
-      "query": "What safety boundaries matter for recovery housing referral? with referral handoff guidance for treatment and referral partners when deciding what to do next",
+      "source_opportunity_id": "dprs_fanout_038334_9d1820cdba",
+      "query": "How can someone compare options related to Why safety, dignity, and community matter in recovery housing? with a practical checklist for Black and minority recovery communities before making a referral",
+      "priority_score": 47.17,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-27-referral-guidance/",
+      "source_opportunity_id": "dprs_fanout_030992_c730520a38",
+      "query": "What is commonly misunderstood about What referral partners can prepare before calling?? with a decision framework for young adults rebuilding stability before making a referral",
+      "priority_score": 47.17,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-17-employment-and-education/",
+      "source_opportunity_id": "dprs_fanout_029346_6a15bfd8ff",
+      "query": "What are practical next steps for Small steps toward work, school, and stability? with a practical checklist for Black and minority recovery communities after a setback",
+      "priority_score": 47.05,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-15-referral-guidance/",
+      "source_opportunity_id": "dprs_fanout_017145_15a19af2d3",
+      "query": "How can someone prepare for Gen Z recovery? with a decision framework for adults seeking recovery housing before making a referral",
       "priority_score": 47,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -326,9 +342,41 @@
       ]
     },
     {
-      "route": "/blog/2026-07-30-community-reintegration/",
-      "source_opportunity_id": "dprs_fanout_084119_8ee726585b",
-      "query": "What safety boundaries matter for Building healthy connection after treatment or a setback? with dignity-first language for women in recovery before making a referral",
+      "route": "/blog/2026-07-23-lgbtq-recovery-support/",
+      "source_opportunity_id": "dprs_fanout_039092_eec882a768",
+      "query": "How should a family think about Choosing recovery spaces that respect identity and belonging?? with recovery-housing expectations for families supporting a loved one when deciding what to do next",
+      "priority_score": 46.85,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-08-daily-sober-routines/",
+      "source_opportunity_id": "dprs_fanout_036886_8f5c92d5c7",
+      "query": "How does Simple structure for rebuilding a day in recovery? work? with a practical checklist for women in recovery before making a referral",
+      "priority_score": 46.76,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-18-community-reintegration/",
+      "source_opportunity_id": "dprs_fanout_000385_3be6f7d650",
+      "query": "How can someone prepare for Building healthy connection after treatment or a setback? with crisis and medical boundaries for women in recovery when deciding what to do next",
       "priority_score": 46.67,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -342,9 +390,9 @@
       ]
     },
     {
-      "route": "/blog/2026-07-07-recovery-housing-readiness/",
-      "source_opportunity_id": "dprs_fanout_029212_610739967e",
-      "query": "What safety boundaries matter for How to know when structured recovery housing may help? with dignity-first language for adults seeking recovery housing before making a referral",
+      "route": "/blog/2026-07-17-employment-and-education/",
+      "source_opportunity_id": "dprs_fanout_077963_0fd4b5ccad",
+      "query": "How does Small steps toward work, school, and stability? work? with referral handoff guidance for adults seeking recovery housing before making a referral",
       "priority_score": 46.67,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -358,9 +406,9 @@
       ]
     },
     {
-      "route": "/blog/2026-07-14-gen-z-recovery/",
-      "source_opportunity_id": "dprs_fanout_056442_625adb91b6",
-      "query": "How can someone compare options related to Early recovery support for young adults navigating pressure and change? with a decision framework for Black and minority recovery communities when deciding what to do next",
+      "route": "/blog/2026-07-25-millennial-recovery/",
+      "source_opportunity_id": "dprs_fanout_051604_d0c152ceea",
+      "query": "How can someone compare options related to Rebuilding work, money, and daily life after substance use?? with questions to ask a provider for adults seeking recovery housing when deciding what to do next",
       "priority_score": 46.43,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -375,8 +423,8 @@
     },
     {
       "route": "/blog/2026-07-15-referral-guidance/",
-      "source_opportunity_id": "dprs_fanout_034942_7857b70b66",
-      "query": "How can someone prepare for find recovery housing? with referral handoff guidance for adults seeking recovery housing before making a referral",
+      "source_opportunity_id": "dprs_fanout_062634_10984124b9",
+      "query": "How can someone prepare for recovery housing referral? without treatment or outcome promises for adults seeking recovery housing before making a referral",
       "priority_score": 46.43,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -390,9 +438,25 @@
       ]
     },
     {
-      "route": "/blog/2026-07-17-employment-and-education/",
-      "source_opportunity_id": "dprs_fanout_006558_d10d9442e5",
-      "query": "What questions should someone ask about Small steps toward work, school, and stability?? with source-aware caveats for adults seeking recovery housing when deciding what to do next",
+      "route": "/blog/2026-07-22-women-in-recovery/",
+      "source_opportunity_id": "dprs_fanout_037610_87c0412574",
+      "query": "What safety boundaries matter for identity-respecting recovery support? with recovery-housing expectations for treatment and referral partners before making a referral",
+      "priority_score": 46.43,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-10-women-in-recovery/",
+      "source_opportunity_id": "dprs_fanout_022462_03a25c672c",
+      "query": "What safety boundaries matter for Why safety, dignity, and community matter in recovery housing?? in plain language for case managers and community organizations when deciding what to do next",
       "priority_score": 46.43,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -407,8 +471,8 @@
     },
     {
       "route": "/blog/2026-07-25-millennial-recovery/",
-      "source_opportunity_id": "dprs_fanout_071935_fb05ad33c2",
-      "query": "How can someone compare options related to Rebuilding work, money, and daily life after substance use? with a decision framework for Black and minority recovery communities when helping a loved one",
+      "source_opportunity_id": "dprs_fanout_043323_8e79079427",
+      "query": "What safety boundaries matter for Rebuilding work, money, and daily life after substance use?? with questions to ask a provider for Black and minority recovery communities while exploring recovery housing",
       "priority_score": 46.33,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -422,57 +486,9 @@
       ]
     },
     {
-      "route": "/blog/2026-07-25-millennial-recovery/",
-      "source_opportunity_id": "dprs_fanout_098605_a184cfc321",
-      "query": "What should someone know about Rebuilding work, money, and daily life after substance use?? with referral handoff guidance for Black and minority recovery communities after a setback",
-      "priority_score": 46.33,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-17-employment-and-education/",
-      "source_opportunity_id": "dprs_fanout_085171_97d0b7cd81",
-      "query": "How can someone prepare for Small steps toward work, school, and stability?? with recovery-housing expectations for young adults rebuilding stability before making a referral",
-      "priority_score": 46.2,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-19-recovery-housing-readiness/",
-      "source_opportunity_id": "dprs_fanout_032306_ca0c2f3ff8",
-      "query": "What are practical next steps for How to know when structured recovery housing may help? with crisis and medical boundaries for young adults rebuilding stability when deciding what to do next",
-      "priority_score": 46.2,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-30-community-reintegration/",
-      "source_opportunity_id": "dprs_fanout_021095_927200709e",
-      "query": "What questions should someone ask about Building healthy connection after treatment or a setback?? with dignity-first language for women in recovery before making a referral",
+      "route": "/blog/2026-07-15-referral-guidance/",
+      "source_opportunity_id": "dprs_fanout_076611_0d70dad7a5",
+      "query": "How can someone compare options related to What referral partners can prepare before calling?? with a practical checklist for Black and minority recovery communities before making a referral",
       "priority_score": 46.2,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -487,8 +503,8 @@
     },
     {
       "route": "/blog/2026-07-22-women-in-recovery/",
-      "source_opportunity_id": "dprs_fanout_070419_05beab7f43",
-      "query": "What questions should someone ask about Why safety, dignity, and community matter in recovery housing?? with a practical checklist for young adults rebuilding stability before making a referral",
+      "source_opportunity_id": "dprs_fanout_068364_e807ba32b1",
+      "query": "How can someone compare options related to Why safety, dignity, and community matter in recovery housing? without treatment or outcome promises for young adults rebuilding stability before making a referral",
       "priority_score": 46.2,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
@@ -502,122 +518,10 @@
       ]
     },
     {
-      "route": "/blog/2026-07-07-recovery-housing-readiness/",
-      "source_opportunity_id": "dprs_fanout_002276_e671c6005d",
-      "query": "What are practical next steps for How to know when structured recovery housing may help? with recovery-housing expectations for Black and minority recovery communities when deciding what to do next",
-      "priority_score": 45.91,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-10-women-in-recovery/",
-      "source_opportunity_id": "dprs_fanout_001388_cc924e236f",
-      "query": "What is commonly misunderstood about Why safety, dignity, and community matter in recovery housing? with questions to ask a provider for women in recovery when deciding what to do next",
-      "priority_score": 45.91,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-10-women-in-recovery/",
-      "source_opportunity_id": "dprs_fanout_042482_4dc9596c97",
-      "query": "What safety boundaries matter for Why safety, dignity, and community matter in recovery housing?? with dignity-first language for families supporting a loved one when deciding what to do next",
-      "priority_score": 45.91,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-24-minority-recovery-support/",
-      "source_opportunity_id": "dprs_fanout_089074_0445d6c185",
-      "query": "What should someone know about Why culturally respectful recovery resources matter? with source-aware caveats for women in recovery before making a referral",
-      "priority_score": 45.91,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-24-minority-recovery-support/",
-      "source_opportunity_id": "dprs_fanout_010806_3ba265312e",
-      "query": "What should someone know about Why culturally respectful recovery resources matter? without treatment or outcome promises for women in recovery before making a referral",
-      "priority_score": 45.91,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
       "route": "/blog/2026-07-11-lgbtq-recovery-support/",
-      "source_opportunity_id": "dprs_fanout_057019_b0f94fff70",
-      "query": "What safety boundaries matter for Choosing recovery spaces that respect identity and belonging?? with a practical checklist for treatment and referral partners before making a referral",
-      "priority_score": 45.77,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-30-community-reintegration/",
-      "source_opportunity_id": "dprs_fanout_091410_306d970a63",
-      "query": "What should someone know about Building healthy connection after treatment or a setback? with referral handoff guidance for families supporting a loved one when deciding what to do next",
-      "priority_score": 45.77,
-      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
-      "twin_derived_quality_lessons": [
-        "Answer the exact question clearly near the top.",
-        "Use exact-intent subheads so the answer is extractable.",
-        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
-        "Make audience and referral context explicit when it changes the answer.",
-        "Prefer strengthening this existing URL over creating a duplicate route.",
-        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
-        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
-      ]
-    },
-    {
-      "route": "/blog/2026-07-25-millennial-recovery/",
-      "source_opportunity_id": "dprs_fanout_064344_a8d716dcc7",
-      "query": "How can someone compare options related to Rebuilding work, money, and daily life after substance use?? with source-aware caveats for Black and minority recovery communities while exploring recovery housing",
-      "priority_score": 45.6,
+      "source_opportunity_id": "dprs_fanout_009062_f1fea4d983",
+      "query": "How should a family think about Choosing recovery spaces that respect identity and belonging?? in plain language for women in recovery when deciding what to do next",
+      "priority_score": 46.2,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
         "Answer the exact question clearly near the top.",
@@ -631,9 +535,105 @@
     },
     {
       "route": "/blog/2026-07-15-referral-guidance/",
-      "source_opportunity_id": "dprs_fanout_063060_dc2a3f7b56",
-      "query": "How can someone prepare for Black recovery support? with recovery-housing expectations for treatment and referral partners when deciding what to do next",
-      "priority_score": 45.43,
+      "source_opportunity_id": "dprs_fanout_000962_f4094cfa66",
+      "query": "What is commonly misunderstood about What referral partners can prepare before calling?? with crisis and medical boundaries for Black and minority recovery communities before making a referral",
+      "priority_score": 46.2,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-22-women-in-recovery/",
+      "source_opportunity_id": "dprs_fanout_087856_1123a86281",
+      "query": "What questions should someone ask about Why safety, dignity, and community matter in recovery housing?? with referral handoff guidance for case managers and community organizations when deciding what to do next",
+      "priority_score": 46.2,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-15-referral-guidance/",
+      "source_opportunity_id": "dprs_fanout_004056_c6d548f4e1",
+      "query": "What should someone know about What referral partners can prepare before calling?? with crisis and medical boundaries for LGBTQ+ people seeking identity-respecting support when deciding what to do next",
+      "priority_score": 46.03,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-15-referral-guidance/",
+      "source_opportunity_id": "dprs_fanout_044952_29ded5b3ca",
+      "query": "How can someone prepare for find recovery housing? with source-aware caveats for treatment and referral partners before making a referral",
+      "priority_score": 45.91,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-21-family-support/",
+      "source_opportunity_id": "dprs_fanout_098886_9d66b07ed2",
+      "query": "How does How families can support recovery without taking over work? with dignity-first language for women in recovery before making a referral",
+      "priority_score": 45.91,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-22-women-in-recovery/",
+      "source_opportunity_id": "dprs_fanout_039222_fda13f9f46",
+      "query": "What safety boundaries matter for How to know when structured recovery housing may help? with recovery-housing expectations for treatment and referral partners before making a referral",
+      "priority_score": 45.91,
+      "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
+      "twin_derived_quality_lessons": [
+        "Answer the exact question clearly near the top.",
+        "Use exact-intent subheads so the answer is extractable.",
+        "Add a checklist, comparison, decision framework, or numbered process only when it materially helps.",
+        "Make audience and referral context explicit when it changes the answer.",
+        "Prefer strengthening this existing URL over creating a duplicate route.",
+        "Preserve crisis, medical, licensure, service-area, privacy, and outcomes boundaries.",
+        "Use authoritative sources for factual claims and never invent clinical authority, capacity, accreditation, availability, outcomes, or local presence."
+      ]
+    },
+    {
+      "route": "/blog/2026-07-24-minority-recovery-support/",
+      "source_opportunity_id": "dprs_fanout_075689_4d467934af",
+      "query": "What should someone know about Why culturally respectful recovery resources matter?? with referral handoff guidance for women in recovery when deciding what to do next",
+      "priority_score": 45.91,
       "editorial_action": "RECOMMENDATION_ONLY_EXISTING_DIANNE_SYSTEM_REQUIRED",
       "twin_derived_quality_lessons": [
         "Answer the exact question clearly near the top.",
