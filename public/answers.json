@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-06T12:56:35.584Z",
-  "releaseDate": "2026-08-06",
+  "generatedAt": "2026-08-07T12:31:31.140Z",
+  "releaseDate": "2026-08-07",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -379,6 +379,17 @@
       "answer": "For families and loved ones, millennial recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-06-millennial-recovery/",
       "scheduledAt": "2026-08-06",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-07-032",
+      "question": "Early recovery support for young adults navigating pressure and change?",
+      "answer": "For referral partners, gen z recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-07-gen-z-recovery/",
+      "scheduledAt": "2026-08-07",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
