@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-09T12:28:07.929Z",
-  "releaseDate": "2026-08-09",
+  "generatedAt": "2026-08-10T12:33:10.975Z",
+  "releaseDate": "2026-08-10",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -412,6 +412,17 @@
       "answer": "For women in recovery, relapse prevention starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-09-relapse-prevention/",
       "scheduledAt": "2026-08-09",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-10-035",
+      "question": "Small steps toward work, school, and stability?",
+      "answer": "For Black and minority recovery communities, employment and education starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-10-employment-and-education/",
+      "scheduledAt": "2026-08-10",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
