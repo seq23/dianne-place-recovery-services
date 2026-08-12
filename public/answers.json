@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-11T12:31:06.407Z",
-  "releaseDate": "2026-08-11",
+  "generatedAt": "2026-08-12T12:33:10.843Z",
+  "releaseDate": "2026-08-12",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -434,6 +434,17 @@
       "answer": "For LGBTQ+ people in recovery, community reintegration starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-11-community-reintegration/",
       "scheduledAt": "2026-08-11",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-12-037",
+      "question": "How to know when structured recovery housing may help?",
+      "answer": "For millennials rebuilding routines, recovery housing readiness starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-12-recovery-housing-readiness/",
+      "scheduledAt": "2026-08-12",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
