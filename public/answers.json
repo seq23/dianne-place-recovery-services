@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T12:33:10.843Z",
-  "releaseDate": "2026-08-12",
+  "generatedAt": "2026-08-13T12:33:32.848Z",
+  "releaseDate": "2026-08-13",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -445,6 +445,17 @@
       "answer": "For millennials rebuilding routines, recovery housing readiness starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-12-recovery-housing-readiness/",
       "scheduledAt": "2026-08-12",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-13-038",
+      "question": "Simple structure for rebuilding a day in recovery?",
+      "answer": "For Gen Z recovery support seekers, daily sober routines starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-13-daily-sober-routines/",
+      "scheduledAt": "2026-08-13",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
