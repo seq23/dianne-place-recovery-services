@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-13T12:33:32.848Z",
-  "releaseDate": "2026-08-13",
+  "generatedAt": "2026-08-14T12:30:57.149Z",
+  "releaseDate": "2026-08-14",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -456,6 +456,17 @@
       "answer": "For Gen Z recovery support seekers, daily sober routines starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-13-daily-sober-routines/",
       "scheduledAt": "2026-08-13",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-14-039",
+      "question": "How families can support recovery without taking over?",
+      "answer": "For families and loved ones, family support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-14-family-support/",
+      "scheduledAt": "2026-08-14",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
