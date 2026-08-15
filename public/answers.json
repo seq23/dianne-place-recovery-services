@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T12:30:57.149Z",
-  "releaseDate": "2026-08-14",
+  "generatedAt": "2026-08-15T12:27:07.010Z",
+  "releaseDate": "2026-08-15",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -467,6 +467,17 @@
       "answer": "For families and loved ones, family support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-14-family-support/",
       "scheduledAt": "2026-08-14",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-15-040",
+      "question": "Why safety, dignity, and community matter in recovery housing?",
+      "answer": "For referral partners, women in recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-15-women-in-recovery/",
+      "scheduledAt": "2026-08-15",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
