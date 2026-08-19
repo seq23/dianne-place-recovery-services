@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T12:27:50.482Z",
-  "releaseDate": "2026-08-18",
+  "generatedAt": "2026-08-19T12:27:41.111Z",
+  "releaseDate": "2026-08-19",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -511,6 +511,17 @@
       "answer": "For Black and minority recovery communities, millennial recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-18-millennial-recovery/",
       "scheduledAt": "2026-08-18",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-19-044",
+      "question": "Early recovery support for young adults navigating pressure and change?",
+      "answer": "For LGBTQ+ people in recovery, gen z recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-19-gen-z-recovery/",
+      "scheduledAt": "2026-08-19",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
