@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-20T12:28:13.967Z",
-  "releaseDate": "2026-08-20",
+  "generatedAt": "2026-08-21T12:28:01.877Z",
+  "releaseDate": "2026-08-21",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -533,6 +533,17 @@
       "answer": "For millennials rebuilding routines, referral guidance starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-20-referral-guidance/",
       "scheduledAt": "2026-08-20",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-21-046",
+      "question": "Planning for triggers without shame or panic?",
+      "answer": "For Gen Z recovery support seekers, relapse prevention starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-21-relapse-prevention/",
+      "scheduledAt": "2026-08-21",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
