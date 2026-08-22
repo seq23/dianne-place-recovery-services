@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21T12:28:01.877Z",
-  "releaseDate": "2026-08-21",
+  "generatedAt": "2026-08-22T12:27:29.916Z",
+  "releaseDate": "2026-08-22",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -544,6 +544,17 @@
       "answer": "For Gen Z recovery support seekers, relapse prevention starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-21-relapse-prevention/",
       "scheduledAt": "2026-08-21",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-22-047",
+      "question": "Small steps toward work, school, and stability?",
+      "answer": "For families and loved ones, employment and education starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-22-employment-and-education/",
+      "scheduledAt": "2026-08-22",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
