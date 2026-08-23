@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-22T12:27:29.644Z",
-  "releaseDate": "2026-08-22",
+  "generatedAt": "2026-08-23T12:27:21.127Z",
+  "releaseDate": "2026-08-23",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
   "approvedInternalCount": 178,
-  "livePublicCount": 47,
+  "livePublicCount": 48,
   "todaysReleaseCount": 1,
   "todaysRoutes": [
-    "/blog/2026-08-22-employment-and-education/"
+    "/blog/2026-08-23-community-reintegration/"
   ],
-  "futureHiddenCount": 131,
+  "futureHiddenCount": 130,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }
