@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T12:27:21.423Z",
-  "releaseDate": "2026-08-23",
+  "generatedAt": "2026-08-24T12:28:03.454Z",
+  "releaseDate": "2026-08-24",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -566,6 +566,17 @@
       "answer": "For referral partners, community reintegration starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-23-community-reintegration/",
       "scheduledAt": "2026-08-23",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-24-049",
+      "question": "How to know when structured recovery housing may help?",
+      "answer": "For people seeking recovery housing, recovery housing readiness starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-24-recovery-housing-readiness/",
+      "scheduledAt": "2026-08-24",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
