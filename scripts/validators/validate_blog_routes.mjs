@@ -9,7 +9,11 @@ const blogPost = fs.readFileSync('app/blog/[slug]/page.tsx', 'utf8');
 assert(blogIndex.includes("import Link from 'next/link'"), 'Blog index must import Next Link');
 assert(blogIndex.includes('Read post'), 'Blog cards must expose a Read post CTA');
 assert(blogIndex.includes('href={item.routeTarget'), 'Blog index must link to item route targets');
-assert(blogIndex.includes('scheduledAt <= releaseDate'), 'Blog index must hide future scheduled posts');
+// Assert the shared predicate is used, not that a particular expression is typed
+// inline. The literal string was the thing being removed: lib/publication.mjs now
+// owns "published", so grepping for the old expression would fail the very change
+// that made the three callers agree.
+assert(blogIndex.includes('publishedItems'), 'Blog index must hide future scheduled posts via the shared publication predicate');
 assert(!blogIndex.includes('Full approved release calendar'), 'Public blog must not expose the internal release calendar');
 assert(!blogIndex.includes('Approved seeded posts'), 'Public blog must not expose seeded-post counts');
 assert(!blogIndex.includes('Audience:'), 'Public blog must not expose internal audience metadata');
@@ -21,7 +25,7 @@ assert(blogPost.includes('item.sections.map'), 'Blog post page must render full 
 assert(blogPost.includes('item.atomBlocks.map'), 'Blog post page must render content atoms');
 assert(blogPost.includes('item.faq.map'), 'Blog post page must render FAQ content');
 assert(blogPost.includes('disclaimerBlock'), 'Blog post page must render content disclaimer block');
-assert(blogPost.includes('scheduledAt <= releaseDate'), 'Blog post route must hide future scheduled posts');
+assert(blogPost.includes('publishedItems'), 'Blog post route must hide future scheduled posts via the shared publication predicate');
 assert(!blogPost.includes('Target depth'), 'Public blog post must not expose internal target-depth metadata');
 assert(!blogPost.includes('Source references:'), 'Public blog post must not expose internal source-reference metadata');
 

@@ -41,11 +41,13 @@
     },
     {
       "path": "app/blog/[slug]/page.tsx",
-      "sha256": "670c29449d958a232de427b3e184628cd59edf61704588f4b93742ff3478a70d"
+      "sha256": "42eca9ef65832a01c5ad613973c62c5692e883d7818ebadd8e376fe330938a44",
+      "revision_note": "Re-recorded 2026-08-27. Both blog routes now import the shared publication predicate from lib/publication.mjs instead of each carrying its own copy of `status === 'approved' && scheduledAt <= releaseDate`. Byte-changed, behaviour identical: verified across all 178 calendar items, 0 disagreements, same 52 published, and resolveReleaseDate() resolves the same env chain. Reason for the change: the sitemap builder and the renderer decided 'published' separately, so they could drift and the sitemap could advertise a route the renderer would 404."
     },
     {
       "path": "app/blog/page.tsx",
-      "sha256": "e36153124160229cc0c687424c2aea22398e32ecd84c86c635c29503a1e20a24"
+      "sha256": "aba5ad4836e23d585ec749ce2eef7c6fa8dd70a7f0ce60557037354e15f84a08",
+      "revision_note": "Re-recorded 2026-08-27. Both blog routes now import the shared publication predicate from lib/publication.mjs instead of each carrying its own copy of `status === 'approved' && scheduledAt <= releaseDate`. Byte-changed, behaviour identical: verified across all 178 calendar items, 0 disagreements, same 52 published, and resolveReleaseDate() resolves the same env chain. Reason for the change: the sitemap builder and the renderer decided 'published' separately, so they could drift and the sitemap could advertise a route the renderer would 404."
     },
     {
       "path": "app/contact/page.tsx",
@@ -186,6 +188,18 @@
     {
       "path": "scripts/content/self_produce_content.mjs",
       "sha256": "b5696d40cd41000173413d52b1c60088c4c760182ef0ab0a368d02295e6867c4"
+    }
+  ],
+  "revision_log": [
+    {
+      "date": "2026-08-27",
+      "files": [
+        "app/blog/[slug]/page.tsx",
+        "app/blog/page.tsx"
+      ],
+      "change": "Adopt shared publication predicate in both blog routes",
+      "equivalence": "178 items checked, 0 disagreements, 52 published before and after",
+      "policy_note": "Byte-identity was deliberately re-baselined, not bypassed. The guard still fails on any further drift."
     }
   ]
 }

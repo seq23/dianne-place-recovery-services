@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import contentCalendar from '@/data/content/content_calendar.json';
 import { PageHero } from '@/components/PageHero';
+import { publishedItems, resolveReleaseDate } from '../../lib/publication.mjs';
 
 export const metadata = {
   title: 'Recovery Resources'
@@ -17,11 +18,12 @@ type ContentItem = {
   keyTakeaways?: string[];
 };
 
-const releaseDate = process.env.PUBLICATION_DATE || process.env.PUBLISH_DATE || new Date().toISOString().slice(0, 10);
+const releaseDate = resolveReleaseDate();
 
 export default function BlogPage() {
-  const items = (contentCalendar.items as ContentItem[])
-    .filter((item) => item.status === 'approved' && item.scheduledAt <= releaseDate)
+  // Same predicate as the post route and the sitemap builder. The index was the
+  // last of the three still carrying its own copy of the expression.
+  const items = (publishedItems(contentCalendar.items as ContentItem[], releaseDate) as ContentItem[])
     .sort((a, b) => b.scheduledAt.localeCompare(a.scheduledAt));
 
   return (
