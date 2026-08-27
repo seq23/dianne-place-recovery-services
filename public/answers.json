@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-15T12:27:07.010Z",
-  "releaseDate": "2026-08-15",
+  "generatedAt": "2026-08-26T12:28:14.378Z",
+  "releaseDate": "2026-08-26",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -478,6 +478,127 @@
       "answer": "For referral partners, women in recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-15-women-in-recovery/",
       "scheduledAt": "2026-08-15",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-16-041",
+      "question": "Choosing recovery spaces that respect identity and belonging?",
+      "answer": "For people seeking recovery housing, lgbtq+ recovery support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-16-lgbtq-recovery-support/",
+      "scheduledAt": "2026-08-16",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-17-042",
+      "question": "Why culturally respectful recovery resources matter?",
+      "answer": "For women in recovery, minority recovery support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-17-minority-recovery-support/",
+      "scheduledAt": "2026-08-17",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-18-043",
+      "question": "Rebuilding work, money, and daily life after substance use?",
+      "answer": "For Black and minority recovery communities, millennial recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-18-millennial-recovery/",
+      "scheduledAt": "2026-08-18",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-19-044",
+      "question": "Early recovery support for young adults navigating pressure and change?",
+      "answer": "For LGBTQ+ people in recovery, gen z recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-19-gen-z-recovery/",
+      "scheduledAt": "2026-08-19",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-20-045",
+      "question": "What referral partners can prepare before calling?",
+      "answer": "For millennials rebuilding routines, referral guidance starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-20-referral-guidance/",
+      "scheduledAt": "2026-08-20",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-21-046",
+      "question": "Planning for triggers without shame or panic?",
+      "answer": "For Gen Z recovery support seekers, relapse prevention starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-21-relapse-prevention/",
+      "scheduledAt": "2026-08-21",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-22-047",
+      "question": "Small steps toward work, school, and stability?",
+      "answer": "For families and loved ones, employment and education starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-22-employment-and-education/",
+      "scheduledAt": "2026-08-22",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-23-048",
+      "question": "Building healthy connection after treatment or a setback?",
+      "answer": "For referral partners, community reintegration starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-23-community-reintegration/",
+      "scheduledAt": "2026-08-23",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-24-049",
+      "question": "How to know when structured recovery housing may help?",
+      "answer": "For people seeking recovery housing, recovery housing readiness starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-24-recovery-housing-readiness/",
+      "scheduledAt": "2026-08-24",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-25-050",
+      "question": "Simple structure for rebuilding a day in recovery?",
+      "answer": "For women in recovery, daily sober routines starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-25-daily-sober-routines/",
+      "scheduledAt": "2026-08-25",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-26-051",
+      "question": "How families can support recovery without taking over?",
+      "answer": "For Black and minority recovery communities, family support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-26-family-support/",
+      "scheduledAt": "2026-08-26",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
