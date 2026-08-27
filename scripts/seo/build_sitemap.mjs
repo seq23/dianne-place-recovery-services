@@ -1,8 +1,9 @@
+import { publishedItems, resolveReleaseDate } from '../../lib/publication.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 
 const root = process.cwd();
-const releaseDate = process.env.PUBLICATION_DATE || process.env.PUBLISH_DATE || new Date().toISOString().slice(0, 10);
+const releaseDate = resolveReleaseDate();
 const calendar = JSON.parse(fs.readFileSync(path.join(root, 'data/content/content_calendar.json'), 'utf8'));
 const routes = JSON.parse(fs.readFileSync(path.join(root, 'data/routing/route_registry.json'), 'utf8'));
 const base = 'https://www.diannesplacerecoveryservices.com';
@@ -15,8 +16,11 @@ const staticUrls = routes.routes
     changefreq: route.family === 'resource' ? 'daily' : 'weekly'
   }));
 
-const blogUrls = calendar.items
-  .filter((item) => item.status === 'approved' && item.scheduledAt <= releaseDate)
+// Same predicate as app/blog/[slug]/page.tsx, from the same module. It was a
+// duplicated expression; a sitemap and a renderer that each keep their own copy
+// of what "published" means is how a corpus starts advertising URLs nothing
+// serves.
+const blogUrls = publishedItems(calendar.items, releaseDate)
   .map((item) => ({
     loc: `${base}${item.routeTarget}`,
     priority: item.contentType === 'quarterly_whitepaper' ? '0.9' : item.contentType === 'monthly_pillar' ? '0.85' : '0.7',

@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import calendar from '@/data/content/content_calendar.json';
 import { DisclaimerBox } from '@/components/DisclaimerBox';
+import { publishedItems, resolveReleaseDate } from '../../../lib/publication.mjs';
 
 type ContentItem = {
   id: string;
@@ -32,8 +33,11 @@ type ContentItem = {
   sourceIds: string[];
 };
 
-const releaseDate = process.env.PUBLICATION_DATE || process.env.PUBLISH_DATE || new Date().toISOString().slice(0, 10);
-const items = (calendar.items as ContentItem[]).filter((item) => item.status === 'approved' && item.scheduledAt <= releaseDate);
+// The filter used to be written out here and again in scripts/seo/build_sitemap.mjs.
+// Both sides now call the same function, so the sitemap cannot advertise a route
+// this file will notFound().
+const releaseDate = resolveReleaseDate();
+const items = publishedItems(calendar.items as ContentItem[], releaseDate) as ContentItem[];
 
 export function generateStaticParams() {
   return items.map((item) => ({ slug: item.slug }));

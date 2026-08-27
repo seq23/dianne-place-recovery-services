@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "purpose": "The only queries this repo may open a page for. A query with no record here has no evidence anyone searches for it.",
+  "provenance": {
+    "status": "NOT MEASURED",
+    "reason": "No search-demand source exists for this property. There is no volume, keyword_difficulty, impressions or Search Console data anywhere under data/, and diannesplacerecoveryservices.com does not appear in the portfolio Semrush packet pulled 2026-08-24, so no record could be carried in without inventing one. The 178 items in data/content/content_calendar.json were produced from the dimension arrays in data/authority_scale/authority_config.json.",
+    "how_to_close_it": "Verify the property in Google Search Console and export query performance, or run a Semrush keyword pull for the recovery-services terms this site targets, then write the measured rows into records[] with source_type and evidence_tier set."
+  },
+  "owner_seed_policy": "An owner may add a record with source_type \"owner_approved_seed\" and volume null. It must carry approved_by and approved_at. Nothing else may create records.",
+  "domain": "diannesplacerecoveryservices.com",
+  "record_count": 0,
+  "total_measured_volume_per_month": 0,
+  "records": []
+}
