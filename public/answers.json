@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T16:25:09.257Z",
-  "releaseDate": "2026-08-28",
+  "generatedAt": "2026-08-29T12:31:11.894Z",
+  "releaseDate": "2026-08-29",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -621,6 +621,17 @@
       "answer": "For millennials rebuilding routines, lgbtq+ recovery support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-28-lgbtq-recovery-support/",
       "scheduledAt": "2026-08-28",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-08-29-054",
+      "question": "Why culturally respectful recovery resources matter?",
+      "answer": "For Gen Z recovery support seekers, minority recovery support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-08-29-minority-recovery-support/",
+      "scheduledAt": "2026-08-29",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"

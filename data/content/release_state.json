@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-28T16:25:08.948Z",
-  "releaseDate": "2026-08-28",
+  "generatedAt": "2026-08-29T12:31:11.646Z",
+  "releaseDate": "2026-08-29",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
   "approvedInternalCount": 178,
-  "livePublicCount": 53,
+  "livePublicCount": 54,
   "todaysReleaseCount": 1,
   "todaysRoutes": [
-    "/blog/2026-08-28-lgbtq-recovery-support/"
+    "/blog/2026-08-29-minority-recovery-support/"
   ],
-  "futureHiddenCount": 125,
+  "futureHiddenCount": 124,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }
