@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-30T12:32:30.324Z",
-  "releaseDate": "2026-08-30",
+  "generatedAt": "2026-08-31T12:37:31.441Z",
+  "releaseDate": "2026-08-31",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
   "approvedInternalCount": 178,
-  "livePublicCount": 55,
+  "livePublicCount": 56,
   "todaysReleaseCount": 1,
   "todaysRoutes": [
-    "/blog/2026-08-30-millennial-recovery/"
+    "/blog/2026-08-31-gen-z-recovery/"
   ],
-  "futureHiddenCount": 123,
+  "futureHiddenCount": 122,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }
