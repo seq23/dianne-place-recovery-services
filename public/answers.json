@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T12:37:31.687Z",
-  "releaseDate": "2026-08-31",
+  "generatedAt": "2026-09-01T12:37:03.105Z",
+  "releaseDate": "2026-09-01",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -654,6 +654,17 @@
       "answer": "For referral partners, gen z recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-08-31-gen-z-recovery/",
       "scheduledAt": "2026-08-31",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-09-01-057",
+      "question": "What referral partners can prepare before calling?",
+      "answer": "For people seeking recovery housing, referral guidance starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-09-01-referral-guidance/",
+      "scheduledAt": "2026-09-01",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
