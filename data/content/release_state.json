@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-02T12:38:07.046Z",
-  "releaseDate": "2026-09-02",
+  "generatedAt": "2026-09-03T12:38:03.226Z",
+  "releaseDate": "2026-09-03",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
   "approvedInternalCount": 178,
-  "livePublicCount": 58,
+  "livePublicCount": 59,
   "todaysReleaseCount": 1,
   "todaysRoutes": [
-    "/blog/2026-09-02-relapse-prevention/"
+    "/blog/2026-09-03-employment-and-education/"
   ],
-  "futureHiddenCount": 120,
+  "futureHiddenCount": 119,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }
