@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-05T12:31:51.622Z",
-  "releaseDate": "2026-09-05",
+  "generatedAt": "2026-09-06T12:32:16.389Z",
+  "releaseDate": "2026-09-06",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
   "approvedInternalCount": 178,
-  "livePublicCount": 61,
+  "livePublicCount": 62,
   "todaysReleaseCount": 1,
   "todaysRoutes": [
-    "/blog/2026-09-05-recovery-housing-readiness/"
+    "/blog/2026-09-06-daily-sober-routines/"
   ],
-  "futureHiddenCount": 117,
+  "futureHiddenCount": 116,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }
