@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T12:37:38.708Z",
-  "releaseDate": "2026-09-07",
+  "generatedAt": "2026-09-08T12:37:24.980Z",
+  "releaseDate": "2026-09-08",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -41,17 +41,6 @@
       "route": "/contact/",
       "sourceIds": [
         "source-hhs-hipaa-tracking"
-      ]
-    },
-    {
-      "id": "scheduled-dprs-2026-07-10-004",
-      "question": "Why safety, dignity, and community matter in recovery housing?",
-      "answer": "For LGBTQ+ people in recovery, women in recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
-      "route": "/blog/2026-07-10-women-in-recovery/",
-      "scheduledAt": "2026-07-10",
-      "sourceIds": [
-        "source-988-lifeline",
-        "source-samhsa"
       ]
     },
     {
@@ -698,6 +687,17 @@
       "answer": "For families and loved ones, family support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-09-07-family-support/",
       "scheduledAt": "2026-09-07",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-09-08-064",
+      "question": "Why safety, dignity, and community matter in recovery housing?",
+      "answer": "For referral partners, women in recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-09-08-women-in-recovery/",
+      "scheduledAt": "2026-09-08",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
