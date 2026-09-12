@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-11T12:36:26.303Z",
-  "date": "2026-09-11",
+  "generatedAt": "2026-09-12T12:32:02.490Z",
+  "date": "2026-09-12",
   "selectedCount": 1,
   "blockedCount": 0,
   "units": [
     {
-      "unit_id": "dprs-2026-09-11-067",
+      "unit_id": "dprs-2026-09-12-068",
       "unit_type": "daily_resource",
       "source_basis": [
         "source-988-lifeline",
         "source-samhsa"
       ],
       "claim_ids": [],
-      "route_target": "/blog/2026-09-11-millennial-recovery/",
+      "route_target": "/blog/2026-09-12-gen-z-recovery/",
       "page_family": "blog",
       "priority_score": 55,
       "selected_or_blocked": "selected",
