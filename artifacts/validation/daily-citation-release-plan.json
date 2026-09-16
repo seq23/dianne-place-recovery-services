@@ -1,20 +1,18 @@
 {
-  "generatedAt": "2026-09-15T12:36:53.910Z",
-  "date": "2026-09-15",
+  "generatedAt": "2026-09-16T12:37:40.614Z",
+  "date": "2026-09-16",
   "selectedCount": 1,
   "blockedCount": 0,
   "units": [
     {
-      "unit_id": "dprs-2026-09-15-071",
-      "unit_type": "weekly_article",
+      "unit_id": "dprs-2026-09-16-072",
+      "unit_type": "daily_resource",
       "source_basis": [
         "source-988-lifeline",
         "source-samhsa"
       ],
-      "claim_ids": [
-        "claim-crisis-988"
-      ],
-      "route_target": "/blog/2026-09-15-employment-and-education/",
+      "claim_ids": [],
+      "route_target": "/blog/2026-09-16-community-reintegration/",
       "page_family": "blog",
       "priority_score": 55,
       "selected_or_blocked": "selected",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T12:36:59.604Z",
-  "releaseDate": "2026-09-15",
+  "generatedAt": "2026-09-16T12:37:46.393Z",
+  "releaseDate": "2026-09-16",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -41,17 +41,6 @@
       "route": "/contact/",
       "sourceIds": [
         "source-hhs-hipaa-tracking"
-      ]
-    },
-    {
-      "id": "scheduled-dprs-2026-07-18-012",
-      "question": "Building healthy connection after treatment or a setback?",
-      "answer": "For LGBTQ+ people in recovery, community reintegration starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
-      "route": "/blog/2026-07-18-community-reintegration/",
-      "scheduledAt": "2026-07-18",
-      "sourceIds": [
-        "source-988-lifeline",
-        "source-samhsa"
       ]
     },
     {
@@ -698,6 +687,17 @@
       "answer": "For families and loved ones, employment and education starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-09-15-employment-and-education/",
       "scheduledAt": "2026-09-15",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-09-16-072",
+      "question": "Building healthy connection after treatment or a setback?",
+      "answer": "For referral partners, community reintegration starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-09-16-community-reintegration/",
+      "scheduledAt": "2026-09-16",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
