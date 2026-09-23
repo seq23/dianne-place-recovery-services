@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T12:37:12.386Z",
-  "releaseDate": "2026-09-22",
+  "generatedAt": "2026-09-23T12:37:46.012Z",
+  "releaseDate": "2026-09-23",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -41,17 +41,6 @@
       "route": "/contact/",
       "sourceIds": [
         "source-hhs-hipaa-tracking"
-      ]
-    },
-    {
-      "id": "scheduled-dprs-2026-07-25-019",
-      "question": "Rebuilding work, money, and daily life after substance use?",
-      "answer": "For Black and minority recovery communities, millennial recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
-      "route": "/blog/2026-07-25-millennial-recovery/",
-      "scheduledAt": "2026-07-25",
-      "sourceIds": [
-        "source-988-lifeline",
-        "source-samhsa"
       ]
     },
     {
@@ -698,6 +687,17 @@
       "answer": "For Gen Z recovery support seekers, minority recovery support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-09-22-minority-recovery-support/",
       "scheduledAt": "2026-09-22",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-09-23-079",
+      "question": "Rebuilding work, money, and daily life after substance use?",
+      "answer": "For families and loved ones, millennial recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-09-23-millennial-recovery/",
+      "scheduledAt": "2026-09-23",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
