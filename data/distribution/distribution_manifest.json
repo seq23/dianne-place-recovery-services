@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
   "generated_at": "2026-07-25T00:00:00.000Z",
-  "url_count": 94,
+  "url_count": 95,
   "priority_url_count": 20,
   "sitemap_path": "public/sitemap.xml",
   "sitemap_url": "https://www.diannesplacerecoveryservices.com/sitemap.xml",
-  "sitemap_sha256": "e2a6de9eccbfd06f2a650fae0a78942648ec145061c405e1416a1838ec99e36f",
+  "sitemap_sha256": "ee1478ff5a89b3c941b105d65ab9b9be3a39837750bb41f027f21ecf6359d8a6",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
