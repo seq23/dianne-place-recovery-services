@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T12:38:02.988Z",
-  "releaseDate": "2026-09-25",
+  "generatedAt": "2026-09-26T12:34:18.020Z",
+  "releaseDate": "2026-09-26",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -41,17 +41,6 @@
       "route": "/contact/",
       "sourceIds": [
         "source-hhs-hipaa-tracking"
-      ]
-    },
-    {
-      "id": "scheduled-dprs-2026-07-28-022",
-      "question": "Planning for triggers without shame or panic?",
-      "answer": "For Gen Z recovery support seekers, relapse prevention starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
-      "route": "/blog/2026-07-28-relapse-prevention/",
-      "scheduledAt": "2026-07-28",
-      "sourceIds": [
-        "source-988-lifeline",
-        "source-samhsa"
       ]
     },
     {
@@ -698,6 +687,17 @@
       "answer": "For people seeking recovery housing, referral guidance starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-09-25-referral-guidance/",
       "scheduledAt": "2026-09-25",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-09-26-082",
+      "question": "Planning for triggers without shame or panic?",
+      "answer": "For women in recovery, relapse prevention starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-09-26-relapse-prevention/",
+      "scheduledAt": "2026-09-26",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
