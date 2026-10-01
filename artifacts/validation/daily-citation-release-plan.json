@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-30T12:43:59.095Z",
-  "date": "2026-09-30",
+  "generatedAt": "2026-10-01T12:41:14.400Z",
+  "date": "2026-10-01",
   "selectedCount": 1,
   "blockedCount": 0,
   "units": [
     {
-      "unit_id": "dprs-2026-09-30-086",
-      "unit_type": "quarterly_whitepaper",
+      "unit_id": "dprs-2026-10-01-087",
+      "unit_type": "monthly_pillar",
       "source_basis": [
         "source-988-lifeline",
         "source-samhsa"
@@ -14,9 +14,9 @@
       "claim_ids": [
         "claim-crisis-988"
       ],
-      "route_target": "/blog/2026-09-30-daily-sober-routines/",
+      "route_target": "/blog/2026-10-01-family-support/",
       "page_family": "blog",
-      "priority_score": 95,
+      "priority_score": 80,
       "selected_or_blocked": "selected",
       "reason": "scheduled approved item passed manifest validation",
       "expected_mutation": "publish generated content route or queue for static generation",
