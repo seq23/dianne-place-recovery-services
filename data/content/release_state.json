@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-01T12:41:19.684Z",
-  "releaseDate": "2026-10-01",
+  "generatedAt": "2026-10-02T12:40:39.713Z",
+  "releaseDate": "2026-10-02",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
   "approvedInternalCount": 178,
-  "livePublicCount": 87,
+  "livePublicCount": 88,
   "todaysReleaseCount": 1,
   "todaysRoutes": [
-    "/blog/2026-10-01-family-support/"
+    "/blog/2026-10-02-women-in-recovery/"
   ],
-  "futureHiddenCount": 91,
+  "futureHiddenCount": 90,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }
