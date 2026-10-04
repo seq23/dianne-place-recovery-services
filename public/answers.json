@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T13:58:31.429Z",
-  "releaseDate": "2026-10-03",
+  "generatedAt": "2026-10-04T14:12:35.555Z",
+  "releaseDate": "2026-10-04",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -41,17 +41,6 @@
       "route": "/contact/",
       "sourceIds": [
         "source-hhs-hipaa-tracking"
-      ]
-    },
-    {
-      "id": "scheduled-dprs-2026-08-05-030",
-      "question": "Why culturally respectful recovery resources matter?",
-      "answer": "For Gen Z recovery support seekers, minority recovery support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
-      "route": "/blog/2026-08-05-minority-recovery-support/",
-      "scheduledAt": "2026-08-05",
-      "sourceIds": [
-        "source-988-lifeline",
-        "source-samhsa"
       ]
     },
     {
@@ -698,6 +687,17 @@
       "answer": "For people seeking recovery housing, lgbtq+ recovery support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-10-03-lgbtq-recovery-support/",
       "scheduledAt": "2026-10-03",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-10-04-090",
+      "question": "Why culturally respectful recovery resources matter?",
+      "answer": "For women in recovery, minority recovery support starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-10-04-minority-recovery-support/",
+      "scheduledAt": "2026-10-04",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
