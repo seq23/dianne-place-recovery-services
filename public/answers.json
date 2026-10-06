@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T12:43:04.415Z",
-  "releaseDate": "2026-10-05",
+  "generatedAt": "2026-10-06T12:40:16.594Z",
+  "releaseDate": "2026-10-06",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -41,17 +41,6 @@
       "route": "/contact/",
       "sourceIds": [
         "source-hhs-hipaa-tracking"
-      ]
-    },
-    {
-      "id": "scheduled-dprs-2026-08-07-032",
-      "question": "Early recovery support for young adults navigating pressure and change?",
-      "answer": "For referral partners, gen z recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
-      "route": "/blog/2026-08-07-gen-z-recovery/",
-      "scheduledAt": "2026-08-07",
-      "sourceIds": [
-        "source-988-lifeline",
-        "source-samhsa"
       ]
     },
     {
@@ -698,6 +687,17 @@
       "answer": "For Black and minority recovery communities, millennial recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-10-05-millennial-recovery/",
       "scheduledAt": "2026-10-05",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-10-06-092",
+      "question": "Early recovery support for young adults navigating pressure and change?",
+      "answer": "For LGBTQ+ people in recovery, gen z recovery starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-10-06-gen-z-recovery/",
+      "scheduledAt": "2026-10-06",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
