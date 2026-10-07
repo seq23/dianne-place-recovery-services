@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-06T12:40:16.255Z",
-  "releaseDate": "2026-10-06",
+  "generatedAt": "2026-10-07T12:42:27.749Z",
+  "releaseDate": "2026-10-07",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
   "approvedInternalCount": 178,
-  "livePublicCount": 92,
+  "livePublicCount": 93,
   "todaysReleaseCount": 1,
   "todaysRoutes": [
-    "/blog/2026-10-06-gen-z-recovery/"
+    "/blog/2026-10-07-referral-guidance/"
   ],
-  "futureHiddenCount": 86,
+  "futureHiddenCount": 85,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }
