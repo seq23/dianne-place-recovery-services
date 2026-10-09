@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T12:42:17.403Z",
-  "releaseDate": "2026-10-08",
+  "generatedAt": "2026-10-09T12:39:44.292Z",
+  "releaseDate": "2026-10-09",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -41,17 +41,6 @@
       "route": "/contact/",
       "sourceIds": [
         "source-hhs-hipaa-tracking"
-      ]
-    },
-    {
-      "id": "scheduled-dprs-2026-08-10-035",
-      "question": "Small steps toward work, school, and stability?",
-      "answer": "For Black and minority recovery communities, employment and education starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
-      "route": "/blog/2026-08-10-employment-and-education/",
-      "scheduledAt": "2026-08-10",
-      "sourceIds": [
-        "source-988-lifeline",
-        "source-samhsa"
       ]
     },
     {
@@ -698,6 +687,17 @@
       "answer": "For Gen Z recovery support seekers, relapse prevention starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
       "route": "/blog/2026-10-08-relapse-prevention/",
       "scheduledAt": "2026-10-08",
+      "sourceIds": [
+        "source-988-lifeline",
+        "source-samhsa"
+      ]
+    },
+    {
+      "id": "scheduled-dprs-2026-10-09-095",
+      "question": "Small steps toward work, school, and stability?",
+      "answer": "For families and loved ones, employment and education starts with safety, structure, support, and realistic next steps. Dianne's Place frames this topic through recovery housing and referral-support boundaries while expanded licensed services remain in development.",
+      "route": "/blog/2026-10-09-employment-and-education/",
+      "scheduledAt": "2026-10-09",
       "sourceIds": [
         "source-988-lifeline",
         "source-samhsa"
