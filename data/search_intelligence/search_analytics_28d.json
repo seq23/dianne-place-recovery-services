@@ -1,0 +1,99 @@
+{
+  "property": "sc-domain:detoxdenver.org",
+  "start_date": "2026-09-12",
+  "end_date": "2026-10-09",
+  "collected_at": "2026-10-11T14:19:27.718Z",
+  "totals": {
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 4.25
+  },
+  "pages": [
+    {
+      "page": "https://detoxdenver.org/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.333333333333333
+    },
+    {
+      "page": "https://detoxdenver.org/blog/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 4.666666666666666
+    },
+    {
+      "page": "https://detoxdenver.org/blog/2026-09-08-women-in-recovery/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "page": "https://detoxdenver.org/blog/2026-09-25-referral-guidance/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "page": "https://detoxdenver.org/medical-disclaimer/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "page": "https://detoxdenver.org/outcomes-disclaimer/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "https://detoxdenver.org/referrals/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "page": "https://detoxdenver.org/resources/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "page": "https://detoxdenver.org/terms/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "page": "https://www.detoxdenver.org/answers/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "page": "https://www.detoxdenver.org/contact/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "https://www.detoxdenver.org/diannes-legacy/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    }
+  ],
+  "query_pages": []
+}
