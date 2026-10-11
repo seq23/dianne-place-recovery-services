@@ -6,7 +6,8 @@ const root = process.cwd();
 const releaseDate = resolveReleaseDate();
 const calendar = JSON.parse(fs.readFileSync(path.join(root, 'data/content/content_calendar.json'), 'utf8'));
 const routes = JSON.parse(fs.readFileSync(path.join(root, 'data/routing/route_registry.json'), 'utf8'));
-const base = 'https://www.diannesplacerecoveryservices.com';
+// One origin for every absolute URL: data/seo/site_identity.json.
+const base = JSON.parse(fs.readFileSync(path.join(root, 'data/seo/site_identity.json'), 'utf8')).origin;
 
 const staticUrls = routes.routes
   .filter((route) => !route.path.startsWith('/admin'))

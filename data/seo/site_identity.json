@@ -1,0 +1,26 @@
+{
+  "origin": "https://detoxdenver.org",
+  "originNote": "This repo is deployed by Cloudflare Pages to detoxdenver.org (Search Console property sc-domain:detoxdenver.org). www.diannesplacerecoveryservices.com is a separate Webador site on another host, not this build; until 2026-10-11 every page here canonicalised to that site's homepage and the sitemap listed its URLs. Every absolute URL (canonical, og:url, sitemap, robots, JSON-LD) reads this origin.",
+  "name": "Dianne's Place Recovery Services",
+  "legalName": "Dianne's Place Recovery Services LLC",
+  "phone": "(720) 588-8864",
+  "phoneE164": "+17205888864",
+  "email": "diannesplacerecovery@gmail.com",
+  "definition": "Dianne's Place Recovery Services is a recovery housing and recovery support organization for adults rebuilding life after substance use. It offers structured, substance-free sober living, referral support for families and treatment providers, and plain-language recovery resources. It is not an emergency service; call (720) 588-8864 to ask about availability and fit.",
+  "ogImage": { "path": "/og-image.png", "width": 1200, "height": 630, "alt": "Dianne's Place Recovery Services: recovery housing, structured sober living, referral support" },
+  "localBusiness": {
+    "schemaType": "LocalBusiness",
+    "schemaTypeNote": "Not MedicalBusiness/MedicalClinic: the site runs in pre_license mode and must not present clinical services (data/licensure/licensure_status.json).",
+    "address": null,
+    "geo": null,
+    "openingHours": null,
+    "areaServed": null,
+    "unconfirmedNote": "The site shows no street address, hours or confirmed service area (data/geo/market_map.json is non_localized), so these stay null and are omitted from JSON-LD rather than invented."
+  },
+  "googleBusinessProfile": {
+    "found": false,
+    "checkedAt": "2026-10-11",
+    "method": "Google Maps search for \"Dianne's Place Recovery Services Denver\", \"Dianne's Place Recovery\" and the phone (720) 588-8864; web search for the exact name. Maps returned only unrelated businesses (a Minneapolis restaurant named Diane's Place and other Denver treatment centers).",
+    "mapsCid": null
+  }
+}

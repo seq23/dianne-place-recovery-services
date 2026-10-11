@@ -1,9 +1,10 @@
 import { DisclaimerBox } from '@/components/DisclaimerBox';
 import { PageHero } from '@/components/PageHero';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = {
-  title: "Dianne's Legacy"
-};
+export const metadata = seoFor('/diannes-legacy/');
 
 export default function DiannesLegacyPage() {
   return (
@@ -37,6 +38,8 @@ export default function DiannesLegacyPage() {
         </div>
         <DisclaimerBox />
       </section>
+      <PageFaq path="/diannes-legacy/" />
+      <PageSchema {...schemaFor('/diannes-legacy/')} />
     </main>
   );
 }

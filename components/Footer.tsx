@@ -1,5 +1,8 @@
 import Link from 'next/link';
 import { globalLegal, licensure, site } from '@/lib/content';
+import { siteIdentity } from '@/lib/seo';
+
+const gbp = siteIdentity.googleBusinessProfile;
 
 export function Footer() {
   return (
@@ -14,6 +17,12 @@ export function Footer() {
           <strong>Call:</strong> <a href={site.phoneHref}>{site.phone}</a>
           <br />
           <strong>Email:</strong> <a href={`mailto:${site.email}`}>{site.email}</a>
+          {gbp.found && gbp.mapsCid ? (
+            <>
+              <br />
+              <a href={`https://maps.google.com/?cid=${gbp.mapsCid}`}>Find us on Google</a>
+            </>
+          ) : null}
         </p>
       </section>
 

@@ -624,3 +624,12 @@ textarea {
     grid-template-columns: 1fr;
   }
 }
+
+.definition {
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+.hero-call {
+  margin-top: 1.25rem;
+}

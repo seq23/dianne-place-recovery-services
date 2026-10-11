@@ -1,7 +1,10 @@
 import { PageHero } from '@/components/PageHero';
 import { legal } from '@/lib/content';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = { title: 'Medical Disclaimer' };
+export const metadata = seoFor('/medical-disclaimer/');
 
 export default function MedicalDisclaimerPage() {
   return (
@@ -18,6 +21,8 @@ export default function MedicalDisclaimerPage() {
           substance use crisis, call or text 988.
         </p>
       </section>
+      <PageFaq path="/medical-disclaimer/" />
+      <PageSchema {...schemaFor('/medical-disclaimer/')} />
     </main>
   );
 }

@@ -74,4 +74,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://www.diannesplacerecoveryservices.com/sitemap.xml
+Sitemap: https://detoxdenver.org/sitemap.xml

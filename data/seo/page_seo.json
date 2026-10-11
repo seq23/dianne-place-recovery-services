@@ -1,0 +1,81 @@
+{
+  "note": "Title, description and breadcrumb name per public route. Read by lib/seo.ts (seoFor/schemaFor); validate_page_seo.mjs requires every non-admin route in data/routing/route_registry.json to have an entry. Titles name the page's subject because Search Console shows impressions but no query rows (all anonymised) as of 2026-10-08.",
+  "pages": {
+    "/": {
+      "title": "Dianne's Place Recovery Services | Recovery Housing and Sober Living",
+      "absoluteTitle": true,
+      "name": "Dianne's Place Recovery Services",
+      "description": "Structured, substance-free recovery housing, sober living, and referral support for adults rebuilding life after substance use. Call (720) 588-8864."
+    },
+    "/about/": {
+      "title": "About Dianne's Place Recovery Services",
+      "name": "About",
+      "description": "Who Dianne's Place Recovery Services is: a recovery home built around dignity, structure, accountability, and second chances for adults in recovery."
+    },
+    "/diannes-legacy/": {
+      "title": "Dianne's Legacy: Why Dianne's Place Exists",
+      "name": "Dianne's Legacy",
+      "description": "Dianne's Place is named in honor of the owner's mother, Dianne, whose compassion, strength, and care for others inspired the organization."
+    },
+    "/recovery-housing/": {
+      "title": "Recovery Housing and Structured Sober Living",
+      "name": "Recovery Housing",
+      "description": "What recovery housing at Dianne's Place looks like: a substance-free home base with structure, house expectations, healthy routines, and community."
+    },
+    "/future-services/": {
+      "title": "Future Recovery Services in Development",
+      "name": "Future Services",
+      "description": "Expanded recovery services at Dianne's Place are in development and are described only once licensing and operational milestones are complete."
+    },
+    "/referrals/": {
+      "title": "Recovery Housing Referrals for Families and Providers",
+      "name": "Referrals",
+      "description": "How families, treatment providers, hospitals, case managers, courts, and individuals refer someone to Dianne's Place recovery housing. Call (720) 588-8864."
+    },
+    "/resources/": {
+      "title": "Recovery Resources for People, Families, and Referral Partners",
+      "name": "Resources",
+      "description": "Practical recovery resources from Dianne's Place: crisis contacts, peer support, women in recovery, family support, and community reintegration."
+    },
+    "/answers/": {
+      "title": "Recovery Housing Answers",
+      "name": "Answers",
+      "description": "Short, direct answers about recovery housing, referrals, crisis steps, and what Dianne's Place does and does not provide."
+    },
+    "/blog/": {
+      "title": "Recovery Housing and Sober Living Articles",
+      "name": "Blog",
+      "description": "Plain-language articles on recovery housing readiness, sober routines, family support, referrals, relapse prevention, and life after treatment."
+    },
+    "/contact/": {
+      "title": "Contact Dianne's Place Recovery Services",
+      "name": "Contact",
+      "description": "Call (720) 588-8864 or email Dianne's Place Recovery Services to ask about recovery housing availability, fit, and referrals."
+    },
+    "/privacy/": {
+      "title": "Privacy Policy",
+      "name": "Privacy Policy",
+      "description": "How Dianne's Place Recovery Services handles information shared through this website, and why sensitive health details should not be sent through it."
+    },
+    "/terms/": {
+      "title": "Terms of Service",
+      "name": "Terms of Service",
+      "description": "Terms that govern use of the Dianne's Place Recovery Services website and its recovery housing and resource information."
+    },
+    "/medical-disclaimer/": {
+      "title": "Medical Disclaimer",
+      "name": "Medical Disclaimer",
+      "description": "Dianne's Place website content is general recovery information, not medical advice, diagnosis, or treatment. In a crisis call 911 or 988."
+    },
+    "/outcomes-disclaimer/": {
+      "title": "Outcomes Disclaimer",
+      "name": "Outcomes Disclaimer",
+      "description": "Recovery outcomes vary by person; Dianne's Place does not guarantee results from recovery housing or support services."
+    },
+    "/cookie-policy/": {
+      "title": "Cookie Policy",
+      "name": "Cookie Policy",
+      "description": "Which cookies the Dianne's Place Recovery Services website uses, and how analytics and marketing scripts stay off until you opt in."
+    }
+  }
+}

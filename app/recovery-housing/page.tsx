@@ -2,10 +2,11 @@ import Link from 'next/link';
 import { DisclaimerBox } from '@/components/DisclaimerBox';
 import { SiteImage } from '@/components/media/SiteImage';
 import { PageHero } from '@/components/PageHero';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = {
-  title: 'Recovery Housing'
-};
+export const metadata = seoFor('/recovery-housing/');
 
 export default function RecoveryHousingPage() {
   return (
@@ -50,6 +51,8 @@ export default function RecoveryHousingPage() {
           </Link>
         </div>
       </section>
+      <PageFaq path="/recovery-housing/" />
+      <PageSchema {...schemaFor('/recovery-housing/')} />
     </main>
   );
 }

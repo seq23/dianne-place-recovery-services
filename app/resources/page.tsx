@@ -2,17 +2,18 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { SiteImage } from '@/components/media/SiteImage';
 import { resourceGroups } from '@/lib/content';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = {
-  title: 'Resources'
-};
+export const metadata = seoFor('/resources/');
 
 export default function ResourcesPage() {
   return (
     <main>
       <PageHero
         eyebrow="Recovery resource hub"
-        title="Practical support for people, families, and referral partners."
+        title="Recovery resources for people, families, and referral partners."
         body="Resources are organized to reduce overwhelm and help people find plain-language guidance, supportive next steps, and community connection."
       />
       <section className="content-section">
@@ -37,6 +38,8 @@ export default function ResourcesPage() {
           </a>
         </div>
       </section>
+      <PageFaq path="/resources/" />
+      <PageSchema {...schemaFor('/resources/')} />
     </main>
   );
 }

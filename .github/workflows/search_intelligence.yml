@@ -1,0 +1,54 @@
+name: Search Intelligence
+
+# Search Console truth (28-day analytics, sitemaps, URL Inspection coverage) and
+# the post-deploy IndexNow ping. Collection is a green NAMED STOP until the
+# service account can read the property; it switches to live by itself.
+on:
+  schedule:
+    - cron: '23 11 * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - 'public/sitemap.xml'
+      - 'data/seo/indexnow.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dianne-search-intelligence
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: IndexNow ping once the deploy is live
+        if: ${{ github.event_name != 'schedule' }}
+        run: node scripts/search_intelligence/indexnow_ping.mjs
+      - name: Collect Search Console analytics, sitemaps and index coverage
+        run: node scripts/search_intelligence/collect.mjs
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+      - name: Commit search intelligence only
+        run: |
+          git config user.name "dianne-search-intelligence"
+          git config user.email "actions@github.com"
+          git add data/search_intelligence
+          if git diff --cached --quiet; then
+            echo "No search intelligence changes."
+          else
+            git commit -m "Collect search intelligence"
+            git pull --rebase origin main
+            git push origin main
+          fi

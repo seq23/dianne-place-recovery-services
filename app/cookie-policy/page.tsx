@@ -1,6 +1,9 @@
 import { PageHero } from '@/components/PageHero';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = { title: 'Cookie Policy' };
+export const metadata = seoFor('/cookie-policy/');
 
 export default function CookiePolicyPage() {
   return (
@@ -22,6 +25,8 @@ export default function CookiePolicyPage() {
           them.
         </p>
       </section>
+      <PageFaq path="/cookie-policy/" />
+      <PageSchema {...schemaFor('/cookie-policy/')} />
     </main>
   );
 }

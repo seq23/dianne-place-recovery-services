@@ -1,6 +1,8 @@
 import { notFound } from 'next/navigation';
 import calendar from '@/data/content/content_calendar.json';
 import { DisclaimerBox } from '@/components/DisclaimerBox';
+import { PageSchema } from '@/components/PageSchema';
+import { absoluteUrl, organizationId, pageMetadata } from '@/lib/seo';
 import { publishedItems, resolveReleaseDate } from '../../../lib/publication.mjs';
 
 type ContentItem = {
@@ -8,6 +10,7 @@ type ContentItem = {
   status: string;
   title: string;
   slug: string;
+  routeTarget: string;
   scheduledAt: string;
   contentType: string;
   audience: string;
@@ -46,10 +49,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const item = items.find((entry) => entry.slug === params.slug);
   if (!item) return {};
-  return {
-    title: item.title,
-    description: item.directAnswer
-  };
+  return pageMetadata({ path: item.routeTarget, title: item.title, description: item.directAnswer });
 }
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
@@ -59,7 +59,12 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
+    '@id': `${absoluteUrl(item.routeTarget)}#article`,
+    mainEntityOfPage: { '@id': `${absoluteUrl(item.routeTarget)}#webpage` },
+    url: absoluteUrl(item.routeTarget),
     headline: item.title,
+    publisher: { '@id': organizationId },
+    image: absoluteUrl('/og-image.png'),
     datePublished: item.scheduledAt,
     about: item.audience,
     description: item.directAnswer,
@@ -129,6 +134,13 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         <DisclaimerBox />
       </section>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      <PageSchema
+        path={item.routeTarget}
+        name={item.title}
+        description={item.directAnswer}
+        crumbs={[{ name: 'Blog', path: '/blog/' }]}
+        faq={item.faq}
+      />
     </main>
   );
 }

@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import { DisclaimerBox } from '@/components/DisclaimerBox';
 import { PageHero } from '@/components/PageHero';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = {
-  title: 'About'
-};
+export const metadata = seoFor('/about/');
 
 export default function AboutPage() {
   return (
@@ -48,6 +49,8 @@ export default function AboutPage() {
           </Link>
         </div>
       </section>
+      <PageFaq path="/about/" />
+      <PageSchema {...schemaFor('/about/')} />
     </main>
   );
 }

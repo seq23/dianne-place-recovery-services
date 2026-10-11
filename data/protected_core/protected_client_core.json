@@ -9,7 +9,7 @@
     },
     {
       "path": "app/about/page.tsx",
-      "sha256": "3d108ea97be6ac4f1709f379bee156e22cf48b1436bd987d431303474762d4f4"
+      "sha256": "575b008b92d6982bf6a10e45580c2e5bb9a1e11d579dd401920b487e71faa433"
     },
     {
       "path": "app/admin/content/ContentOpsDashboard.tsx",
@@ -37,73 +37,73 @@
     },
     {
       "path": "app/answers/page.tsx",
-      "sha256": "0c09ff836154e609e2209d5a3d3e4caf0cf13b81b99831359c8161f68997453c"
+      "sha256": "1a6b423073291660340528af20676bd55b99081fe71038c38a76799b92c1a890"
     },
     {
       "path": "app/blog/[slug]/page.tsx",
-      "sha256": "42eca9ef65832a01c5ad613973c62c5692e883d7818ebadd8e376fe330938a44",
+      "sha256": "1a198d27762d9e136cd760163f6eb680aaef29e1537284797e7335c54b8b9caa",
       "revision_note": "Re-recorded 2026-08-27. Both blog routes now import the shared publication predicate from lib/publication.mjs instead of each carrying its own copy of `status === 'approved' && scheduledAt <= releaseDate`. Byte-changed, behaviour identical: verified across all 178 calendar items, 0 disagreements, same 52 published, and resolveReleaseDate() resolves the same env chain. Reason for the change: the sitemap builder and the renderer decided 'published' separately, so they could drift and the sitemap could advertise a route the renderer would 404."
     },
     {
       "path": "app/blog/page.tsx",
-      "sha256": "aba5ad4836e23d585ec749ce2eef7c6fa8dd70a7f0ce60557037354e15f84a08",
+      "sha256": "3639c81494bc3e2af7573d7e009eedafafa16f577bc56fe75f9fd24eeb9e6f6d",
       "revision_note": "Re-recorded 2026-08-27. Both blog routes now import the shared publication predicate from lib/publication.mjs instead of each carrying its own copy of `status === 'approved' && scheduledAt <= releaseDate`. Byte-changed, behaviour identical: verified across all 178 calendar items, 0 disagreements, same 52 published, and resolveReleaseDate() resolves the same env chain. Reason for the change: the sitemap builder and the renderer decided 'published' separately, so they could drift and the sitemap could advertise a route the renderer would 404."
     },
     {
       "path": "app/contact/page.tsx",
-      "sha256": "4d6d9fad622a19fd021398cab773cd06d618e03582131ce58137b877c09e4653"
+      "sha256": "36ebeb6dab85d6438081e8bd88d11ac95deaee85b7509d1e9205c09d7d1d3b02"
     },
     {
       "path": "app/cookie-policy/page.tsx",
-      "sha256": "54ef49dda81845b60ab8542bc9c56b4866276c65818dc14787c0e5996669a069"
+      "sha256": "19490ee64dde92aaf9976879db961313ae1b52e6445d818dda9fe43ca4ea14a7"
     },
     {
       "path": "app/diannes-legacy/page.tsx",
-      "sha256": "2b38f7f7aaa55ef56b755be67d742858bd18a21da786a04e80ce9082e5d74f18"
+      "sha256": "480ed9ad0094e8b03a720f243a7ec477b4ad5b79294749a4a7c03297c362fde5"
     },
     {
       "path": "app/future-services/page.tsx",
-      "sha256": "f6f3a4143a602649c95ce38c8c3d91d501dd65db8ca8ca045e306f9cb09dba80"
+      "sha256": "0340a5aed3c3f891492df025c1d033232c4b46bce67c7825804e269f79f2a9ec"
     },
     {
       "path": "app/globals.css",
-      "sha256": "f4dfef8909969f418d3ca67b641bc98e5d30886dc9d81ae4cf3a71faa8de65bf"
+      "sha256": "d8668f19721e1edfe7d453002b0377a986b4a846ac10c31ff7db4b8f62d6f369"
     },
     {
       "path": "app/layout.tsx",
-      "sha256": "9ffa6323ecf360b95532a89ceabc472265f3bcf6495002f44bc9b42017599842"
+      "sha256": "838c0e1d18da7908af5e30e53e0e2492bb130af6053ca38a30eeda898c3bb618"
     },
     {
       "path": "app/medical-disclaimer/page.tsx",
-      "sha256": "5f3c130d09d86664440c3cf5323a610b5b9cd81eabb1cff6904ae835b80fbe9d"
+      "sha256": "5e1ae39adb66b492d16d0981c095c94c66aecd73bb94067941d9031c9cec43e7"
     },
     {
       "path": "app/outcomes-disclaimer/page.tsx",
-      "sha256": "a6b3dd16437f3b9f78ea5b71b716ff8b26869a7dbb274594295743b6d4cea2a2"
+      "sha256": "27f9f4ad425988741795305160b35d4d7e37de1cc81ea1dd99bcc96cc91f5814"
     },
     {
       "path": "app/page.tsx",
-      "sha256": "32a2618bd498bd1a4f2b033ce9c5d598588d91c012fbb315b3dc50ae8a9fff04"
+      "sha256": "545fd5d80fc3c58ad3e88dd2dea4498593d2fae81a0fa6930b758d9584a93476"
     },
     {
       "path": "app/privacy/page.tsx",
-      "sha256": "7f5a7028379dff6c9b7dc01d4e6edbf16a94028fbd6ca7d62b756ddd0c4ad19b"
+      "sha256": "f57fee1efd7afc505a9313b77070d70780cabdb96220cc80b56bd28410c8abf1"
     },
     {
       "path": "app/recovery-housing/page.tsx",
-      "sha256": "8a64a721e4ec81504cb9180828fd33e721a61a1e52c8c73e6d1f5d6f991de84b"
+      "sha256": "58f0b97131c16c9ed15c458346bf5c846fde34841e9ad11ee9fddcaf81fedc57"
     },
     {
       "path": "app/referrals/page.tsx",
-      "sha256": "ecc610f5fa9de49c79838538d1e9cb1d776434e302b28748c0108ab8875f2642"
+      "sha256": "a8acd661055d66af7c1c9bdabd399886f3f080e659800c05303888fd82e0f38d"
     },
     {
       "path": "app/resources/page.tsx",
-      "sha256": "072c36336b74857e3017106bbf2ecd8b8fcb367df0b0bbe628aa699c8947b784"
+      "sha256": "4f37a8467bfc8a244068ba95b5e8536397a1f9b4fff3f1d54ab364a461c97f0e"
     },
     {
       "path": "app/terms/page.tsx",
-      "sha256": "56a8359ae4c9092df9ee6403e6d703e82b8d2a957b711c3bdc100fddfca1613f"
+      "sha256": "de6ebf92727201209baecde0a60322bb04ff1b48dbb7cf0e24a9422550f0082a"
     },
     {
       "path": "components/CookieConsent.tsx",
@@ -119,7 +119,7 @@
     },
     {
       "path": "components/Footer.tsx",
-      "sha256": "836be061d9b42df169f08768a356f0d484d708e1348d90878580fc478bebfe1c"
+      "sha256": "0d0326aed3961ee57ce0889a205ccac193eadff421754323942956f737c05b5e"
     },
     {
       "path": "components/Header.tsx",
@@ -127,7 +127,7 @@
     },
     {
       "path": "components/PageHero.tsx",
-      "sha256": "35b53ffd585199fd9cac27aedaab386209dfa4cbaedd935ef5f428348dbe21f9"
+      "sha256": "1adb0cbc8fc8bedbb66437cbfcc9144500545d9a157ec9ce807dec7de32d0ded"
     },
     {
       "path": "components/media/SiteImage.tsx",
@@ -199,6 +199,34 @@
       ],
       "change": "Adopt shared publication predicate in both blog routes",
       "equivalence": "178 items checked, 0 disagreements, 52 published before and after",
+      "policy_note": "Byte-identity was deliberately re-baselined, not bypassed. The guard still fails on any further drift."
+    },
+    {
+      "date": "2026-10-11",
+      "files": [
+        "app/about/page.tsx",
+        "app/answers/page.tsx",
+        "app/blog/[slug]/page.tsx",
+        "app/blog/page.tsx",
+        "app/contact/page.tsx",
+        "app/cookie-policy/page.tsx",
+        "app/diannes-legacy/page.tsx",
+        "app/future-services/page.tsx",
+        "app/globals.css",
+        "app/layout.tsx",
+        "app/medical-disclaimer/page.tsx",
+        "app/outcomes-disclaimer/page.tsx",
+        "app/page.tsx",
+        "app/privacy/page.tsx",
+        "app/recovery-housing/page.tsx",
+        "app/referrals/page.tsx",
+        "app/resources/page.tsx",
+        "app/terms/page.tsx",
+        "components/Footer.tsx",
+        "components/PageHero.tsx"
+      ],
+      "change": "SEO hygiene and demand pass approved by the owner 11 Oct 2026: self-canonical on detoxdenver.org (pages had canonicalised to a different host's homepage), per-page title/description from data/seo/page_seo.json, icons + og:image + twitter card, LocalBusiness/WebSite/WebPage/BreadcrumbList/FAQPage JSON-LD, homepage definition paragraph under the H1, phone CTA in PageHero, consent-gated Clarity loader, four H1s aligned to their page subject.",
+      "equivalence": "No licensure, admin, publishing or legal-copy behaviour changed; legal/disclaimer copy untouched; forbidden pre-license phrases still validated.",
       "policy_note": "Byte-identity was deliberately re-baselined, not bypassed. The guard still fails on any further drift."
     }
   ]

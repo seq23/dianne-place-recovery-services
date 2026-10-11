@@ -1,6 +1,9 @@
 import { PageHero } from '@/components/PageHero';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = { title: 'Terms of Service' };
+export const metadata = seoFor('/terms/');
 
 export default function TermsPage() {
   return (
@@ -21,6 +24,8 @@ export default function TermsPage() {
           Users should contact Dianne&apos;s Place directly for current availability and eligibility.
         </p>
       </section>
+      <PageFaq path="/terms/" />
+      <PageSchema {...schemaFor('/terms/')} />
     </main>
   );
 }

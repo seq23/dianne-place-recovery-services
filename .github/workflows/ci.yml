@@ -35,3 +35,6 @@ jobs:
 
       - name: Validate all
         run: npm run validate:all
+
+      - name: Validate built SEO output
+        run: npm run validate:seo-output

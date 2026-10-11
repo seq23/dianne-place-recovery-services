@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-10-11T14:05:08.622Z",
+  "impressions_source": "data/search_intelligence/gsc_portfolio_export_2026-10-08.json",
+  "thin_threshold_main_words": 300,
+  "sitemap_pages": 112,
+  "pages_with_impressions": 10,
+  "rule": "zero impressions in the 28-day window AND fewer than 300 words in <main>; candidates for merging into a stronger page, never auto-removed",
+  "candidates": [
+    {
+      "path": "/about/",
+      "url": "https://detoxdenver.org/about/",
+      "impressions_28d": 0,
+      "main_words": 171
+    },
+    {
+      "path": "/diannes-legacy/",
+      "url": "https://detoxdenver.org/diannes-legacy/",
+      "impressions_28d": 0,
+      "main_words": 176
+    },
+    {
+      "path": "/recovery-housing/",
+      "url": "https://detoxdenver.org/recovery-housing/",
+      "impressions_28d": 0,
+      "main_words": 195
+    },
+    {
+      "path": "/future-services/",
+      "url": "https://detoxdenver.org/future-services/",
+      "impressions_28d": 0,
+      "main_words": 169
+    },
+    {
+      "path": "/privacy/",
+      "url": "https://detoxdenver.org/privacy/",
+      "impressions_28d": 0,
+      "main_words": 173
+    },
+    {
+      "path": "/cookie-policy/",
+      "url": "https://detoxdenver.org/cookie-policy/",
+      "impressions_28d": 0,
+      "main_words": 75
+    }
+  ]
+}

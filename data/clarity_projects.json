@@ -1,0 +1,4 @@
+{
+  "note": "Microsoft Clarity project ids keyed by hostname (www. stripped). Read at build by components/ClarityLoader.tsx; the loader only runs after the visitor opts in to Functional / Analytics cookies.",
+  "projects": {}
+}
