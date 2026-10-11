@@ -2,17 +2,18 @@ import { DisclaimerBox } from '@/components/DisclaimerBox';
 import { SiteImage } from '@/components/media/SiteImage';
 import { PageHero } from '@/components/PageHero';
 import { site } from '@/lib/content';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = {
-  title: 'Contact'
-};
+export const metadata = seoFor('/contact/');
 
 export default function ContactPage() {
   return (
     <main>
       <PageHero
         eyebrow="Contact Dianne's Place"
-        title="Reach out when you are ready for the next step."
+        title="Contact Dianne's Place about recovery housing."
         body="Whether you are seeking recovery housing, making a referral, supporting a loved one, or asking questions, Dianne's Place is here to respond with care."
       />
       <section className="content-section">
@@ -63,6 +64,8 @@ export default function ContactPage() {
         </form>
         <DisclaimerBox />
       </section>
+      <PageFaq path="/contact/" />
+      <PageSchema {...schemaFor('/contact/')} />
     </main>
   );
 }

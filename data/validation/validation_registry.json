@@ -168,6 +168,62 @@
       "severity": "hard",
       "category": "future_publishing",
       "risk": "Future content must be deterministic, diverse, append-only, licensure-safe, and visible in the unchanged admin flow."
+    },
+    {
+      "id": "site-identity",
+      "script": "validate:site-identity",
+      "severity": "hard",
+      "category": "seo",
+      "risk": "Canonicals, sitemap and robots pointing at another host hand every page to a different site."
+    },
+    {
+      "id": "page-seo",
+      "script": "validate:page-seo",
+      "severity": "hard",
+      "category": "seo",
+      "risk": "Pages without their own title/description or a definition paragraph lose snippet and answer-engine eligibility."
+    },
+    {
+      "id": "clarity",
+      "script": "validate:clarity",
+      "severity": "hard",
+      "category": "analytics",
+      "risk": "Clarity must be keyed by hostname and load only after analytics consent."
+    },
+    {
+      "id": "indexnow",
+      "script": "validate:indexnow",
+      "severity": "hard",
+      "category": "distribution",
+      "risk": "A key file that does not match the key makes every IndexNow submission fail."
+    },
+    {
+      "id": "search-intelligence",
+      "script": "validate:search-intelligence",
+      "severity": "hard",
+      "category": "measurement",
+      "risk": "Without Search Console collection the site has no index or query truth."
+    },
+    {
+      "id": "seo-hygiene-output",
+      "script": "validate:seo-hygiene-output",
+      "severity": "hard",
+      "category": "seo",
+      "risk": "Built pages missing favicon, og:image, twitter card or self-canonical."
+    },
+    {
+      "id": "structured-data-output",
+      "script": "validate:structured-data-output",
+      "severity": "hard",
+      "category": "seo",
+      "risk": "Built pages missing LocalBusiness/WebSite/WebPage/Breadcrumb JSON-LD or claiming invisible FAQ."
+    },
+    {
+      "id": "local-contact-output",
+      "script": "validate:local-contact-output",
+      "severity": "hard",
+      "category": "conversion",
+      "risk": "A local service page without a callable phone link loses the lead."
     }
   ]
 }

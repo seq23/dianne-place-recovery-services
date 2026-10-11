@@ -1,0 +1,7 @@
+{
+  "host": "detoxdenver.org",
+  "key": "95f36c359fd787bd168befb2f4054ac5",
+  "keyLocation": "https://detoxdenver.org/95f36c359fd787bd168befb2f4054ac5.txt",
+  "endpoint": "https://api.indexnow.org/indexnow",
+  "note": "IndexNow keys are public by design (served as a file); not a secret."
+}

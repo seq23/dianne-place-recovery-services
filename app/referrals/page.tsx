@@ -2,17 +2,18 @@ import Link from 'next/link';
 import { DisclaimerBox } from '@/components/DisclaimerBox';
 import { SiteImage } from '@/components/media/SiteImage';
 import { PageHero } from '@/components/PageHero';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = {
-  title: 'Referrals'
-};
+export const metadata = seoFor('/referrals/');
 
 export default function ReferralsPage() {
   return (
     <main>
       <PageHero
         eyebrow="Referral partners and families"
-        title="A clear path for helping someone take the next step."
+        title="Recovery housing referrals: a clear path to the next step."
         body="Dianne's Place welcomes inquiries from individuals, families, treatment providers, hospitals, therapists, case managers, probation and parole officers, social service agencies, and community partners."
       />
       <section className="content-section">
@@ -53,6 +54,8 @@ export default function ReferralsPage() {
           Start a Referral Conversation
         </Link>
       </section>
+      <PageFaq path="/referrals/" />
+      <PageSchema {...schemaFor('/referrals/')} />
     </main>
   );
 }

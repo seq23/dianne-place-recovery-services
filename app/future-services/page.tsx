@@ -1,10 +1,11 @@
 import { DisclaimerBox } from '@/components/DisclaimerBox';
 import { PageHero } from '@/components/PageHero';
 import { licensure } from '@/lib/content';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = {
-  title: 'Future Services'
-};
+export const metadata = seoFor('/future-services/');
 
 export default function FutureServicesPage() {
   return (
@@ -25,6 +26,8 @@ export default function FutureServicesPage() {
         </p>
         <DisclaimerBox />
       </section>
+      <PageFaq path="/future-services/" />
+      <PageSchema {...schemaFor('/future-services/')} />
     </main>
   );
 }

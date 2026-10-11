@@ -34,7 +34,15 @@
     "validate:content": "node scripts/validators/validate_content.mjs",
     "validate:legal": "node scripts/validators/validate_legal.mjs",
     "validate:a11y-static": "node scripts/validators/validate_a11y_static.mjs",
-    "validate:hard": "npm run strategy:gate && npm run repo-work-os:audit && npm run validate:validation-registry && npm run strategy:validate && npm run validate:licensure-mode && npm run validate:content && npm run validate:legal && npm run validate:a11y-static && npm run validate:workflow-contract && npm run validate:admin-security && npm run validate:media-representation && npm run validate:aeo-seo-geo && npm run validate:blog-routes && npm run validate:admin-content-controls && npm run validate:repo-work-os-compliance && npm run validate:repo && npm run validate:authority-modernization",
+    "validate:site-identity": "node scripts/validators/validate_site_identity.mjs",
+    "validate:page-seo": "node scripts/validators/validate_page_seo.mjs",
+    "validate:clarity": "node scripts/validators/validate_clarity.mjs",
+    "validate:indexnow": "node scripts/validators/validate_indexnow.mjs",
+    "validate:search-intelligence": "node scripts/validators/validate_search_intelligence.mjs",
+    "validate:seo-hygiene-output": "node scripts/validators/validate_seo_hygiene_output.mjs",
+    "validate:structured-data-output": "node scripts/validators/validate_structured_data_output.mjs",
+    "validate:local-contact-output": "node scripts/validators/validate_local_contact_output.mjs",
+    "validate:hard": "npm run strategy:gate && npm run repo-work-os:audit && npm run validate:validation-registry && npm run strategy:validate && npm run validate:licensure-mode && npm run validate:content && npm run validate:legal && npm run validate:a11y-static && npm run validate:workflow-contract && npm run validate:admin-security && npm run validate:media-representation && npm run validate:aeo-seo-geo && npm run validate:site-identity && npm run validate:page-seo && npm run validate:clarity && npm run validate:indexnow && npm run validate:search-intelligence && npm run validate:blog-routes && npm run validate:admin-content-controls && npm run validate:repo-work-os-compliance && npm run validate:repo && npm run validate:authority-modernization",
     "validate:soft": "npm run validate:dependency-lock && npm run validate:content-style-policy && npm run validate:future-content-self-heal",
     "validate:all": "npm run validate:hard && npm run validate:soft && npm run validate:demand-backed-pages",
     "validate:release": "npm run content:generate-backlog && npm run content:self-produce && npm run release:state && npm run content:build-admin-manifest && npm run content:build-answers && npm run seo:build-sitemap && npm run release:daily-proof && npm run release:self-heal && npm run validate:all",
@@ -58,7 +66,10 @@
     "validate:protected-client-core": "node scripts/authority_scale/validate_protected_client_core.mjs",
     "validate:post-2026-continuity": "node scripts/continuity/validate_post_2026_continuity.mjs",
     "validate:authority-modernization": "npm run validate:protected-client-core && npm run validate:authority-fanout && npm run validate:authority-kpi && npm run validate:authority-recommendations && npm run validate:authority-distribution && npm run validate:post-2026-continuity",
-    "validate:demand-backed-pages": "node scripts/validate/demand-backed-pages.mjs"
+    "validate:demand-backed-pages": "node scripts/validate/demand-backed-pages.mjs",
+    "validate:seo-output": "npm run validate:seo-hygiene-output && npm run validate:structured-data-output && npm run validate:local-contact-output",
+    "search:consolidation": "node scripts/search_intelligence/build_consolidation_candidates.mjs",
+    "search:collect": "node scripts/search_intelligence/collect.mjs"
   },
   "dependencies": {
     "next": "14.2.23",

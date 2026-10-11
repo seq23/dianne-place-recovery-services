@@ -1,0 +1,87 @@
+{
+  "site": "sc-domain:detoxdenver.org",
+  "permission": "siteFullUser",
+  "start_date": "2026-09-11",
+  "end_date": "2026-10-08",
+  "totals": {
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 4.2
+  },
+  "query_count": 0,
+  "pages_with_impressions": 12,
+  "top_queries": [],
+  "top_pages": [
+    {
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.3,
+      "page": "https://detoxdenver.org/"
+    },
+    {
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 4.7,
+      "page": "https://detoxdenver.org/blog/"
+    },
+    {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6,
+      "page": "https://detoxdenver.org/referrals/"
+    },
+    {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5,
+      "page": "https://detoxdenver.org/resources/"
+    },
+    {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8,
+      "page": "https://detoxdenver.org/terms/"
+    },
+    {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7,
+      "page": "https://www.detoxdenver.org/contact/"
+    },
+    {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3,
+      "page": "https://detoxdenver.org/blog/2026-09-08-women-in-recovery/"
+    },
+    {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "page": "https://detoxdenver.org/blog/2026-09-25-referral-guidance/"
+    },
+    {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3,
+      "page": "https://detoxdenver.org/medical-disclaimer/"
+    },
+    {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9,
+      "page": "https://detoxdenver.org/outcomes-disclaimer/"
+    }
+  ]
+}

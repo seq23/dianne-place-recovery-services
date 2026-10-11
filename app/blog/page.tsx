@@ -2,10 +2,11 @@ import Link from 'next/link';
 import contentCalendar from '@/data/content/content_calendar.json';
 import { PageHero } from '@/components/PageHero';
 import { publishedItems, resolveReleaseDate } from '../../lib/publication.mjs';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = {
-  title: 'Recovery Resources'
-};
+export const metadata = seoFor('/blog/');
 
 type ContentItem = {
   id: string;
@@ -30,7 +31,7 @@ export default function BlogPage() {
     <main>
       <PageHero
         eyebrow="Recovery resources"
-        title="Plain-language support for safer next steps."
+        title="Recovery housing and sober living articles."
         body="Explore recovery housing, referral support, family guidance, and practical education written with dignity, care, and clear safety boundaries."
       />
       <section className="content-section">
@@ -57,6 +58,8 @@ export default function BlogPage() {
           <p>Recovery resources will appear here as scheduled posts are released.</p>
         ) : null}
       </section>
+      <PageFaq path="/blog/" />
+      <PageSchema {...schemaFor('/blog/')} />
     </main>
   );
 }

@@ -1,9 +1,10 @@
 import answerFeed from '@/public/answers.json';
 import { PageHero } from '@/components/PageHero';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = {
-  title: 'Answers'
-};
+export const metadata = seoFor('/answers/');
 
 type Answer = {
   id: string;
@@ -47,6 +48,8 @@ export default function AnswersPage() {
         </div>
       </section>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <PageFaq path="/answers/" />
+      <PageSchema {...schemaFor('/answers/')} />
     </main>
   );
 }

@@ -19,6 +19,13 @@ const batchUrls = readLines('data/distribution/indexnow_batch.txt');
 const priorityUrls = readLines('data/distribution/priority_urls.txt');
 if (!batchUrls.length) throw new Error('Distribution batch is empty.');
 const host = new URL(batchUrls[0]).host;
+// Repo-committed defaults (IndexNow keys are public; the property follows the host).
+const indexnowCfg = fs.existsSync('data/seo/indexnow.json') ? readJson('data/seo/indexnow.json') : {};
+if (!process.env.INDEXNOW_KEY && indexnowCfg.host === host) {
+  process.env.INDEXNOW_KEY = indexnowCfg.key;
+  process.env.INDEXNOW_KEY_LOCATION = indexnowCfg.keyLocation;
+}
+if (!process.env.GSC_SITE_URL) process.env.GSC_SITE_URL = `sc-domain:${host}`;
 
 function base64url(value) {
   return Buffer.from(value).toString('base64url');

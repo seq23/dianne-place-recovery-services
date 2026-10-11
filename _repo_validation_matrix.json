@@ -23,7 +23,15 @@
     "validate:authority-fanout",
     "validate:authority-kpi",
     "validate:authority-distribution",
-    "validate:post-2026-continuity"
+    "validate:post-2026-continuity",
+    "validate:site-identity",
+    "validate:page-seo",
+    "validate:clarity",
+    "validate:indexnow",
+    "validate:search-intelligence",
+    "validate:seo-hygiene-output",
+    "validate:structured-data-output",
+    "validate:local-contact-output"
   ],
   "strongSoftValidators": [
     "validate:dependency-lock",

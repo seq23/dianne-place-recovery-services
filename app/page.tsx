@@ -1,7 +1,12 @@
 import Link from 'next/link';
 import { DisclaimerBox } from '@/components/DisclaimerBox';
 import { SiteImage } from '@/components/media/SiteImage';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
 import { legal, serviceCards, site } from '@/lib/content';
+import { schemaFor, seoFor, siteIdentity } from '@/lib/seo';
+
+export const metadata = seoFor('/');
 
 export default function HomePage() {
   return (
@@ -10,10 +15,11 @@ export default function HomePage() {
         <div className="hero-copy">
           <p className="eyebrow">Recovery housing and support services</p>
           <h1>A safe, structured place to begin again.</h1>
+          <p className="definition" id="definition">
+            {siteIdentity.definition}
+          </p>
           <p className="hero-script-line">held with dignity, care, and room to breathe</p>
           <p>
-            Dianne&apos;s Place Recovery Services provides compassionate recovery housing
-            and connection-focused support for adults rebuilding life after substance use.
             Expanded services are being developed with care as licensing and operational
             milestones are completed.
           </p>
@@ -74,6 +80,8 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+      <PageFaq path="/" />
+      <PageSchema {...schemaFor('/')} speakableSelectors={['#definition']} />
     </main>
   );
 }

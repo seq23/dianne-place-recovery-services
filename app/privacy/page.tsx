@@ -1,7 +1,10 @@
 import { PageHero } from '@/components/PageHero';
 import { legal } from '@/lib/content';
+import { PageFaq } from '@/components/PageFaq';
+import { PageSchema } from '@/components/PageSchema';
+import { schemaFor, seoFor } from '@/lib/seo';
 
-export const metadata = { title: 'Privacy Policy' };
+export const metadata = seoFor('/privacy/');
 
 export default function PrivacyPage() {
   return (
@@ -26,6 +29,8 @@ export default function PrivacyPage() {
           compliance controls permit them.
         </p>
       </section>
+      <PageFaq path="/privacy/" />
+      <PageSchema {...schemaFor('/privacy/')} />
     </main>
   );
 }
