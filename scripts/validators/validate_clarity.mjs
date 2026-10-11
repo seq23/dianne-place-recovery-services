@@ -8,6 +8,8 @@ for (const [host, pid] of Object.entries(cfg.projects)) {
   assert(/^[a-z0-9.-]+\.[a-z]+$/.test(host) && !host.startsWith('www.'), `clarity host key must be a bare hostname without www.: ${host}`);
   assert(/^[a-z0-9]{8,12}$/.test(pid), `clarity project id for ${host} looks wrong: ${pid}`);
 }
+// Pinned 2026-10-11: the project created for this site; the canonical host must resolve to it.
+assert(cfg.projects['detoxdenver.org'] === 'yw33z6e8yr', 'clarity project for detoxdenver.org must be yw33z6e8yr');
 const loader = readText('components/ClarityLoader.tsx');
 assert(loader.includes("clarity_projects.json"), 'ClarityLoader must read data/clarity_projects.json');
 assert(loader.includes('dprs-cookie-preferences') && loader.includes('functional'), 'ClarityLoader must wait for Functional/Analytics consent');

@@ -1,4 +1,7 @@
 {
-  "note": "Microsoft Clarity project ids keyed by hostname (www. stripped). Read at build by components/ClarityLoader.tsx; the loader only runs after the visitor opts in to Functional / Analytics cookies.",
-  "projects": {}
+  "note": "Microsoft Clarity project ids keyed by hostname (www. stripped). Read at build by components/ClarityLoader.tsx; the loader only runs after the visitor opts in to Functional / Analytics cookies. www. is stripped by the loader, so bare hostnames cover both variants. diannesplacerecoveryservices.com is listed so the map resolves if this build is ever served there; today that host runs a separate Webador site.",
+  "projects": {
+    "detoxdenver.org": "yw33z6e8yr",
+    "diannesplacerecoveryservices.com": "yw33z6e8yr"
+  }
 }
