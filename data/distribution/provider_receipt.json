@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-10-10T12-38-16.102Z-38052650409",
-  "attempted_at": "2026-10-10T12:38:16.102Z",
+  "receipt_id": "2026-10-11T12-39-42.723Z-38140077106",
+  "attempted_at": "2026-10-11T12:39:42.723Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,8 +15,8 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://www.diannesplacerecoveryservices.com/sitemap.xml",
-    "sitemap_sha256": "96d5fc658cb3222dcdfd77bca820ceabd55a73206324bf3a087aa6b88df9fe0d",
-    "url_count": 111
+    "sitemap_sha256": "31bc4bc23887bc3012b829f4713203f230dc05254915639ed6e84e5e7e425fbc",
+    "url_count": 112
   },
   "indexnow": {
     "status": "NOT_CONFIGURED",
@@ -37,7 +37,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-10-10T12-38-16.102Z-38052650409.json"
+    "history_path": "data/distribution/receipts/2026-10-11T12-39-42.723Z-38140077106.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
