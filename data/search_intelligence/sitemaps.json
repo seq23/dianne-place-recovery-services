@@ -1,11 +1,7 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "checked_at": "2026-10-11T14:19:28.286Z",
-  "submitted_this_run": {
-    "sitemap": "https://detoxdenver.org/sitemap.xml",
-    "http_status": 204,
-    "ok": true
-  },
+  "checked_at": "2026-10-12T11:35:44.709Z",
+  "submitted_this_run": null,
   "sitemaps": [
     {
       "path": "https://detoxdenver.org/sitemap.xml",

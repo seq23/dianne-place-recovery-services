@@ -1,21 +1,21 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-09-12",
-  "end_date": "2026-10-09",
-  "collected_at": "2026-10-11T14:19:27.718Z",
+  "start_date": "2026-09-13",
+  "end_date": "2026-10-10",
+  "collected_at": "2026-10-12T11:35:44.631Z",
   "totals": {
     "clicks": 0,
-    "impressions": 4,
+    "impressions": 6,
     "ctr": 0,
-    "position": 4.25
+    "position": 5
   },
   "pages": [
     {
       "page": "https://detoxdenver.org/",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 6.333333333333333
+      "position": 5.25
     },
     {
       "page": "https://detoxdenver.org/blog/",
@@ -41,9 +41,9 @@
     {
       "page": "https://detoxdenver.org/medical-disclaimer/",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 3
+      "position": 7
     },
     {
       "page": "https://detoxdenver.org/outcomes-disclaimer/",
@@ -83,9 +83,9 @@
     {
       "page": "https://www.detoxdenver.org/contact/",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 7
+      "position": 6.333333333333333
     },
     {
       "page": "https://www.detoxdenver.org/diannes-legacy/",
