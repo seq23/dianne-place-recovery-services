@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-10-12T12-58-57.766Z-38252439136",
-  "attempted_at": "2026-10-12T12:58:57.766Z",
+  "receipt_id": "2026-10-12T14-05-44.938Z-38260321346",
+  "attempted_at": "2026-10-12T14:05:44.938Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -79,7 +79,7 @@
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
-        "coverage_state": "URL is unknown to Google",
+        "coverage_state": "Discovered - currently not indexed",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
       },
@@ -123,10 +123,10 @@
         "url": "https://detoxdenver.org/blog/2026-10-11-recovery-housing-readiness/",
         "status": "SUCCESS",
         "http_status": 200,
-        "verdict": "NEUTRAL",
-        "coverage_state": "URL is unknown to Google",
-        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-        "last_crawl_time": null
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-12T13:14:22Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-10-10-community-reintegration/",
@@ -141,10 +141,10 @@
         "url": "https://detoxdenver.org/blog/2026-10-09-employment-and-education/",
         "status": "SUCCESS",
         "http_status": 200,
-        "verdict": "NEUTRAL",
-        "coverage_state": "URL is unknown to Google",
-        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-        "last_crawl_time": null
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-12T13:40:08Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-10-08-relapse-prevention/",
@@ -205,7 +205,7 @@
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
-        "coverage_state": "URL is unknown to Google",
+        "coverage_state": "Discovered - currently not indexed",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
       },
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-10-12T12-58-57.766Z-38252439136.json"
+    "history_path": "data/distribution/receipts/2026-10-12T14-05-44.938Z-38260321346.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
