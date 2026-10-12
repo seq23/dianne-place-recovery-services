@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
   "generated_at": "2026-07-25T00:00:00.000Z",
-  "url_count": 112,
+  "url_count": 113,
   "priority_url_count": 20,
   "sitemap_path": "public/sitemap.xml",
-  "sitemap_url": "https://www.diannesplacerecoveryservices.com/sitemap.xml",
-  "sitemap_sha256": "31bc4bc23887bc3012b829f4713203f230dc05254915639ed6e84e5e7e425fbc",
+  "sitemap_url": "https://detoxdenver.org/sitemap.xml",
+  "sitemap_sha256": "e81c0ef7dc1d2ea0d3de3b6a0405fe914ed53bfde80b4536c372bbc994de9fba",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
