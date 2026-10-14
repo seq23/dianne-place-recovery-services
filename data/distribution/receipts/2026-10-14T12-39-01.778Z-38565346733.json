@@ -1,0 +1,235 @@
+{
+  "schema_version": "2.0",
+  "receipt_id": "2026-10-14T12-39-01.778Z-38565346733",
+  "attempted_at": "2026-10-14T12:39:01.778Z",
+  "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
+  "chain": [
+    "successful_publish",
+    "sitemap_refresh",
+    "indexnow",
+    "gsc_sitemap_submission",
+    "priority_url_inspection_where_configured",
+    "durable_distribution_receipt",
+    "observation_feedback"
+  ],
+  "sitemap_refresh": {
+    "status": "SUCCESS",
+    "sitemap_url": "https://detoxdenver.org/sitemap.xml",
+    "sitemap_sha256": "a34f5bc8f352492f9ea0ad8ba0e0e4c6aff1b8fdfdc713ef39ba2754db51003b",
+    "url_count": 115
+  },
+  "indexnow": {
+    "status": "SUCCESS",
+    "attempted": true,
+    "http_status": 200,
+    "submitted_urls": 115
+  },
+  "gsc_sitemap_submission": {
+    "status": "SUCCESS",
+    "attempted": true,
+    "http_status": 204,
+    "site_url": "sc-domain:detoxdenver.org",
+    "sitemap_url": "https://detoxdenver.org/sitemap.xml"
+  },
+  "priority_url_inspection": {
+    "status": "SUCCESS",
+    "attempted": true,
+    "requested_urls": 20,
+    "inspected_urls": 20,
+    "failed_urls": 0,
+    "results": [
+      {
+        "url": "https://detoxdenver.org/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-14T03:00:29Z"
+      },
+      {
+        "url": "https://detoxdenver.org/recovery-housing/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null
+      },
+      {
+        "url": "https://detoxdenver.org/referrals/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-12T23:18:10Z"
+      },
+      {
+        "url": "https://detoxdenver.org/resources/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-09-24T21:41:04Z"
+      },
+      {
+        "url": "https://detoxdenver.org/answers/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null
+      },
+      {
+        "url": "https://detoxdenver.org/blog/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-12T17:18:09Z"
+      },
+      {
+        "url": "https://detoxdenver.org/about/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null
+      },
+      {
+        "url": "https://detoxdenver.org/contact/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "NEUTRAL",
+        "coverage_state": "Alternate page with proper canonical tag",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-07-29T11:51:11Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-14-women-in-recovery/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-13-family-support/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-13T16:08:50Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-12-daily-sober-routines/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-12T14:44:40Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-11-recovery-housing-readiness/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-12T13:14:22Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-10-community-reintegration/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-12T12:48:41Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-09-employment-and-education/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-12T13:40:08Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-08-relapse-prevention/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-08T20:11:29Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-07-referral-guidance/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-08T23:55:46Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-06-gen-z-recovery/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-08T22:41:29Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-05-millennial-recovery/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-06T09:57:24Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-04-minority-recovery-support/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-13T09:30:28Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-03-lgbtq-recovery-support/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-05T00:30:34Z"
+      }
+    ]
+  },
+  "durable_receipt": {
+    "status": "SUCCESS",
+    "latest_path": "data/distribution/provider_receipt.json",
+    "history_path": "data/distribution/receipts/2026-10-14T12-39-01.778Z-38565346733.json"
+  },
+  "observation_feedback": {
+    "status": "SUCCESS",
+    "path": "data/distribution/observation_feedback.json"
+  },
+  "provider_success_claimed": true,
+  "verified_external_citations_delta": 0,
+  "truth_boundary": "Provider submission or inspection is not proof of indexing, search visibility, LLM surfacing, external reference, or citation."
+}

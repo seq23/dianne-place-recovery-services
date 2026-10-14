@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-10-13T12-45-09.910Z-38399541372",
-  "attempted_at": "2026-10-13T12:45:09.910Z",
+  "receipt_id": "2026-10-14T12-39-01.778Z-38565346733",
+  "attempted_at": "2026-10-14T12:39:01.778Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "60d81d93b630a1ace632fdb4524a26d1b82612c0671e3b722190840cb71ed0fa",
-    "url_count": 114
+    "sitemap_sha256": "a34f5bc8f352492f9ea0ad8ba0e0e4c6aff1b8fdfdc713ef39ba2754db51003b",
+    "url_count": 115
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 114
+    "submitted_urls": 115
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -45,7 +45,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-13T03:00:32Z"
+        "last_crawl_time": "2026-10-14T03:00:29Z"
       },
       {
         "url": "https://detoxdenver.org/recovery-housing/",
@@ -111,13 +111,22 @@
         "last_crawl_time": "2026-07-29T11:51:11Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-13-family-support/",
+        "url": "https://detoxdenver.org/blog/2026-10-14-women-in-recovery/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
         "coverage_state": "Discovered - currently not indexed",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-13-family-support/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-13T16:08:50Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-10-12-daily-sober-routines/",
@@ -208,22 +217,13 @@
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
         "last_crawl_time": "2026-10-05T00:30:34Z"
-      },
-      {
-        "url": "https://detoxdenver.org/blog/2026-10-02-women-in-recovery/",
-        "status": "SUCCESS",
-        "http_status": 200,
-        "verdict": "NEUTRAL",
-        "coverage_state": "Discovered - currently not indexed",
-        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-        "last_crawl_time": null
       }
     ]
   },
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-10-13T12-45-09.910Z-38399541372.json"
+    "history_path": "data/distribution/receipts/2026-10-14T12-39-01.778Z-38565346733.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
