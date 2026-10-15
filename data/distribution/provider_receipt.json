@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-10-14T12-39-01.778Z-38565346733",
-  "attempted_at": "2026-10-14T12:39:01.778Z",
+  "receipt_id": "2026-10-15T12-39-22.872Z-38736226601",
+  "attempted_at": "2026-10-15T12:39:22.872Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "a34f5bc8f352492f9ea0ad8ba0e0e4c6aff1b8fdfdc713ef39ba2754db51003b",
-    "url_count": 115
+    "sitemap_sha256": "4890eefb8adb9914b255b1ee9bc108b7a6006741d0dec14c5677325b1ba159bc",
+    "url_count": 116
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 115
+    "submitted_urls": 116
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -45,14 +45,14 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-14T03:00:29Z"
+        "last_crawl_time": "2026-10-14T13:08:12Z"
       },
       {
         "url": "https://detoxdenver.org/recovery-housing/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
-        "coverage_state": "Discovered - currently not indexed",
+        "coverage_state": "URL is unknown to Google",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
       },
@@ -72,14 +72,14 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-09-24T21:41:04Z"
+        "last_crawl_time": "2026-10-14T18:05:50Z"
       },
       {
         "url": "https://detoxdenver.org/answers/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
-        "coverage_state": "Discovered - currently not indexed",
+        "coverage_state": "URL is unknown to Google",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
       },
@@ -90,14 +90,14 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-12T17:18:09Z"
+        "last_crawl_time": "2026-10-15T11:54:04Z"
       },
       {
         "url": "https://detoxdenver.org/about/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
-        "coverage_state": "URL is unknown to Google",
+        "coverage_state": "Discovered - currently not indexed",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
       },
@@ -111,13 +111,22 @@
         "last_crawl_time": "2026-07-29T11:51:11Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-14-women-in-recovery/",
+        "url": "https://detoxdenver.org/blog/2026-10-15-lgbtq-recovery-support/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
         "coverage_state": "Discovered - currently not indexed",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-14-women-in-recovery/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-14T16:56:38Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-10-13-family-support/",
@@ -208,22 +217,13 @@
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
         "last_crawl_time": "2026-10-13T09:30:28Z"
-      },
-      {
-        "url": "https://detoxdenver.org/blog/2026-10-03-lgbtq-recovery-support/",
-        "status": "SUCCESS",
-        "http_status": 200,
-        "verdict": "PASS",
-        "coverage_state": "Submitted and indexed",
-        "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-05T00:30:34Z"
       }
     ]
   },
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-10-14T12-39-01.778Z-38565346733.json"
+    "history_path": "data/distribution/receipts/2026-10-15T12-39-22.872Z-38736226601.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
