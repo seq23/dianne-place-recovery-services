@@ -1,13 +1,13 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-09-17",
-  "end_date": "2026-10-14",
-  "collected_at": "2026-10-16T11:32:00.898Z",
+  "start_date": "2026-09-18",
+  "end_date": "2026-10-15",
+  "collected_at": "2026-10-17T11:29:53.058Z",
   "totals": {
     "clicks": 0,
-    "impressions": 5,
+    "impressions": 6,
     "ctr": 0,
-    "position": 5.6
+    "position": 5.833333333333333
   },
   "pages": [
     {
@@ -23,6 +23,13 @@
       "impressions": 2,
       "ctr": 0,
       "position": 6
+    },
+    {
+      "page": "https://detoxdenver.org/blog/2026-07-10-women-in-recovery/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
     },
     {
       "page": "https://detoxdenver.org/blog/2026-09-08-women-in-recovery/",
