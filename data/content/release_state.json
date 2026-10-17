@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-16T12:38:14.674Z",
-  "releaseDate": "2026-10-16",
+  "generatedAt": "2026-10-17T12:32:43.011Z",
+  "releaseDate": "2026-10-17",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
   "approvedInternalCount": 178,
-  "livePublicCount": 102,
+  "livePublicCount": 103,
   "todaysReleaseCount": 1,
   "todaysRoutes": [
-    "/blog/2026-10-16-minority-recovery-support/"
+    "/blog/2026-10-17-millennial-recovery/"
   ],
-  "futureHiddenCount": 76,
+  "futureHiddenCount": 75,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }
