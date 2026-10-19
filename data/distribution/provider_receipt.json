@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-10-18T12-34-35.624Z-39127808325",
-  "attempted_at": "2026-10-18T12:34:35.624Z",
+  "receipt_id": "2026-10-19T13-56-12.745Z-39264342876",
+  "attempted_at": "2026-10-19T13:56:12.745Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -90,7 +90,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-17T14:58:33Z"
+        "last_crawl_time": "2026-10-18T18:35:26Z"
       },
       {
         "url": "https://detoxdenver.org/about/",
@@ -114,10 +114,10 @@
         "url": "https://detoxdenver.org/blog/2026-10-18-gen-z-recovery/",
         "status": "SUCCESS",
         "http_status": 200,
-        "verdict": "NEUTRAL",
-        "coverage_state": "Discovered - currently not indexed",
-        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-        "last_crawl_time": null
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-18T16:03:20Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-10-17-millennial-recovery/",
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-10-18T12-34-35.624Z-39127808325.json"
+    "history_path": "data/distribution/receipts/2026-10-19T13-56-12.745Z-39264342876.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
