@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-10-19T18-43-54.531Z-39304882109",
-  "attempted_at": "2026-10-19T18:43:54.531Z",
+  "receipt_id": "2026-10-20T17-04-39.553Z-39462829964",
+  "attempted_at": "2026-10-20T17:04:39.553Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "5a23b9e98fdb6825bf4f23471e0a5ba5a65e7160f642d2ca101e3e57ffea86b3",
-    "url_count": 120
+    "sitemap_sha256": "bacc3739521c349f1f62e5d08195fe6641b99c00633b0c646ec1d964896d3c8a",
+    "url_count": 121
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 120
+    "submitted_urls": 121
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -79,7 +79,7 @@
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
-        "coverage_state": "Discovered - currently not indexed",
+        "coverage_state": "URL is unknown to Google",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
       },
@@ -111,13 +111,22 @@
         "last_crawl_time": "2026-10-17T02:03:59Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-19-referral-guidance/",
+        "url": "https://detoxdenver.org/blog/2026-10-20-relapse-prevention/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
-        "coverage_state": "Discovered - currently not indexed",
+        "coverage_state": "URL is unknown to Google",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-19-referral-guidance/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-19T22:58:59Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-10-18-gen-z-recovery/",
@@ -208,22 +217,13 @@
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
         "last_crawl_time": "2026-10-16T11:15:29Z"
-      },
-      {
-        "url": "https://detoxdenver.org/blog/2026-10-08-relapse-prevention/",
-        "status": "SUCCESS",
-        "http_status": 200,
-        "verdict": "PASS",
-        "coverage_state": "Submitted and indexed",
-        "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-08T20:11:29Z"
       }
     ]
   },
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-10-19T18-43-54.531Z-39304882109.json"
+    "history_path": "data/distribution/receipts/2026-10-20T17-04-39.553Z-39462829964.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
