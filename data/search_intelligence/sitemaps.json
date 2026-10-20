@@ -1,21 +1,21 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "checked_at": "2026-10-19T17:35:30.656Z",
+  "checked_at": "2026-10-20T15:41:58.051Z",
   "submitted_this_run": null,
   "sitemaps": [
     {
       "path": "https://detoxdenver.org/sitemap.xml",
-      "lastSubmitted": "2026-10-19T13:56:13.365Z",
+      "lastSubmitted": "2026-10-19T18:43:54.957Z",
       "isPending": false,
       "isSitemapsIndex": false,
       "type": "sitemap",
-      "lastDownloaded": "2026-10-19T13:56:17.627Z",
+      "lastDownloaded": "2026-10-19T18:43:57.035Z",
       "warnings": "0",
       "errors": "0",
       "contents": [
         {
           "type": "web",
-          "submitted": "119",
+          "submitted": "120",
           "indexed": "0"
         }
       ]
