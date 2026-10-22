@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-10-21T17-12-42.251Z-39641640022",
-  "attempted_at": "2026-10-21T17:12:42.251Z",
+  "receipt_id": "2026-10-22T17-11-35.794Z-39820360627",
+  "attempted_at": "2026-10-22T17:11:35.794Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "997fdca3f9192f138902907627fceb4fe8df0ce8f662e26342f1026148936fe7",
-    "url_count": 122
+    "sitemap_sha256": "647c89fd23729eacc7f49395fc25f99c9b5db03082f8d7aae570c4939679bd48",
+    "url_count": 123
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 122
+    "submitted_urls": 123
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -52,7 +52,7 @@
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
-        "coverage_state": "Discovered - currently not indexed",
+        "coverage_state": "URL is unknown to Google",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
       },
@@ -79,7 +79,7 @@
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
-        "coverage_state": "Discovered - currently not indexed",
+        "coverage_state": "URL is unknown to Google",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
       },
@@ -90,7 +90,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-21T03:13:20Z"
+        "last_crawl_time": "2026-10-22T16:09:41Z"
       },
       {
         "url": "https://detoxdenver.org/about/",
@@ -111,13 +111,22 @@
         "last_crawl_time": "2026-10-17T02:03:59Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-21-employment-and-education/",
+        "url": "https://detoxdenver.org/blog/2026-10-22-community-reintegration/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
         "coverage_state": "URL is unknown to Google",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-21-employment-and-education/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-21T20:52:56Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-10-20-relapse-prevention/",
@@ -208,22 +217,13 @@
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
         "last_crawl_time": "2026-10-15T21:30:28Z"
-      },
-      {
-        "url": "https://detoxdenver.org/blog/2026-10-10-community-reintegration/",
-        "status": "SUCCESS",
-        "http_status": 200,
-        "verdict": "PASS",
-        "coverage_state": "Submitted and indexed",
-        "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-12T12:48:41Z"
       }
     ]
   },
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-10-21T17-12-42.251Z-39641640022.json"
+    "history_path": "data/distribution/receipts/2026-10-22T17-11-35.794Z-39820360627.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
