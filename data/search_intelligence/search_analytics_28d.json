@@ -1,13 +1,13 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-09-22",
-  "end_date": "2026-10-19",
-  "collected_at": "2026-10-21T15:59:42.450Z",
+  "start_date": "2026-09-23",
+  "end_date": "2026-10-20",
+  "collected_at": "2026-10-22T15:55:48.039Z",
   "totals": {
     "clicks": 0,
-    "impressions": 7,
+    "impressions": 10,
     "ctr": 0,
-    "position": 5.142857142857143
+    "position": 25.4
   },
   "pages": [
     {
@@ -44,6 +44,13 @@
       "impressions": 1,
       "ctr": 0,
       "position": 1
+    },
+    {
+      "page": "https://detoxdenver.org/blog/2026-10-11-recovery-housing-readiness/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 59
     },
     {
       "page": "https://detoxdenver.org/medical-disclaimer/",
@@ -86,6 +93,13 @@
       "impressions": 1,
       "ctr": 0,
       "position": 10
+    },
+    {
+      "page": "https://www.detoxdenver.org/blog/2026-07-31-recovery-housing-readiness/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 79.5
     },
     {
       "page": "https://www.detoxdenver.org/contact/",
