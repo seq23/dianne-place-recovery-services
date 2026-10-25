@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
   "generated_at": "2026-07-25T00:00:00.000Z",
-  "url_count": 125,
+  "url_count": 126,
   "priority_url_count": 20,
   "sitemap_path": "public/sitemap.xml",
   "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-  "sitemap_sha256": "0ff3df4d4e116c411f71d216b77322471362b1762bd97d9221862835a5e9491a",
+  "sitemap_sha256": "ad97389bc59729ed5f08cea4df62a7827ddfebea52c90180b7bbb31cd6a6517e",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
