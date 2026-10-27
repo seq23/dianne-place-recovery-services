@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-10-26T19-35-44.501Z-40388043718",
-  "attempted_at": "2026-10-26T19:35:44.501Z",
+  "receipt_id": "2026-10-27T12-41-06.068Z-40505641765",
+  "attempted_at": "2026-10-27T12:41:06.068Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "fe82942d6ec925e79a912d993e1ac4e4874ccb97a545b510b6f0d681574d3fa7",
-    "url_count": 127
+    "sitemap_sha256": "ea07676ccf8687ffa485a24eb4ad82ee81f574d520624aca3758e8295dec5c6a",
+    "url_count": 128
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 127
+    "submitted_urls": 128
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -52,7 +52,7 @@
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
-        "coverage_state": "URL is unknown to Google",
+        "coverage_state": "Discovered - currently not indexed",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
       },
@@ -109,6 +109,15 @@
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
         "last_crawl_time": "2026-10-17T02:03:59Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-27-lgbtq-recovery-support/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null
       },
       {
         "url": "https://detoxdenver.org/blog/2026-10-26-women-in-recovery/",
@@ -208,22 +217,13 @@
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
         "last_crawl_time": "2026-10-16T16:54:13Z"
-      },
-      {
-        "url": "https://detoxdenver.org/blog/2026-10-15-lgbtq-recovery-support/",
-        "status": "SUCCESS",
-        "http_status": 200,
-        "verdict": "PASS",
-        "coverage_state": "Submitted and indexed",
-        "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-15T15:58:22Z"
       }
     ]
   },
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-10-26T19-35-44.501Z-40388043718.json"
+    "history_path": "data/distribution/receipts/2026-10-27T12-41-06.068Z-40505641765.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
