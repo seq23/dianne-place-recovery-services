@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-10-28T12-30-07.438Z-40688234107",
-  "attempted_at": "2026-10-28T12:30:07.438Z",
+  "receipt_id": "2026-10-29T12-30-45.753Z-40873768325",
+  "attempted_at": "2026-10-29T12:30:45.753Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "7ab8534ccaa0286684ad5ae466d5557b549d04029123c44bb0c6beb6edaf15c4",
-    "url_count": 129
+    "sitemap_sha256": "3d3046fbde460cb31356e23b6d4bdbd174d83613ad8594e67438c3f248fcfbfb",
+    "url_count": 130
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 129
+    "submitted_urls": 130
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -52,7 +52,7 @@
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
-        "coverage_state": "URL is unknown to Google",
+        "coverage_state": "Discovered - currently not indexed",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
       },
@@ -90,7 +90,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-27T14:50:53Z"
+        "last_crawl_time": "2026-10-28T17:18:09Z"
       },
       {
         "url": "https://detoxdenver.org/about/",
@@ -108,16 +108,25 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-17T02:03:59Z"
+        "last_crawl_time": "2026-10-27T23:24:49Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-28-minority-recovery-support/",
+        "url": "https://detoxdenver.org/blog/2026-10-29-millennial-recovery/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
         "coverage_state": "Discovered - currently not indexed",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-28-minority-recovery-support/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-28T16:00:03Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-10-27-lgbtq-recovery-support/",
@@ -208,22 +217,13 @@
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
         "last_crawl_time": "2026-10-18T16:03:20Z"
-      },
-      {
-        "url": "https://detoxdenver.org/blog/2026-10-17-millennial-recovery/",
-        "status": "SUCCESS",
-        "http_status": 200,
-        "verdict": "PASS",
-        "coverage_state": "Submitted and indexed",
-        "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-17T16:57:47Z"
       }
     ]
   },
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-10-28T12-30-07.438Z-40688234107.json"
+    "history_path": "data/distribution/receipts/2026-10-29T12-30-45.753Z-40873768325.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
