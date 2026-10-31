@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-10-30T12-30-40.691Z-41055799711",
-  "attempted_at": "2026-10-30T12:30:40.691Z",
+  "receipt_id": "2026-10-31T12-23-40.488Z-41200818904",
+  "attempted_at": "2026-10-31T12:23:40.488Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "0811adfd8c732c9176bf2235f1dd2474f5caa67b555fb259a7e4b71417383a34",
-    "url_count": 131
+    "sitemap_sha256": "32d158dab25490856ecb9792824aa42109f8ebd801acf1a481d7ae9e029a8f7f",
+    "url_count": 132
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 131
+    "submitted_urls": 132
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -45,7 +45,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-30T04:05:21Z"
+        "last_crawl_time": "2026-10-30T23:25:30Z"
       },
       {
         "url": "https://detoxdenver.org/recovery-housing/",
@@ -79,7 +79,7 @@
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
-        "coverage_state": "Discovered - currently not indexed",
+        "coverage_state": "URL is unknown to Google",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
       },
@@ -90,7 +90,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-29T18:00:19Z"
+        "last_crawl_time": "2026-10-30T17:07:48Z"
       },
       {
         "url": "https://detoxdenver.org/about/",
@@ -111,13 +111,22 @@
         "last_crawl_time": "2026-10-27T23:24:49Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-30-gen-z-recovery/",
+        "url": "https://detoxdenver.org/blog/2026-10-31-referral-guidance/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
         "coverage_state": "Discovered - currently not indexed",
         "indexing_state": "INDEXING_STATE_UNSPECIFIED",
         "last_crawl_time": null
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-10-30-gen-z-recovery/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-30T17:03:35Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-10-29-millennial-recovery/",
@@ -177,8 +186,8 @@
         "url": "https://detoxdenver.org/blog/2026-10-23-recovery-housing-readiness/",
         "status": "SUCCESS",
         "http_status": 200,
-        "verdict": "PASS",
-        "coverage_state": "Submitted and indexed",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Crawled - currently not indexed",
         "indexing_state": "INDEXING_ALLOWED",
         "last_crawl_time": "2026-10-23T22:51:18Z"
       },
@@ -208,22 +217,13 @@
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
         "last_crawl_time": "2026-10-21T01:58:09Z"
-      },
-      {
-        "url": "https://detoxdenver.org/blog/2026-10-19-referral-guidance/",
-        "status": "SUCCESS",
-        "http_status": 200,
-        "verdict": "PASS",
-        "coverage_state": "Submitted and indexed",
-        "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-19T22:58:59Z"
       }
     ]
   },
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-10-30T12-30-40.691Z-41055799711.json"
+    "history_path": "data/distribution/receipts/2026-10-31T12-23-40.488Z-41200818904.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
