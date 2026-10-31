@@ -1,8 +1,8 @@
 {
   "status": "LIVE",
-  "checked_at": "2026-10-30T11:28:43.192Z",
+  "checked_at": "2026-10-31T11:28:59.118Z",
   "property": "sc-domain:detoxdenver.org",
   "service_account": "gsc-bot@gsc-automation-493801.iam.gserviceaccount.com",
   "permission": "siteFullUser",
-  "run_date": "2026-10-30"
+  "run_date": "2026-10-31"
 }
