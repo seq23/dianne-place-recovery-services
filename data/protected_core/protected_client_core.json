@@ -83,10 +83,6 @@
       "sha256": "27f9f4ad425988741795305160b35d4d7e37de1cc81ea1dd99bcc96cc91f5814"
     },
     {
-      "path": "app/page.tsx",
-      "sha256": "545fd5d80fc3c58ad3e88dd2dea4498593d2fae81a0fa6930b758d9584a93476"
-    },
-    {
       "path": "app/privacy/page.tsx",
       "sha256": "f57fee1efd7afc505a9313b77070d70780cabdb96220cc80b56bd28410c8abf1"
     },
@@ -117,14 +113,6 @@
     {
       "path": "components/DisclaimerBox.tsx",
       "sha256": "18a70bc6f18a7f86a5ab95527194f4c91865607b05b64a506938d204df04634b"
-    },
-    {
-      "path": "components/Footer.tsx",
-      "sha256": "0d0326aed3961ee57ce0889a205ccac193eadff421754323942956f737c05b5e"
-    },
-    {
-      "path": "components/Header.tsx",
-      "sha256": "ffe2db05a8982647d8eb0ff108cba04ba2b2c83057b7330baab62555529b0bc4"
     },
     {
       "path": "components/PageHero.tsx",
@@ -229,6 +217,22 @@
       "change": "SEO hygiene and demand pass approved by the owner 11 Oct 2026: self-canonical on detoxdenver.org (pages had canonicalised to a different host's homepage), per-page title/description from data/seo/page_seo.json, icons + og:image + twitter card, LocalBusiness/WebSite/WebPage/BreadcrumbList/FAQPage JSON-LD, homepage definition paragraph under the H1, phone CTA in PageHero, consent-gated Clarity loader, four H1s aligned to their page subject.",
       "equivalence": "No licensure, admin, publishing or legal-copy behaviour changed; legal/disclaimer copy untouched; forbidden pre-license phrases still validated.",
       "policy_note": "Byte-identity was deliberately re-baselined, not bypassed. The guard still fails on any further drift."
+    },
+    {
+      "date": "2026-11-01",
+      "files": [
+        "app/page.tsx",
+        "components/Footer.tsx",
+        "components/Header.tsx"
+      ],
+      "change": "Owner ruling 1 Nov 2026: the site owner controls detoxdenver.org and may change the homepage, header/nav and footer without client review. These three files leave the byte-identity lock; first change adds a link to the /questions/ hub in the footer and under the homepage FAQ.",
+      "equivalence": "CrisisBanner (988/911), legal copy, disclaimers, licensure, admin and publishing files stay byte-locked; health/claims validators unchanged.",
+      "policy_note": "Lock narrowed by ruling, not bypassed. Every other listed file still fails on any drift."
     }
+  ],
+  "owner_editable": [
+    "app/page.tsx",
+    "components/Footer.tsx",
+    "components/Header.tsx"
   ]
 }

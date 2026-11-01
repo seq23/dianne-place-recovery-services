@@ -24,6 +24,9 @@ export function Footer() {
             </>
           ) : null}
         </p>
+        <p>
+          <Link href="/questions/">Questions families ask</Link>
+        </p>
       </section>
 
       <section>
