@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-31T12:22:13.954Z",
-  "releaseDate": "2026-10-31",
+  "generatedAt": "2026-11-01T13:21:10.215Z",
+  "releaseDate": "2026-11-01",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
   "approvedInternalCount": 178,
-  "livePublicCount": 117,
+  "livePublicCount": 118,
   "todaysReleaseCount": 1,
   "todaysRoutes": [
-    "/blog/2026-10-31-referral-guidance/"
+    "/blog/2026-11-01-relapse-prevention/"
   ],
-  "futureHiddenCount": 61,
+  "futureHiddenCount": 60,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }
