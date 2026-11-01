@@ -13,8 +13,6 @@ name: Search Loop
 on:
   schedule:
     - cron: "53 12 * * *"
-  push:
-    branches: [search/adopt-search-loop]  # TEMP proof run; removed before merge
   workflow_dispatch:
     inputs:
       stage:
