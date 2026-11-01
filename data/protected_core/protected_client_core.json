@@ -5,7 +5,8 @@
   "files": [
     {
       "path": ".github/workflows/content_publish.yml",
-      "sha256": "16f8dc4eed0e416e3063341004334e6865c9867d535377e5a240d26f4b56b82c"
+      "sha256": "da8dd12f8baf7724004786c8f083ef651ecd1fce6645ba93c77b6038c9aafde6",
+      "bytes": null
     },
     {
       "path": "app/about/page.tsx",
