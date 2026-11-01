@@ -5,7 +5,8 @@ name: Search Intelligence
 # service account can read the property; it switches to live by itself.
 on:
   schedule:
-    - cron: '23 11 * * *'
+    - cron: '23 6 * * *'  # America/Chicago, all year
+      timezone: America/Chicago
   push:
     branches:
       - main
