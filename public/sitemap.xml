@@ -41,6 +41,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://detoxdenver.org/questions/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://detoxdenver.org/blog/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

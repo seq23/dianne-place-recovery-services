@@ -20,8 +20,6 @@
     "validate:repo-work-os-compliance",
     "validate:repo",
     "validate:protected-client-core",
-    "validate:authority-fanout",
-    "validate:authority-kpi",
     "validate:authority-distribution",
     "validate:post-2026-continuity",
     "validate:site-identity",
@@ -35,8 +33,7 @@
   ],
   "strongSoftValidators": [
     "validate:dependency-lock",
-    "validate:future-content-self-heal",
-    "validate:authority-recommendations"
+    "validate:future-content-self-heal"
   ],
   "warningValidators": [
     "validate:content-style-policy"

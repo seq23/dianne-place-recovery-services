@@ -8,6 +8,7 @@
     { "path": "/referrals/", "family": "referral", "citationRole": "referral process" },
     { "path": "/resources/", "family": "resource", "citationRole": "topic hub" },
     { "path": "/answers/", "family": "resource", "citationRole": "direct answer hub" },
+    { "path": "/questions/", "family": "resource", "citationRole": "search-loop question hub" },
     { "path": "/blog/", "family": "resource", "citationRole": "scheduled content index" },
     { "path": "/contact/", "family": "referral", "citationRole": "contact path" },
     { "path": "/privacy/", "family": "legal", "citationRole": "privacy boundary" },

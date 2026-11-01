@@ -42,6 +42,11 @@
       "name": "Answers",
       "description": "Short, direct answers about recovery housing, referrals, crisis steps, and what Dianne's Place does and does not provide."
     },
+    "/questions/": {
+      "title": "Recovery Housing Questions Answered",
+      "name": "Recovery questions",
+      "description": "Plain answers to common questions about recovery housing, sober living and referrals in Denver, from Dianne's Place. General education, not medical advice."
+    },
     "/blog/": {
       "title": "Recovery Housing and Sober Living Articles",
       "name": "Blog",

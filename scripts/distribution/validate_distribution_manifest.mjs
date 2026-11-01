@@ -24,7 +24,7 @@ for (const step of ['successful_publish','sitemap_refresh','indexnow','gsc_sitem
 }
 if (!workflow.includes('workflow_run:') || !workflow.includes('workflows: ["Content Publish"]')) errors.push('workflow-not-post-publish');
 if (!workflow.includes("github.event.workflow_run.conclusion == 'success'")) errors.push('workflow-success-gate');
-if (!workflow.includes('npm run authority:cycle')) errors.push('workflow-sitemap-refresh');
+if (!workflow.includes('npm run authority:distribution')) errors.push('workflow-sitemap-refresh');
 if (!workflow.includes('npm run distribution:submit')) errors.push('workflow-submit');
 if (!workflow.includes('data/distribution')) errors.push('workflow-durable-commit');
 if (!submit.includes('searchconsole.googleapis.com/v1/urlInspection/index:inspect')) errors.push('missing-url-inspection');
