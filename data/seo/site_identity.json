@@ -1,6 +1,7 @@
 {
   "origin": "https://detoxdenver.org",
   "originNote": "This repo is deployed by Cloudflare Pages to detoxdenver.org (Search Console property sc-domain:detoxdenver.org). www.diannesplacerecoveryservices.com is a separate Webador site on another host, not this build; until 2026-10-11 every page here canonicalised to that site's homepage and the sitemap listed its URLs. Every absolute URL (canonical, og:url, sitemap, robots, JSON-LD) reads this origin.",
+  "sisterSite": { "url": "https://www.diannesplacerecoveryservices.com/", "label": "Dianne's Place Recovery Services main site", "note": "Plain footer link only (owner ruling 1 Nov 2026); never a canonical, hreflang or sitemap target." },
   "name": "Dianne's Place Recovery Services",
   "legalName": "Dianne's Place Recovery Services LLC",
   "phone": "(720) 588-8864",

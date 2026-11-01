@@ -26,6 +26,8 @@ export function Footer() {
         </p>
         <p>
           <Link href="/questions/">Questions families ask</Link>
+          <br />
+          <a href={siteIdentity.sisterSite.url}>{siteIdentity.sisterSite.label}</a>
         </p>
       </section>
 
