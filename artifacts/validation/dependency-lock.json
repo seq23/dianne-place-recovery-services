@@ -1,7 +1,0 @@
-{
-  "generatedAt": "2026-11-01T13:21:09.056Z",
-  "severity": "none",
-  "blocksRelease": false,
-  "status": "lockfile_present",
-  "message": "package-lock.json is present."
-}
