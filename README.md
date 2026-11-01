@@ -12,7 +12,7 @@ npm run build
 npm run validate:all
 ```
 
-`validate:hard` must pass before artifact handoff. `validate:soft` emits production-readiness or advisory findings without blocking the ZIP unless the validation matrix reclassifies the issue.
+`validate:all` (hard validators plus the sitemap/publication check) must pass before merge.
 
 If this artifact has no `package-lock.json`, use `npm install` rather than `npm ci` until the first successful install creates and commits the lockfile.
 

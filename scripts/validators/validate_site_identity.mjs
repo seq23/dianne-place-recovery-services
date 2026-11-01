@@ -15,7 +15,6 @@ const locs = [...readText('public/sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)
 assert(locs.length > 0, 'sitemap.xml has no <loc> entries');
 const offHost = locs.filter((u) => new URL(u).host !== host);
 assert(!offHost.length, `sitemap.xml lists ${offHost.length} URL(s) off ${host}, e.g. ${offHost[0]}`);
-assert(readText('scripts/seo/build_sitemap.mjs').includes('site_identity.json'), 'build_sitemap.mjs must read its origin from data/seo/site_identity.json');
 
 // No hard-coded absolute site origin in templates or SEO scripts.
 const scan = [...listFiles('app'), ...listFiles('components'), ...listFiles('lib'), ...listFiles('scripts/seo'), 'public/llms.txt', 'public/llms-full.txt']

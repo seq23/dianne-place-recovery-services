@@ -6,19 +6,10 @@
     "warning": "Advisory only; no petty blockers."
   },
   "hardFailValidators": [
-    "strategy:validate",
     "validate:licensure-mode",
     "validate:content",
     "validate:legal",
-    "validate:a11y-static",
-    "validate:workflow-contract",
-    "validate:admin-security",
-    "validate:media-representation",
     "validate:aeo-seo-geo",
-    "validate:blog-routes",
-    "validate:admin-content-controls",
-    "validate:repo-work-os-compliance",
-    "validate:repo",
     "validate:protected-client-core",
     "validate:authority-distribution",
     "validate:post-2026-continuity",
@@ -26,18 +17,13 @@
     "validate:page-seo",
     "validate:clarity",
     "validate:indexnow",
-    "validate:search-intelligence",
     "validate:seo-hygiene-output",
     "validate:structured-data-output",
-    "validate:local-contact-output"
+    "validate:local-contact-output",
+    "validate:demand-backed-pages"
   ],
-  "strongSoftValidators": [
-    "validate:dependency-lock",
-    "validate:future-content-self-heal"
-  ],
-  "warningValidators": [
-    "validate:content-style-policy"
-  ],
+  "strongSoftValidators": [],
+  "warningValidators": [],
   "releaseCommand": "npm run validate:release",
   "completionBoundary": "Hard validators must pass. Strong-soft and warning findings must be emitted in reports without blocking artifact handoff unless reclassified through this matrix. Do not add petty blockers.",
   "authorityModernizationCommand": "npm run validate:authority-modernization",

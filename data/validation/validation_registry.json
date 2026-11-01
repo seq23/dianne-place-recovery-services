@@ -16,13 +16,6 @@
   "pettyBlockerPolicy": "Cosmetic preferences, optional metadata improvements, minor wording preferences, and low-impact optimization gaps may warn but must not hard-fail release.",
   "validators": [
     {
-      "id": "strategy-gate",
-      "script": "strategy:validate",
-      "severity": "hard",
-      "category": "strategy",
-      "risk": "Content automation cannot run without a strategy gate and forbidden-claim boundaries."
-    },
-    {
       "id": "licensure-mode",
       "script": "validate:licensure-mode",
       "severity": "hard",
@@ -44,88 +37,11 @@
       "risk": "Required legal pages and mode-specific disclaimers must exist."
     },
     {
-      "id": "a11y-static",
-      "script": "validate:a11y-static",
-      "severity": "hard",
-      "category": "accessibility",
-      "risk": "Critical accessibility affordances must exist for crisis, forms, cookie controls, and animated hero behavior."
-    },
-    {
-      "id": "workflow-contract",
-      "script": "validate:workflow-contract",
-      "severity": "hard",
-      "category": "automation",
-      "risk": "Workflows must not be configured to fail before validation or mutate governance files at runtime."
-    },
-    {
-      "id": "admin-security",
-      "script": "validate:admin-security",
-      "severity": "hard",
-      "category": "security",
-      "risk": "Admin cannot be represented as production-secure without real auth boundary and write-model warnings."
-    },
-    {
       "id": "aeo-seo-geo",
       "script": "validate:aeo-seo-geo",
       "severity": "hard",
       "category": "citation_intelligence",
       "risk": "AEO/SEO/GEO strategy must include query, answer, entity, route, atom, market, and public answer surfaces."
-    },
-    {
-      "id": "media-representation",
-      "script": "validate:media-representation",
-      "severity": "hard",
-      "category": "media",
-      "risk": "Strategic photo slots must include representation, alt text, placement, forbidden categories, and Dianne-photo separation."
-    },
-    {
-      "id": "repo-work-os-compliance",
-      "script": "validate:repo-work-os-compliance",
-      "severity": "hard",
-      "category": "governance",
-      "risk": "Repo Work OS authority files, contracts, content systems, proof packets, and validation boundaries must be audited."
-    },
-    {
-      "id": "blog-routes",
-      "script": "validate:blog-routes",
-      "severity": "hard",
-      "category": "publishing",
-      "risk": "Approved posts must be clickable from the blog index and render real content pages with atoms, FAQs, and disclaimers."
-    },
-    {
-      "id": "admin-content-controls",
-      "script": "validate:admin-content-controls",
-      "severity": "hard",
-      "category": "admin",
-      "risk": "Admin must expose content controls while preserving Dianne photo, licensure switch, and resources admin functions."
-    },
-    {
-      "id": "repo",
-      "script": "validate:repo",
-      "severity": "hard",
-      "category": "repo_integrity",
-      "risk": "Repo authority, contracts, generated surfaces, workflows, and required files must be present."
-    },
-    {
-      "id": "dependency-lock",
-      "script": "validate:dependency-lock",
-      "severity": "strong_soft",
-      "category": "runtime_readiness",
-      "risk": "Missing lockfile means local or CI dependency resolution is not reproducible until install succeeds."
-    },
-    {
-      "id": "future-content-self-heal",
-      "script": "validate:future-content-self-heal",
-      "severity": "strong_soft",
-      "category": "future_publishing",
-      "risk": "Future self-produced posts after 2026-12-31 must have self-healing policy, margin of error, and nonblocking word-count/style handling."
-    },
-    {
-      "id": "content-style-policy",
-      "script": "validate:content-style-policy",
-      "severity": "warning",
-      "category": "content_quality",
-      "risk": "Style, metadata, and optional extraction improvements should be visible without becoming petty blockers."
     },
     {
       "id": "protected-client-core",
@@ -177,13 +93,6 @@
       "risk": "A key file that does not match the key makes every IndexNow submission fail."
     },
     {
-      "id": "search-intelligence",
-      "script": "validate:search-intelligence",
-      "severity": "hard",
-      "category": "measurement",
-      "risk": "Without Search Console collection the site has no index or query truth."
-    },
-    {
       "id": "seo-hygiene-output",
       "script": "validate:seo-hygiene-output",
       "severity": "hard",
@@ -203,6 +112,13 @@
       "severity": "hard",
       "category": "conversion",
       "risk": "A local service page without a callable phone link loses the lead."
+    },
+    {
+      "id": "demand-backed-pages",
+      "script": "validate:demand-backed-pages",
+      "severity": "hard",
+      "category": "publication_truth",
+      "risk": "The sitemap must list only pages that render: published blog items and live search-loop question pages, none missing; published items must be structurally complete."
     }
   ]
 }

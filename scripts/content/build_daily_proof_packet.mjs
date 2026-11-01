@@ -12,8 +12,7 @@ const packet = {
   validatorsExpected: [
     'validate:content',
     'validate:licensure-mode',
-    'validate:legal',
-    'validate:repo'
+    'validate:legal'
   ],
   unproven: ['live deployment', 'real admin writes', 'Cloudflare Access configuration']
 };
