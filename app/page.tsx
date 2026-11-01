@@ -81,6 +81,11 @@ export default function HomePage() {
         </div>
       </section>
       <PageFaq path="/" />
+      <section className="content-section">
+        <p>
+          <Link href="/questions/">More questions families ask</Link>
+        </p>
+      </section>
       <PageSchema {...schemaFor('/')} speakableSelectors={['#definition']} />
     </main>
   );
