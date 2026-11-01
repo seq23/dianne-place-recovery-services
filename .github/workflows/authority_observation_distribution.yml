@@ -30,8 +30,12 @@ jobs:
           node-version: 24
       - run: npm install
       - run: git pull --rebase origin main
-      - name: Refresh authority intelligence around the existing client system
-        run: npm run authority:cycle
+      # The synthetic 100K query fan-out and its recommendation-only backlog were
+      # retired on 1 Nov 2026: the search-loop engine (search-loop.yml) now finds
+      # real searches and builds, checks and repairs pages. Their last outputs stay
+      # in data/authority_scale as history.
+      - name: Refresh the distribution manifest from the sitemap
+        run: npm run authority:distribution
       - name: Submit already-public URLs when provider credentials are configured
         run: npm run distribution:submit
         env:

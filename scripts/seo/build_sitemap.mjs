@@ -1,4 +1,5 @@
 import { publishedItems, resolveReleaseDate } from '../../lib/publication.mjs';
+import { liveQuestionPages } from '../../lib/searchLoopPages.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -29,7 +30,16 @@ const blogUrls = publishedItems(calendar.items, releaseDate)
     lastmod: item.scheduledAt
   }));
 
-const urls = [...staticUrls, ...blogUrls];
+// Question pages published by the search-loop engine (public/questions/), from
+// the same reader the /questions/ hub uses.
+const questionUrls = liveQuestionPages(root).map((page) => ({
+  loc: `${base}${page.route}`,
+  priority: '0.6',
+  changefreq: 'monthly',
+  lastmod: page.publishedAt
+}));
+
+const urls = [...staticUrls, ...blogUrls, ...questionUrls];
 const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
   .map((url) => {
     const lastmod = url.lastmod ? `\n    <lastmod>${url.lastmod}</lastmod>` : '';
@@ -40,6 +50,6 @@ const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.s
 fs.writeFileSync(path.join(root, 'public/sitemap.xml'), xml);
 fs.writeFileSync(
   path.join(root, 'artifacts/validation/sitemap-build.json'),
-  `${JSON.stringify({ generatedAt: new Date().toISOString(), releaseDate, urlCount: urls.length, blogCount: blogUrls.length }, null, 2)}\n`
+  `${JSON.stringify({ generatedAt: new Date().toISOString(), releaseDate, urlCount: urls.length, blogCount: blogUrls.length, questionCount: questionUrls.length }, null, 2)}\n`
 );
 console.log(`[seo:sitemap] wrote ${urls.length} URLs for ${releaseDate}`);

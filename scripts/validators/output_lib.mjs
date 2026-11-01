@@ -12,7 +12,11 @@ export function builtPages() {
     .map((file) => {
       const rel = file.slice(4).replace(/index\.html$/, '');
       return { file, path: `/${rel}`.replace(/\\/g, '/'), html: fs.readFileSync(file, 'utf8') };
-    });
+    })
+    // Pages the search-loop engine wrote (public/questions/) pass the engine's own
+    // gate before they publish (search-loop.config.json, health gate included);
+    // these validators check the pages this repo renders.
+    .filter((page) => !page.html.includes('<meta content="search-loop" name="generator"/>'));
   assert(pages.length >= 10, `expected at least 10 built public pages, found ${pages.length}`);
   return pages;
 }

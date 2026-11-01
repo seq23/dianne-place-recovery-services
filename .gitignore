@@ -1,0 +1,12 @@
+# Build output and installs
+node_modules
+.next/
+out/
+tsconfig.tsbuildinfo
+
+# The search-loop engine checkout and run log (seq23/search-loop)
+.search-loop-engine/
+.search-loop-run.log
+
+# Copied from app/globals.css at build time for the static /questions/ pages
+public/assets/site.css

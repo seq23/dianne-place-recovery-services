@@ -22,6 +22,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { publishedItems, resolveReleaseDate } from '../../lib/publication.mjs';
+import { liveQuestionPages } from '../../lib/searchLoopPages.mjs';
 
 const ROOT = process.cwd();
 const read = (rel) => JSON.parse(fs.readFileSync(path.join(ROOT, rel), 'utf8'));
@@ -51,6 +52,16 @@ if (!exists('public/sitemap.xml')) {
   } else {
     notes.push(`sitemap: ${locs.length} URLs, ${blogLocs.length} blog routes, all published by the shared predicate`);
   }
+  // Search-loop question pages: the sitemap lists exactly the live pages in the
+  // engine's ledger whose file exists (lib/searchLoopPages.mjs) - no phantom URL,
+  // and no published page left out of the sitemap.
+  const liveRoutes = new Set(liveQuestionPages(ROOT).map((p) => p.route));
+  const questionLocs = locs.filter((l) => l.startsWith('/questions/') && l !== '/questions/');
+  const phantomQ = questionLocs.filter((l) => !liveRoutes.has(l));
+  const missingQ = [...liveRoutes].filter((r) => !questionLocs.includes(r));
+  if (phantomQ.length) errors.push(`${phantomQ.length} /questions/ URL(s) in the sitemap are not live search-loop pages: ${phantomQ.slice(0, 5).join(', ')}`);
+  if (missingQ.length) errors.push(`${missingQ.length} live search-loop page(s) missing from the sitemap: ${missingQ.slice(0, 5).join(', ')}`);
+  if (!phantomQ.length && !missingQ.length) notes.push(`sitemap: ${questionLocs.length} search-loop question pages, matching the ledger`);
 }
 
 // --- 2. every published item is structurally complete -----------------------
