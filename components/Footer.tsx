@@ -27,9 +27,7 @@ export function Footer() {
         <p>
           <Link href="/questions/">Questions families ask</Link>
           <br />
-          <a href="https://www.diannesplacerecoveryservices.com/">
-            Dianne&apos;s Place Recovery Services main site
-          </a>
+          <a href={siteIdentity.sisterSite.url}>{siteIdentity.sisterSite.label}</a>
         </p>
       </section>
 
