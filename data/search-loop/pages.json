@@ -1,5 +1,69 @@
 {
   "schema": "search-loop-pages-v1",
-  "pages": [],
-  "dropped": []
+  "pages": [
+    {
+      "slug": "how-to-get-transitional-housing",
+      "query": "how to get transitional housing",
+      "score": 45,
+      "signals": {
+        "words": 5,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/how-to-get-transitional-housing/index.html",
+      "route": "/questions/how-to-get-transitional-housing/",
+      "url": "https://detoxdenver.org/questions/how-to-get-transitional-housing/",
+      "published_at": "2026-11-01",
+      "status": "live",
+      "hash": "51d57297fd3ea8676d8b05f5fe0a5f82b7f5c55690cea469bd1d8e17b9ed62af",
+      "model": "free-route",
+      "facts": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3057870/"
+      ],
+      "linked_from": [],
+      "checks": {}
+    },
+    {
+      "slug": "how-to-apply-transitional-housing",
+      "query": "how to apply transitional housing",
+      "score": 45,
+      "signals": {
+        "words": 5,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/how-to-apply-transitional-housing/index.html",
+      "route": "/questions/how-to-apply-transitional-housing/",
+      "url": "https://detoxdenver.org/questions/how-to-apply-transitional-housing/",
+      "published_at": "2026-11-01",
+      "status": "live",
+      "hash": "fa7fc79107cd7209115163a14bbdc4369390f182d89fb5b886d3bc113e0d6986",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov"
+      ],
+      "linked_from": [],
+      "checks": {}
+    }
+  ],
+  "dropped": [
+    {
+      "query": "how to start transitional housing program",
+      "at": "2026-11-01",
+      "reason": [
+        "off-audience: The search 'how to start transitional housing program' is from the perspective of someone wanting to create a program, n"
+      ]
+    },
+    {
+      "query": "how to open transitional housing",
+      "at": "2026-11-01",
+      "reason": [
+        "off-audience: Search is about starting/operating a transitional housing facility, not seeking housing. Audience is providers/entrepren"
+      ]
+    }
+  ]
 }

@@ -2,10 +2,10 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W44",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-01T16:49:19.440Z",
+  "generated_at": "2026-11-01T21:13:41.050Z",
   "state": "slow",
-  "published": 0,
-  "indexed": 0,
+  "published": 2,
+  "indexed": "not read: no page old enough to inspect yet (14 days)",
   "pace": 3,
   "ai_visitors": "not read: CLOUDFLARE_API_TOKEN is not set",
   "ai_bot_hits": "not read: CLOUDFLARE_API_TOKEN is not set",
@@ -14,12 +14,10 @@
   "undone": 0,
   "merged": 0,
   "notes": [
-    "FIND bing_webmaster: not read: BING_WEBMASTER_API_KEY is not set",
-    "FIND relevance_screen: not read: every free lane is out — workers: not read: CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN (usage read) not passed; gemini:gemini-2.5-flash: free daily quota used (skipped this run); openrouter:nvidia/nemotron-3-ultra-550b-a55b:free: timed out after 60s (skipped this run); openrouter:dots-studio/dots-3-note-preview:free: timed out after 31s (skipped this run) (gemini:gemini-2.5-flash-lite:http_404, openrouter:nemotron-3.5-lightning:free:empty, openrouter:gemma-4-31b-it:free:http_429, openrouter:gemma-4-26b-a4b-it:free:http_429, openrouter:dots-3-note-preview:free:timeout, all::call budget 240s used) (lexical floor only)",
-    "NAMED NOTE [FREE_MODEL_RATE_LIMITED] the free model route is rate-limited or exhausted (every free lane is out — workers: not read: CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN (usage read) not passed; gemini:gemini-2.5-flash: free daily quota used (skipped this run); openrouter:nvidia/nemotron-3-ultra-550b-a55b:free: timed out after 60s (skipped this run); openrouter:dots-studio/dots-3-note-preview:free: timed out after 31s (skipped this run); openrouter:nvidia/nemotron-3.5-lightning:free: timed out after 60s (skipped this run) (all::backoff 10s, gemini:gemini-2.5-flash-lite:http_404, openrouter:gemma-4-31b-it:free:http_429, openrouter:gemma-4-26b-a4b-it:free:http_429, openrouter:xing4.0-29b-a4b:free:http_429, openrouter:nemotron-3.5-super-vl:free:empty)); this run dropped itself to slow for today",
+    "NAMED NOTE [FREE_MODEL_RATE_LIMITED] the free model route is rate-limited or exhausted (every free lane is out — workers: engine share of Workers AI used today (570.4363689422607/600 neurons; account 412.667681802935/9000); gemini:gemini-2.5-flash: free daily quota used (skipped this run); openrouter:nvidia/nemotron-3-ultra-550b-a55b:free: timed out after 60s (skipped this run); openrouter:dots-studio/dots-3-note-preview:free: timed out after 58s (skipped this run) (gemini:gemini-2.5-flash-lite:http_404, openrouter:nemotron-3.5-lightning:free:empty, openrouter:gemma-4-31b-it:free:http_429, openrouter:gemma-4-26b-a4b-it:free:http_429, openrouter:dots-3-note-preview:free:timeout, all::call budget 240s used)); this run dropped itself to slow for today",
     "BUILD stopped early: the free model route failed twice in a row",
-    "BUILD published 0 of quota 3: 0 draft(s) failed the gate and were dropped; 1 got no answer from the free model and stay queued",
-    "pace: held at 10/day: indexing not read (no pages old enough to measure)"
+    "CHECK runs weekly in mode=slow; last ran 2026-11-01",
+    "IndexNow: 2 new page(s) not live yet; submitted when they answer 200"
   ],
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/41328266211"
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/41350901236"
 }
