@@ -26,6 +26,10 @@ export function Footer() {
         </p>
         <p>
           <Link href="/questions/">Questions families ask</Link>
+          <br />
+          <a href="https://www.diannesplacerecoveryservices.com/">
+            Dianne&apos;s Place Recovery Services main site
+          </a>
         </p>
       </section>
 
