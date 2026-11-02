@@ -6,6 +6,7 @@ https://detoxdenver.org/future-services/
 https://detoxdenver.org/referrals/
 https://detoxdenver.org/resources/
 https://detoxdenver.org/answers/
+https://detoxdenver.org/questions/
 https://detoxdenver.org/blog/
 https://detoxdenver.org/contact/
 https://detoxdenver.org/privacy/
@@ -131,3 +132,7 @@ https://detoxdenver.org/blog/2026-10-29-millennial-recovery/
 https://detoxdenver.org/blog/2026-10-30-gen-z-recovery/
 https://detoxdenver.org/blog/2026-10-31-referral-guidance/
 https://detoxdenver.org/blog/2026-11-01-relapse-prevention/
+https://detoxdenver.org/blog/2026-11-02-employment-and-education/
+https://detoxdenver.org/questions/what-is-a-sober-living-home/
+https://detoxdenver.org/questions/how-to-apply-transitional-housing/
+https://detoxdenver.org/questions/how-to-get-transitional-housing/
