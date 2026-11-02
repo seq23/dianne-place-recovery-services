@@ -1,0 +1,59 @@
+{
+  "h1": "What is a Sober Living Home?",
+  "title_lead": "What is a sober living home?",
+  "meta_description": "Learn what a sober living home provides. Discover how structured, substance-free housing supports adults in early recovery through community and stability.",
+  "direct_answer": "A sober living home is a structured, substance-free residential environment. It provides a safe place for adults to live while they maintain their recovery. These homes offer community support and accountability. They are not medical facilities, but they help bridge the gap between intensive treatment and independent living.",
+  "sections": [
+    {
+      "heading": "How does sober living work?",
+      "paragraphs": [
+        "Sober living homes focus on stability. You live with other adults who are also working on their recovery. This creates a shared environment of mutual respect. Most homes have clear rules to help everyone stay on track. These rules often include regular drug testing and participation in house meetings. You might also have chores to help maintain the home. This structure helps you build new habits. It provides a predictable routine. A routine can be very helpful when life feels overwhelming. You learn how to manage daily tasks in a safe space. This is different from living alone or with people who are not in recovery. The goal is to provide a foundation. You can focus on your personal growth without the distractions of your old environment. It is a place to practice the skills you learned in treatment. You are not alone in this process. The community is there to support your transition to a new way of life."
+      ]
+    },
+    {
+      "heading": "What is the difference between treatment and sober living?",
+      "paragraphs": [
+        "It is important to know the difference between these two types of care. Treatment or detox is medical and clinical. Those programs focus on physical stabilization and intensive therapy. They are designed for acute needs. Sober living is residential housing. It is not a clinical setting. You do not receive medical treatment or therapy in a sober living home. Instead, you receive peer support and a structured living environment. Think of it as a stepping stone. You might move to sober living after completing a residential treatment program. It allows you to test your stability in a controlled setting. You still have access to your doctors and therapists in the community. The home simply provides the physical space and the substance-free community. This distinction helps you plan your next steps. It ensures you have the right level of support for your current needs. Always consult your care team to decide which step is right for you."
+      ]
+    },
+    {
+      "heading": "Who is sober living for?",
+      "paragraphs": [
+        "Sober living is designed for adults in early recovery. It is often for people who have completed a formal treatment program. It is also for those who need more structure than they can find at home. Families often look for these homes for their loved ones. Treatment staff and discharge planners also refer people to these residences. It is a good fit if you need accountability. It is a good fit if you need to avoid people or places that trigger use. You do not have to navigate this transition by yourself. The community provides a sense of belonging. This can be very helpful during the early stages of change. It is for anyone seeking a substance-free environment to build a new life. You can work, go to school, or attend meetings while living there. The focus is on maintaining your progress in a supportive, stable setting. It helps you prepare for the responsibilities of independent living."
+      ]
+    },
+    {
+      "heading": "What should I expect when living in a home?",
+      "paragraphs": [
+        "Expect a community-focused lifestyle. You will share common areas like kitchens and living rooms. This requires cooperation and respect for others. You will likely follow a set of house guidelines. These guidelines help keep the environment safe and predictable. You might participate in house meetings to discuss chores or upcoming events. You will also likely undergo regular testing to ensure the home remains substance-free. This is a standard part of maintaining the integrity of the space. You should also expect to manage your own schedule. You might have a job or attend classes during the day. The home is your base of operations. It is where you rest and connect with peers. It is not a place where someone manages your entire life. You are responsible for your own actions and your own recovery. The house provides the structure, but you provide the effort. This balance helps you build true independence."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is sober living the same as detox?",
+      "a": "No, they are very different. Detox is a medical process to manage physical withdrawal symptoms. It requires clinical supervision. Sober living is residential housing. It provides a stable, substance-free environment for living. It is not a medical facility and does not provide detox services or medical care."
+    },
+    {
+      "q": "Do I need to be in treatment to live in a sober home?",
+      "a": "Many people move to sober living after completing a treatment program. However, some homes allow individuals who are managing their recovery independently. Requirements vary by house. It is best to ask the specific home about their entry requirements. Some may require a recent completion certificate from a program."
+    },
+    {
+      "q": "Are there doctors in the house?",
+      "a": "No, there are no doctors or medical staff living in a sober living home. These homes are not medical facilities. They provide housing and peer support. If you have medical needs, you must see your own healthcare providers. For any medical emergencies, you should always call 911 immediately."
+    },
+    {
+      "q": "Can I live in sober living if I have a job?",
+      "a": "Yes, most residents in sober living are working or attending school. Having a job is often encouraged. It helps you build stability and prepare for independent life. You will need to balance your work schedule with house rules and community responsibilities. It is a great way to practice autonomy."
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Sober living environments are designed to provide a supportive, substance-free community for individuals in recovery.",
+      "source_url": "https://www.samhsa.gov",
+      "source_name": "Substance Abuse and Mental Health Services Administration",
+      "verified": true,
+      "checked_status": 200
+    }
+  ]
+}

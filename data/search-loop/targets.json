@@ -1,116 +1,20 @@
 {
   "schema": "search-loop-targets-v1",
   "site": "detoxdenver.org",
-  "week": "2026-W44",
-  "generated_at": "2026-11-01T16:49:19.440Z",
+  "week": "2026-W45",
+  "generated_at": "2026-11-02T12:32:56.113Z",
   "sources": {
     "search_console": "ok: 0 rows",
-    "bing_webmaster": "not read: BING_WEBMASTER_API_KEY is not set",
+    "bing_webmaster": "ok: 0 rows",
     "suggestqueries.google.com": "ok",
     "api.bing.com": "ok",
-    "relevance_screen": "not read: every free lane is out — workers: not read: CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN (usage read) not passed; gemini:gemini-2.5-flash: free daily quota used (skipped this run); openrouter:nvidia/nemotron-3-ultra-550b-a55b:free: timed out after 60s (skipped this run); openrouter:dots-studio/dots-3-note-preview:free: timed out after 31s (skipped this run) (gemini:gemini-2.5-flash-lite:http_404, openrouter:nemotron-3.5-lightning:free:empty, openrouter:gemma-4-31b-it:free:http_429, openrouter:gemma-4-26b-a4b-it:free:http_429, openrouter:dots-3-note-preview:free:timeout, all::call budget 240s used) (lexical floor only)"
+    "relevance_screen": "ok: kept 82 of 150 (free model)"
   },
   "targets": [
-    {
-      "query": "how to get transitional housing",
-      "variants": [
-        "how to start transitional housing",
-        "what is transitional housing",
-        "is transitional housing",
-        "what are transitional housing",
-        "how to start a transitional housing",
-        "what is a transitional housing",
-        "definition of transitional housing"
-      ],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 45,
-      "kind": "new"
-    },
-    {
-      "query": "how to start transitional housing program",
-      "variants": [
-        "what is transitional housing program",
-        "what is a transitional housing program",
-        "how to start a transitional housing program"
-      ],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 45,
-      "kind": "new"
-    },
-    {
-      "query": "how to open transitional housing",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 45,
-      "kind": "new"
-    },
-    {
-      "query": "how to apply transitional housing",
-      "variants": [
-        "how to apply for transitional housing"
-      ],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 45,
-      "kind": "new"
-    },
-    {
-      "query": "what is transitional housing near me",
-      "variants": [
-        "transitional housing near me"
-      ],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 45,
-      "kind": "new"
-    },
     {
       "query": "what is a sober living home",
       "variants": [
         "how to start sober living home"
-      ],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 45,
-      "kind": "new"
-    },
-    {
-      "query": "what is a transitional living home",
-      "variants": [
-        "how to start a transitional living home"
       ],
       "signals": {
         "words": 6,
@@ -194,8 +98,10 @@
       "kind": "new"
     },
     {
-      "query": "sober living denver medicaid",
-      "variants": [],
+      "query": "sober living denver colorado",
+      "variants": [
+        "sober living in denver colorado"
+      ],
       "signals": {
         "words": 4,
         "question": false,
@@ -207,10 +113,8 @@
       "kind": "new"
     },
     {
-      "query": "sober living denver colorado",
-      "variants": [
-        "sober living in denver colorado"
-      ],
+      "query": "sober living denver medicaid",
+      "variants": [],
       "signals": {
         "words": 4,
         "question": false,
@@ -284,45 +188,6 @@
       "kind": "new"
     },
     {
-      "query": "recovery housing near me",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing assistance fund",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing assistance program",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
       "query": "recovery housing for women",
       "variants": [],
       "signals": {
@@ -336,20 +201,7 @@
       "kind": "new"
     },
     {
-      "query": "recovery housing initiative colorado",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
-      "query": "steps to recovery homes",
+      "query": "recovery housing near me",
       "variants": [],
       "signals": {
         "words": 4,
@@ -366,19 +218,6 @@
       "variants": [],
       "signals": {
         "words": 5,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
-      "query": "sober living rules and regulations california",
-      "variants": [],
-      "signals": {
-        "words": 6,
         "question": false,
         "google_suggest": true,
         "bing_suggest": true,
@@ -431,144 +270,10 @@
       "kind": "new"
     },
     {
-      "query": "recovery housing",
-      "variants": [
-        "what is recovery housing",
-        "housing is recovery"
-      ],
-      "signals": {
-        "words": 2,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing program",
-      "variants": [
-        "recovery housing programs",
-        "what is recovery housing program",
-        "housing is recovery program"
-      ],
-      "signals": {
-        "words": 3,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing ohio",
-      "variants": [
-        "ohio recovery housing"
-      ],
-      "signals": {
-        "words": 3,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "what is transitional housing for homeless",
-      "variants": [
-        "is transitional housing homeless"
-      ],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "what is transitional housing mean",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
       "query": "what is sober housing",
       "variants": [],
       "signals": {
         "words": 4,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "what is transitional housing nz",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "what is transitional housing for inmates",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "are recovery houses profitable",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "can transitional housing kick you out",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "does house go to rehab",
-      "variants": [],
-      "signals": {
-        "words": 5,
         "question": true,
         "google_suggest": true,
         "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
@@ -589,82 +294,10 @@
       "kind": "new"
     },
     {
-      "query": "is transitional housing considered homeless",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "is transitional housing free",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "is transitional housing a shelter",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "is transitional housing a non profit",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "is transitional housing temporary",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
       "query": "what is a sober living home mean",
       "variants": [],
       "signals": {
         "words": 7,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "what is needed to start a sober living home",
-      "variants": [],
-      "signals": {
-        "words": 9,
         "question": true,
         "google_suggest": true,
         "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
@@ -784,30 +417,6 @@
       "kind": "new"
     },
     {
-      "query": "how to find sober living tenants",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "how to get sober living clients",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
       "query": "how to get sober living paid for",
       "variants": [],
       "signals": {
@@ -832,58 +441,10 @@
       "kind": "new"
     },
     {
-      "query": "how to find someone in sober living",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "how to get a sober living house started",
-      "variants": [],
-      "signals": {
-        "words": 8,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
       "query": "how long can you stay in transitional housing",
       "variants": [],
       "signals": {
         "words": 8,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "how long does it take to get transitional housing",
-      "variants": [],
-      "signals": {
-        "words": 9,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "is transitional housing profitable",
-      "variants": [],
-      "signals": {
-        "words": 4,
         "question": true,
         "google_suggest": true,
         "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
@@ -905,18 +466,6 @@
     },
     {
       "query": "sober living denver metro",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "sober living denver free",
       "variants": [],
       "signals": {
         "words": 4,
@@ -952,34 +501,22 @@
       "kind": "new"
     },
     {
-      "query": "sober things to do in denver",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing program rhp",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
       "query": "recovery housing for men",
       "variants": [],
       "signals": {
         "words": 4,
+        "question": false,
+        "google_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "score": 25,
+      "kind": "new"
+    },
+    {
+      "query": "recovery housing programs near me",
+      "variants": [],
+      "signals": {
+        "words": 5,
         "question": false,
         "google_suggest": true,
         "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
@@ -1000,108 +537,10 @@
       "kind": "new"
     },
     {
-      "query": "steps to recovery rehab",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is recovery bridge housing",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is the housing and economic recovery act",
-      "variants": [],
-      "signals": {
-        "words": 8,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how to start a recovery house",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how to start a recovery home",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how to open a recovery house",
-      "variants": [
-        "opening a recovery house"
-      ],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
       "query": "whats a sober living house",
       "variants": [],
       "signals": {
         "words": 5,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "sober living license requirements",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "sober living license arizona",
-      "variants": [],
-      "signals": {
-        "words": 4,
         "question": false,
         "google_suggest": true,
         "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
@@ -1135,42 +574,6 @@
     },
     {
       "query": "how to find a sober living facility",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how to find a sober living landlord",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how do i find a sober lifestyle",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how do i find a sober community",
       "variants": [],
       "signals": {
         "words": 7,
@@ -1219,18 +622,6 @@
     },
     {
       "query": "how to find a halfway house",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how to run a halfway house",
       "variants": [],
       "signals": {
         "words": 6,
@@ -1330,34 +721,10 @@
       "kind": "new"
     },
     {
-      "query": "can halfway house be located near prison",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
       "query": "can halfway house residents leave",
       "variants": [],
       "signals": {
         "words": 5,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "can halfway house be located near work",
-      "variants": [],
-      "signals": {
-        "words": 7,
         "question": true,
         "bing_suggest": true,
         "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
@@ -1372,30 +739,6 @@
       ],
       "signals": {
         "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is transitional rehab",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "transitional rehab centers near me",
-      "variants": [],
-      "signals": {
-        "words": 5,
         "question": false,
         "google_suggest": true,
         "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
@@ -1420,30 +763,6 @@
       "variants": [],
       "signals": {
         "words": 6,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how to provide transitional housing services",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how to open a transitional housing facility",
-      "variants": [],
-      "signals": {
-        "words": 7,
         "question": true,
         "bing_suggest": true,
         "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
@@ -1500,67 +819,7 @@
       "kind": "new"
     },
     {
-      "query": "is transitional housing public housing",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how to open up a transitional home",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
       "query": "when should discharge planning be initiated",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how to discharge planning conditions",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how long to discharge planning conditions",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is discharge planning in healthcare",
       "variants": [],
       "signals": {
         "words": 6,
@@ -1609,66 +868,6 @@
     },
     {
       "query": "denver sober living homes",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "oxford sober living denver",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "lighthouse sober living denver",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "hazelbrook sober living denver",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "dogstar sober living denver",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "monarch sober living denver",
       "variants": [],
       "signals": {
         "words": 4,
@@ -1802,46 +1001,10 @@
       "kind": "new"
     },
     {
-      "query": "lgbt sober living in denver",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "lgbtq sober living denver",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
       "query": "sober living home in colorado",
       "variants": [],
       "signals": {
         "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "authentic sober living denver",
-      "variants": [],
-      "signals": {
-        "words": 4,
         "question": false,
         "bing_suggest": true,
         "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
@@ -1884,631 +1047,24 @@
       },
       "score": 20,
       "kind": "new"
-    },
-    {
-      "query": "step denver sober living",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recover colorado sober living",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "free sober living programs colorado",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing in iowa",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing near me cost",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing near me reviews",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing fund michigan",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing program hud",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing of maine",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing in michigan",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing richmond va",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing columbus ohio",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing north dakota",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "housing is recovery illinois",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "housing is recovery chicago",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "housing is recovery idhs",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "housing is recovery pilot program",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery is happening housing",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "housing for people in recovery",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "housing for addicts in recovery",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "housing resources for people in recovery",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "housing to recovery fund",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "importance of housing in recovery",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "step by step recovery house",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery options made easy supported housing",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery away from home",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "self help recovery house",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing programs uk",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "home sober living manchester nh",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "free sober living homes near me reviews",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living homes near me",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "monarch sober living homes",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "home sober living nh",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living homes in iowa",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living homes in columbus indiana",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living rules and requirements",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living rules ted talk",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living house rules and guidelines",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "rules for sober living homes",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living house rules and violations",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living sober center rules",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living sober central rules",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "oxford house sober living rules",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "azdhs sober living rules",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living home rules",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living house rules and consequences",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living house rules and responsibilities",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living house rules and policies",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "rules and regulations for sober living homes",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living facility rules",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living house rules and expectations",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living house regulations",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
     }
   ],
-  "strengthen": []
+  "strengthen": [
+    {
+      "query": "recovery housing",
+      "variants": [
+        "what is recovery housing",
+        "housing is recovery"
+      ],
+      "signals": {
+        "words": 2,
+        "question": false,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "score": 30,
+      "page": "/public/questions/how-to-apply-transitional-housing/"
+    }
+  ]
 }

@@ -23,7 +23,8 @@
         "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3057870/"
       ],
       "linked_from": [],
-      "checks": {}
+      "checks": {},
+      "indexnow_at": "2026-11-02"
     },
     {
       "slug": "how-to-apply-transitional-housing",
@@ -47,6 +48,31 @@
         "https://www.samhsa.gov"
       ],
       "linked_from": [],
+      "checks": {},
+      "indexnow_at": "2026-11-02"
+    },
+    {
+      "slug": "what-is-a-sober-living-home",
+      "query": "what is a sober living home",
+      "score": 45,
+      "signals": {
+        "words": 6,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/what-is-a-sober-living-home/index.html",
+      "route": "/questions/what-is-a-sober-living-home/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
+      "published_at": "2026-11-02",
+      "status": "live",
+      "hash": "9e240c8f9b091cd5f7a10ef007f07e100b52418f8add2aa03f5f5caf73070d5d",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov"
+      ],
+      "linked_from": [],
       "checks": {}
     }
   ],
@@ -63,6 +89,16 @@
       "at": "2026-11-01",
       "reason": [
         "off-audience: Search is about starting/operating a transitional housing facility, not seeking housing. Audience is providers/entrepren"
+      ]
+    },
+    {
+      "query": "what is a sober living house",
+      "at": "2026-11-02",
+      "reason": [
+        "b5 FAQ answer is 34 words (needs 40-60): \"Is sober living the same as rehab?\"",
+        "b5 FAQ answer is 37 words (needs 40-60): \"Do I need to be in treatment to live in sober livi\"",
+        "b5 FAQ answer is 37 words (needs 40-60): \"Can I get medical help at a sober living house?\"",
+        "b5 FAQ answer is 32 words (needs 40-60): \"What is the main goal of a sober living house?\""
       ]
     }
   ]
