@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T13:21:03.815Z",
+  "generatedAt": "2026-11-02T13:22:17.199Z",
   "mode": "approved_backlog",
   "strategyProfile": "data/strategy/citation_strategy_profile.json",
   "sourcesUsed": [
@@ -10,8 +10,7 @@
   "validatorsExpected": [
     "validate:content",
     "validate:licensure-mode",
-    "validate:legal",
-    "validate:repo"
+    "validate:legal"
   ],
   "unproven": [
     "live deployment",
