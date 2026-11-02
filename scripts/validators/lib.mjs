@@ -31,3 +31,12 @@ export function listFiles(dir, acc = []) {
   }
   return acc;
 }
+
+// Owner ruling 2 Nov 2026 (no petty validation): a length or word count OVER its
+// ceiling never fails (a note at most); one UNDER its floor fails only below 75%
+// of it. Every validator reads this helper instead of its own numbers.
+export const FLOOR_SLACK = 0.75;
+export const failsFloor = (n, min) => !(Number(n) >= Math.ceil(min * FLOOR_SLACK));
+export function note(message) {
+  console.warn(`[note] ${message}`);
+}
