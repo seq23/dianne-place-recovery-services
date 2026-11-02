@@ -76,7 +76,7 @@
       "script": "validate:page-seo",
       "severity": "hard",
       "category": "seo",
-      "risk": "Pages without their own title/description or a definition paragraph lose snippet and answer-engine eligibility."
+      "risk": "Pages without their own title/description or a definition paragraph lose snippet and answer-engine eligibility. Lengths over the band are notes; under fails only below 75% of the floor."
     },
     {
       "id": "clarity",
