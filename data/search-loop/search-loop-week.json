@@ -2,21 +2,126 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W45",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-02T12:32:56.113Z",
-  "state": "slow",
-  "published": 3,
+  "generated_at": "2026-11-03T12:32:30.074Z",
+  "state": "running",
+  "published": 13,
   "indexed": "not read: no page old enough to inspect yet (14 days)",
-  "pace": 3,
+  "pace": 10,
   "ai_visitors": "not read: CLOUDFLARE_API_TOKEN is not set",
   "ai_bot_hits": "not read: CLOUDFLARE_API_TOKEN is not set",
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 0,
   "undone": 0,
   "merged": 0,
-  "notes": [
-    "NAMED NOTE [FREE_MODEL_RATE_LIMITED] the free model route is rate-limited or exhausted (every free lane is out — workers: engine share of Workers AI used today (571.2727279663086/600 neurons; account 347.0636329650879/9000); gemini:gemini-2.5-flash: free daily quota used (skipped this run); openrouter:nvidia/nemotron-3-ultra-550b-a55b:free: timed out after 60s (skipped this run); openrouter:dots-studio/dots-3-note-preview:free: timed out after 60s (skipped this run); openrouter:google/gemma-4-26b-a4b-it:free: timed out after 60s (skipped this run); openrouter:nvidia/nemotron-3.5-lightning:free: timed out after 60s (skipped this run) (openrouter:nemotron-3.5-super-vl:free:empty, all::backoff 10s, gemini:gemini-2.5-flash-lite:http_404, openrouter:gemma-4-31b-it:free:http_429, openrouter:xing4.0-29b-a4b:free:http_429, openrouter:nemotron-3.5-super-vl:free:empty)); this run dropped itself to slow for today",
-    "BUILD stopped early: the free model route failed twice in a row",
-    "CHECK runs weekly in mode=slow; last ran 2026-11-01"
+  "held_by_cap": 0,
+  "redirected": [
+    {
+      "query": "how to find sober living homes",
+      "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.75 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "how to find a good sober living house",
+      "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.75 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "sober living denver colorado",
+      "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "sober living denver medicaid",
+      "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "sober living denver women",
+      "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "sober living denver medicaid accepted",
+      "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.67 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "sober living denver men",
+      "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "tips for sober living",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
+      "matched_by": "high token overlap (0.67 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "sober living house rules",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-halfway-house/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "sober living denver",
+      "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.75 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "how to qualify for sober living",
+      "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "what is a sober living home mean",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
+      "matched_by": "high token overlap (0.75 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "what is the purpose of a sober living house",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-halfway-house/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "how much is a sober living house",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-halfway-house/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "sober living rules",
+      "strengthen": "https://detoxdenver.org/questions/sober-living-rules-and-regulations/",
+      "matched_by": "high token overlap (0.75 >= 0.6)",
+      "at": "2026-11-03"
+    },
+    {
+      "query": "how does sober living work",
+      "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-03"
+    }
   ],
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/41445583652"
+  "cap": {
+    "max_live_pages": 22,
+    "live": 13,
+    "room": 9,
+    "why": "up from 20 to 22: Google impressions 7 in the last 28 days beat 5 in the 28 before"
+  },
+  "notes": [
+    "cap: up from 20 to 22: Google impressions 7 in the last 28 days beat 5 in the 28 before",
+    "BUILD distinct gate: 16 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
+    "BUILD gate notes (not blocking): 8 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json"
+  ],
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/41636562120"
 }

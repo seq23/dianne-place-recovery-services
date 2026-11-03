@@ -1,0 +1,70 @@
+{
+  "h1": "Do you have to pay for sober living?",
+  "title_lead": "Do you have to pay for sober living?",
+  "meta_description": "Yes, recovery housing requires payment for rent and shared costs. Learn how structured sober living in Denver works, what fees cover, and next steps.",
+  "direct_answer": "Sober living is a structured, substance-free home where residents pay rent and share household expenses while supporting each other in early recovery. Yes, you do have to pay for sober living, as these homes are privately operated residences rather than free emergency shelters or state-funded medical treatment facilities.",
+  "sections": [
+    {
+      "heading": "Understanding the costs of recovery housing",
+      "paragraphs": [
+        "When you transition out of inpatient treatment or early detox, finding a safe place to live is a top priority. Many people wonder about the financial side of recovery housing. Just like any standard residential lease, sober living homes require regular rent payments. Residents are responsible for covering their share of housing costs, which typically include monthly rent and shared household supplies like groceries or cleaning items.",
+        "Unlike medical facilities or clinical programs, sober living homes operate more like independent shared housing. They rely on rent payments from residents to maintain the property, cover utilities, and keep the home safe and clean. This financial structure helps foster a sense of personal responsibility and accountability, which are vital components of early recovery. It is important to plan ahead and discuss fees directly with home managers before moving in so you know exactly what to expect."
+      ]
+    },
+    {
+      "heading": "What your rent and fees actually cover",
+      "paragraphs": [
+        "When you pay rent at a structured sober living home, your funds go toward maintaining a stable environment. This includes a fully furnished residence, utilities like water, electricity, and internet, and the general upkeep of the property. More importantly, your payment secures your spot in a community of peers who share the common goal of maintaining a substance-free lifestyle.",
+        "These homes provide structured routines and accountability measures, such as house meetings and peer support. While recovery housing is not treatment, therapy, or emergency care, the environment itself supports daily routines and personal growth. Understanding the value of this environment helps families and individuals see that rent covers much more than just a physical bed. It provides a foundation of peer support and peer accountability while you rebuild your life in the Denver area."
+      ]
+    },
+    {
+      "heading": "Exploring payment options and financial planning",
+      "paragraphs": [
+        "Because sober living homes are private residences, they generally do not accept standard health insurance to cover monthly rent. Residents usually pay out of pocket using personal savings, employment income, or support from family members who want to help in the recovery process. Some individuals transition to part-time or full-time work while living in the home, which helps them gradually resume financial independence.",
+        "If you are planning a transition from a treatment center or hospital discharge, you will want to talk with discharge staff early. Treatment providers and family members can help map out a realistic budget for rent and daily living expenses. Planning ahead prevents stress and ensures a smooth entry into a structured environment. You can also read more about the basics of these homes on our page titled What is a sober living home? — Dianne's Place."
+      ]
+    },
+    {
+      "heading": "Taking the next practical steps forward",
+      "paragraphs": [
+        "Deciding to enter a sober living home is a significant step toward long-term stability. If you or a family member are looking at options in the Denver area, gathering clear information is the best place to start. Reach out to house managers to ask specific questions about monthly rates, house rules, and available openings. Clear communication helps ensure the home is a good fit for your individual needs.",
+        "Remember that immediate danger requires calling 911, and crisis support is always available by calling or texting 988. For structured, substance-free sober living and referral support for families and treatment providers, Dianne's Place offers plain-language recovery resources to guide you. Contact Dianne's Place about availability and fit."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can health insurance pay for sober living?",
+      "a": "Standard health insurance policies typically do not cover the monthly rent or fees associated with sober living homes. Insurance usually applies to clinical treatment, therapy, or medical care, whereas recovery housing is considered residential rent."
+    },
+    {
+      "q": "Are sober living homes free?",
+      "a": "No, sober living homes are not free. They are independent residential properties that require residents to pay monthly rent and share household expenses to maintain the operation and upkeep of the shared living space."
+    },
+    {
+      "q": "Do I need a job before moving into sober living?",
+      "a": "Many homes require residents to have a source of income, such as a job, savings, or family support, to ensure they can afford rent. Some residents secure employment shortly after moving in while maintaining their daily recovery routine."
+    },
+    {
+      "q": "What expenses are included in sober living rent?",
+      "a": "Monthly rent typically covers the room, utilities, shared household supplies, and access to peer support structures. Residents are usually responsible for their own personal items, clothing, and individual food purchases."
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Recovery housing provides safe, substance-free living environments that support individuals in recovery from substance use disorders.",
+      "source_url": "https://en.wikipedia.org/wiki/Sober_living_house",
+      "source_name": "Wikipedia",
+      "verified": true,
+      "checked_status": 200
+    },
+    {
+      "claim": "Sober living homes typically operate as private residences where residents pay rent and adhere to house rules.",
+      "source_url": "https://www.samhsa.gov/",
+      "source_name": "Substance Abuse and Mental Health Services Administration",
+      "verified": true,
+      "checked_status": 200
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "h1": "What is a sober living halfway house?",
+  "title_lead": "What is a sober living halfway house",
+  "meta_description": "Learn what a sober living halfway house is in Denver. Explore structured, substance-free recovery housing for adults in early recovery and their families.",
+  "direct_answer": "A sober living halfway house is a structured, substance-free residential environment that helps adults transition from inpatient treatment back into daily life. It provides peer support, accountability, and a stable community for individuals focusing on early recovery without offering medical or clinical treatment.",
+  "sections": [
+    {
+      "heading": "Understanding the role of recovery housing in Denver",
+      "paragraphs": [
+        "Stepping out of an inpatient treatment center or hospital setting can feel overwhelming. You leave behind a tightly controlled daily routine and return to everyday responsibilities. A sober living home bridges that gap. It offers a safe place to live while you practice new coping skills in the real world. You share space with other adults who share the common goal of maintaining a substance-free lifestyle.",
+        "Unlike medical detox facilities or clinical treatment centers, sober living houses focus on peer support and daily structure. You maintain your own schedule, go to work or school, and attend mutual-aid meetings in the community. The environment provides accountability through house rules and peer expectations, but it does not provide clinical therapy, medical care, or crisis services. If you face an immediate medical emergency, always call 911. For mental health crisis support, call or text 988.",
+        "Families often look for these homes when a loved one prepares to leave primary treatment. Discharge planners and treatment staff also use recovery housing as a reliable next step. Knowing that your loved one has a stable, substance-free place to sleep brings peace of mind during a vulnerable transition. You can learn more about this approach by reading What is a sober living home? — Dianne's Place."
+      ]
+    },
+    {
+      "heading": "How structured sober living supports daily routines",
+      "paragraphs": [
+        "Early recovery relies heavily on consistency. A structured environment removes many common daily triggers by enforcing a strict substance-free policy. Residents agree to follow house rules, respect shared spaces, and participate in house meetings. This structure helps you build healthy habits that last long after you leave the house.",
+        "Living alongside peers who understand early recovery builds a strong sense of community. You do not have to explain your journey to people who have not been there. Housemates support each other through hard days and celebrate milestones together. This mutual encouragement reduces feelings of isolation and reinforces your commitment to personal growth.",
+        "While you build this routine, you also manage your own day-to-day responsibilities. You might look for a job, enroll in classes, or attend outpatient care off-site. The focus remains on personal accountability and steady progress. You learn how to handle stress, communicate openly, and rebuild trust with yourself and others at your own pace."
+      ]
+    },
+    {
+      "heading": "The difference between treatment, detox, and sober living",
+      "paragraphs": [
+        "People often confuse the different levels of care in the addiction recovery system. Detoxification centers handle the initial physical withdrawal from substances under medical supervision. Treatment centers provide clinical therapy, counseling, and medical oversight. Sober living homes come after these stages.",
+        "Recovery housing is not a substitute for medical care or clinical therapy. Instead, it is a supportive residential setting for people who are already medically stable and committed to a substance-free lifestyle. You do not receive formal therapy on-site. You rely on community resources, outpatient providers, and your own support network for clinical needs.",
+        "Understanding these distinctions helps families and referring professionals choose the right setting at the right time. If someone still needs medical management or intensive clinical intervention, a sober living house is not the appropriate placement. Once those clinical steps are complete, recovery housing provides the ideal bridge to independent living."
+      ]
+    },
+    {
+      "heading": "Next steps for individuals, families, and referring staff",
+      "paragraphs": [
+        "Finding the right fit takes time and careful consideration. If you are an adult in early recovery, look for a home that matches your personal values and recovery plan. Talk with current residents or house managers to understand daily expectations and community culture. Ask about house rules, curfew policies, and expectations for shared chores.",
+        "For families and discharge planners, the referral process involves confirming that the potential resident is ready for a peer-run, substance-free environment. You want to ensure the applicant understands that recovery housing requires active participation and respect for house guidelines. Plain-language recovery resources can help guide these conversations and set clear expectations.",
+        "When you feel ready to explore options in the Denver area, you can take the next step. Contact Dianne's Place about availability and fit."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are sober living homes the same as halfway houses?",
+      "a": "Historically, the term halfway house often referred to facilities run by the criminal justice system. Modern sober living homes are private, voluntary residences focused entirely on peer support and substance-free community living for individuals in recovery."
+    },
+    {
+      "q": "Do sober living homes require residents to attend meetings?",
+      "a": "Most structured sober living homes expect residents to actively participate in recovery programs, such as 12-step meetings, SMART Recovery, or other mutual-aid groups, as part of their personal commitment to staying substance-free."
+    },
+    {
+      "q": "Who pays for stay in a sober living home?",
+      "a": "Residents typically pay rent themselves from employment, savings, or family support. Unlike medical treatment centers, sober living houses rarely qualify for standard health insurance coverage, though financial policies vary by location."
+    },
+    {
+      "q": "What happens if someone relapses in a sober living home?",
+      "a": "Sober living homes enforce strict substance-free policies to protect the safety of all residents. If a resident uses substances, they are usually asked to leave immediately to preserve the safe environment for the rest of the community, with staff offering referral support."
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Recovery residences provide safe, substance-free living environments that support individuals transitioning from treatment back into independent community life.",
+      "source_url": "https://en.wikipedia.org/wiki/Sober_living_house",
+      "source_name": "Wikipedia",
+      "verified": true,
+      "checked_status": 200
+    },
+    {
+      "claim": "Peer-run recovery housing emphasizes mutual support, personal accountability, and shared responsibility among residents maintaining sobriety.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3057870/",
+      "source_name": "National Institutes of Health",
+      "verified": true,
+      "checked_status": 200
+    }
+  ]
+}
