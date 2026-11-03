@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-02T13-23-57.601Z-41452459533",
-  "attempted_at": "2026-11-02T13:23:57.601Z",
+  "receipt_id": "2026-11-03T13-22-17.329Z-41643621734",
+  "attempted_at": "2026-11-03T13:22:17.329Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "48ad0acd04fa79c4c6667a5e7eacfa6b3888b50abf32ec8f3487941c72959497",
-    "url_count": 138
+    "sitemap_sha256": "c9e7e3b32b1062d3a253228e00e50a7a4a8d74164d84e0c946931f530294fa66",
+    "url_count": 149
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 138
+    "submitted_urls": 149
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -51,10 +51,10 @@
         "url": "https://detoxdenver.org/recovery-housing/",
         "status": "SUCCESS",
         "http_status": 200,
-        "verdict": "NEUTRAL",
-        "coverage_state": "Discovered - currently not indexed",
-        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-        "last_crawl_time": null
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-11-03T09:55:49Z"
       },
       {
         "url": "https://detoxdenver.org/referrals/",
@@ -90,7 +90,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-02T07:39:49Z"
+        "last_crawl_time": "2026-11-02T20:07:49Z"
       },
       {
         "url": "https://detoxdenver.org/about/",
@@ -108,10 +108,10 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-27T23:24:49Z"
+        "last_crawl_time": "2026-11-03T02:23:48Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-11-02-employment-and-education/",
+        "url": "https://detoxdenver.org/blog/2026-11-03-community-reintegration/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "NEUTRAL",
@@ -120,13 +120,22 @@
         "last_crawl_time": null
       },
       {
+        "url": "https://detoxdenver.org/blog/2026-11-02-employment-and-education/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-11-02T22:37:48Z"
+      },
+      {
         "url": "https://detoxdenver.org/blog/2026-11-01-relapse-prevention/",
         "status": "SUCCESS",
         "http_status": 200,
-        "verdict": "NEUTRAL",
-        "coverage_state": "URL is unknown to Google",
-        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-        "last_crawl_time": null
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-11-03T10:19:57Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-10-31-referral-guidance/",
@@ -208,22 +217,13 @@
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
         "last_crawl_time": "2026-10-23T22:51:18Z"
-      },
-      {
-        "url": "https://detoxdenver.org/blog/2026-10-22-community-reintegration/",
-        "status": "SUCCESS",
-        "http_status": 200,
-        "verdict": "PASS",
-        "coverage_state": "Submitted and indexed",
-        "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-23T03:06:30Z"
       }
     ]
   },
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-02T13-23-57.601Z-41452459533.json"
+    "history_path": "data/distribution/receipts/2026-11-03T13-22-17.329Z-41643621734.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
