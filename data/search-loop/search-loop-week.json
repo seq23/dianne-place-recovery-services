@@ -2,18 +2,18 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W45",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-03T12:32:30.074Z",
+  "generated_at": "2026-11-04T12:32:45.046Z",
   "state": "running",
-  "published": 13,
+  "published": 22,
   "indexed": "not read: no page old enough to inspect yet (14 days)",
   "pace": 10,
-  "ai_visitors": "not read: CLOUDFLARE_API_TOKEN is not set",
-  "ai_bot_hits": "not read: CLOUDFLARE_API_TOKEN is not set",
+  "ai_visitors": 0,
+  "ai_bot_hits": 77,
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 0,
   "undone": 0,
   "merged": 0,
-  "held_by_cap": 0,
+  "held_by_cap": 1,
   "redirected": [
     {
       "query": "how to find sober living homes",
@@ -110,18 +110,110 @@
       "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
       "matched_by": "high token overlap (0.60 >= 0.6)",
       "at": "2026-11-03"
+    },
+    {
+      "query": "how to find sober housing",
+      "strengthen": "https://detoxdenver.org/questions/what-is-sober-housing/",
+      "matched_by": "high token overlap (0.67 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "sober living denver area",
+      "strengthen": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "sober living denver metro",
+      "strengthen": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "sober living denver cost",
+      "strengthen": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "recovery housing for men",
+      "strengthen": "https://detoxdenver.org/public/questions/recovery-housing-for-women/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "whats a sober living house",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-halfway-house/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "how to get into sober living",
+      "strengthen": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "how do i find a sober living home",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
+      "matched_by": "high token overlap (0.75 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "how to find a sober living facility",
+      "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.75 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "what is a halfway house for prisoners",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "how to find a halfway house",
+      "strengthen": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "matched_by": "high token overlap (0.80 >= 0.6)",
+      "at": "2026-11-04"
     }
   ],
   "cap": {
     "max_live_pages": 22,
-    "live": 13,
-    "room": 9,
+    "live": 22,
+    "room": 0,
     "why": "up from 20 to 22: Google impressions 7 in the last 28 days beat 5 in the 28 before"
   },
   "notes": [
-    "cap: up from 20 to 22: Google impressions 7 in the last 28 days beat 5 in the 28 before",
-    "BUILD distinct gate: 16 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
-    "BUILD gate notes (not blocking): 8 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json"
+    "BUILD held by the cap: 22 live engine page(s), cap 22 (up from 20 to 22: Google impressions 7 in the last 28 days beat 5 in the 28 before); 1 more page(s) today would have gone over it, those searches stay queued",
+    "BUILD distinct gate: 11 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
+    "BUILD gate notes (not blocking): 7 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json"
   ],
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/41636562120"
+  "lanes": {
+    "ratio": {
+      "can_be_one": 2,
+      "striking": 1
+    },
+    "can_be_one": {
+      "pages": 0,
+      "measured": 0,
+      "top3": 0,
+      "hit_rate": "not read: no page in this lane has reached its 2-week check yet"
+    },
+    "striking": {
+      "pages": 22,
+      "measured": 0,
+      "top3": 0,
+      "hit_rate": "not read: no page in this lane has reached its 2-week check yet"
+    },
+    "weights": {
+      "neighbour": 35,
+      "unanswered": 30,
+      "weak_top10": 40,
+      "demand": 10
+    },
+    "weight_changes": [],
+    "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+  },
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/41830163175"
 }

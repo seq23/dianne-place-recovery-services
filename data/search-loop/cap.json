@@ -19,7 +19,9 @@
       "reason": "up from 20 to 22: Google impressions 7 in the last 28 days beat 5 in the 28 before"
     }
   ],
-  "held": {},
+  "held": {
+    "2026-11-04": 1
+  },
   "impressions": {
     "last_28": 7,
     "prev_28": 5

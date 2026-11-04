@@ -76,7 +76,8 @@
       "checks": {},
       "extra_queries": [
         "tips for sober living",
-        "what is a sober living home mean"
+        "what is a sober living home mean",
+        "how do i find a sober living home"
       ],
       "indexnow_at": "2026-11-03"
     },
@@ -119,8 +120,10 @@
       "extra_queries": [
         "sober living house rules",
         "what is the purpose of a sober living house",
-        "how much is a sober living house"
-      ]
+        "how much is a sober living house",
+        "whats a sober living house"
+      ],
+      "indexnow_at": "2026-11-04"
     },
     {
       "slug": "how-to-find-sober-living",
@@ -158,7 +161,6 @@
         "b5 FAQ answer is 38 words (aim 40-60): \"What happens if someone needs emergency support?\""
       ],
       "extra_queries": [
-        "how to find sober living homes",
         "how to find a good sober living house",
         "sober living denver colorado",
         "sober living denver medicaid",
@@ -167,8 +169,10 @@
         "sober living denver men",
         "sober living denver",
         "how to qualify for sober living",
-        "how does sober living work"
-      ]
+        "how does sober living work",
+        "how to find a sober living facility"
+      ],
+      "indexnow_at": "2026-11-04"
     },
     {
       "slug": "recovery-housing-for-women",
@@ -210,7 +214,8 @@
         "b5 FAQ answer is 36 words (aim 40-60): \"What rules do residents follow in sober living?\"",
         "b5 FAQ answer is 35 words (aim 40-60): \"Can family members help with the transition?\"",
         "b5 FAQ answer is 38 words (aim 40-60): \"What should I do in an emergency?\""
-      ]
+      ],
+      "indexnow_at": "2026-11-04"
     },
     {
       "slug": "sober-living-rules-and-regulations",
@@ -251,7 +256,8 @@
       ],
       "extra_queries": [
         "sober living rules"
-      ]
+      ],
+      "indexnow_at": "2026-11-04"
     },
     {
       "slug": "what-is-sober-housing",
@@ -295,7 +301,11 @@
         "b5 FAQ answer is 38 words (aim 40-60): \"What happens if someone relapses in sober housing?\"",
         "b5 FAQ answer is 32 words (aim 40-60): \"Can I work or go to school while living in sober h\"",
         "b5 FAQ answer is 30 words (aim 40-60): \"How do I apply for a bed at Dianne's Place?\""
-      ]
+      ],
+      "extra_queries": [
+        "how to find sober housing"
+      ],
+      "indexnow_at": "2026-11-04"
     },
     {
       "slug": "what-does-a-sober-living-house-look-like",
@@ -330,7 +340,8 @@
       "gate_notes": [
         "b5 FAQ answer is 38 words (aim 40-60): \"Do I need to attend support meetings while living \"",
         "b5 FAQ answer is 36 words (aim 40-60): \"Can I work or go to school while living in a sober\""
-      ]
+      ],
+      "indexnow_at": "2026-11-04"
     },
     {
       "slug": "is-sober-living-a-good-idea",
@@ -366,7 +377,8 @@
         "b5 FAQ answer is 39 words (aim 40-60): \"How long do people usually stay in sober living?\"",
         "b5 FAQ answer is 36 words (aim 40-60): \"Can family members visit or participate in the pro\"",
         "b5 FAQ answer is 37 words (aim 40-60): \"What happens if someone needs medical or crisis ca\""
-      ]
+      ],
+      "indexnow_at": "2026-11-04"
     },
     {
       "slug": "what-is-a-sober-living-facility",
@@ -397,7 +409,8 @@
           "after_hash": "73f565458205c257f60226b7189087a41e5f2b40c1ba8fb7cfa18ee70b0010cf"
         }
       ],
-      "checks": {}
+      "checks": {},
+      "indexnow_at": "2026-11-04"
     },
     {
       "slug": "do-you-have-to-pay-for-sober-living",
@@ -427,7 +440,8 @@
         "b5 FAQ answer is 34 words (aim 40-60): \"Are sober living homes free?\"",
         "b5 FAQ answer is 38 words (aim 40-60): \"Do I need a job before moving into sober living?\"",
         "b5 FAQ answer is 30 words (aim 40-60): \"What expenses are included in sober living rent?\""
-      ]
+      ],
+      "indexnow_at": "2026-11-04"
     },
     {
       "slug": "how-to-get-sober-living-paid-for",
@@ -450,7 +464,361 @@
         "https://www.samhsa.gov/find-help/national-helpline"
       ],
       "linked_from": [],
+      "checks": {},
+      "indexnow_at": "2026-11-04"
+    },
+    {
+      "slug": "what-is-sober-living-environment",
+      "query": "what is sober living environment",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/what-is-sober-living-environment/index.html",
+      "route": "/questions/what-is-sober-living-environment/",
+      "url": "https://detoxdenver.org/questions/what-is-sober-living-environment/",
+      "published_at": "2026-11-04",
+      "status": "live",
+      "hash": "080fca05b2d9f29639bd05ff987a9483130ecd6737a17c350b9e0d65ed0123eb",
+      "model": "free-route",
+      "facts": [
+        "https://en.wikipedia.org/wiki/Sober_living_houses",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3057870/"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/do-you-have-to-pay-for-sober-living/index.html",
+          "route": "/public/questions/do-you-have-to-pay-for-sober-living/",
+          "before_hash": "d0164fcef59f3cb5960ea125ce4c9852fe87d56c3ec3b109a049891cb05c0901",
+          "after_hash": "c09612bbbb77659b1c5545f8bcbb4d9026c941af30c8b611f31f2ddfd8e878c7"
+        },
+        {
+          "rel": "public/questions/how-to-find-sober-living/index.html",
+          "route": "/public/questions/how-to-find-sober-living/",
+          "before_hash": "ca51afafe3426ca8d288c8ac383cc1c88ec81e6423b39e1134d2342349b70882",
+          "after_hash": "e19f202128f52566488a9baefd409888bdf1779d9846a3c6eb56d2f3bc39956c"
+        }
+      ],
       "checks": {}
+    },
+    {
+      "slug": "levels-of-recovery-housing",
+      "query": "levels of recovery housing",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "google_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/levels-of-recovery-housing/index.html",
+      "route": "/questions/levels-of-recovery-housing/",
+      "url": "https://detoxdenver.org/questions/levels-of-recovery-housing/",
+      "published_at": "2026-11-04",
+      "status": "live",
+      "hash": "a1311e8583dbce886f444b2a1a3af3ea83fe20379dcf328611303dd0873042ea",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/find-help/recovery",
+        "https://en.wikipedia.org/wiki/Sober_living_house"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/how-to-apply-transitional-housing/index.html",
+          "route": "/public/questions/how-to-apply-transitional-housing/",
+          "before_hash": "bdedcadcc77da4d0ac95edb5070b78867ae35d92a140b072cf8e20dcc8b2d801",
+          "after_hash": "f1707fc0dff367eb0d6e1e8d311ab525d3f50c9c2a9598287625b6e8bff1cf77"
+        },
+        {
+          "rel": "public/questions/how-to-get-transitional-housing/index.html",
+          "route": "/public/questions/how-to-get-transitional-housing/",
+          "before_hash": "5753cfce2bef757d0ff9b1436d21dde205976d3563654a4e822b8c46a48830f9",
+          "after_hash": "f50161018b7d5ca5435f891f0c685041a8d7f3875e0024e60a85ea892ca745ff"
+        }
+      ],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 34 words (aim 40-60): \"What is the main difference between recovery housi\"",
+        "b5 FAQ answer is 30 words (aim 40-60): \"Is recovery housing the same as inpatient treatmen\"",
+        "b5 FAQ answer is 31 words (aim 40-60): \"How do I know which level of sober living fits me?\"",
+        "b5 FAQ answer is 30 words (aim 40-60): \"What should I do if I am in an immediate crisis?\""
+      ]
+    },
+    {
+      "slug": "what-is-a-halfway-house-after-jail",
+      "query": "what is a halfway house after jail",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 7,
+        "question": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/what-is-a-halfway-house-after-jail/index.html",
+      "route": "/questions/what-is-a-halfway-house-after-jail/",
+      "url": "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/",
+      "published_at": "2026-11-04",
+      "status": "live",
+      "hash": "bc6768a10df5f7db0c9b98935b9646192268ba242716b4789b0002c9d015236c",
+      "model": "free-route",
+      "facts": [
+        "https://www.bjs.gov/",
+        "https://www.samhsa.gov/"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/what-is-a-sober-living-halfway-house/index.html",
+          "route": "/public/questions/what-is-a-sober-living-halfway-house/",
+          "before_hash": "c5c8a2e39e894f79a894216ce54e083dde7599f913604356127983e7802639e3",
+          "after_hash": "5bb64839b17314642a5e78bbc7d4c67f9132608172b8262f7078bb6a068c7e57"
+        }
+      ],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 38 words (aim 40-60): \"Is a halfway house the same thing as a treatment c\"",
+        "b5 FAQ answer is 35 words (aim 40-60): \"What rules do residents follow in structured sober\"",
+        "b5 FAQ answer is 33 words (aim 40-60): \"How can families help someone transition home afte\"",
+        "b5 FAQ answer is 38 words (aim 40-60): \"What should I do if I am facing an immediate crisi\""
+      ],
+      "extra_queries": [
+        "what is a halfway house for prisoners"
+      ]
+    },
+    {
+      "slug": "how-to-get-into-a-halfway-house",
+      "query": "how to get into a halfway house",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 7,
+        "question": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/how-to-get-into-a-halfway-house/index.html",
+      "route": "/questions/how-to-get-into-a-halfway-house/",
+      "url": "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/",
+      "published_at": "2026-11-04",
+      "status": "live",
+      "hash": "55d1dceba341b9a95c226079e9fda9f9697a37e31fca90cfed4c4014e2014dd5",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/find-help",
+        "https://www.cdc.gov/overdose-prevention/about/index.html"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/what-is-a-sober-living-halfway-house/index.html",
+          "route": "/public/questions/what-is-a-sober-living-halfway-house/",
+          "before_hash": "5bb64839b17314642a5e78bbc7d4c67f9132608172b8262f7078bb6a068c7e57",
+          "after_hash": "d1da032aa4afdeb4228fe16cf2ca816fdc54a732a046e920e1f1feb95e7d70d4"
+        }
+      ],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 36 words (aim 40-60): \"Can family members help with the application proce\"",
+        "b5 FAQ answer is 34 words (aim 40-60): \"What rules do sober living homes typically have?\"",
+        "b5 FAQ answer is 37 words (aim 40-60): \"What should I bring when moving into a recovery ho\"",
+        "b5 FAQ answer is 32 words (aim 40-60): \"How does recovery housing differ from clinical tre\""
+      ]
+    },
+    {
+      "slug": "can-halfway-house-be-a-temporary-residence",
+      "query": "can halfway house be a temporary residence",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 7,
+        "question": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/can-halfway-house-be-a-temporary-residence/index.html",
+      "route": "/questions/can-halfway-house-be-a-temporary-residence/",
+      "url": "https://detoxdenver.org/questions/can-halfway-house-be-a-temporary-residence/",
+      "published_at": "2026-11-04",
+      "status": "live",
+      "hash": "ab1bb8f87767f032195d218d165b1e25d50744a206ac56228c83225a4cff161c",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/find-help/recovery",
+        "https://en.wikipedia.org/wiki/Sober_living_house"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/what-is-a-sober-living-halfway-house/index.html",
+          "route": "/public/questions/what-is-a-sober-living-halfway-house/",
+          "before_hash": "d1da032aa4afdeb4228fe16cf2ca816fdc54a732a046e920e1f1feb95e7d70d4",
+          "after_hash": "ca497f8ea9863d1de243ce23b048a77d2973ed2cd8925e92b2326b09f8ac29c3"
+        }
+      ],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 39 words (aim 40-60): \"What happens if someone needs immediate crisis sup\"",
+        "b5 FAQ answer is 33 words (aim 40-60): \"Can family members help arrange a stay?\"",
+        "b5 FAQ answer is 33 words (aim 40-60): \"What rules should I expect in a sober living home?\""
+      ]
+    },
+    {
+      "slug": "what-exactly-is-a-halfway-house",
+      "query": "what exactly is a halfway house",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/what-exactly-is-a-halfway-house/index.html",
+      "route": "/questions/what-exactly-is-a-halfway-house/",
+      "url": "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
+      "published_at": "2026-11-04",
+      "status": "live",
+      "hash": "6f1ca8fa573aefae38214073e414a0fc31766accb87047247e0f3d80b9c71c03",
+      "model": "free-route",
+      "facts": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3053047/",
+        "https://en.wikipedia.org/wiki/Halfway_house"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/what-is-a-sober-living-halfway-house/index.html",
+          "route": "/public/questions/what-is-a-sober-living-halfway-house/",
+          "before_hash": "ca497f8ea9863d1de243ce23b048a77d2973ed2cd8925e92b2326b09f8ac29c3",
+          "after_hash": "046ee92882b769f3fb0e59783bc7cbe6a639015203621f65f3b036cd87fc1732"
+        }
+      ],
+      "checks": {},
+      "gate_notes": [
+        "b2 meta description is 91 chars (aim 120-160)",
+        "b5 FAQ answer is 34 words (aim 40-60): \"Are halfway houses the same as homeless shelters?\"",
+        "b5 FAQ answer is 31 words (aim 40-60): \"Can I work or attend school while living in a sobe\"",
+        "b5 FAQ answer is 39 words (aim 40-60): \"What happens if someone relapses in a halfway hous\"",
+        "b5 FAQ answer is 33 words (aim 40-60): \"How long do people usually stay in recovery housin\""
+      ]
+    },
+    {
+      "slug": "what-is-a-halfway-house-considered",
+      "query": "what is a halfway house considered",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/what-is-a-halfway-house-considered/index.html",
+      "route": "/questions/what-is-a-halfway-house-considered/",
+      "url": "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/",
+      "published_at": "2026-11-04",
+      "status": "live",
+      "hash": "607bc6aa9fabb0d63240e4a411aa5473d3cea2e882809e2d8cdfa6624e7476a8",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/",
+        "https://www.ncbi.nlm.nih.gov/pmc/"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/what-is-a-sober-living-halfway-house/index.html",
+          "route": "/public/questions/what-is-a-sober-living-halfway-house/",
+          "before_hash": "046ee92882b769f3fb0e59783bc7cbe6a639015203621f65f3b036cd87fc1732",
+          "after_hash": "cbc2d523d765becc92bc94fb1950ccda1c02853747fd3dc711e49718cbd01b99"
+        }
+      ],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 39 words (aim 40-60): \"Are halfway houses the same as sober living homes?\"",
+        "b5 FAQ answer is 32 words (aim 40-60): \"Do recovery homes provide therapy or counseling?\"",
+        "b5 FAQ answer is 31 words (aim 40-60): \"What rules do residents follow in sober living?\"",
+        "b5 FAQ answer is 36 words (aim 40-60): \"How long do adults typically stay in sober housing\""
+      ]
+    },
+    {
+      "slug": "can-halfway-house-residents-leave",
+      "query": "can halfway house residents leave",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/can-halfway-house-residents-leave/index.html",
+      "route": "/questions/can-halfway-house-residents-leave/",
+      "url": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
+      "published_at": "2026-11-04",
+      "status": "live",
+      "hash": "258a8d5331e9286ac0d3b73c08c7b65c22bc0d4b07844d9ffa0c5bfe62c173cd",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/find-help/recovery",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3053047/"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/what-is-a-sober-living-halfway-house/index.html",
+          "route": "/public/questions/what-is-a-sober-living-halfway-house/",
+          "before_hash": "cbc2d523d765becc92bc94fb1950ccda1c02853747fd3dc711e49718cbd01b99",
+          "after_hash": "ee0c856fbef841a3887c20b1646d5ddc3ef91406f5c5503f0a76b6842eb21326"
+        }
+      ],
+      "checks": {}
+    },
+    {
+      "slug": "sober-living-transitional-housing-near-me",
+      "query": "sober living transitional housing near me",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 6,
+        "question": false,
+        "google_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/sober-living-transitional-housing-near-me/index.html",
+      "route": "/questions/sober-living-transitional-housing-near-me/",
+      "url": "https://detoxdenver.org/questions/sober-living-transitional-housing-near-me/",
+      "published_at": "2026-11-04",
+      "status": "live",
+      "hash": "feefd83f3e323543269b758a67191467eff7512f11686205a2159ff0f94dac53",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/find-help/recovery",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3056262/"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/what-is-sober-housing/index.html",
+          "route": "/public/questions/what-is-sober-housing/",
+          "before_hash": "2e83784ebd8b558d828eb47b5e38091db9945f42bf63354ab32eb68c5f540519",
+          "after_hash": "af2d43536a602c9683c3b7a69c9b7421ffa106602dafeddbd1e5b4b50a3d8177"
+        }
+      ],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 32 words (aim 40-60): \"What is the difference between sober living and in\"",
+        "b5 FAQ answer is 31 words (aim 40-60): \"Are jobs or daily activities required while living\"",
+        "b5 FAQ answer is 32 words (aim 40-60): \"Can family members visit or participate in the int\""
+      ]
     }
   ],
   "dropped": [
@@ -497,6 +865,67 @@
       "at": "2026-11-03",
       "reason": [
         "b2 meta description is 83 chars (aim 120-160)"
+      ]
+    },
+    {
+      "query": "how long can you stay in transitional housing",
+      "at": "2026-11-04",
+      "reason": [
+        "b5 FAQ answer is 22 words (aim 40-60): \"Is transitional housing the same as clinical treat\"",
+        "b5 FAQ answer is 25 words (aim 40-60): \"What happens if I need to leave early?\"",
+        "b5 FAQ answer is 24 words (aim 40-60): \"Can family members visit residents in sober living\"",
+        "b5 FAQ answer is 23 words (aim 40-60): \"Who helps me find a transitional housing placement\""
+      ]
+    },
+    {
+      "query": "recovery housing programs near me",
+      "at": "2026-11-04",
+      "reason": [
+        "b5 FAQ answer is 29 words (aim 40-60): \"How do families or treatment staff initiate a refe\"",
+        "b5 FAQ answer is 27 words (aim 40-60): \"Are there specific homes for women?\"",
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1)",
+        "invented: a named person or quote \"Process Navigating the transition from \""
+      ]
+    },
+    {
+      "query": "how effective are halfway houses",
+      "at": "2026-11-04",
+      "reason": [
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1)"
+      ]
+    },
+    {
+      "query": "can halfway house residents work",
+      "at": "2026-11-04",
+      "reason": [
+        "b2 meta description is 53 chars (aim 120-160)"
+      ]
+    },
+    {
+      "query": "can halfway house be a positive experience",
+      "at": "2026-11-04",
+      "reason": [
+        "b5 FAQ answer is 29 words (aim 40-60): \"Can families participate in the transition process\"",
+        "b5 FAQ answer is 29 words (aim 40-60): \"What should I look for when choosing a recovery ho\""
+      ]
+    },
+    {
+      "query": "what is halfway housing",
+      "at": "2026-11-04",
+      "reason": [
+        "b5 FAQ answer is 25 words (aim 40-60): \"Do I have to attend meetings while living there?\"",
+        "b5 FAQ answer is 26 words (aim 40-60): \"How do families get involved in the process?\"",
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1)"
+      ]
+    },
+    {
+      "query": "transitional housing after rehab",
+      "at": "2026-11-04",
+      "reason": [
+        "b5 FAQ answer is 29 words (aim 40-60): \"Can family members help with the transition proces\"",
+        "b5 FAQ answer is 28 words (aim 40-60): \"What should I expect on a typical day?\"",
+        "b5 FAQ answer is 29 words (aim 40-60): \"How do I know if this housing is right for me?\"",
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1)"
       ]
     }
   ],
@@ -658,6 +1087,116 @@
       "route": "/questions/how-to-find-sober-living/",
       "kind": "engine",
       "matched_by": "high token overlap (0.60 >= 0.6)",
+      "matched_text": "How to Find Sober Living in Denver",
+      "stage": "draft"
+    },
+    {
+      "query": "how to find sober housing",
+      "at": "2026-11-04",
+      "url": "https://detoxdenver.org/questions/what-is-sober-housing/",
+      "route": "/questions/what-is-sober-housing/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.67 >= 0.6)",
+      "matched_text": "what is sober housing",
+      "stage": "search"
+    },
+    {
+      "query": "sober living denver area",
+      "at": "2026-11-04",
+      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "route": "/public/questions/how-to-find-sober-living/",
+      "kind": "page",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "matched_text": "How to Find Sober Living in Denver",
+      "stage": "search"
+    },
+    {
+      "query": "sober living denver metro",
+      "at": "2026-11-04",
+      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "route": "/public/questions/how-to-find-sober-living/",
+      "kind": "page",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "matched_text": "How to Find Sober Living in Denver",
+      "stage": "search"
+    },
+    {
+      "query": "sober living denver cost",
+      "at": "2026-11-04",
+      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "route": "/public/questions/how-to-find-sober-living/",
+      "kind": "page",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "matched_text": "How to Find Sober Living in Denver",
+      "stage": "search"
+    },
+    {
+      "query": "recovery housing for men",
+      "at": "2026-11-04",
+      "url": "https://detoxdenver.org/public/questions/recovery-housing-for-women/",
+      "route": "/public/questions/recovery-housing-for-women/",
+      "kind": "page",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "matched_text": "Recovery Housing for Women in Denver",
+      "stage": "draft"
+    },
+    {
+      "query": "whats a sober living house",
+      "at": "2026-11-04",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-halfway-house/",
+      "route": "/questions/what-is-a-sober-living-halfway-house/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "matched_text": "what is a sober living halfway house",
+      "stage": "search"
+    },
+    {
+      "query": "how to get into sober living",
+      "at": "2026-11-04",
+      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "route": "/public/questions/how-to-find-sober-living/",
+      "kind": "page",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "matched_text": "How to Find Sober Living in Denver",
+      "stage": "draft"
+    },
+    {
+      "query": "how do i find a sober living home",
+      "at": "2026-11-04",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
+      "route": "/questions/what-is-a-sober-living-home/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.75 >= 0.6)",
+      "matched_text": "what is a sober living home",
+      "stage": "search"
+    },
+    {
+      "query": "how to find a sober living facility",
+      "at": "2026-11-04",
+      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "route": "/questions/how-to-find-sober-living/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.75 >= 0.6)",
+      "matched_text": "how to find sober living",
+      "stage": "search"
+    },
+    {
+      "query": "what is a halfway house for prisoners",
+      "at": "2026-11-04",
+      "url": "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/",
+      "route": "/questions/what-is-a-halfway-house-after-jail/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "matched_text": "What is a halfway house after jail or prison?",
+      "stage": "search"
+    },
+    {
+      "query": "how to find a halfway house",
+      "at": "2026-11-04",
+      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "route": "/public/questions/how-to-find-sober-living/",
+      "kind": "page",
+      "matched_by": "high token overlap (0.80 >= 0.6)",
       "matched_text": "How to Find Sober Living in Denver",
       "stage": "draft"
     }

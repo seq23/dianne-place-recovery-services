@@ -1051,6 +1051,105 @@
   ],
   "strengthen": [
     {
+      "query": "how to find a halfway house",
+      "page": "/public/questions/how-to-find-sober-living/",
+      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.80 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "what is a halfway house for prisoners",
+      "page": "/questions/what-is-a-halfway-house-after-jail/",
+      "url": "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "how to find a sober living facility",
+      "page": "/questions/how-to-find-sober-living/",
+      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.75 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "how do i find a sober living home",
+      "page": "/questions/what-is-a-sober-living-home/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.75 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "how to get into sober living",
+      "page": "/public/questions/how-to-find-sober-living/",
+      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "whats a sober living house",
+      "page": "/questions/what-is-a-sober-living-halfway-house/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-halfway-house/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "recovery housing for men",
+      "page": "/public/questions/recovery-housing-for-women/",
+      "url": "https://detoxdenver.org/public/questions/recovery-housing-for-women/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "sober living denver cost",
+      "page": "/public/questions/how-to-find-sober-living/",
+      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "sober living denver metro",
+      "page": "/public/questions/how-to-find-sober-living/",
+      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "sober living denver area",
+      "page": "/public/questions/how-to-find-sober-living/",
+      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
+      "query": "how to find sober housing",
+      "page": "/questions/what-is-sober-housing/",
+      "url": "https://detoxdenver.org/questions/what-is-sober-housing/",
+      "score": 30,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.67 >= 0.6)",
+      "at": "2026-11-04"
+    },
+    {
       "query": "how does sober living work",
       "page": "/questions/how-to-find-sober-living/",
       "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
