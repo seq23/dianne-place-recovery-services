@@ -1,3 +1,4 @@
+import { publishedItems } from '../../lib/publication.mjs';
 import fs from 'node:fs';
 import { assert, fileExists, readJson } from './lib.mjs';
 
@@ -13,7 +14,7 @@ const calendar = readJson('data/content/content_calendar.json');
 const sitemapText = fs.readFileSync('public/sitemap.xml', 'utf8');
 const publicAnswers = readJson('public/answers.json');
 
-const liveItems = calendar.items.filter((item) => item.status === 'approved' && item.scheduledAt <= releaseDate);
+const liveItems = publishedItems(calendar.items, releaseDate);
 const futureItems = calendar.items.filter((item) => item.status === 'approved' && item.scheduledAt > releaseDate);
 
 assert(growth.target?.timeHorizon === '6-12 months', 'Citation growth plan must target 6-12 months');
@@ -38,6 +39,10 @@ assert(calendar.items.every((item) => item.queryFamilyId && item.citationStrateg
 assert(sitemapText.includes('/answers/'), 'Sitemap must include answers route');
 for (const item of liveItems) assert(sitemapText.includes(item.routeTarget), `Sitemap missing live blog route: ${item.id}`);
 for (const item of futureItems.slice(0, 10)) assert(!sitemapText.includes(item.routeTarget), `Sitemap must not expose future blog route: ${item.id}`);
-assert((sitemapText.match(/<url>/g) || []).length >= liveItems.length + 10, 'Sitemap must cover core routes plus live content');
+const expectedRoutes = routes.routes.filter((r) => !r.path.startsWith('/admin')).map((r) => r.path);
+const sitemapRoutes = [...sitemapText.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => new URL(m[1]).pathname);
+assert(expectedRoutes.length > 0 && liveItems.length > 0, 'Core routes and reviewed editorial inventory must be non-empty');
+assert(sitemapRoutes.length === expectedRoutes.length + liveItems.length, 'Sitemap must exactly cover core routes and the kept editorial ledger');
+for (const route of expectedRoutes) assert(sitemapRoutes.includes(route), `Sitemap missing core route: ${route}`);
 
 console.log('[validate:aeo-seo-geo] OK');

@@ -17,7 +17,9 @@ export function builtPages() {
     // gate before they publish (search-loop.config.json, health gate included);
     // these validators check the pages this repo renders.
     .filter((page) => !page.html.includes('<meta content="search-loop" name="generator"/>'));
-  assert(pages.length >= 10, `expected at least 10 built public pages, found ${pages.length}`);
+  const expected = [...fs.readFileSync('public/sitemap.xml', 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => new URL(m[1]).pathname);
+  assert(expected.length > 0 && pages.length === expected.length, `built public inventory must exactly match the non-empty sitemap (${expected.length}), found ${pages.length}`);
+  for (const route of expected) assert(pages.some((page) => page.path === route), `missing built sitemap route: ${route}`);
   return pages;
 }
 

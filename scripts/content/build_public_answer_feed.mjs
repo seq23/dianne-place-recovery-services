@@ -1,3 +1,4 @@
+import { publishedItems } from '../../lib/publication.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -6,8 +7,7 @@ const releaseDate = process.env.PUBLICATION_DATE || process.env.PUBLISH_DATE || 
 const calendar = JSON.parse(fs.readFileSync(path.join(root, 'data/content/content_calendar.json'), 'utf8'));
 const registry = JSON.parse(fs.readFileSync(path.join(root, 'data/aeo/answer_surface_registry.json'), 'utf8'));
 
-const scheduledAnswers = calendar.items
-  .filter((item) => item.status === 'approved' && item.scheduledAt <= releaseDate)
+const scheduledAnswers = publishedItems(calendar.items, releaseDate)
   .slice(-60)
   .map((item) => ({
     id: `scheduled-${item.id}`,

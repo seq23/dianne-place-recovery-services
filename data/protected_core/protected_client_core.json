@@ -42,13 +42,13 @@
     },
     {
       "path": "app/blog/[slug]/page.tsx",
-      "sha256": "1a198d27762d9e136cd760163f6eb680aaef29e1537284797e7335c54b8b9caa",
-      "revision_note": "Re-recorded 2026-08-27. Both blog routes now import the shared publication predicate from lib/publication.mjs instead of each carrying its own copy of `status === 'approved' && scheduledAt <= releaseDate`. Byte-changed, behaviour identical: verified across all 178 calendar items, 0 disagreements, same 52 published, and resolveReleaseDate() resolves the same env chain. Reason for the change: the sitemap builder and the renderer decided 'published' separately, so they could drift and the sitemap could advertise a route the renderer would 404."
+      "sha256": "37f9376160aab89bd77b5d1102fefa338a710781ec27c9fe506654aaeebc4a91",
+      "revision_note": "Re-recorded 2026-11-04 under explicit owner authorization to consolidate generated template content. Reviewed publication inventory replaces date-only fan-out; generated blog copy follows the requested page shape. Internal editorial identities, operational pages and all safety checks remain protected. See docs/reviews/PAGE_QUALITY_2026-11-04.md."
     },
     {
       "path": "app/blog/page.tsx",
-      "sha256": "3639c81494bc3e2af7573d7e009eedafafa16f577bc56fe75f9fd24eeb9e6f6d",
-      "revision_note": "Re-recorded 2026-08-27. Both blog routes now import the shared publication predicate from lib/publication.mjs instead of each carrying its own copy of `status === 'approved' && scheduledAt <= releaseDate`. Byte-changed, behaviour identical: verified across all 178 calendar items, 0 disagreements, same 52 published, and resolveReleaseDate() resolves the same env chain. Reason for the change: the sitemap builder and the renderer decided 'published' separately, so they could drift and the sitemap could advertise a route the renderer would 404."
+      "sha256": "ad6710d17a8483cb5db3aa325ded68f04aba2c6bf14014fcd7543e06a3eda3ee",
+      "revision_note": "Re-recorded 2026-11-04 under explicit owner authorization to consolidate generated template content. Reviewed publication inventory replaces date-only fan-out; generated blog copy follows the requested page shape. Internal editorial identities, operational pages and all safety checks remain protected. See docs/reviews/PAGE_QUALITY_2026-11-04.md."
     },
     {
       "path": "app/contact/page.tsx",
@@ -164,7 +164,8 @@
     },
     {
       "path": "scripts/content/build_admin_content_manifest.mjs",
-      "sha256": "52cfe53409663d5ffc2b6281a46037f64a51343c8d4dc399561b453d0bb9dafb"
+      "sha256": "b7c531750dffdb3b4315e45be78aa4220f44aa24c8c4709ec0f37f1351ffce01",
+      "revision_note": "Re-recorded 2026-11-04 under owner authorization for generated-content consolidation. Preserve admin operations and archive identities; report reviewed publication status and point retired previews to their kept guide."
     },
     {
       "path": "scripts/content/generate_backlog.mjs",
@@ -172,7 +173,8 @@
     },
     {
       "path": "scripts/content/publish_scheduled_content.mjs",
-      "sha256": "4395bf03a9eca88fe44747cb05401db718db4e0334a3d68d103de30fbfaedbba"
+      "sha256": "2de1923a80a575e1f905c564dfd95fde3d8e6c806bff9c75c2b73ee748b7e5e5",
+      "revision_note": "Re-recorded 2026-11-04 under explicit owner authorization to consolidate generated template content. Reviewed publication inventory replaces date-only fan-out; generated blog copy follows the requested page shape. Internal editorial identities, operational pages and all safety checks remain protected. See docs/reviews/PAGE_QUALITY_2026-11-04.md."
     },
     {
       "path": "scripts/content/self_produce_content.mjs",

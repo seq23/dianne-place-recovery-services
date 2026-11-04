@@ -8,3 +8,5 @@
 6. Block unsafe items with explicit reasons.
 
 The backlog is approved, but approval does not bypass hard validators.
+
+Public eligibility also requires a matching reviewed identity and route in `data/seo/page_quality.json`. Calendar approval alone cannot publish repeated intents. Consolidated identities remain internal and resolve through the direct redirect ledger.

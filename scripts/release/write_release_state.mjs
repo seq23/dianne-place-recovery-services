@@ -1,11 +1,12 @@
+import { publishedItems } from '../../lib/publication.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 
 const root = process.cwd();
 const releaseDate = process.env.PUBLICATION_DATE || process.env.PUBLISH_DATE || new Date().toISOString().slice(0, 10);
 const calendar = JSON.parse(fs.readFileSync(path.join(root, 'data/content/content_calendar.json'), 'utf8'));
-const liveItems = calendar.items.filter((item) => item.status === 'approved' && item.scheduledAt <= releaseDate);
-const todaysItems = calendar.items.filter((item) => item.status === 'approved' && item.scheduledAt === releaseDate);
+const liveItems = publishedItems(calendar.items, releaseDate);
+const todaysItems = publishedItems(calendar.items, releaseDate).filter((item) => item.scheduledAt === releaseDate);
 const mode = releaseDate <= '2026-12-31' ? 'seeded_backlog' : 'self_produced_extension';
 
 const state = {

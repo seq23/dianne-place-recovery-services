@@ -34,7 +34,8 @@ const notes = [];
 const releaseDate = resolveReleaseDate();
 const calendar = read('data/content/content_calendar.json');
 const published = publishedItems(calendar.items, releaseDate);
-const future = (calendar.items || []).length - published.length;
+const future = calendar.items.filter((item) => item.scheduledAt > releaseDate).length;
+const consolidated = calendar.items.length - published.length - future;
 
 // --- 1. sitemap parity, against the shared predicate ------------------------
 if (!exists('public/sitemap.xml')) {
@@ -76,7 +77,7 @@ for (const item of published) {
 if (incomplete.length) {
   errors.push(`${incomplete.length} published item(s) are structurally incomplete:\n  ` + incomplete.slice(0, 10).join('\n  '));
 } else {
-  notes.push(`${published.length} published items, all complete; ${future} approved and future-dated (internal, not public)`);
+  notes.push(`${published.length} published items, all complete; ${consolidated} consolidated and ${future} future-dated records (internal, not public)`);
 }
 
 // --- 3. demand evidence -----------------------------------------------------

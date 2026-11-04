@@ -1,0 +1,612 @@
+{
+  "reviewedAt": "2026-11-04",
+  "policy": "Only these reviewed, distinct editorial guides publish. Calendar repeats remain internal; new generated items require an explicit distinct-intent review before addition.",
+  "guides": [
+    {
+      "id": "dprs-2026-07-31-025",
+      "route": "/blog/2026-07-31-recovery-housing-readiness/",
+      "theme": "Recovery housing readiness",
+      "definition": "Recovery housing is substance-free shared accommodation with household expectations and peer accountability. It differs from detox and clinical treatment: living arrangements do not establish access to medical care. Readiness means checking whether the home\u2019s actual rules, accessibility, staffing and daily routine match the person\u2019s needs before agreeing to move.",
+      "sections": [
+        {
+          "heading": "What should you establish before choosing a home?",
+          "body": "Start with the housing problem you need to solve. Is the current home unavailable, unsafe, or difficult to remain substance-free in? Write down the move date, transport needs, accessibility requirements and budget you can discuss with a prospective residence. Separate those practical needs from care needs that belong with a qualified clinician. A residence should explain its role rather than leave you to infer it from a name or advertisement."
+        },
+        {
+          "heading": "Which questions reveal whether the arrangement fits?",
+          "body": "Ask for written house rules, the total charges and refund terms, visitor arrangements, medication policies, overnight staffing and the process for resolving complaints. Ask what happens if someone needs more support than the residence provides. Compare the answers with the person\u2019s actual work schedule and appointments. Do not treat a vacancy as proof of suitability. Dianne\u2019s Place is in pre-license mode; this guide does not confirm a vacancy, admission decision or clinical service."
+        },
+        {
+          "heading": "How do costs, applications and house rules work?",
+          "body": "Ask each residence for its application steps, eligibility requirements and a complete breakdown of charges before applying. Recovery housing should not be assumed to be free or paid for by health insurance. If you need financial help, ask the residence and relevant local resource organizations which assistance, if any, is currently available and how to apply; do not rely on a promise of funding. Ask about deposits, recurring charges, refunds, curfews, visitors and required meetings. Terms such as sober living, recovery residence, transitional housing and halfway house are used in different settings, so confirm the particular program\u2019s purpose and any legal eligibility restrictions. A label does not establish its appearance, staffing or services."
+        },
+        {
+          "heading": "How do halfway houses and recovery housing differ?",
+          "body": "Halfway house can describe a transitional residence connected to a justice-system placement or another program. Recovery housing describes a substance-free living environment; the terms alone do not tell you the rules or level of support. Ask whether a particular residence accepts voluntary applicants, requires a referral or court approval, and permits leaving for work or appointments. Confirm the expected length of stay and what happens when it ends. If a court or supervising agency controls placement, confirm any proposed move with that agency before acting. Ask each residence to describe its staffing and support rather than infer a level of care from its name."
+        }
+      ],
+      "steps": [
+        "Request the written resident agreement before committing.",
+        "Check transport to existing care and essential appointments.",
+        "Ask who responds overnight and what their role is.",
+        "Clarify move-out notice, refunds and return of belongings."
+      ],
+      "faq": [
+        {
+          "question": "Can recovery housing replace detox?",
+          "answer": "No. A housing inquiry cannot assess withdrawal or replace medical care. Ask a qualified medical professional about care needs before arranging a move."
+        },
+        {
+          "question": "What if the house cannot meet my needs?",
+          "answer": "Ask for other resource options and keep the housing decision separate from clinical decisions. You do not need to accept an unsuitable residence to continue looking."
+        }
+      ],
+      "updatedAt": "2026-11-04",
+      "nextStep": "Bring your questions about charges, access and house rules to a housing inquiry. Ask which arrangements are currently confirmed before planning a move."
+    },
+    {
+      "id": "dprs-2026-07-08-002",
+      "route": "/blog/2026-07-08-daily-sober-routines/",
+      "theme": "Daily sober routines",
+      "definition": "A daily recovery routine is a practical sequence of ordinary activities such as meals, sleep, appointments, work and chosen support. It is a planning tool rather than a treatment plan. A useful routine fits the person\u2019s circumstances and the residence\u2019s expectations, leaving space to change arrangements when a day becomes difficult.",
+      "sections": [
+        {
+          "heading": "How can you build a day you can actually follow?",
+          "body": "Begin with commitments that already have fixed times: a shift, class, appointment or house meeting. Add travel time before filling the remaining space. Choose a regular place for essentials such as keys and appointment notes so leaving the house requires fewer decisions. Keep the first version small enough to use on a low-energy day. A crowded timetable can conceal practical conflicts rather than solve them."
+        },
+        {
+          "heading": "What should happen when the timetable breaks?",
+          "body": "Write a fallback beside each essential activity. A missed bus might mean contacting the appointment office; a late shift might require arranging the residence\u2019s curfew exception in advance. Identify whom you want to tell when plans change. Review what was feasible at the end of the day without turning the review into a judgment about character. If sleep, concentration or distress is affecting daily functioning, discuss that with a qualified professional instead of treating a schedule as medical care."
+        }
+      ],
+      "steps": [
+        "Put fixed commitments on a paper or phone calendar.",
+        "Include meals, travel and time to rest.",
+        "Check the routine against written house expectations.",
+        "Choose a fallback for one predictable disruption."
+      ],
+      "faq": [
+        {
+          "question": "Does every hour need an activity?",
+          "answer": "No. Allow unallocated time for rest and unexpected tasks. The purpose is a workable day, not a record of constant productivity."
+        },
+        {
+          "question": "Who should see my timetable?",
+          "answer": "Share only what is needed for coordination. House staff may need to know an agreed absence; that does not mean every personal appointment needs to be discussed with other residents."
+        }
+      ],
+      "updatedAt": "2026-11-04",
+      "nextStep": "Take your draft timetable to a housing conversation and ask about curfews, meetings and shift exceptions before relying on the schedule."
+    },
+    {
+      "id": "dprs-2026-07-09-003",
+      "route": "/blog/2026-07-09-family-support/",
+      "theme": "Family support",
+      "definition": "Family recovery support means offering practical help while respecting the adult\u2019s choices, privacy and responsibility for their own decisions. It can include transport, listening and agreed household boundaries. It does not require relatives to supervise treatment, disclose private information or promise housing or money they cannot reliably provide.",
+      "sections": [
+        {
+          "heading": "How do you offer help without taking over?",
+          "body": "Ask which practical task the person would like help with before making arrangements. Offering a ride to an appointment is different from scheduling it without agreement. State what you can do and when, and give the person room to decline. If several relatives are involved, agree who will handle shared logistics so the person is not answering the same questions repeatedly. Keep disagreements about family roles separate from urgent safety decisions."
+        },
+        {
+          "heading": "How can a family set clear boundaries?",
+          "body": "Describe the specific arrangement rather than issuing a vague ultimatum. For example, explain which expenses you can cover, whether guests are allowed in your home and how changes will be discussed. Do not promise that a residence will admit someone or that a particular outcome will follow. A provider may listen to a relative\u2019s concerns while being unable to disclose information back. Ask about its consent process rather than assuming family status gives access to private records."
+        }
+      ],
+      "steps": [
+        "Offer a specific task and ask whether it is wanted.",
+        "Put shared living or financial arrangements in clear terms.",
+        "Let the adult decide whom to include in conversations.",
+        "Find support for your own stress outside the person\u2019s care team."
+      ],
+      "faq": [
+        {
+          "question": "Can I contact a residence on someone else\u2019s behalf?",
+          "answer": "You can ask about general arrangements. Admission discussions and sharing personal information should involve the person and the residence\u2019s consent process."
+        },
+        {
+          "question": "What if we disagree about the next step?",
+          "answer": "Name the disagreement and the limits of your own help. Avoid presenting a family preference as clinical advice. A qualified professional can address clinical questions."
+        }
+      ],
+      "updatedAt": "2026-11-04",
+      "nextStep": "Agree with your loved one what you may ask, then request general housing information within that permission. Keep private records out of the inquiry."
+    },
+    {
+      "id": "dprs-2026-07-10-004",
+      "route": "/blog/2026-07-10-women-in-recovery/",
+      "theme": "Women in recovery",
+      "definition": "Recovery housing for women is a living arrangement whose admission policy, privacy practices and household support are intended for women seeking a substance-free environment. The label alone does not establish safety, childcare, clinical services or suitability. Comparing homes requires specific questions about sleeping spaces, visitors, complaints and the support actually available.",
+      "sections": [
+        {
+          "heading": "What should you ask about privacy and personal safety?",
+          "body": "Ask how bedrooms and bathrooms are assigned, whether belongings can be secured and how visitors enter the building. Find out who receives a complaint about another resident or staff member and whether there is an alternative contact if that person is involved. You can ask these questions without describing a past traumatic experience. A tour should help you understand the arrangements, not pressure you to share personal history to justify a concern."
+        },
+        {
+          "heading": "How do parenting and caregiving affect the choice?",
+          "body": "Ask directly whether children may live in or visit the home; do not assume a women\u2019s residence offers either arrangement. Check transport, school or childcare logistics, visitor hours and any requirements that might conflict with caregiving. If legal custody or safety restrictions apply, seek qualified advice rather than relying on a housing website. Confirm what support is offered on site and what would require an outside provider. This guide does not claim that Dianne\u2019s Place provides childcare or a women-only program."
+        }
+      ],
+      "steps": [
+        "Ask for visitor and overnight guest policies in writing.",
+        "Check bedroom, bathroom and belongings arrangements.",
+        "Identify the complaint contact before moving.",
+        "Confirm any child-related arrangements directly with the home."
+      ],
+      "faq": [
+        {
+          "question": "Do I need to disclose trauma during a housing inquiry?",
+          "answer": "You can explain a practical accommodation or privacy need without giving a detailed history. Ask what information is required, why it is needed and who will see it."
+        },
+        {
+          "question": "Does a women\u2019s home automatically offer childcare?",
+          "answer": "No. Ask whether children are permitted and whether any childcare is actually provided. Treat an unclear answer as an unresolved planning issue."
+        }
+      ],
+      "updatedAt": "2026-11-04",
+      "nextStep": "Choose the privacy, visitor or caregiving question that matters most to you and ask what the residence can confirm in writing."
+    },
+    {
+      "id": "dprs-2026-07-11-005",
+      "route": "/blog/2026-07-11-lgbtq-recovery-support/",
+      "theme": "LGBTQ+ recovery support",
+      "definition": "LGBTQ+ recovery support is support that respects a person\u2019s sexual orientation, gender identity, name and privacy alongside their recovery goals. In housing, the practical test is how admission, room assignments, visitors and complaints work. A welcoming slogan does not establish an inclusive policy or a suitable living arrangement.",
+      "sections": [
+        {
+          "heading": "How can you check what an inclusive policy means?",
+          "body": "Ask how the residence handles names and pronouns, room assignments and harassment. Request the policy in writing and ask who applies it when residents disagree. If you need privacy about your identity, ask what appears on shared lists, mail or messages to emergency contacts. You should be able to discuss these arrangements without being asked to defend your identity or describe private relationships unrelated to housing."
+        },
+        {
+          "heading": "What should you confirm about outside support?",
+          "body": "Check whether house rules leave room for existing appointments, chosen support groups and contact with trusted people. Ask whether participation in a particular religious activity or meeting is required, optional or replaceable with another arrangement. If healthcare access matters to your housing decision, ask a qualified provider about continuity of care and ask the residence about transport and scheduling. A house\u2019s statement of welcome should not be read as a claim that it offers specialized clinical care."
+        }
+      ],
+      "steps": [
+        "Ask how room assignments are decided.",
+        "Request the anti-harassment and complaint procedures.",
+        "Clarify who can see your name and contact details.",
+        "Check required activities against your own support choices."
+      ],
+      "faq": [
+        {
+          "question": "Must I be out to everyone in the house?",
+          "answer": "Ask what information the residence needs for admission and what it shares with others. Discuss privacy expectations before supplying details you do not want circulated."
+        },
+        {
+          "question": "How should I evaluate a home that says everyone is welcome?",
+          "answer": "Ask for concrete examples of its written policies and complaint process. Evaluate the actual arrangements rather than relying on the wording of an advertisement."
+        }
+      ],
+      "updatedAt": "2026-11-04",
+      "nextStep": "Ask how room assignments, names and harassment concerns are handled. Decide whether the answers meet your privacy expectations before discussing admission."
+    },
+    {
+      "id": "dprs-2026-07-12-006",
+      "route": "/blog/2026-07-12-minority-recovery-support/",
+      "theme": "Minority recovery support",
+      "definition": "Culturally respectful recovery support takes a person\u2019s language, community, beliefs and experiences seriously without assuming that everyone from the same background has the same needs. In a residence, this means checking communication, food, religious practices, discrimination policies and access to chosen support rather than relying on broad claims of diversity.",
+      "sections": [
+        {
+          "heading": "Which everyday arrangements are worth discussing?",
+          "body": "Ask whether important information is available in a language you understand and how misunderstandings are resolved. Discuss dietary requirements, religious observance and contact with community members if those matter to your daily life. Explain the practical arrangement you need without feeling obliged to represent a whole community. A residence should be able to describe what it can accommodate and what remains uncertain before you make a decision."
+        },
+        {
+          "heading": "How do you assess a response to discrimination?",
+          "body": "Ask who receives concerns about racist language, exclusion or unequal treatment, how a complaint is documented and what alternative contact exists. A general promise of respect is less useful than a clear process. If an interpreter or trusted person will join an inquiry, ask about consent and privacy first. Do not assume a staff member\u2019s background proves cultural competence or that a residence offers specialized services it has not explicitly confirmed."
+        }
+      ],
+      "steps": [
+        "Request clear explanations of rules and charges.",
+        "Discuss food, language or observance needs individually.",
+        "Ask how discrimination concerns are handled.",
+        "Check whether travel permits continued community contact."
+      ],
+      "faq": [
+        {
+          "question": "Is a diverse resident group enough to show a good fit?",
+          "answer": "No. Consider how rules are applied, how concerns are heard and whether your own practical needs can be met. Demographics alone do not answer those questions."
+        },
+        {
+          "question": "Can a trusted person help with an inquiry?",
+          "answer": "Ask the residence how to include that person with your permission. Clarify whether they are helping with language, logistics or another task and what information may be shared."
+        }
+      ],
+      "updatedAt": "2026-11-04",
+      "nextStep": "Explain the language, food or observance arrangement you need and ask whether it can be met. Request a clear answer about unresolved details."
+    },
+    {
+      "id": "dprs-2026-07-13-007",
+      "route": "/blog/2026-07-13-millennial-recovery/",
+      "theme": "Millennial recovery",
+      "definition": "Rebuilding adult responsibilities during recovery means coordinating housing, work, bills and relationships with the support a person chooses. For adults managing several commitments, the immediate task is often deciding what must happen first. Age alone does not determine care needs, finances, parenting responsibilities or the kind of residence that will fit.",
+      "sections": [
+        {
+          "heading": "How can you separate urgent tasks from longer goals?",
+          "body": "List commitments with actual deadlines: a rent notice, work shift, appointment or document renewal. Identify which require action now and which can wait for more information. Ask the relevant organization about available arrangements rather than assuming a missed payment or absence has only one consequence. Keep account details and financial records out of a general housing inquiry. A housing worker does not need unrestricted access to your finances to explain charges."
+        },
+        {
+          "heading": "How can housing rules affect work and family life?",
+          "body": "Compare curfews, required meetings, transport and guest policies with shift work or caregiving before signing an agreement. Ask what exceptions exist and who can approve them. If a conflict cannot be resolved, that may be a practical mismatch rather than a failure to commit. For debt, employment rights or family-law questions, seek appropriate qualified advice; a recovery guide cannot determine legal obligations or guarantee an arrangement with an employer."
+        }
+      ],
+      "steps": [
+        "Make a deadline list before a long-term goal list.",
+        "Check house commitments against shifts and caregiving.",
+        "Ask creditors or employers directly about available arrangements.",
+        "Keep sensitive account and employment details private."
+      ],
+      "faq": [
+        {
+          "question": "Should I fix every outstanding task before moving?",
+          "answer": "Focus first on requirements for a safe, workable move. Identify which other tasks have deadlines and which can be addressed after housing arrangements are clearer."
+        },
+        {
+          "question": "Can a residence promise work or financial stability?",
+          "answer": "Do not infer that from general support language. Ask which practical resources it actually provides and make your own plan for income and expenses."
+        }
+      ],
+      "updatedAt": "2026-11-04",
+      "nextStep": "Compare your deadlines and responsibilities with the residence\u2019s commitments. Ask about any conflict before accepting an arrangement that may not fit."
+    },
+    {
+      "id": "dprs-2026-07-14-008",
+      "route": "/blog/2026-07-14-gen-z-recovery/",
+      "theme": "Gen Z recovery",
+      "definition": "Young adult recovery support helps a person coordinate housing, study, work and relationships while making their own informed choices. Support needs vary, so age is not an admission assessment. A useful housing discussion explains eligibility, costs, consent and daily expectations without assuming that parents, a college or an employer will manage everything.",
+      "sections": [
+        {
+          "heading": "What should a first housing inquiry establish?",
+          "body": "Ask about age eligibility, required documents and who signs the resident agreement. Clarify the charges before sharing payment details or relying on a relative\u2019s offer to help. If you are enrolled in education, check term dates, travel and attendance requirements against house commitments. A gap between classes may look convenient but still conflict with a required meeting or curfew. Ask about those details while you still have time to compare options."
+        },
+        {
+          "heading": "How can you decide who joins the conversation?",
+          "body": "Choose whether you want a parent, trusted adult, friend or student support worker involved and tell the residence what their role should be. Ask how messages and emergency contacts are handled. You may want logistical help without sharing every private detail. Avoid posting residence locations, other residents\u2019 identities or personal recovery information in group chats without permission. For clinical questions or immediate safety concerns, use qualified support rather than advice from social media."
+        }
+      ],
+      "steps": [
+        "Confirm age eligibility and who signs the agreement.",
+        "Compare classes and shifts with house rules.",
+        "Choose a support person\u2019s role before including them.",
+        "Ask how staff contact you and protect your information."
+      ],
+      "faq": [
+        {
+          "question": "Do my parents have to handle the inquiry?",
+          "answer": "Ask about eligibility and the agreement directly. Adult applicants can clarify whom they want involved; arrangements for minors require specific confirmation from the provider."
+        },
+        {
+          "question": "What if I need to pause study?",
+          "answer": "Ask your institution about its actual leave and return policies. Do not assume housing admission changes enrollment, funding or attendance obligations."
+        }
+      ],
+      "updatedAt": "2026-11-04",
+      "nextStep": "Write down your class or work schedule and choose whom you want involved. Ask about eligibility and contact arrangements before making plans."
+    },
+    {
+      "id": "dprs-2026-07-15-009",
+      "route": "/blog/2026-07-15-referral-guidance/",
+      "theme": "Referral guidance",
+      "definition": "A recovery housing referral is a request to explore whether a residence may fit someone\u2019s housing needs. It is not an admission, a clinical assessment or a guarantee of a bed. A useful handoff clarifies consent, timing and the receiving organization\u2019s requirements while limiting disclosure of personal or health information.",
+      "sections": [
+        {
+          "heading": "What can be established before sending information?",
+          "body": "Contact the residence to confirm whether it is accepting inquiries and what its intake process requires. Explain the general housing timeline without sending records or a detailed history through a public form. Ask for the appropriate secure channel if sensitive information is genuinely required. Establish who will follow up and how the person seeking housing will participate. A referral should not leave someone believing a move has been confirmed when only an inquiry has been received."
+        },
+        {
+          "heading": "How do you make the handoff practical?",
+          "body": "With the person\u2019s permission, agree a contact method and identify outstanding questions about transport, accessibility, documents and charges. Keep clinical decisions with qualified professionals and housing decisions with the applicant and residence. If discharge is approaching, the responsible care team should manage the care plan rather than treating a website inquiry as a completed transfer. Dianne\u2019s Place is not an emergency destination or a confirmed placement service through this page."
+        }
+      ],
+      "steps": [
+        "Confirm consent and the person\u2019s preferred contact method.",
+        "Ask what information is required before sending it.",
+        "Record which questions remain unanswered.",
+        "Confirm acceptance and arrival arrangements explicitly."
+      ],
+      "faq": [
+        {
+          "question": "Does sending a referral reserve a bed?",
+          "answer": "No. Ask the receiving residence to confirm availability, eligibility and any agreement. Do not arrange arrival on the strength of an unanswered message."
+        },
+        {
+          "question": "Can records be attached to a general inquiry?",
+          "answer": "Do not use public inquiry channels for health records. Ask whether information is needed and which secure process the receiving organization authorizes."
+        }
+      ],
+      "updatedAt": "2026-11-04",
+      "nextStep": "Confirm the inquiry channel and consent arrangements before sending a handoff. Wait for an explicit admission decision before organizing arrival."
+    },
+    {
+      "id": "dprs-2026-07-16-010",
+      "route": "/blog/2026-07-16-relapse-prevention/",
+      "theme": "Relapse prevention",
+      "definition": "A recovery support plan for difficult situations records warning signs a person recognizes, people they choose to contact and practical ways to leave an unhelpful setting. It complements professional care rather than replacing it. A written plan cannot predict events, guarantee sobriety or determine what medical response is needed.",
+      "sections": [
+        {
+          "heading": "How can you make a plan specific enough to use?",
+          "body": "Choose situations you already know can be difficult: an invitation, an argument, isolation or a change in routine. Write what you might notice and one realistic action you could take. That might be leaving a gathering, arranging a ride or contacting a trusted support person. Ask that person in advance whether they are willing to help and what to do if they are unavailable. Avoid a plan that depends entirely on one unanswered phone call."
+        },
+        {
+          "heading": "What should you clarify with a residence?",
+          "body": "Ask about the written policy for substance use, return to the home after an absence, belongings and requests for a different level of support. Knowing the process beforehand makes expectations clearer; it does not predict how an individual situation will be handled. Do not conceal urgent symptoms while trying to resolve a housing rule. Possible overdose or immediate danger requires emergency help, and questions about withdrawal or medication belong with qualified medical professionals."
+        }
+      ],
+      "steps": [
+        "Name a situation and an action you can take.",
+        "Agree a contact plan with a willing support person.",
+        "Choose an alternative if that person is unavailable.",
+        "Ask about the residence\u2019s written response policy."
+      ],
+      "faq": [
+        {
+          "question": "Is a written plan a substitute for treatment?",
+          "answer": "No. Discuss clinical needs with a qualified professional. This page covers practical preparation and housing questions, not individualized medical advice."
+        },
+        {
+          "question": "What if someone is in immediate danger?",
+          "answer": "Call 911. For mental health or substance use crisis support, call or text 988. A housing contact form is not monitored as an emergency service."
+        }
+      ],
+      "updatedAt": "2026-11-04",
+      "nextStep": "Ask about the written house policy while planning calmly. For immediate danger call 911; a non-emergency housing message cannot arrange urgent care."
+    },
+    {
+      "id": "dprs-2026-07-17-011",
+      "route": "/blog/2026-07-17-employment-and-education/",
+      "theme": "Employment and education",
+      "definition": "Work and education planning during recovery means checking whether a job, course or training arrangement fits current housing, transport and support commitments. It does not require starting everything at once. The useful comparison is between actual schedules, costs and requirements rather than a promise that employment or enrollment will produce recovery.",
+      "sections": [
+        {
+          "heading": "What should you check before accepting a commitment?",
+          "body": "Get the timetable, start location, travel requirements and any equipment or document list. Compare them with curfews, required house activities and existing appointments. Ask about shift changes or missed classes before assuming flexibility. Include the time and cost of reaching the site; an opportunity may be difficult to sustain if the last bus leaves before a shift ends. Keep a copy of the arrangement so changes can be discussed clearly."
+        },
+        {
+          "heading": "How can you discuss support without oversharing?",
+          "body": "Ask the employer or institution about the relevant absence, leave or accommodation process. You can begin with a practical scheduling question rather than disclosing personal history to everyone involved. Where rights or documentation requirements matter, seek qualified advice about the specific situation. A housing provider cannot promise admission to a course, a job offer or an employer\u2019s response. Ask what practical help it actually offers, such as resource information or time to attend an appointment."
+        }
+      ],
+      "steps": [
+        "Compare travel and start times with the house schedule.",
+        "List documents or equipment you actually need.",
+        "Ask about absence and timetable-change procedures.",
+        "Start with one manageable commitment and review fit."
+      ],
+      "faq": [
+        {
+          "question": "Do I have to discuss recovery at an interview?",
+          "answer": "This guide cannot decide disclosure or employment-law questions for you. Seek appropriate advice if needed and ask about the role\u2019s practical requirements."
+        },
+        {
+          "question": "Can I study while living in recovery housing?",
+          "answer": "Ask the residence and institution about their actual requirements. Check attendance, online access, quiet space and any schedule conflicts before committing."
+        }
+      ],
+      "updatedAt": "2026-11-04",
+      "nextStep": "Take the actual shift or class times to a housing inquiry. Ask how travel, required activities and curfews would fit together."
+    },
+    {
+      "id": "dprs-2026-07-18-012",
+      "route": "/blog/2026-07-18-community-reintegration/",
+      "theme": "Community reintegration",
+      "definition": "Community reintegration means rebuilding everyday connections and participation after a period away, including treatment, unstable housing or another disruption. It can involve transport, identification, friendships, local activities and practical services. The person sets the pace; a housing move alone does not restore relationships or establish access to every community resource.",
+      "sections": [
+        {
+          "heading": "Where can you begin when several basics are missing?",
+          "body": "Choose a task that unlocks another task, such as identifying the documents needed for a local service or learning the route to an appointment. Contact the organization itself to confirm eligibility, hours and required documents before traveling. Keep a simple record of the answer and the next action. Avoid sending identification documents to an unverified contact or assuming an online directory guarantees that a service is currently available."
+        },
+        {
+          "heading": "How do you rebuild connection without overcommitting?",
+          "body": "Choose an activity you want to try and check its cost, location, accessibility and expectations. That might be a library visit, a community group, a chosen recovery meeting or time with a trusted friend. You can attend once before deciding whether it fits. Reconnecting with relatives or old friends is a separate choice; you do not owe every past contact access to your current home or personal information. Consider boundaries alongside the wish to belong."
+        }
+      ],
+      "steps": [
+        "Confirm one resource\u2019s requirements directly.",
+        "Plan the trip and a way to return home.",
+        "Try a chosen activity before committing regularly.",
+        "Decide what contact and location details to share."
+      ],
+      "faq": [
+        {
+          "question": "Do I need to reconnect with everyone from before?",
+          "answer": "No. You can choose which relationships to resume and what boundaries you want. Belonging does not require disclosing your location or accepting unwanted contact."
+        },
+        {
+          "question": "Where can I find local options?",
+          "answer": "Use the resources page as a starting point and verify details with each organization. This site does not confirm eligibility, appointments or availability at outside services."
+        }
+      ],
+      "updatedAt": "2026-11-04",
+      "nextStep": "Pick one community activity or resource you want to reach. Ask how the residence\u2019s location and expectations would affect that plan."
+    }
+  ],
+  "redirects": {
+    "/blog/2026-07-07-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-07-19-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-08-12-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-08-24-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-09-05-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-09-17-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-09-29-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-10-11-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-10-23-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-11-04-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-11-16-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-11-28-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-12-10-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-12-22-recovery-housing-readiness/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/blog/2026-07-20-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-08-01-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-08-13-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-08-25-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-09-06-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-09-18-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-09-30-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-10-12-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-10-24-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-11-05-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-11-17-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-11-29-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-12-11-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-12-23-daily-sober-routines/": "/blog/2026-07-08-daily-sober-routines/",
+    "/blog/2026-07-21-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-08-02-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-08-14-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-08-26-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-09-07-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-09-19-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-10-01-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-10-13-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-10-25-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-11-06-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-11-18-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-11-30-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-12-12-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-12-24-family-support/": "/blog/2026-07-09-family-support/",
+    "/blog/2026-07-22-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-08-03-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-08-15-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-08-27-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-09-08-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-09-20-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-10-02-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-10-14-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-10-26-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-11-07-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-11-19-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-12-01-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-12-13-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-12-25-women-in-recovery/": "/blog/2026-07-10-women-in-recovery/",
+    "/blog/2026-07-23-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-08-04-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-08-16-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-08-28-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-09-09-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-09-21-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-10-03-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-10-15-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-10-27-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-11-08-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-11-20-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-12-02-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-12-14-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-12-26-lgbtq-recovery-support/": "/blog/2026-07-11-lgbtq-recovery-support/",
+    "/blog/2026-07-24-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-08-05-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-08-17-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-08-29-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-09-10-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-09-22-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-10-04-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-10-16-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-10-28-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-11-09-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-11-21-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-12-03-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-12-15-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-12-27-minority-recovery-support/": "/blog/2026-07-12-minority-recovery-support/",
+    "/blog/2026-07-25-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-08-06-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-08-18-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-08-30-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-09-11-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-09-23-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-10-05-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-10-17-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-10-29-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-11-10-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-11-22-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-12-04-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-12-16-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-12-28-millennial-recovery/": "/blog/2026-07-13-millennial-recovery/",
+    "/blog/2026-07-26-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-08-07-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-08-19-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-08-31-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-09-12-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-09-24-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-10-06-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-10-18-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-10-30-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-11-11-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-11-23-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-12-05-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-12-17-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-12-29-gen-z-recovery/": "/blog/2026-07-14-gen-z-recovery/",
+    "/blog/2026-07-27-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-08-08-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-08-20-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-09-01-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-09-13-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-09-25-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-10-07-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-10-19-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-10-31-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-11-12-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-11-24-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-12-06-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-12-18-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-12-30-referral-guidance/": "/blog/2026-07-15-referral-guidance/",
+    "/blog/2026-07-28-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-08-09-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-08-21-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-09-02-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-09-14-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-09-26-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-10-08-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-10-20-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-11-01-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-11-13-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-11-25-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-12-07-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-12-19-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-12-31-relapse-prevention/": "/blog/2026-07-16-relapse-prevention/",
+    "/blog/2026-07-29-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-08-10-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-08-22-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-09-03-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-09-15-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-09-27-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-10-09-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-10-21-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-11-02-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-11-14-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-11-26-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-12-08-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-12-20-employment-and-education/": "/blog/2026-07-17-employment-and-education/",
+    "/blog/2026-07-30-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/blog/2026-08-11-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/blog/2026-08-23-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/blog/2026-09-04-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/blog/2026-09-16-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/blog/2026-09-28-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/blog/2026-10-10-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/blog/2026-10-22-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/blog/2026-11-03-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/blog/2026-11-15-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/blog/2026-11-27-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/blog/2026-12-09-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/blog/2026-12-21-community-reintegration/": "/blog/2026-07-18-community-reintegration/",
+    "/questions/do-you-have-to-pay-for-sober-living/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/how-to-find-sober-living/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/how-to-get-sober-living-paid-for/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/is-sober-living-a-good-idea/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/recovery-housing-for-women/": "/blog/2026-07-10-women-in-recovery/",
+    "/questions/sober-living-rules-and-regulations/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/what-does-a-sober-living-house-look-like/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/what-is-a-sober-living-facility/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/what-is-a-sober-living-halfway-house/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/what-is-sober-housing/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/what-is-a-sober-living-home/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/how-to-apply-transitional-housing/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/how-to-get-transitional-housing/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/what-is-sober-living-environment/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/levels-of-recovery-housing/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/what-is-a-halfway-house-after-jail/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/how-to-get-into-a-halfway-house/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/can-halfway-house-be-a-temporary-residence/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/what-exactly-is-a-halfway-house/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/what-is-a-halfway-house-considered/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/can-halfway-house-residents-leave/": "/blog/2026-07-31-recovery-housing-readiness/",
+    "/questions/sober-living-transitional-housing-near-me/": "/blog/2026-07-31-recovery-housing-readiness/"
+  }
+}

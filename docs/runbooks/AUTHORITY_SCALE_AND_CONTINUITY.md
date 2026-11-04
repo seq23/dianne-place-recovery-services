@@ -5,3 +5,7 @@ This modernization is an additive sidecar around the existing Dianne client site
 After 2026-12-31, the existing native generator still creates one approved validated item per day. The package command then runs a deterministic post-2026 hardener that diversifies the item and continues the existing cadence: daily resources, Tuesday articles, first-of-month pillars, and quarter-end white papers. No 2026 record is changed.
 
 Distribution runs only after the existing Content Publish workflow completes successfully. Provider receipts never claim success unless a live provider returned success.
+
+## Reviewed publication inventory (owner ruling, 3 November 2026)
+
+The calendar remains an internal archive. Automatic generation and approval do not grant public publication. `data/seo/page_quality.json` owns the 12 reviewed editorial intents and their direct redirects; `lib/publication.mjs` enforces that inventory for the blog, sitemap, answer feed and release jobs. Search-loop publication is off; only checks run. Add a new intent only after review establishes a distinct useful answer. See `docs/reviews/PAGE_QUALITY_2026-11-04.md`.

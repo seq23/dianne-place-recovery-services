@@ -14,6 +14,7 @@ type ContentItem = {
   scheduledAt: string;
   status: string;
   summary: string;
+  directAnswer: string;
   slug: string;
   routeTarget: string;
   keyTakeaways?: string[];
@@ -40,14 +41,7 @@ export default function BlogPage() {
             <article className="card blog-card" key={item.id}>
               <p className="eyebrow">{item.scheduledAt}</p>
               <h2>{item.title}</h2>
-              <p>{item.summary}</p>
-              {item.keyTakeaways?.length ? (
-                <ul className="compact-list">
-                  {item.keyTakeaways.slice(0, 2).map((takeaway) => (
-                    <li key={takeaway}>{takeaway}</li>
-                  ))}
-                </ul>
-              ) : null}
+              <p>{item.directAnswer}</p>
               <Link className="button secondary" href={item.routeTarget || `/blog/${item.slug}/`}>
                 Read post
               </Link>

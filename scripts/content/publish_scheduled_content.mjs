@@ -1,3 +1,4 @@
+import { publishedItems } from '../../lib/publication.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -7,7 +8,7 @@ const releasePath = path.join(root, 'artifacts/validation/daily-citation-release
 const calendar = JSON.parse(fs.readFileSync(calendarPath, 'utf8'));
 const today = process.env.PUBLISH_DATE || new Date().toISOString().slice(0, 10);
 
-const selected = calendar.items.filter(
+const selected = publishedItems(calendar.items, today).filter(
   (item) =>
     item.scheduledAt === today &&
     item.status === 'approved' &&

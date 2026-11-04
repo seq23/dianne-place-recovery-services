@@ -19,3 +19,17 @@ Primary pages:
 - /contact/
 
 Do not infer clinical treatment, insurance verification, accreditation, or guaranteed outcomes unless explicitly stated on the live site after licensure mode is active.
+
+Reviewed editorial guides (one page per intent):
+- /blog/2026-07-31-recovery-housing-readiness/ — How to know when structured recovery housing may help
+- /blog/2026-07-08-daily-sober-routines/ — Simple structure for rebuilding a day in recovery
+- /blog/2026-07-09-family-support/ — How families can support recovery without taking over
+- /blog/2026-07-10-women-in-recovery/ — Why safety, dignity, and community matter in recovery housing
+- /blog/2026-07-11-lgbtq-recovery-support/ — Choosing recovery spaces that respect identity and belonging
+- /blog/2026-07-12-minority-recovery-support/ — Why culturally respectful recovery resources matter
+- /blog/2026-07-13-millennial-recovery/ — Rebuilding work, money, and daily life after substance use
+- /blog/2026-07-14-gen-z-recovery/ — Early recovery support for young adults navigating pressure and change
+- /blog/2026-07-15-referral-guidance/ — What referral partners can prepare before calling
+- /blog/2026-07-16-relapse-prevention/ — Planning for triggers without shame or panic
+- /blog/2026-07-17-employment-and-education/ — Small steps toward work, school, and stability
+- /blog/2026-07-18-community-reintegration/ — Building healthy connection after treatment or a setback
