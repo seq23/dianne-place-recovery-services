@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-03T13-22-17.329Z-41643621734",
-  "attempted_at": "2026-11-03T13:22:17.329Z",
+  "receipt_id": "2026-11-04T13-22-25.749Z-41837340480",
+  "attempted_at": "2026-11-04T13:22:25.749Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "c9e7e3b32b1062d3a253228e00e50a7a4a8d74164d84e0c946931f530294fa66",
-    "url_count": 149
+    "sitemap_sha256": "ebc6f438365a823081909bb13a3833a433d9731ed2e1078b3eccb681d04effde",
+    "url_count": 159
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 149
+    "submitted_urls": 159
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -45,7 +45,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-30T23:25:30Z"
+        "last_crawl_time": "2026-11-03T14:53:50Z"
       },
       {
         "url": "https://detoxdenver.org/recovery-housing/",
@@ -108,16 +108,25 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-03T02:23:48Z"
+        "last_crawl_time": "2026-11-03T16:14:47Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-11-04-recovery-housing-readiness/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null
       },
       {
         "url": "https://detoxdenver.org/blog/2026-11-03-community-reintegration/",
         "status": "SUCCESS",
         "http_status": 200,
-        "verdict": "NEUTRAL",
-        "coverage_state": "Discovered - currently not indexed",
-        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-        "last_crawl_time": null
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-11-03T16:42:46Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-11-02-employment-and-education/",
@@ -208,22 +217,13 @@
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
         "last_crawl_time": "2026-10-24T19:53:46Z"
-      },
-      {
-        "url": "https://detoxdenver.org/blog/2026-10-23-recovery-housing-readiness/",
-        "status": "SUCCESS",
-        "http_status": 200,
-        "verdict": "PASS",
-        "coverage_state": "Submitted and indexed",
-        "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-23T22:51:18Z"
       }
     ]
   },
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-03T13-22-17.329Z-41643621734.json"
+    "history_path": "data/distribution/receipts/2026-11-04T13-22-25.749Z-41837340480.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
