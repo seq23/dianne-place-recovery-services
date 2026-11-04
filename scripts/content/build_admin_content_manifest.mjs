@@ -1,3 +1,4 @@
+import { reviewedGuide, pageQuality } from '../../lib/pageQuality.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -34,8 +35,9 @@ const items = calendar.items.map((item) => {
     id: item.id,
     title: item.title,
     slug: item.slug,
-    publicPath,
-    previewPath: publicPath,
+    publicPath: pageQuality.redirects[publicPath] || publicPath,
+    previewPath: pageQuality.redirects[publicPath] || publicPath,
+    reviewedForPublication: Boolean(reviewedGuide(item)),
     type: item.contentType,
     contentType: item.contentType,
     contentTypeLabel: typeLabel(item.contentType),
@@ -54,6 +56,7 @@ const items = calendar.items.map((item) => {
     validationPassed: item.validation?.eligible === true,
     validationWarnings: item.validation?.warnings || [],
     operatorInstruction:
+      !reviewedGuide(item) ? 'Internal archive: consolidated into a reviewed guide. Calendar approval alone does not republish this URL.' :
       item.status === 'approved'
         ? 'Approved and scheduled. Change status to revoked only if this item should be pulled from release.'
         : item.status === 'ready_for_approval'
@@ -63,6 +66,7 @@ const items = calendar.items.map((item) => {
             : 'Review item status before release.',
     editTarget: 'data/content/content_calendar.json',
     approvalAction:
+      !reviewedGuide(item) ? 'Edit the kept guide; a distinct new intent requires an explicit publication-inventory review.' :
       item.status === 'approved'
         ? 'Keep approved or change to revoked.'
         : 'Change status to approved, ready_for_approval, or revoked in the content calendar.'
@@ -78,7 +82,7 @@ const manifest = {
   },
   statusModel: {
     ready_for_approval: 'passed validation and waiting on owner review',
-    approved: 'approved and eligible for scheduled publication',
+    approved: 'approved internally; public publication additionally requires the reviewed inventory',
     published: 'live public content',
     revoked: 'removed from public release'
   },

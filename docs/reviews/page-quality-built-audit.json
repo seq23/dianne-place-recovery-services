@@ -1,0 +1,57 @@
+{
+  "mean_shared_5grams_pct": 26.51741573710186,
+  "range": [
+    25.49800796812749,
+    27.422680412371136
+  ],
+  "pages": [
+    {
+      "route": "/blog/2026-07-31-recovery-housing-readiness/",
+      "words": 739
+    },
+    {
+      "route": "/blog/2026-07-08-daily-sober-routines/",
+      "words": 498
+    },
+    {
+      "route": "/blog/2026-07-09-family-support/",
+      "words": 511
+    },
+    {
+      "route": "/blog/2026-07-10-women-in-recovery/",
+      "words": 515
+    },
+    {
+      "route": "/blog/2026-07-11-lgbtq-recovery-support/",
+      "words": 498
+    },
+    {
+      "route": "/blog/2026-07-12-minority-recovery-support/",
+      "words": 492
+    },
+    {
+      "route": "/blog/2026-07-13-millennial-recovery/",
+      "words": 500
+    },
+    {
+      "route": "/blog/2026-07-14-gen-z-recovery/",
+      "words": 500
+    },
+    {
+      "route": "/blog/2026-07-15-referral-guidance/",
+      "words": 489
+    },
+    {
+      "route": "/blog/2026-07-16-relapse-prevention/",
+      "words": 495
+    },
+    {
+      "route": "/blog/2026-07-17-employment-and-education/",
+      "words": 493
+    },
+    {
+      "route": "/blog/2026-07-18-community-reintegration/",
+      "words": 495
+    }
+  ]
+}

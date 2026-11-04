@@ -38,3 +38,6 @@ jobs:
 
       - name: Validate built SEO output
         run: npm run validate:seo-output
+
+      - name: Verify reviewed publication and redirects
+        run: npm run test:page-quality

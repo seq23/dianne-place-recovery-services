@@ -1,0 +1,53 @@
+{
+  "sitemap_count": 159,
+  "blog_count": 121,
+  "mean_shared_5grams_pct": 90.53975894557826,
+  "range": [
+    86.50107991360692,
+    98.76404494382022
+  ],
+  "sample": [
+    {
+      "url": "https://detoxdenver.org/blog/2026-07-07-recovery-housing-readiness/",
+      "words": 992
+    },
+    {
+      "url": "https://detoxdenver.org/blog/2026-07-20-daily-sober-routines/",
+      "words": 972
+    },
+    {
+      "url": "https://detoxdenver.org/blog/2026-08-03-women-in-recovery/",
+      "words": 973
+    },
+    {
+      "url": "https://detoxdenver.org/blog/2026-08-16-lgbtq-recovery-support/",
+      "words": 968
+    },
+    {
+      "url": "https://detoxdenver.org/blog/2026-08-29-minority-recovery-support/",
+      "words": 962
+    },
+    {
+      "url": "https://detoxdenver.org/blog/2026-09-12-gen-z-recovery/",
+      "words": 978
+    },
+    {
+      "url": "https://detoxdenver.org/blog/2026-09-25-referral-guidance/",
+      "words": 957
+    },
+    {
+      "url": "https://detoxdenver.org/blog/2026-10-08-relapse-prevention/",
+      "words": 962
+    },
+    {
+      "url": "https://detoxdenver.org/blog/2026-10-22-community-reintegration/",
+      "words": 963
+    },
+    {
+      "url": "https://detoxdenver.org/blog/2026-11-04-recovery-housing-readiness/",
+      "words": 938
+    }
+  ],
+  "generated_pages_audited": 143,
+  "thin_generated_pages": []
+}

@@ -4,7 +4,8 @@ const calendar = readJson('data/content/content_calendar.json');
 assert(calendar.calendarStart === '2026-07-07', 'Calendar start must be 2026-07-07');
 assert(calendar.calendarEnd === '2026-12-31', 'Calendar end must be 2026-12-31');
 assert(Array.isArray(calendar.items), 'Content calendar items must be an array');
-assert(calendar.items.length >= 170, 'Content calendar must include approved backlog through 2026-12-31');
+const baseline = readJson('data/protected_core/protected_editorial_state.json');
+assert(baseline.records.length > 0 && calendar.items.length >= baseline.records.length, 'Calendar must retain the complete non-empty internal editorial archive');
 
 const ids = new Set();
 for (const item of calendar.items) {

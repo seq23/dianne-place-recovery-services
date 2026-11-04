@@ -44,7 +44,7 @@
     "https://detoxdenver.org",
     "https://988lifeline.org"
   ],
-  "mode": "normal",
+  "mode": "off",
   "pace": {
     "start_per_day": 10,
     "step_per_week": 5,
@@ -127,5 +127,6 @@
     "source": "none"
   },
   "shares_audience_with": [],
-  "ledger_dir": "data/search-loop"
+  "ledger_dir": "data/search-loop",
+  "publication_policy": "Reviewed inventory in data/seo/page_quality.json; discovery/checks may inform drafts, but new public intents require explicit review."
 }

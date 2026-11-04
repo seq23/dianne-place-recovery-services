@@ -1,5 +1,6 @@
 import { publishedItems, resolveReleaseDate } from '../../lib/publication.mjs';
 import { liveQuestionPages } from '../../lib/searchLoopPages.mjs';
+import { reviewedGuide } from '../../lib/pageQuality.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -27,7 +28,7 @@ const blogUrls = publishedItems(calendar.items, releaseDate)
     loc: `${base}${item.routeTarget}`,
     priority: item.contentType === 'quarterly_whitepaper' ? '0.9' : item.contentType === 'monthly_pillar' ? '0.85' : '0.7',
     changefreq: 'monthly',
-    lastmod: item.scheduledAt
+    lastmod: reviewedGuide(item).updatedAt
   }));
 
 // Question pages published by the search-loop engine (public/questions/), from
