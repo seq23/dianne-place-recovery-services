@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-04T13-22-25.749Z-41837340480",
-  "attempted_at": "2026-11-04T13:22:25.749Z",
+  "receipt_id": "2026-11-05T13-22-14.153Z-42035053411",
+  "attempted_at": "2026-11-05T13:22:14.153Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "ebc6f438365a823081909bb13a3833a433d9731ed2e1078b3eccb681d04effde",
-    "url_count": 159
+    "sitemap_sha256": "632cc3344ec57aeeff0044c0865b549d94f31a9beae1b380182ade2a960f979b",
+    "url_count": 28
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 159
+    "submitted_urls": 28
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -111,119 +111,119 @@
         "last_crawl_time": "2026-11-03T16:14:47Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-11-04-recovery-housing-readiness/",
-        "status": "SUCCESS",
-        "http_status": 200,
-        "verdict": "NEUTRAL",
-        "coverage_state": "URL is unknown to Google",
-        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-        "last_crawl_time": null
-      },
-      {
-        "url": "https://detoxdenver.org/blog/2026-11-03-community-reintegration/",
+        "url": "https://detoxdenver.org/blog/2026-07-31-recovery-housing-readiness/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-03T16:42:46Z"
+        "last_crawl_time": "2026-10-25T20:20:36Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-11-02-employment-and-education/",
+        "url": "https://detoxdenver.org/blog/2026-07-18-community-reintegration/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-02T22:37:48Z"
+        "last_crawl_time": "2026-10-31T23:08:48Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-11-01-relapse-prevention/",
+        "url": "https://detoxdenver.org/blog/2026-07-17-employment-and-education/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-03T10:19:57Z"
+        "last_crawl_time": "2026-10-26T01:43:02Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-31-referral-guidance/",
+        "url": "https://detoxdenver.org/blog/2026-07-16-relapse-prevention/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-31T12:41:32Z"
+        "last_crawl_time": "2026-11-04T23:28:22Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-30-gen-z-recovery/",
+        "url": "https://detoxdenver.org/blog/2026-07-15-referral-guidance/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-30T17:03:35Z"
+        "last_crawl_time": "2026-11-01T10:23:48Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-29-millennial-recovery/",
+        "url": "https://detoxdenver.org/blog/2026-07-14-gen-z-recovery/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-29T17:58:11Z"
+        "last_crawl_time": "2026-11-01T02:53:48Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-28-minority-recovery-support/",
+        "url": "https://detoxdenver.org/blog/2026-07-13-millennial-recovery/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-28T16:00:03Z"
+        "last_crawl_time": "2026-10-11T14:58:17Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-27-lgbtq-recovery-support/",
+        "url": "https://detoxdenver.org/blog/2026-07-12-minority-recovery-support/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-27T17:14:10Z"
+        "last_crawl_time": "2026-08-03T03:55:56Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-26-women-in-recovery/",
+        "url": "https://detoxdenver.org/blog/2026-07-11-lgbtq-recovery-support/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-28T07:23:55Z"
+        "last_crawl_time": "2026-11-01T12:52:48Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-25-family-support/",
+        "url": "https://detoxdenver.org/blog/2026-07-10-women-in-recovery/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-25T21:02:18Z"
+        "last_crawl_time": "2026-11-04T23:30:27Z"
       },
       {
-        "url": "https://detoxdenver.org/blog/2026-10-24-daily-sober-routines/",
+        "url": "https://detoxdenver.org/blog/2026-07-09-family-support/",
         "status": "SUCCESS",
         "http_status": 200,
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-24T19:53:46Z"
+        "last_crawl_time": "2026-11-02T17:37:49Z"
+      },
+      {
+        "url": "https://detoxdenver.org/blog/2026-07-08-daily-sober-routines/",
+        "status": "SUCCESS",
+        "http_status": 200,
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-15T01:05:29Z"
       }
     ]
   },
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-04T13-22-25.749Z-41837340480.json"
+    "history_path": "data/distribution/receipts/2026-11-05T13-22-14.153Z-42035053411.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
