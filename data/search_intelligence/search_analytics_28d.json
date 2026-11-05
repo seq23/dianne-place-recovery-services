@@ -1,13 +1,13 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-06",
-  "end_date": "2026-11-02",
-  "collected_at": "2026-11-04T22:27:20.682Z",
+  "start_date": "2026-10-07",
+  "end_date": "2026-11-03",
+  "collected_at": "2026-11-05T12:31:02.784Z",
   "totals": {
     "clicks": 0,
-    "impressions": 8,
+    "impressions": 9,
     "ctr": 0,
-    "position": 30.75
+    "position": 37.111111111111114
   },
   "pages": [
     {
@@ -37,6 +37,13 @@
       "impressions": 1,
       "ctr": 0,
       "position": 11
+    },
+    {
+      "page": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 88
     },
     {
       "page": "https://www.detoxdenver.org/blog/2026-07-31-recovery-housing-readiness/",
