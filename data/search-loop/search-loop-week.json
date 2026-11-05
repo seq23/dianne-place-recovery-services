@@ -2,13 +2,13 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W45",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-04T12:32:45.046Z",
-  "state": "running",
+  "generated_at": "2026-11-05T12:33:38.148Z",
+  "state": "off",
   "published": 22,
   "indexed": "not read: no page old enough to inspect yet (14 days)",
-  "pace": 10,
+  "pace": 0,
   "ai_visitors": 0,
-  "ai_bot_hits": 77,
+  "ai_bot_hits": 151,
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 0,
   "undone": 0,
@@ -185,9 +185,8 @@
     "why": "up from 20 to 22: Google impressions 7 in the last 28 days beat 5 in the 28 before"
   },
   "notes": [
-    "BUILD held by the cap: 22 live engine page(s), cap 22 (up from 20 to 22: Google impressions 7 in the last 28 days beat 5 in the 28 before); 1 more page(s) today would have gone over it, those searches stay queued",
-    "BUILD distinct gate: 11 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
-    "BUILD gate notes (not blocking): 7 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json"
+    "Search loop is switched off (mode=off)",
+    "site config lowers the mode to off"
   ],
   "lanes": {
     "ratio": {
@@ -215,5 +214,5 @@
     "weight_changes": [],
     "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
   },
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/41830163175"
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/42028150468"
 }
