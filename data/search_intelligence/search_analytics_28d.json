@@ -1,21 +1,21 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-07",
-  "end_date": "2026-11-03",
-  "collected_at": "2026-11-05T12:31:02.784Z",
+  "start_date": "2026-10-08",
+  "end_date": "2026-11-04",
+  "collected_at": "2026-11-06T12:29:52.531Z",
   "totals": {
     "clicks": 0,
-    "impressions": 9,
+    "impressions": 14,
     "ctr": 0,
-    "position": 37.111111111111114
+    "position": 45.642857142857146
   },
   "pages": [
     {
       "page": "https://detoxdenver.org/",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 3.3333333333333335
+      "position": 3.5
     },
     {
       "page": "https://detoxdenver.org/blog/2026-07-10-women-in-recovery/",
@@ -39,11 +39,32 @@
       "position": 11
     },
     {
-      "page": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
+      "page": "https://detoxdenver.org/questions/sober-living-rules-and-regulations/",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 88
+      "position": 11
+    },
+    {
+      "page": "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 99
+    },
+    {
+      "page": "https://detoxdenver.org/questions/what-is-a-sober-living-facility/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 92
+    },
+    {
+      "page": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 90.5
     },
     {
       "page": "https://www.detoxdenver.org/blog/2026-07-31-recovery-housing-readiness/",
@@ -60,5 +81,22 @@
       "position": 5.5
     }
   ],
-  "query_pages": []
+  "query_pages": [
+    {
+      "query": "3/4 house meaning",
+      "page": "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 97
+    },
+    {
+      "query": "what is a 3/4 house",
+      "page": "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 101
+    }
+  ]
 }
