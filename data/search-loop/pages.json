@@ -989,7 +989,7 @@
       "route": "/questions/what-is-considered-transitional-housing/",
       "url": "https://detoxdenver.org/questions/what-is-considered-transitional-housing/",
       "published_at": "2026-11-06",
-      "status": "live",
+      "status": "merged",
       "hash": "6f97f1cc4427c95841c12af397ef622d9c5ee12860e8e76a5d981e1df4c6108a",
       "model": "free-route",
       "facts": [
@@ -1006,7 +1006,12 @@
       ],
       "extra_queries": [
         "how long is transitional housing"
-      ]
+      ],
+      "merged": {
+        "at": "2026-11-06",
+        "into": "/questions/how-does-transitional-housing-work/",
+        "reason": "same intent as how-does-transitional-housing-work published the same run (intent-word Jaccard 0.5); one strong page per intent (owner, 3 Nov 2026)"
+      }
     },
     {
       "slug": "when-should-discharge-planning-be-initiated",

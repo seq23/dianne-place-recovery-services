@@ -2,6 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { assert, listFiles, readJson } from './lib.mjs';
+import { liveQuestionPages } from '../../lib/searchLoopPages.mjs';
 
 export const origin = readJson('data/seo/site_identity.json').origin;
 
@@ -17,7 +18,12 @@ export function builtPages() {
     // gate before they publish (search-loop.config.json, health gate included);
     // these validators check the pages this repo renders.
     .filter((page) => !page.html.includes('<meta content="search-loop" name="generator"/>'));
-  const expected = [...fs.readFileSync('public/sitemap.xml', 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => new URL(m[1]).pathname);
+  const sitemap = [...fs.readFileSync('public/sitemap.xml', 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => new URL(m[1]).pathname);
+  // Every live engine page in the sitemap must be built too; the rest of the sitemap
+  // must match the pages this repo renders exactly.
+  const questions = new Set(liveQuestionPages().map((q) => q.route));
+  for (const route of questions) assert(sitemap.includes(route) && fs.existsSync(path.join('out', route, 'index.html')), `live question page not built or not in the sitemap: ${route}`);
+  const expected = sitemap.filter((route) => !questions.has(route));
   assert(expected.length > 0 && pages.length === expected.length, `built public inventory must exactly match the non-empty sitemap (${expected.length}), found ${pages.length}`);
   for (const route of expected) assert(pages.some((page) => page.path === route), `missing built sitemap route: ${route}`);
   return pages;

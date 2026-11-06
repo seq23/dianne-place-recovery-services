@@ -1,4 +1,5 @@
 import { publishedItems } from '../../lib/publication.mjs';
+import { liveQuestionPages } from '../../lib/searchLoopPages.mjs';
 import fs from 'node:fs';
 import { assert, fileExists, readJson } from './lib.mjs';
 
@@ -42,7 +43,11 @@ for (const item of futureItems.slice(0, 10)) assert(!sitemapText.includes(item.r
 const expectedRoutes = routes.routes.filter((r) => !r.path.startsWith('/admin')).map((r) => r.path);
 const sitemapRoutes = [...sitemapText.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => new URL(m[1]).pathname);
 assert(expectedRoutes.length > 0 && liveItems.length > 0, 'Core routes and reviewed editorial inventory must be non-empty');
-assert(sitemapRoutes.length === expectedRoutes.length + liveItems.length, 'Sitemap must exactly cover core routes and the kept editorial ledger');
+// Live search-loop question pages (data/search-loop/pages.json, status live, file present)
+// are the third and only other inventory; merged or undone pages never reach the sitemap.
+const questionRoutes = liveQuestionPages().map((q) => q.route);
+assert(sitemapRoutes.length === expectedRoutes.length + liveItems.length + questionRoutes.length, 'Sitemap must exactly cover core routes, the kept editorial ledger and the live question pages');
+for (const route of questionRoutes) assert(sitemapRoutes.includes(route), `Sitemap missing live question page: ${route}`);
 for (const route of expectedRoutes) assert(sitemapRoutes.includes(route), `Sitemap missing core route: ${route}`);
 
 console.log('[validate:aeo-seo-geo] OK');
