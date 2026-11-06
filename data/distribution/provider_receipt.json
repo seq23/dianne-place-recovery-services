@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-05T13-22-14.153Z-42035053411",
-  "attempted_at": "2026-11-05T13:22:14.153Z",
+  "receipt_id": "2026-11-06T10-17-09.026Z-42201356866",
+  "attempted_at": "2026-11-06T10:17:09.026Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -63,7 +63,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-29T12:36:26Z"
+        "last_crawl_time": "2026-11-06T03:09:47Z"
       },
       {
         "url": "https://detoxdenver.org/resources/",
@@ -81,7 +81,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-01T20:23:49Z"
+        "last_crawl_time": "2026-11-06T01:36:11Z"
       },
       {
         "url": "https://detoxdenver.org/blog/",
@@ -117,7 +117,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-25T20:20:36Z"
+        "last_crawl_time": "2026-11-05T17:09:48Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-07-18-community-reintegration/",
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-05T13-22-14.153Z-42035053411.json"
+    "history_path": "data/distribution/receipts/2026-11-06T10-17-09.026Z-42201356866.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
