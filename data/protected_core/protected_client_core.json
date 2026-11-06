@@ -88,7 +88,7 @@
     },
     {
       "path": "app/recovery-housing/page.tsx",
-      "sha256": "58f0b97131c16c9ed15c458346bf5c846fde34841e9ad11ee9fddcaf81fedc57"
+      "sha256": "de188af07e15412765dd6fbaef09a9f45444e5d858ba7025eca8c5d5bfc01686"
     },
     {
       "path": "app/referrals/page.tsx",
@@ -239,6 +239,14 @@
         "app/resources/page.tsx"
       ],
       "change": "Search Readiness fixes (owner, 1 Nov 2026: \"u can do what u want to detoxdenver.org\"): blog posts get a 120-160 character meta description and a title that fits the result line, and the Article author is the full Organization node from config/entity.json; the outcomes disclaimer's body sits under a question heading; the resources hub replaces nine copies of a filler sentence with links to the reviewed guides, each described by the first sentence of that guide's own definition. No new claims.",
+      "policy_note": "Byte-identity was deliberately re-baselined, not bypassed. The guard still fails on any further drift."
+    },
+    {
+      "date": "2026-11-06",
+      "files": [
+        "app/recovery-housing/page.tsx"
+      ],
+      "change": "Owner ruling 6 Nov 2026 (c3): visible \"Pricing: contact us for current rates\" line linking the contact page and phone, and a Service node whose Offer has no price fields (availability InStock, url = contact page, description \"Contact us for current pricing\"). No price invented.",
       "policy_note": "Byte-identity was deliberately re-baselined, not bypassed. The guard still fails on any further drift."
     }
   ],
