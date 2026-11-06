@@ -34,8 +34,10 @@ jobs:
     uses: seq23/search-loop/.github/workflows/search-loop.yml@v1
     with:
       engine_ref: v1
-      # Reviewed inventory owns publication; keep measurement, stop template fan-out.
-      stage: check
+      # Owner ruling 3 Nov 2026: distinct pages only, under a cap that grows with
+      # results. search-loop.config.json sets mode slow (<=3/day), cap 10 and the
+      # distinct gate over public/sitemap.xml, so template fan-out cannot return.
+      stage: ${{ inputs.stage || 'auto' }}
       # New pages join public/sitemap.xml (the push then fires the IndexNow ping
       # in search_intelligence.yml). Pure node, no install needed.
       post_build_command: node scripts/seo/build_sitemap.mjs

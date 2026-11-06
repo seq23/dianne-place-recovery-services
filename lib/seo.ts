@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import identity from '@/data/seo/site_identity.json';
 import pageSeo from '@/data/seo/page_seo.json';
 import answerRegistry from '@/data/aeo/answer_surface_registry.json';
+import entity from '@/config/entity.json';
 
 // One origin for every absolute URL the site emits. See data/seo/site_identity.json
 // for why this is detoxdenver.org and not the separate Webador site.
@@ -21,11 +22,21 @@ export const ogImage = {
 
 type PageMetaInput = { path: string; title: string; description: string; absoluteTitle?: boolean };
 
+// The search result line: the page's own words first, the short brand once, and
+// never past TITLE_MAX characters. A title that already names Dianne's Place, or
+// would run long with the suffix, stands alone. (Search Readiness b1: 30-65.)
+export const TITLE_SUFFIX = " | Dianne's Place";
+export const TITLE_MAX = 65;
+export function documentTitle(title: string, absoluteTitle?: boolean) {
+  if (absoluteTitle || /Dianne['’]s Place/.test(title)) return title;
+  return (title + TITLE_SUFFIX).length <= TITLE_MAX ? title + TITLE_SUFFIX : title;
+}
+
 // Every public page builds its metadata here so canonical, og:url, og:image and
 // twitter:image cannot drift apart page by page.
 export function pageMetadata({ path, title, description, absoluteTitle }: PageMetaInput): Metadata {
   return {
-    title: absoluteTitle ? { absolute: title } : title,
+    title: { absolute: documentTitle(title, absoluteTitle) },
     description,
     alternates: { canonical: path },
     openGraph: {
@@ -49,6 +60,20 @@ export function pageMetadata({ path, title, description, absoluteTitle }: PageMe
 export const organizationId = `${SITE_ORIGIN}/#organization`;
 export const websiteId = `${SITE_ORIGIN}/#website`;
 
+// Name, url, logo and sameAs come from config/entity.json, the one identity record
+// the weekly entity watch also reads, so every Organization node on every page
+// (the layout's, and a post's author) says the same thing.
+export function organizationRef() {
+  return {
+    '@type': 'Organization',
+    '@id': organizationId,
+    name: entity.name,
+    url: `${SITE_ORIGIN}/`,
+    logo: absoluteUrl('/icon-512.png'),
+    sameAs: entity.sameAs
+  };
+}
+
 export function organizationSchema() {
   const lb = identity.localBusiness;
   const org: Record<string, unknown> = {
@@ -61,6 +86,7 @@ export function organizationSchema() {
     email: identity.email,
     image: ogImage.url,
     logo: absoluteUrl('/icon-512.png'),
+    sameAs: entity.sameAs,
     description:
       'Recovery housing, structured sober living, referral support, and recovery resources with services in development.'
   };

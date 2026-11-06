@@ -10,3 +10,6 @@ tsconfig.tsbuildinfo
 
 # Copied from app/globals.css at build time for the static /questions/ pages
 public/assets/site.css
+reports/entity-backlink-watch.json
+reports/weekly-outcome.json
+reports/weekly-outcome.md

@@ -44,12 +44,7 @@
     "https://detoxdenver.org",
     "https://988lifeline.org"
   ],
-  "mode": "off",
-  "pace": {
-    "start_per_day": 10,
-    "step_per_week": 5,
-    "cap": 30
-  },
+  "mode": "slow",
   "menu_pages_need_approval": false,
   "health_gate": "health",
   "health": {
@@ -128,5 +123,20 @@
   },
   "shares_audience_with": [],
   "ledger_dir": "data/search-loop",
-  "publication_policy": "Reviewed inventory in data/seo/page_quality.json; discovery/checks may inform drafts, but new public intents require explicit review."
+  "publication_policy": "Owner ruling 3 Nov 2026: distinct pages only, under a cap that grows with Google results. Mode slow (at most 3 a day), cap starts at 10 live question pages, the engine's distinct-intent gate compares every draft with public/sitemap.xml (the 12 reviewed guides and core pages) and its own pages, and the strict health gate runs before anything publishes. The 22 question pages folded into guides on 4 Nov (PR #12) are recorded as merged in data/search-loop/pages.json.",
+  "cap": {
+    "max_live_pages": 10,
+    "min_pages": 10,
+    "grow_share": 0.1,
+    "max_per_day": 3
+  },
+  "distinct": {
+    "sitemap_files": [
+      "public/sitemap.xml"
+    ],
+    "near_dup": 0.35
+  },
+  "llm": {
+    "routing_file": "config/llm_routing.json"
+  }
 }

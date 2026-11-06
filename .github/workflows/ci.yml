@@ -41,3 +41,6 @@ jobs:
 
       - name: Verify reviewed publication and redirects
         run: npm run test:page-quality
+
+      - name: Zero paid LLM spend and search operations
+        run: npm run test:zero-paid && npm run test:search-ops

@@ -2,8 +2,7 @@
   "note": "Title, description and breadcrumb name per public route. Read by lib/seo.ts (seoFor/schemaFor); validate_page_seo.mjs requires every non-admin route in data/routing/route_registry.json to have an entry. Titles name the page's subject because Search Console shows impressions but no query rows (all anonymised) as of 2026-10-08.",
   "pages": {
     "/": {
-      "title": "Dianne's Place Recovery Services | Recovery Housing and Sober Living",
-      "absoluteTitle": true,
+      "title": "Recovery Housing and Sober Living",
       "name": "Dianne's Place Recovery Services",
       "description": "Structured, substance-free recovery housing, sober living, and referral support for adults rebuilding life after substance use. Call (720) 588-8864."
     },
@@ -75,7 +74,7 @@
     "/outcomes-disclaimer/": {
       "title": "Outcomes Disclaimer",
       "name": "Outcomes Disclaimer",
-      "description": "Recovery outcomes vary by person; Dianne's Place does not guarantee results from recovery housing or support services."
+      "description": "Recovery outcomes vary by person. Dianne's Place does not guarantee any result from recovery housing, referral support or other services."
     },
     "/cookie-policy/": {
       "title": "Cookie Policy",

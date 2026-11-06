@@ -11,6 +11,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { googleToken } from './google_auth.mjs';
+import { gscTruth } from './gsc_truth.mjs';
 
 const OUT = 'data/search_intelligence';
 const identity = JSON.parse(fs.readFileSync('data/seo/site_identity.json', 'utf8'));
@@ -75,6 +76,15 @@ write('search_analytics_28d.json', {
   pages: pageRows.map((row) => ({ page: row.keys[0], clicks: row.clicks, impressions: row.impressions, ctr: row.ctr, position: row.position })),
   query_pages: queryPageRows.map((row) => ({ query: row.keys[0], page: row.keys[1], clicks: row.clicks, impressions: row.impressions, ctr: row.ctr, position: row.position }))
 });
+
+// 1b. gsc_truth.json: the rolling window plus a query history, so a target that
+// drops out of the 28 days keeps its record (first/last seen, best numbers) and
+// a weekly snapshot of the totals for the week-over-week report.
+write('gsc_truth.json', gscTruth(readOr('gsc_truth.json', null), {
+  property, start, end, collectedAt: new Date().toISOString(),
+  totals: totalsRows[0] || { clicks: 0, impressions: 0, ctr: 0, position: null },
+  queryPageRows
+}));
 
 // 2. sitemaps: record, submit if missing
 let sitemaps = await api(`https://www.googleapis.com/webmasters/v3/sites/${enc}/sitemaps`);

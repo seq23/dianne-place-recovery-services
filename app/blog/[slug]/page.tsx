@@ -3,15 +3,16 @@ import calendar from '@/data/content/content_calendar.json';
 import quality from '@/data/seo/page_quality.json';
 import { DisclaimerBox } from '@/components/DisclaimerBox';
 import { PageSchema } from '@/components/PageSchema';
-import { absoluteUrl, organizationId, pageMetadata } from '@/lib/seo';
+import { absoluteUrl, organizationId, organizationRef, pageMetadata } from '@/lib/seo';
 import { publishedItems, resolveReleaseDate } from '../../../lib/publication.mjs';
 
 const items = publishedItems(calendar.items, resolveReleaseDate()) as typeof calendar.items;
 export function generateStaticParams() { return items.map((item) => ({ slug: item.slug })); }
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const item = items.find((entry) => entry.slug === params.slug);
+  const guide = quality.guides.find((entry) => entry.id === item?.id) as { description?: string; seoTitle?: string } | undefined;
   if (!item) return {};
-  return pageMetadata({ path: item.routeTarget, title: item.title, description: item.directAnswer });
+  return pageMetadata({ path: item.routeTarget, title: guide?.seoTitle || item.title, description: guide?.description || item.directAnswer });
 }
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const item = items.find((entry) => entry.slug === params.slug);
@@ -22,7 +23,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     '@id': `${absoluteUrl(item.routeTarget)}#article`,
     mainEntityOfPage: { '@id': `${absoluteUrl(item.routeTarget)}#webpage` },
     url: absoluteUrl(item.routeTarget), headline: item.title,
-    author: { '@type': 'Organization', '@id': organizationId, name: "Dianne's Place Recovery Services" },
+    author: organizationRef(),
     publisher: { '@id': organizationId }, image: absoluteUrl('/og-image.png'),
     datePublished: item.scheduledAt, dateModified: guide.updatedAt,
     description: guide.definition, isAccessibleForFree: true

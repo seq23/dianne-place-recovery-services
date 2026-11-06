@@ -42,7 +42,7 @@
     },
     {
       "path": "app/blog/[slug]/page.tsx",
-      "sha256": "37f9376160aab89bd77b5d1102fefa338a710781ec27c9fe506654aaeebc4a91",
+      "sha256": "f4b60dfabf0674b23d531efd76cbed728537f55ac385a7583ab1e265b64827dc",
       "revision_note": "Re-recorded 2026-11-04 under explicit owner authorization to consolidate generated template content. Reviewed publication inventory replaces date-only fan-out; generated blog copy follows the requested page shape. Internal editorial identities, operational pages and all safety checks remain protected. See docs/reviews/PAGE_QUALITY_2026-11-04.md."
     },
     {
@@ -80,7 +80,7 @@
     },
     {
       "path": "app/outcomes-disclaimer/page.tsx",
-      "sha256": "27f9f4ad425988741795305160b35d4d7e37de1cc81ea1dd99bcc96cc91f5814"
+      "sha256": "72d0122fd6e0a4b23bdb449df79746bbf9e990351560c3370028422f19a87a8b"
     },
     {
       "path": "app/privacy/page.tsx",
@@ -96,7 +96,7 @@
     },
     {
       "path": "app/resources/page.tsx",
-      "sha256": "4f37a8467bfc8a244068ba95b5e8536397a1f9b4fff3f1d54ab364a461c97f0e"
+      "sha256": "7cc61495006d1a72f621dee53853bc46c1658763c1a65d9acdfed1478d93c377"
     },
     {
       "path": "app/terms/page.tsx",
@@ -230,6 +230,16 @@
       "change": "Owner ruling 1 Nov 2026: the site owner controls detoxdenver.org and may change the homepage, header/nav and footer without client review. These three files leave the byte-identity lock; first change adds a link to the /questions/ hub in the footer and under the homepage FAQ.",
       "equivalence": "CrisisBanner (988/911), legal copy, disclaimers, licensure, admin and publishing files stay byte-locked; health/claims validators unchanged.",
       "policy_note": "Lock narrowed by ruling, not bypassed. Every other listed file still fails on any drift."
+    },
+    {
+      "date": "2026-11-06",
+      "files": [
+        "app/blog/[slug]/page.tsx",
+        "app/outcomes-disclaimer/page.tsx",
+        "app/resources/page.tsx"
+      ],
+      "change": "Search Readiness fixes (owner, 1 Nov 2026: \"u can do what u want to detoxdenver.org\"): blog posts get a 120-160 character meta description and a title that fits the result line, and the Article author is the full Organization node from config/entity.json; the outcomes disclaimer's body sits under a question heading; the resources hub replaces nine copies of a filler sentence with links to the reviewed guides, each described by the first sentence of that guide's own definition. No new claims.",
+      "policy_note": "Byte-identity was deliberately re-baselined, not bypassed. The guard still fails on any further drift."
     }
   ],
   "owner_editable": [

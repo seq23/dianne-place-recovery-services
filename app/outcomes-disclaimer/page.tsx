@@ -15,6 +15,7 @@ export default function OutcomesDisclaimerPage() {
         body="Recovery outcomes vary. No website or recovery provider can promise a specific result."
       />
       <section className="content-section">
+        <h2>Can anyone promise a recovery outcome?</h2>
         <p>{legal.outcomesDisclaimer}</p>
       </section>
       <PageFaq path="/outcomes-disclaimer/" />
