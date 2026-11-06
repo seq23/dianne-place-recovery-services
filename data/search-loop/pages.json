@@ -938,6 +938,101 @@
         "into": "/blog/2026-07-31-recovery-housing-readiness/",
         "reason": "consolidated by PR #12: near-duplicate intent of a kept reviewed guide; 301 in public/_redirects"
       }
+    },
+    {
+      "slug": "how-does-transitional-housing-work",
+      "query": "how does transitional housing work",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/how-does-transitional-housing-work/index.html",
+      "route": "/questions/how-does-transitional-housing-work/",
+      "url": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
+      "published_at": "2026-11-06",
+      "status": "live",
+      "hash": "31c5cee4185088fdbae236463fd14d85ee5a47bfa5612f4f48f3c1f0d1056612",
+      "model": "free-route",
+      "facts": [
+        "https://en.wikipedia.org/wiki/Sober_living_house",
+        "https://www.samhsa.gov/"
+      ],
+      "linked_from": [],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 36 words (aim 40-60): \"Is transitional housing the same as a treatment ce\"",
+        "b5 FAQ answer is 33 words (aim 40-60): \"Can family members visit or participate in the pro\"",
+        "b5 FAQ answer is 39 words (aim 40-60): \"What should I do in an emergency?\""
+      ],
+      "extra_queries": [
+        "what is transitional housing like"
+      ]
+    },
+    {
+      "slug": "what-is-considered-transitional-housing",
+      "query": "what is considered transitional housing",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/what-is-considered-transitional-housing/index.html",
+      "route": "/questions/what-is-considered-transitional-housing/",
+      "url": "https://detoxdenver.org/questions/what-is-considered-transitional-housing/",
+      "published_at": "2026-11-06",
+      "status": "live",
+      "hash": "6f97f1cc4427c95841c12af397ef622d9c5ee12860e8e76a5d981e1df4c6108a",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/find-help/national-helpline",
+        "https://www.ncbi.nlm.nih.gov/books/NBK64164/"
+      ],
+      "linked_from": [],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 37 words (aim 40-60): \"Is recovery housing the same thing as inpatient tr\"",
+        "b5 FAQ answer is 36 words (aim 40-60): \"What rules do residents follow in transitional hou\"",
+        "b5 FAQ answer is 34 words (aim 40-60): \"How do families and treatment providers find suita\"",
+        "b5 FAQ answer is 33 words (aim 40-60): \"What should I do if someone is experiencing a cris\""
+      ],
+      "extra_queries": [
+        "how long is transitional housing"
+      ]
+    },
+    {
+      "slug": "when-should-discharge-planning-be-initiated",
+      "query": "when should discharge planning be initiated",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/when-should-discharge-planning-be-initiated/index.html",
+      "route": "/questions/when-should-discharge-planning-be-initiated/",
+      "url": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
+      "published_at": "2026-11-06",
+      "status": "live",
+      "hash": "53093acddf05008c5d54fd0ebc48fd654ce4dc751ac5224e0cf63a740ce0a4ec",
+      "model": "free-route",
+      "facts": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK64092/",
+        "https://www.samhsa.gov/"
+      ],
+      "linked_from": [],
+      "checks": {}
     }
   ],
   "dropped": [
@@ -1045,6 +1140,15 @@
         "b5 FAQ answer is 28 words (aim 40-60): \"What should I expect on a typical day?\"",
         "b5 FAQ answer is 29 words (aim 40-60): \"How do I know if this housing is right for me?\"",
         "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1)"
+      ]
+    },
+    {
+      "query": "how to get into transitional housing",
+      "at": "2026-11-06",
+      "reason": [
+        "b5 FAQ answer is 28 words (aim 40-60): \"Can families help with the referral process?\"",
+        "b5 FAQ answer is 28 words (aim 40-60): \"What should I bring when moving into sober living?\"",
+        "b5 FAQ answer is 27 words (aim 40-60): \"Is medical care provided inside transitional housi\""
       ]
     }
   ],
@@ -1317,6 +1421,26 @@
       "kind": "page",
       "matched_by": "high token overlap (0.80 >= 0.6)",
       "matched_text": "How to Find Sober Living in Denver",
+      "stage": "draft"
+    },
+    {
+      "query": "how long is transitional housing",
+      "at": "2026-11-06",
+      "url": "https://detoxdenver.org/questions/what-is-considered-transitional-housing/",
+      "route": "/questions/what-is-considered-transitional-housing/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "matched_text": "What is considered transitional housing in recovery?",
+      "stage": "draft"
+    },
+    {
+      "query": "what is transitional housing like",
+      "at": "2026-11-06",
+      "url": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
+      "route": "/questions/how-does-transitional-housing-work/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.67 >= 0.6)",
+      "matched_text": "How Does Transitional Housing Work in Early Recovery?",
       "stage": "draft"
     }
   ]

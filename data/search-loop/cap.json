@@ -1,29 +1,27 @@
 {
   "schema": "search-loop-cap-v1",
-  "max_live_pages": 22,
-  "config_value": null,
-  "reason": "up from 20 to 22: Google impressions 7 in the last 28 days beat 5 in the 28 before",
+  "max_live_pages": 11,
+  "config_value": 10,
+  "reason": "up from 10 to 11: Google impressions 9 in the last 28 days beat 5 in the 28 before",
   "last_eval_week": "2026-W45",
   "history": [
     {
-      "at": "2026-11-03T12:59:30.254Z",
+      "at": "2026-11-06T14:22:16.708Z",
       "from": null,
-      "to": 20,
-      "reason": "started at 20: the site's 2 distinct live engine page(s), raised to the starting floor of 20"
+      "to": 10,
+      "reason": "set from the site config (cap.max_live_pages 10)"
     },
     {
-      "at": "2026-11-03T12:32:30.074Z",
+      "at": "2026-11-06T14:22:15.992Z",
       "week": "2026-W45",
-      "from": 20,
-      "to": 22,
-      "reason": "up from 20 to 22: Google impressions 7 in the last 28 days beat 5 in the 28 before"
+      "from": 10,
+      "to": 11,
+      "reason": "up from 10 to 11: Google impressions 9 in the last 28 days beat 5 in the 28 before"
     }
   ],
-  "held": {
-    "2026-11-04": 1
-  },
+  "held": {},
   "impressions": {
-    "last_28": 7,
+    "last_28": 9,
     "prev_28": 5
   }
 }

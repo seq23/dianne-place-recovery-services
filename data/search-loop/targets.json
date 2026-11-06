@@ -1051,6 +1051,24 @@
   ],
   "strengthen": [
     {
+      "query": "what is transitional housing like",
+      "page": "/questions/how-does-transitional-housing-work/",
+      "url": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.67 >= 0.6)",
+      "at": "2026-11-06"
+    },
+    {
+      "query": "how long is transitional housing",
+      "page": "/questions/what-is-considered-transitional-housing/",
+      "url": "https://detoxdenver.org/questions/what-is-considered-transitional-housing/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-06"
+    },
+    {
       "query": "how to find a halfway house",
       "page": "/public/questions/how-to-find-sober-living/",
       "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",

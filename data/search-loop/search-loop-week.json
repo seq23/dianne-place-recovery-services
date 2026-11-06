@@ -2,18 +2,18 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W45",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-06T12:32:01.207Z",
-  "state": "off",
-  "published": 22,
+  "generated_at": "2026-11-06T14:22:15.992Z",
+  "state": "slow",
+  "published": 25,
   "indexed": "not read: no page old enough to inspect yet (14 days)",
-  "pace": 0,
+  "pace": 3,
   "ai_visitors": 0,
   "ai_bot_hits": 189,
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 0,
   "undone": 0,
-  "merged": 0,
-  "held_by_cap": 1,
+  "merged": 22,
+  "held_by_cap": 0,
   "redirected": [
     {
       "query": "how to find sober living homes",
@@ -176,17 +176,33 @@
       "strengthen": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
       "matched_by": "high token overlap (0.80 >= 0.6)",
       "at": "2026-11-04"
+    },
+    {
+      "query": "how long is transitional housing",
+      "strengthen": "https://detoxdenver.org/questions/what-is-considered-transitional-housing/",
+      "matched_by": "high token overlap (0.60 >= 0.6)",
+      "at": "2026-11-06"
+    },
+    {
+      "query": "what is transitional housing like",
+      "strengthen": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
+      "matched_by": "high token overlap (0.67 >= 0.6)",
+      "at": "2026-11-06"
     }
   ],
   "cap": {
-    "max_live_pages": 22,
-    "live": 22,
-    "room": 0,
-    "why": "up from 20 to 22: Google impressions 7 in the last 28 days beat 5 in the 28 before"
+    "max_live_pages": 11,
+    "live": 3,
+    "room": 8,
+    "why": "up from 10 to 11: Google impressions 9 in the last 28 days beat 5 in the 28 before"
   },
   "notes": [
-    "Search loop is switched off (mode=off)",
-    "site config lowers the mode to off"
+    "site config lowers the mode to slow",
+    "cap: up from 10 to 11: Google impressions 9 in the last 28 days beat 5 in the 28 before",
+    "BUILD distinct gate: 2 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
+    "BUILD gate notes (not blocking): 2 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json",
+    "CHECK runs weekly in mode=slow; last ran 2026-11-06",
+    "IndexNow: 3 new page(s) not live yet; submitted when they answer 200"
   ],
   "lanes": {
     "ratio": {
@@ -200,7 +216,7 @@
       "hit_rate": "not read: no page in this lane has reached its 2-week check yet"
     },
     "striking": {
-      "pages": 22,
+      "pages": 25,
       "measured": 0,
       "top3": 0,
       "hit_rate": "not read: no page in this lane has reached its 2-week check yet"
@@ -214,5 +230,5 @@
     "weight_changes": [],
     "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
   },
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/42218373411"
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/42233285185"
 }
