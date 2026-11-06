@@ -1,0 +1,64 @@
+name: Weekly Outcome Report
+
+# Week-over-week Search Console outcome for detoxdenver.org (Search Readiness i9):
+# scripts/search_intelligence/weekly_outcome_report.mjs reads the committed
+# gsc_truth.json (daily Search Intelligence run) and writes the report to the job
+# summary and an artifact. While the site is red ONE issue labelled
+# weekly-outcome-red stays open with this week's report; a green week closes it.
+# Client site: the report stays in this repo (owner ruling 1 Nov 2026).
+
+on:
+  schedule:
+    - cron: '35 7 * * 1'  # Monday 07:35 CT, after the 06:23 daily collection
+      timezone: America/Chicago
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: dianne-weekly-outcome
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Build the weekly outcome report
+        id: report
+        run: node scripts/search_intelligence/weekly_outcome_report.mjs
+      - name: Upload the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-outcome
+          if-no-files-found: error
+          path: |
+            reports/weekly-outcome.json
+            reports/weekly-outcome.md
+      - name: Keep one self-closing issue while red
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RED: ${{ steps.report.outputs.red }}
+        run: |
+          gh label create weekly-outcome-red --color B60205 --description "Weekly outcome report is red" 2>/dev/null || true
+          open="$(gh issue list --label weekly-outcome-red --state open --json number --jq '.[0].number')"
+          if [ "$RED" = "true" ]; then
+            if [ -n "$open" ]; then
+              gh issue comment "$open" --body-file reports/weekly-outcome.md
+            else
+              gh issue create --title "Weekly outcome: detoxdenver.org is red" --label weekly-outcome-red --body-file reports/weekly-outcome.md
+            fi
+          elif [ -n "$open" ]; then
+            gh issue close "$open" --comment "Green this week. $(head -1 reports/weekly-outcome.md)"
+          else
+            echo "Green; no open issue."
+          fi

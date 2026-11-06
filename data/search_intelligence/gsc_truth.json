@@ -1,0 +1,54 @@
+{
+  "schema": "gsc-truth-v1",
+  "property": "sc-domain:detoxdenver.org",
+  "start_date": "2026-10-08",
+  "end_date": "2026-11-04",
+  "collected_at": "2026-11-06T12:29:52.531Z",
+  "totals": {
+    "clicks": 0,
+    "impressions": 14,
+    "ctr": 0,
+    "position": 45.642857142857146
+  },
+  "queries_in_window": 2,
+  "queries_known": 2,
+  "query_history": [
+    {
+      "query": "3/4 house meaning",
+      "first_seen": "2026-11-06",
+      "max_impressions_28d": 1,
+      "best_position": 97,
+      "last_seen": "2026-11-06",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
+      ]
+    },
+    {
+      "query": "what is a 3/4 house",
+      "first_seen": "2026-11-06",
+      "max_impressions_28d": 1,
+      "best_position": 101,
+      "last_seen": "2026-11-06",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
+      ]
+    }
+  ],
+  "weekly": [
+    {
+      "week": "2026-W45",
+      "end_date": "2026-11-04",
+      "collected_at": "2026-11-06T12:29:52.531Z",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 45.642857142857146,
+      "queries_in_window": 2
+    }
+  ]
+}

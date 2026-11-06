@@ -7,7 +7,7 @@ export function PageFaq({ path }: { path: string }) {
   if (!faq.length) return null;
   return (
     <section className="content-section" aria-labelledby="page-faq-heading">
-      <h2 id="page-faq-heading">Common questions</h2>
+      <h2 id="page-faq-heading">What do people often ask?</h2>
       {faq.map((item) => (
         <details className="faq-item" key={item.question}>
           <summary>{item.question}</summary>

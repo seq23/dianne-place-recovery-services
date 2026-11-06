@@ -1,0 +1,74 @@
+name: Entity Backlink Watch
+
+# Weekly watch over the sameAs profiles the site publishes in JSON-LD
+# (config/entity.json, read by lib/seo.ts). scripts/authority/entity_backlink_watch.mjs
+# fetches every profile, checks it still resolves and links back to
+# detoxdenver.org, and records JS-rendered or walled profiles as `unverifiable`,
+# never as a pass.
+#
+# Self-heal: a profile that answers 404/410 to every agent is removed from
+# config/entity.json (never the last one), and a profiles_pending entry that now
+# resolves is promoted into sameAs. A heal is rebuilt and re-validated, and
+# pushed only if clean. A missing link-back is a NAMED STOP in the run summary
+# naming the exact field to edit; only the account holder can change it.
+#
+# Saturday 04:41 CT: clear of the Friday authority run and the daily lanes.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 4 * * 6'  # America/Chicago, all year
+      timezone: America/Chicago
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dianne-entity-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8  # 3 agents x 20s per profile is the worst case; a fault detector, not a budget
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Fetch every sameAs profile, check link-back, self-heal
+        id: watch
+        run: node scripts/authority/entity_backlink_watch.mjs --apply
+      - name: Upload the watch report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: entity-backlink-watch
+          if-no-files-found: error
+          path: reports/entity-backlink-watch.json
+      - name: Rebuild and re-validate a healed entity graph
+        if: steps.watch.outputs.changed == 'true'
+        run: |
+          npm install
+          npm run build
+          npm run validate:all
+      - name: Push the re-validated heal
+        if: steps.watch.outputs.changed == 'true'
+        run: |
+          git config user.name "dianne-entity-watch"
+          git config user.email "actions@github.com"
+          git add -- config/entity.json
+          if git diff --cached --quiet; then
+            echo "The watch reported a change but nothing differs on disk."
+            exit 1
+          fi
+          MESSAGE="$(node -e '
+            const r = JSON.parse(require("fs").readFileSync("reports/entity-backlink-watch.json", "utf8"));
+            process.stdout.write(`Entity watch: ${r.changes.join("; ")}`);
+          ')"
+          git commit -m "$MESSAGE"
+          git pull --rebase origin main
+          git push origin main

@@ -1,0 +1,6 @@
+{
+  "site_host": "detoxdenver.org",
+  "link_back_needle": "detoxdenver.org",
+  "entity_sources": [{ "file": "config/entity.json" }],
+  "report": "reports/entity-backlink-watch.json"
+}

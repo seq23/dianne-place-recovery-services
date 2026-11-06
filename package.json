@@ -43,7 +43,9 @@
     "validate:seo-output": "npm run validate:seo-hygiene-output && npm run validate:structured-data-output && npm run validate:local-contact-output",
     "search:consolidation": "node scripts/search_intelligence/build_consolidation_candidates.mjs",
     "search:collect": "node scripts/search_intelligence/collect.mjs",
-    "test:page-quality": "node --test scripts/tests/page-quality.test.mjs"
+    "test:page-quality": "node --test scripts/tests/page-quality.test.mjs",
+    "test:zero-paid": "node --test scripts/tests/zero-paid.test.mjs",
+    "test:search-ops": "node --test scripts/tests/search-ops.test.mjs"
   },
   "dependencies": {
     "next": "14.2.23",

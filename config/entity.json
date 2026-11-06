@@ -1,0 +1,17 @@
+{
+  "schema": "entity-v1",
+  "about": "The one identity record for detoxdenver.org. lib/seo.ts builds every Organization node (layout, blog Article author) from this file, and scripts/authority/entity_backlink_watch.mjs checks every sameAs profile weekly (.github/workflows/entity-backlink-watch.yml). Only real, live profiles of this business go in sameAs; a profile that is planned but not live yet goes in profiles_pending and is promoted by the watch once it resolves. Never a profile of another business.",
+  "@id": "https://detoxdenver.org/#organization",
+  "url": "https://detoxdenver.org/",
+  "domain": "detoxdenver.org",
+  "name": "Dianne's Place Recovery Services",
+  "legalName": "Dianne's Place Recovery Services LLC",
+  "logo": "https://detoxdenver.org/icon-512.png",
+  "sameAs": [
+    "https://www.diannesplacerecoveryservices.com/"
+  ],
+  "sameAs_notes": {
+    "https://www.diannesplacerecoveryservices.com/": "The business's own Webador site (site_identity.json sisterSite). Owner, 1 Nov 2026: links between the two sites are fine; each keeps its own canonicals. It is a sameAs, never a canonical, hreflang or sitemap target."
+  },
+  "profiles_pending": []
+}

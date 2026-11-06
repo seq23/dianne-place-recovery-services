@@ -27,8 +27,11 @@ export function Footer() {
         <p>
           <Link href="/questions/">Questions families ask</Link>
           <br />
+          <Link href="/future-services/">Future services in development</Link>
+          <br />
           <a href={siteIdentity.sisterSite.url}>{siteIdentity.sisterSite.label}</a>
         </p>
+        <p className="small-note">Written and published by Dianne&apos;s Place Recovery Services.</p>
       </section>
 
       <section>
@@ -57,16 +60,6 @@ export function Footer() {
           Licensed clinical services, insurance verification, and accreditation badges are displayed
           only when the licensure profile and validators permit them.
         </p>
-      </section>
-
-      <section>
-        <h2>Accreditation Badges</h2>
-        <div className="badge-grid" aria-label="Accreditation badge placeholders">
-          <span>Joint Commission</span>
-          <span>LegitScript</span>
-          <span>SAMHSA</span>
-        </div>
-        <p className="small-note">Badge placeholders remain inactive until verified and approved.</p>
       </section>
     </footer>
   );

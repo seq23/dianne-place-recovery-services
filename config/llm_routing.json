@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "policy": {
+    "owner_instruction": "nothing should be paid (owner, 11 Oct 2026)",
+    "max_cost_usd": 0,
+    "provider": "openrouter",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "fallback_to_paid": false,
+    "snapshot_date": "2026-11-06",
+    "snapshot_source": "seq23/search-loop config/free-models.json at origin/main, 2026-11-06 (prices read from https://openrouter.ai/api/v1/models by the engine)"
+  },
+  "router": "The only code in this repo that calls a model is the shared search-loop engine (seq23/search-loop src/llm.mjs), run by .github/workflows/search-loop.yml. search-loop.config.json points it at this file (llm.routing_file); the engine fails loud unless max_cost_usd is 0, fallback_to_paid is false and every model is priced $0/$0. Its other lanes are the Gemini free tier (no-billing project) and a metered share of the free Workers AI daily allowance; there is no paid lane. scripts/tests/zero-paid.test.mjs proves this file and that no other code calls a model endpoint.",
+  "free_models": [
+    {
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "google/gemma-4-31b-it:free",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it:free",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "dots-studio/dots-3-note-preview:free",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "xingchen-agi/xing4.0-29b-a4b:free",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl:free",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    }
+  ]
+}
