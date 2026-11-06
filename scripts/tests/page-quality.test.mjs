@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { publishedItems, isPublished } from '../../lib/publication.mjs';
 import { pageQuality } from '../../lib/pageQuality.mjs';
+import { liveQuestionPages } from '../../lib/searchLoopPages.mjs';
 const calendar = JSON.parse(fs.readFileSync('data/content/content_calendar.json', 'utf8'));
 const routes = JSON.parse(fs.readFileSync('data/routing/route_registry.json', 'utf8')).routes;
 
@@ -39,7 +40,9 @@ test('reviewed inventory controls rendering, sitemap, feeds and direct one-hop r
   const pass = await onRequest({ request: new Request(`https://detoxdenver.org${guides[0].route}`), next: () => 'kept' });
   assert.equal(pass, 'kept');
   const sitemap = [...fs.readFileSync('public/sitemap.xml', 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => new URL(m[1]).pathname);
-  const expected = [...routes.filter((r) => !r.path.startsWith('/admin')).map((r) => r.path), ...kept];
+  const questions = liveQuestionPages().map((q) => q.route);
+  for (const route of questions) assert.ok(!pageQuality.redirects[route], `${route} is live and redirected`);
+  const expected = [...routes.filter((r) => !r.path.startsWith('/admin')).map((r) => r.path), ...kept, ...questions];
   assert.deepEqual(new Set(sitemap), new Set(expected));
   assert.equal(sitemap.length, expected.length);
   const feeds = JSON.parse(fs.readFileSync('public/answers.json', 'utf8')).answers;

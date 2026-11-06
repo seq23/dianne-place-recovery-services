@@ -134,7 +134,8 @@
     "sitemap_files": [
       "public/sitemap.xml"
     ],
-    "near_dup": 0.35
+    "near_dup": 0.35,
+    "jaccard": 0.5
   },
   "llm": {
     "routing_file": "config/llm_routing.json"
