@@ -1,13 +1,13 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-08",
-  "end_date": "2026-11-04",
-  "collected_at": "2026-11-06T14:35:25.185Z",
+  "start_date": "2026-10-09",
+  "end_date": "2026-11-05",
+  "collected_at": "2026-11-07T12:27:29.061Z",
   "totals": {
     "clicks": 0,
-    "impressions": 14,
+    "impressions": 26,
     "ctr": 0,
-    "position": 45.642857142857146
+    "position": 45.46153846153846
   },
   "pages": [
     {
@@ -39,25 +39,39 @@
       "position": 11
     },
     {
+      "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.666666666666668
+    },
+    {
       "page": "https://detoxdenver.org/questions/sober-living-rules-and-regulations/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 30.5
+    },
+    {
+      "page": "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 11
+      "position": 100
     },
     {
       "page": "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 99
+      "position": 96.25
     },
     {
       "page": "https://detoxdenver.org/questions/what-is-a-sober-living-facility/",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 92
+      "position": 71
     },
     {
       "page": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
@@ -65,6 +79,20 @@
       "impressions": 2,
       "ctr": 0,
       "position": 90.5
+    },
+    {
+      "page": "https://detoxdenver.org/questions/what-is-sober-housing/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 39
+    },
+    {
+      "page": "https://detoxdenver.org/questions/what-is-sober-living-environment/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 30.333333333333332
     },
     {
       "page": "https://www.detoxdenver.org/blog/2026-07-31-recovery-housing-readiness/",
@@ -86,9 +114,33 @@
       "query": "3/4 house meaning",
       "page": "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/",
       "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 94.66666666666667
+    },
+    {
+      "query": "sober living calm environment",
+      "page": "https://detoxdenver.org/questions/what-is-sober-living-environment/",
+      "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 97
+      "position": 48
+    },
+    {
+      "query": "sober living environment",
+      "page": "https://detoxdenver.org/questions/what-is-sober-living-environment/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 36
+    },
+    {
+      "query": "what is a 3/4 house",
+      "page": "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 100
     },
     {
       "query": "what is a 3/4 house",

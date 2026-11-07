@@ -1,26 +1,26 @@
 {
   "schema": "gsc-truth-v1",
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-08",
-  "end_date": "2026-11-04",
-  "collected_at": "2026-11-06T14:35:25.186Z",
+  "start_date": "2026-10-09",
+  "end_date": "2026-11-05",
+  "collected_at": "2026-11-07T12:27:29.062Z",
   "totals": {
     "clicks": 0,
-    "impressions": 14,
+    "impressions": 26,
     "ctr": 0,
-    "position": 45.642857142857146
+    "position": 45.46153846153846
   },
-  "queries_in_window": 2,
-  "queries_known": 2,
+  "queries_in_window": 4,
+  "queries_known": 4,
   "query_history": [
     {
       "query": "3/4 house meaning",
       "first_seen": "2026-11-06",
-      "max_impressions_28d": 1,
-      "best_position": 97,
-      "last_seen": "2026-11-06",
+      "max_impressions_28d": 3,
+      "best_position": 94.66666666666667,
+      "last_seen": "2026-11-07",
       "in_window": true,
-      "impressions_28d": 1,
+      "impressions_28d": 3,
       "clicks_28d": 0,
       "pages": [
         "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
@@ -29,26 +29,53 @@
     {
       "query": "what is a 3/4 house",
       "first_seen": "2026-11-06",
+      "max_impressions_28d": 2,
+      "best_position": 100,
+      "last_seen": "2026-11-07",
+      "in_window": true,
+      "impressions_28d": 2,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
+        "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
+      ]
+    },
+    {
+      "query": "sober living calm environment",
+      "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
-      "best_position": 101,
-      "last_seen": "2026-11-06",
+      "best_position": 48,
+      "last_seen": "2026-11-07",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
       "pages": [
-        "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
+        "https://detoxdenver.org/questions/what-is-sober-living-environment/"
+      ]
+    },
+    {
+      "query": "sober living environment",
+      "first_seen": "2026-11-07",
+      "max_impressions_28d": 1,
+      "best_position": 36,
+      "last_seen": "2026-11-07",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/what-is-sober-living-environment/"
       ]
     }
   ],
   "weekly": [
     {
       "week": "2026-W45",
-      "end_date": "2026-11-04",
-      "collected_at": "2026-11-06T14:35:25.186Z",
+      "end_date": "2026-11-05",
+      "collected_at": "2026-11-07T12:27:29.062Z",
       "clicks": 0,
-      "impressions": 14,
-      "position": 45.642857142857146,
-      "queries_in_window": 2
+      "impressions": 26,
+      "position": 45.46153846153846,
+      "queries_in_window": 4
     }
   ]
 }
