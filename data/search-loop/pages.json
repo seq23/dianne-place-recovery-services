@@ -971,7 +971,8 @@
       ],
       "extra_queries": [
         "what is transitional housing like"
-      ]
+      ],
+      "indexnow_at": "2026-11-07"
     },
     {
       "slug": "what-is-considered-transitional-housing",
@@ -1037,7 +1038,112 @@
         "https://www.samhsa.gov/"
       ],
       "linked_from": [],
-      "checks": {}
+      "checks": {},
+      "indexnow_at": "2026-11-07"
+    },
+    {
+      "slug": "what-is-a-sober-living-house",
+      "query": "what is a sober living house",
+      "lane": "striking",
+      "score": 45,
+      "reasons": [],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/what-is-a-sober-living-house/index.html",
+      "route": "/questions/what-is-a-sober-living-house/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "published_at": "2026-11-07",
+      "status": "live",
+      "hash": "11dba18496688be7bb9845eabd7e4d0cf15a79d04a2b272406fb3a1eec85c4ed",
+      "model": "free-route",
+      "facts": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3056029/",
+        "https://en.wikipedia.org/wiki/Sober_living_house"
+      ],
+      "linked_from": [],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 36 words (aim 40-60): \"What rules do residents follow in a sober living h\"",
+        "b5 FAQ answer is 34 words (aim 40-60): \"Can family members visit residents at Dianne's Pla\"",
+        "b5 FAQ answer is 32 words (aim 40-60): \"What should I bring when moving into sober living?\"",
+        "b5 FAQ answer is 32 words (aim 40-60): \"How do families and treatment staff make referrals\""
+      ]
+    },
+    {
+      "slug": "what-is-a-recovery-residence",
+      "query": "what is a recovery residence",
+      "lane": "striking",
+      "score": 30,
+      "reasons": [],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "google_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/what-is-a-recovery-residence/index.html",
+      "route": "/questions/what-is-a-recovery-residence/",
+      "url": "https://detoxdenver.org/questions/what-is-a-recovery-residence/",
+      "published_at": "2026-11-07",
+      "status": "live",
+      "hash": "a4fdcb44c4c2dc64a073d5598b5c774a7f1079bd37d88978c635b62762f80d6a",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/find-help/recovery",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3056154/"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/how-does-transitional-housing-work/index.html",
+          "route": "/public/questions/how-does-transitional-housing-work/",
+          "before_hash": "31c5cee4185088fdbae236463fd14d85ee5a47bfa5612f4f48f3c1f0d1056612",
+          "after_hash": "18e5e776dbbb4ab54c1b2dc13a630e4e96e6a012bab05ed1ad5139d98428d91f"
+        }
+      ],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 35 words (aim 40-60): \"Is a recovery residence the same as a treatment ce\"",
+        "b5 FAQ answer is 36 words (aim 40-60): \"Who can live in a recovery residence?\"",
+        "b5 FAQ answer is 37 words (aim 40-60): \"Do I have to attend meetings while living there?\"",
+        "b5 FAQ answer is 37 words (aim 40-60): \"How do families find the right home?\""
+      ]
+    },
+    {
+      "slug": "can-you-work-while-in-sober-living",
+      "query": "can you work while in sober living",
+      "lane": "striking",
+      "score": 30,
+      "reasons": [],
+      "signals": {
+        "words": 7,
+        "question": true,
+        "google_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/can-you-work-while-in-sober-living/index.html",
+      "route": "/questions/can-you-work-while-in-sober-living/",
+      "url": "https://detoxdenver.org/questions/can-you-work-while-in-sober-living/",
+      "published_at": "2026-11-07",
+      "status": "live",
+      "hash": "d422083ce117d09f2419d249595718f616821007d372d4e1df6ef80b37ea20f4",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/",
+        "https://www.ncbi.nlm.nih.gov/pmc/"
+      ],
+      "linked_from": [],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 38 words (aim 40-60): \"Can I work night shifts while living in sober livi\"",
+        "b5 FAQ answer is 36 words (aim 40-60): \"What if I do not have a job when I move in?\"",
+        "b5 FAQ answer is 32 words (aim 40-60): \"Is sober living the same as a half-way house or tr\"",
+        "b5 FAQ answer is 32 words (aim 40-60): \"How do house rules accommodate work schedules?\""
+      ]
     }
   ],
   "dropped": [
@@ -1447,6 +1553,16 @@
       "matched_by": "high token overlap (0.67 >= 0.6)",
       "matched_text": "How Does Transitional Housing Work in Early Recovery?",
       "stage": "draft"
+    },
+    {
+      "query": "recovery housing near me",
+      "at": "2026-11-07",
+      "url": "https://detoxdenver.org/recovery-housing/",
+      "route": "/recovery-housing/",
+      "kind": "sitemap",
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "matched_text": "recovery housing",
+      "stage": "search"
     }
   ]
 }

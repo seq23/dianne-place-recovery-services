@@ -2,17 +2,17 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W45",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-06T14:22:15.992Z",
+  "generated_at": "2026-11-07T12:31:22.607Z",
   "state": "slow",
-  "published": 25,
+  "published": 28,
   "indexed": "not read: no page old enough to inspect yet (14 days)",
   "pace": 3,
   "ai_visitors": 0,
-  "ai_bot_hits": 189,
+  "ai_bot_hits": 199,
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 0,
   "undone": 0,
-  "merged": 22,
+  "merged": 23,
   "held_by_cap": 0,
   "redirected": [
     {
@@ -188,21 +188,25 @@
       "strengthen": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
       "matched_by": "high token overlap (0.67 >= 0.6)",
       "at": "2026-11-06"
+    },
+    {
+      "query": "recovery housing near me",
+      "strengthen": "https://detoxdenver.org/recovery-housing/",
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "at": "2026-11-07"
     }
   ],
   "cap": {
     "max_live_pages": 11,
-    "live": 3,
-    "room": 8,
+    "live": 5,
+    "room": 6,
     "why": "up from 10 to 11: Google impressions 9 in the last 28 days beat 5 in the 28 before"
   },
   "notes": [
     "site config lowers the mode to slow",
-    "cap: up from 10 to 11: Google impressions 9 in the last 28 days beat 5 in the 28 before",
-    "BUILD distinct gate: 2 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
-    "BUILD gate notes (not blocking): 2 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json",
-    "CHECK runs weekly in mode=slow; last ran 2026-11-06",
-    "IndexNow: 3 new page(s) not live yet; submitted when they answer 200"
+    "BUILD distinct gate: 1 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
+    "BUILD gate notes (not blocking): 3 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json",
+    "CHECK runs weekly in mode=slow; last ran 2026-11-06"
   ],
   "lanes": {
     "ratio": {
@@ -216,7 +220,7 @@
       "hit_rate": "not read: no page in this lane has reached its 2-week check yet"
     },
     "striking": {
-      "pages": 25,
+      "pages": 28,
       "measured": 0,
       "top3": 0,
       "hit_rate": "not read: no page in this lane has reached its 2-week check yet"
@@ -230,5 +234,5 @@
     "weight_changes": [],
     "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
   },
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/42233285185"
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/42372849138"
 }

@@ -1,0 +1,83 @@
+{
+  "h1": "What is a recovery residence?",
+  "title_lead": "What is a recovery residence",
+  "meta_description": "Learn what a recovery residence is, how structured sober living works, and what to expect when transitioning from treatment in the Denver area.",
+  "direct_answer": "A recovery residence is a structured, substance-free home that provides safe and supportive housing for adults in early recovery. It bridges the gap between formal treatment and independent living. Residents share a commitment to sobriety, personal accountability, and peer support while rebuilding daily routines.",
+  "sections": [
+    {
+      "heading": "What is a recovery residence?",
+      "paragraphs": [
+        "A recovery residence is a safe home for adults who want to maintain sobriety after leaving formal treatment. It offers a structured environment where residents live together and support each other. The focus is on accountability, daily routines, and peer connection. You share chores, follow house rules, and practice living without substances in the real world.",
+        "These homes provide stability when early recovery feels fragile. You have space to find a job, attend meetings, and reconnect with family. You are not locked in, and you are not in a medical facility. You are building an independent life with people who understand your daily walk. It is a place to practice healthy habits and find your footing.",
+        "Recovery housing is not detox, treatment, therapy, or emergency care. If you or someone you know faces immediate danger, call 911 right away. For free crisis support, call or text 988 at any time of day or night. Dianne's Place provides recovery housing and structured, substance-free sober living to support your next steps."
+      ],
+      "bullets": [
+        "Safe, substance-free environment",
+        "Peer support from others in recovery",
+        "Clear structure and shared household rules",
+        "Independent living with built-in accountability"
+      ]
+    },
+    {
+      "heading": "How does structured sober living work?",
+      "paragraphs": [
+        "Structured sober living gives you a predictable framework for your day. Homes have clear guidelines regarding curfews, chores, and drug-free living. These rules protect the space and keep everyone safe. You learn to manage your time and show up for yourself and your housemates. This consistency helps build self-trust and confidence over time.",
+        "Living in a community means you share space with others who share your goals. You might cook meals together, talk through hard days, or carpool to meetings. This gentle accountability reduces isolation. You learn that you do not have to walk this path alone. Treatment and discharge staff often use these homes as a stable bridge.",
+        "For more details on how these living arrangements function, read our guide on How transitional housing works — Dianne's Place. Families and referral partners can also reach out for referral support and plain-language recovery resources. Every home aims to foster dignity, respect, and personal growth for every resident who walks through the door."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Who is recovery housing for?",
+      "paragraphs": [
+        "Recovery housing is designed for adults who have completed primary treatment or detox and are ready to live semi-independently. It suits people who need a supportive bridge before returning to an unsupervised home. If you want a substance-free space to practice new coping skills, this environment offers a strong foundation for your journey.",
+        "Families often seek out these residences when they want reassurance that their loved one has a safe place to land. Treatment staff also look for structured settings to support a successful discharge plan. The goal is to reduce early triggers and provide a calm atmosphere where daily recovery practices take root without pressure or judgment.",
+        "If you have questions about fit or daily expectations, we are here to help. You can explore our resources to understand your options better. Contact Dianne's Place about availability and fit."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "What happens after treatment?",
+      "paragraphs": [
+        "Leaving a treatment center is a major milestone, but the transition home can feel overwhelming. Recovery housing provides a stepping stone between the clinical environment and the wider world. You take what you learned in therapy and apply it to grocery shopping, employment, and relationships.",
+        "Having a safe place to sleep each night lowers stress for both residents and their families. You can focus on finding a job, attending support meetings, and building a local network of peers. There is no rush and no forced outcome. You move at a steady pace that honors your personal dignity and readiness.",
+        "If you need guidance on what steps to take next, reach out to our team. We offer referral support for families and treatment providers, alongside plain-language recovery resources. Contact Dianne's Place about availability and fit."
+      ],
+      "bullets": []
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is a recovery residence the same as a treatment center?",
+      "a": "No, a recovery residence is not a treatment center, medical facility, or detox program. It is a peer-supported, substance-free living environment where adults practice independent recovery skills and maintain daily routines after completing formal care."
+    },
+    {
+      "q": "Who can live in a recovery residence?",
+      "a": "Adults in early recovery from substance use who have completed a primary treatment program or detox are welcome to apply. Residents must be committed to maintaining sobriety and following the safety guidelines of the shared home."
+    },
+    {
+      "q": "Do I have to attend meetings while living there?",
+      "a": "Most recovery residences require participation in outside support groups, mutual aid meetings, or recovery programs as part of their structured guidelines. These activities help maintain accountability and strengthen your daily recovery network while living in the home."
+    },
+    {
+      "q": "How do families find the right home?",
+      "a": "Families can research local structured sober living homes, speak with treatment discharge planners, and contact residences directly. Asking about house rules, peer support systems, and daily expectations helps families find a safe fit for their loved one."
+    }
+  ],
+  "facts": [
+    {
+      "claim": "Recovery residences provide safe, substance-free living environments that support individuals recovering from substance use disorders.",
+      "source_url": "https://www.samhsa.gov/find-help/recovery",
+      "source_name": "Substance Abuse and Mental Health Services Administration",
+      "verified": true,
+      "checked_status": 200
+    },
+    {
+      "claim": "Peer-run and structured recovery housing models help bridge the gap between formal treatment and independent community living.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3056154/",
+      "source_name": "National Institutes of Health",
+      "verified": true,
+      "checked_status": 200
+    }
+  ]
+}

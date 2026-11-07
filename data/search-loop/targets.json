@@ -1051,6 +1051,15 @@
   ],
   "strengthen": [
     {
+      "query": "recovery housing near me",
+      "page": "/recovery-housing/",
+      "url": "https://detoxdenver.org/recovery-housing/",
+      "score": 40,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "at": "2026-11-07"
+    },
+    {
       "query": "what is transitional housing like",
       "page": "/questions/how-does-transitional-housing-work/",
       "url": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
