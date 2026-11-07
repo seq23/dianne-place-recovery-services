@@ -4,7 +4,7 @@ import { SiteImage } from '@/components/media/SiteImage';
 import { PageFaq } from '@/components/PageFaq';
 import { PageSchema } from '@/components/PageSchema';
 import { legal, serviceCards, site } from '@/lib/content';
-import { schemaFor, seoFor, siteIdentity } from '@/lib/seo';
+import { recoveryHousingService, schemaFor, seoFor, siteIdentity } from '@/lib/seo';
 
 export const metadata = seoFor('/');
 
@@ -31,6 +31,9 @@ export default function HomePage() {
               Explore Recovery Housing
             </Link>
           </div>
+          <p>
+            Pricing: <Link href="/contact">contact us for current rates</Link> or call {site.phone}.
+          </p>
           <p className="disclaimer">
             Dianne&apos;s Place is not an emergency service. If you are in immediate danger,
             call 911. If you are experiencing a mental health or substance use crisis, call or
@@ -87,6 +90,7 @@ export default function HomePage() {
         </p>
       </section>
       <PageSchema {...schemaFor('/')} speakableSelectors={['#definition']} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(recoveryHousingService()) }} />
     </main>
   );
 }

@@ -22,14 +22,23 @@ export const ogImage = {
 
 type PageMetaInput = { path: string; title: string; description: string; absoluteTitle?: boolean };
 
-// The search result line: the page's own words first, the short brand once, and
-// never past TITLE_MAX characters. A title that already names Dianne's Place, or
-// would run long with the suffix, stands alone. (Search Readiness b1: 30-65.)
-export const TITLE_SUFFIX = " | Dianne's Place";
+// The search result line: the page's own words first, then the site's full name
+// once, never past TITLE_MAX characters (Search Readiness b1: 30-65; b10: every
+// title names the site, and the audit only counts the full name or the host).
+// A title that already carries the full name stands alone; one too long for the
+// suffix has its subject cut at a word boundary so the name always fits.
+export const SITE_NAME = identity.name;
+export const TITLE_SUFFIX = ` | ${SITE_NAME}`;
 export const TITLE_MAX = 65;
+const DANGLING = new Set('a an the and or but of to in on at by for with from your how why what when is are'.split(' '));
 export function documentTitle(title: string, absoluteTitle?: boolean) {
-  if (absoluteTitle || /Dianne['’]s Place/.test(title)) return title;
-  return (title + TITLE_SUFFIX).length <= TITLE_MAX ? title + TITLE_SUFFIX : title;
+  const named = title.replace(/[’]/g, "'").includes(SITE_NAME);
+  if (named && (absoluteTitle || title.length <= TITLE_MAX)) return title;
+  if ((title + TITLE_SUFFIX).length <= TITLE_MAX) return title + TITLE_SUFFIX;
+  const room = TITLE_MAX - TITLE_SUFFIX.length;
+  const words = title.slice(0, room + 1).replace(/\s+\S*$/, '').replace(/[\s,;:—-]+$/, '').split(/\s+/);
+  while (words.length > 1 && DANGLING.has(words[words.length - 1].toLowerCase())) words.pop();
+  return words.join(' ') + TITLE_SUFFIX;
 }
 
 // Every public page builds its metadata here so canonical, og:url, og:image and
@@ -138,4 +147,26 @@ export function schemaFor(path: string) {
   const page = entry(path);
   const faq = faqFor(path);
   return { path, name: page.name, description: page.description, faq: faq.length ? faq : undefined };
+}
+
+// Owner ruling 6 Nov 2026: Dianne's pricing is not known, so the site says
+// "contact us for current rates" and the Offer carries no price fields - never a
+// number. Rendered on the homepage and /recovery-housing/, which both say so
+// visibly (Search Readiness c3 price-on-request Offer).
+export function recoveryHousingService() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    '@id': `${absoluteUrl('/recovery-housing/')}#service`,
+    name: 'Recovery housing and structured sober living',
+    serviceType: 'Recovery housing',
+    url: absoluteUrl('/recovery-housing/'),
+    provider: { '@id': organizationId },
+    offers: {
+      '@type': 'Offer',
+      availability: 'https://schema.org/InStock',
+      url: absoluteUrl('/contact/'),
+      description: 'Contact us for current pricing'
+    }
+  };
 }

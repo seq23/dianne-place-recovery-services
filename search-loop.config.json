@@ -2,10 +2,13 @@
   "schema": "search-loop-config-v1",
   "site": "detoxdenver.org",
   "base_url": "https://detoxdenver.org",
-  "site_name": "Dianne's Place",
+  "site_name": "Dianne's Place Recovery Services",
+  "site_words": "Dianne's Place",
   "publisher": {
     "name": "Dianne's Place Recovery Services",
-    "url": "https://detoxdenver.org"
+    "url": "https://detoxdenver.org",
+    "logo": "https://detoxdenver.org/icon-512.png",
+    "sameAs": ["https://www.diannesplacerecoveryservices.com/"]
   },
   "audience": "adults in early recovery from substance use, their families, and the treatment and discharge staff who refer them, looking for structured sober living and plain next steps in the Denver area",
   "voice": "warm, calm and dignity-first; short plain sentences; no shame; general recovery-support education only; never medical advice, never a promise of outcomes, never the word cure; recovery housing is not detox, treatment, therapy or emergency care; immediate danger is 911, crisis support is call or text 988; no patient stories, names or details",
