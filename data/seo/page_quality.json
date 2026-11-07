@@ -43,7 +43,8 @@
       ],
       "updatedAt": "2026-11-04",
       "nextStep": "Bring your questions about charges, access and house rules to a housing inquiry. Ask which arrangements are currently confirmed before planning a move.",
-      "description": "Recovery housing is substance-free shared living with house rules and peer accountability, not detox or treatment. How to check if a home fits your needs."
+      "description": "Recovery housing is substance-free shared living with house rules and peer accountability, not detox or treatment. How to check if a home fits your needs.",
+      "seoTitle": "Recovery Housing Readiness"
     },
     {
       "id": "dprs-2026-07-08-002",
@@ -78,7 +79,8 @@
       ],
       "updatedAt": "2026-11-04",
       "nextStep": "Take your draft timetable to a housing conversation and ask about curfews, meetings and shift exceptions before relying on the schedule.",
-      "description": "A daily recovery routine is a plan of ordinary activities: meals, sleep, appointments, work and support. How to build one that fits your life and your home."
+      "description": "A daily recovery routine is a plan of ordinary activities: meals, sleep, appointments, work and support. How to build one that fits your life and your home.",
+      "seoTitle": "Daily Routines in Recovery"
     },
     {
       "id": "dprs-2026-07-09-003",
@@ -113,7 +115,8 @@
       ],
       "updatedAt": "2026-11-04",
       "nextStep": "Agree with your loved one what you may ask, then request general housing information within that permission. Keep private records out of the inquiry.",
-      "description": "How families can give practical support in recovery, such as rides, listening and agreed boundaries, while respecting the adult's choices and privacy."
+      "description": "How families can give practical support in recovery, such as rides, listening and agreed boundaries, while respecting the adult's choices and privacy.",
+      "seoTitle": "Family Support in Recovery"
     },
     {
       "id": "dprs-2026-07-10-004",
@@ -148,7 +151,8 @@
       ],
       "updatedAt": "2026-11-04",
       "nextStep": "Choose the privacy, visitor or caregiving question that matters most to you and ask what the residence can confirm in writing.",
-      "description": "What to ask when comparing recovery housing for women: sleeping spaces, privacy, visitors, complaints and the support each home actually provides."
+      "description": "What to ask when comparing recovery housing for women: sleeping spaces, privacy, visitors, complaints and the support each home actually provides.",
+      "seoTitle": "Women in Recovery Housing"
     },
     {
       "id": "dprs-2026-07-11-005",
@@ -183,7 +187,8 @@
       ],
       "updatedAt": "2026-11-04",
       "nextStep": "Ask how room assignments, names and harassment concerns are handled. Decide whether the answers meet your privacy expectations before discussing admission.",
-      "description": "LGBTQ+ recovery support respects identity, name and privacy. How to check a home's admission, room, visitor and complaint policies, not just its slogan."
+      "description": "LGBTQ+ recovery support respects identity, name and privacy. How to check a home's admission, room, visitor and complaint policies, not just its slogan.",
+      "seoTitle": "LGBTQ+ Recovery Support"
     },
     {
       "id": "dprs-2026-07-12-006",
@@ -218,7 +223,8 @@
       ],
       "updatedAt": "2026-11-04",
       "nextStep": "Explain the language, food or observance arrangement you need and ask whether it can be met. Request a clear answer about unresolved details.",
-      "description": "Culturally respectful recovery support takes language, beliefs and community seriously. What to check in a residence beyond broad claims of diversity."
+      "description": "Culturally respectful recovery support takes language, beliefs and community seriously. What to check in a residence beyond broad claims of diversity.",
+      "seoTitle": "Culturally Respectful Recovery"
     },
     {
       "id": "dprs-2026-07-13-007",
@@ -253,7 +259,8 @@
       ],
       "updatedAt": "2026-11-04",
       "nextStep": "Compare your deadlines and responsibilities with the residence’s commitments. Ask about any conflict before accepting an arrangement that may not fit.",
-      "description": "How adults in recovery can sort housing, work, bills and relationships, and decide what has to happen first, with the support they choose."
+      "description": "How adults in recovery can sort housing, work, bills and relationships, and decide what has to happen first, with the support they choose.",
+      "seoTitle": "Rebuilding Work and Daily Life"
     },
     {
       "id": "dprs-2026-07-14-008",
@@ -289,7 +296,7 @@
       "updatedAt": "2026-11-04",
       "nextStep": "Write down your class or work schedule and choose whom you want involved. Ask about eligibility and contact arrangements before making plans.",
       "description": "Young adult recovery support: coordinating housing, study, work and relationships, and what a housing conversation should explain about costs and consent.",
-      "seoTitle": "Early recovery support for young adults under pressure"
+      "seoTitle": "Young Adults in Early Recovery"
     },
     {
       "id": "dprs-2026-07-15-009",
@@ -324,7 +331,8 @@
       ],
       "updatedAt": "2026-11-04",
       "nextStep": "Confirm the inquiry channel and consent arrangements before sending a handoff. Wait for an explicit admission decision before organizing arrival.",
-      "description": "A recovery housing referral explores whether a home may fit. It is not an admission or a bed guarantee. What referral partners can prepare before calling."
+      "description": "A recovery housing referral explores whether a home may fit. It is not an admission or a bed guarantee. What referral partners can prepare before calling.",
+      "seoTitle": "Preparing a Recovery Referral"
     },
     {
       "id": "dprs-2026-07-16-010",
@@ -359,7 +367,8 @@
       ],
       "updatedAt": "2026-11-04",
       "nextStep": "Ask about the written house policy while planning calmly. For immediate danger call 911; a non-emergency housing message cannot arrange urgent care.",
-      "description": "A support plan for difficult situations lists warning signs, people to contact and ways to leave a setting. It complements professional care, not replaces it."
+      "description": "A support plan for difficult situations lists warning signs, people to contact and ways to leave a setting. It complements professional care, not replaces it.",
+      "seoTitle": "Planning for Relapse Triggers"
     },
     {
       "id": "dprs-2026-07-17-011",
@@ -394,7 +403,8 @@
       ],
       "updatedAt": "2026-11-04",
       "nextStep": "Take the actual shift or class times to a housing inquiry. Ask how travel, required activities and curfews would fit together.",
-      "description": "Planning work or school in recovery: check whether a job or course fits current housing, transport and support. Small steps, not everything at once."
+      "description": "Planning work or school in recovery: check whether a job or course fits current housing, transport and support. Small steps, not everything at once.",
+      "seoTitle": "Work, School and Stability"
     },
     {
       "id": "dprs-2026-07-18-012",
@@ -429,7 +439,8 @@
       ],
       "updatedAt": "2026-11-04",
       "nextStep": "Pick one community activity or resource you want to reach. Ask how the residence’s location and expectations would affect that plan.",
-      "description": "Community reintegration means rebuilding everyday connections after time away, at the person's own pace. Practical first steps after treatment or a setback."
+      "description": "Community reintegration means rebuilding everyday connections after time away, at the person's own pace. Practical first steps after treatment or a setback.",
+      "seoTitle": "Reconnecting After Treatment"
     }
   ],
   "redirects": {

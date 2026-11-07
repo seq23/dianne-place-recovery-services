@@ -5,27 +5,11 @@ import { PageHero } from '@/components/PageHero';
 import { PageFaq } from '@/components/PageFaq';
 import { PageSchema } from '@/components/PageSchema';
 import { site } from '@/lib/content';
-import { absoluteUrl, organizationId, schemaFor, seoFor } from '@/lib/seo';
+import { recoveryHousingService, schemaFor, seoFor } from '@/lib/seo';
 
 export const metadata = seoFor('/recovery-housing/');
 
-// Owner ruling 6 Nov 2026: Dianne's pricing is not known, so the site says
-// "contact us for pricing" and the Offer carries no price fields - never a number.
-const serviceSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Service',
-  '@id': `${absoluteUrl('/recovery-housing/')}#service`,
-  name: 'Recovery housing and structured sober living',
-  serviceType: 'Recovery housing',
-  url: absoluteUrl('/recovery-housing/'),
-  provider: { '@id': organizationId },
-  offers: {
-    '@type': 'Offer',
-    availability: 'https://schema.org/InStock',
-    url: absoluteUrl('/contact/'),
-    description: 'Contact us for current pricing'
-  }
-};
+const serviceSchema = recoveryHousingService();
 
 export default function RecoveryHousingPage() {
   return (

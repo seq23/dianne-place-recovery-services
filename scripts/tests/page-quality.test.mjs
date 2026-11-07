@@ -58,3 +58,24 @@ test('reviewed inventory controls rendering, sitemap, feeds and direct one-hop r
   }
   for (const from of Object.keys(pageQuality.redirects)) assert.ok(!fs.existsSync(`out${from}index.html`), `retired body still built: ${from}`);
 });
+
+// Search Readiness b10/f6 (7 Nov 2026): every built page's title names the site by
+// its full name (the audit counts only the full name or the host) and stays within
+// 65 characters. Reads the build output, so it covers app pages, blog guides and
+// the search-loop question pages alike; zero pages read fails.
+test('every built page title carries the full site name within 65 characters', () => {
+  const name = JSON.parse(fs.readFileSync('data/seo/site_identity.json', 'utf8')).name;
+  const decode = (t) => t.replace(/&#x27;|&#39;|&apos;/g, "'").replace(/&amp;/g, '&').replace(/&quot;/g, '"').trim();
+  const pages = [];
+  const walk = (dir) => { for (const e of fs.readdirSync(dir, { withFileTypes: true })) { const p = `${dir}/${e.name}`; if (e.isDirectory()) { if (!['admin', '_next', '404'].includes(e.name)) walk(p); } else if (e.name === 'index.html') pages.push(p); } };
+  walk('out');
+  assert.ok(pages.length >= 20, `only ${pages.length} built pages found under out/`);
+  const bad = [];
+  for (const p of pages) {
+    const t = decode(fs.readFileSync(p, 'utf8').match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? '');
+    if (!t.includes(name) || t.length > 65) bad.push(`${p}: "${t}" (${t.length})`);
+  }
+  assert.deepEqual(bad, []);
+  const home = decode(fs.readFileSync('out/index.html', 'utf8').match(/<title[^>]*>([\s\S]*?)<\/title>/i)[1]);
+  assert.ok(home.includes(name), 'homepage title must contain the site name (f6)');
+});

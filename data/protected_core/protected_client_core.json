@@ -88,7 +88,7 @@
     },
     {
       "path": "app/recovery-housing/page.tsx",
-      "sha256": "de188af07e15412765dd6fbaef09a9f45444e5d858ba7025eca8c5d5bfc01686"
+      "sha256": "140879e88e557d985adecb41b5bbccab8b645e5f5ecdda93f8fabb9d2b0ff145"
     },
     {
       "path": "app/referrals/page.tsx",
@@ -247,6 +247,14 @@
         "app/recovery-housing/page.tsx"
       ],
       "change": "Owner ruling 6 Nov 2026 (c3): visible \"Pricing: contact us for current rates\" line linking the contact page and phone, and a Service node whose Offer has no price fields (availability InStock, url = contact page, description \"Contact us for current pricing\"). No price invented.",
+      "policy_note": "Byte-identity was deliberately re-baselined, not bypassed. The guard still fails on any further drift."
+    },
+    {
+      "date": "2026-11-07",
+      "files": [
+        "app/recovery-housing/page.tsx"
+      ],
+      "change": "Search Readiness c3: the page's Service node (unchanged content: Offer with no price, url = contact page, description \"Contact us for current pricing\") now comes from lib/seo.ts recoveryHousingService(), shared with the homepage, which shows the same \"contact us for current rates\" line. No new claims, no price.",
       "policy_note": "Byte-identity was deliberately re-baselined, not bypassed. The guard still fails on any further drift."
     }
   ],
