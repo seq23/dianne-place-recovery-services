@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-06T13-22-03.251Z-42224785566",
-  "attempted_at": "2026-11-06T13:22:03.251Z",
+  "receipt_id": "2026-11-07T13-21-50.786Z-42376553922",
+  "attempted_at": "2026-11-07T13:21:50.786Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "632cc3344ec57aeeff0044c0865b549d94f31a9beae1b380182ade2a960f979b",
-    "url_count": 28
+    "sitemap_sha256": "718781004a5579b53dd840b1573274fa1bace3eb36872344203f4594a624af3d",
+    "url_count": 33
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 28
+    "submitted_urls": 33
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -63,7 +63,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-06T03:09:47Z"
+        "last_crawl_time": "2026-11-07T08:11:26Z"
       },
       {
         "url": "https://detoxdenver.org/resources/",
@@ -108,7 +108,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-03T16:14:47Z"
+        "last_crawl_time": "2026-11-07T07:33:56Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-07-31-recovery-housing-readiness/",
@@ -117,7 +117,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-05T17:09:48Z"
+        "last_crawl_time": "2026-11-07T01:08:21Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-07-18-community-reintegration/",
@@ -153,7 +153,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-01T10:23:48Z"
+        "last_crawl_time": "2026-11-06T10:39:47Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-07-14-gen-z-recovery/",
@@ -180,7 +180,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-08-03T03:55:56Z"
+        "last_crawl_time": "2026-11-06T13:39:08Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-07-11-lgbtq-recovery-support/",
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-06T13-22-03.251Z-42224785566.json"
+    "history_path": "data/distribution/receipts/2026-11-07T13-21-50.786Z-42376553922.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
