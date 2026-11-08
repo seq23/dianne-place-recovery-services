@@ -1,24 +1,24 @@
 {
   "schema": "gsc-truth-v1",
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-09",
-  "end_date": "2026-11-05",
-  "collected_at": "2026-11-07T12:27:29.062Z",
+  "start_date": "2026-10-10",
+  "end_date": "2026-11-06",
+  "collected_at": "2026-11-08T12:27:51.167Z",
   "totals": {
     "clicks": 0,
-    "impressions": 26,
+    "impressions": 33,
     "ctr": 0,
-    "position": 45.46153846153846
+    "position": 54.93939393939394
   },
-  "queries_in_window": 4,
-  "queries_known": 4,
+  "queries_in_window": 10,
+  "queries_known": 10,
   "query_history": [
     {
       "query": "3/4 house meaning",
       "first_seen": "2026-11-06",
       "max_impressions_28d": 3,
       "best_position": 94.66666666666667,
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "in_window": true,
       "impressions_28d": 3,
       "clicks_28d": 0,
@@ -31,7 +31,7 @@
       "first_seen": "2026-11-06",
       "max_impressions_28d": 2,
       "best_position": 100,
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -41,11 +41,51 @@
       ]
     },
     {
+      "query": "what is a halfway house",
+      "first_seen": "2026-11-08",
+      "max_impressions_28d": 2,
+      "best_position": 95,
+      "last_seen": "2026-11-08",
+      "in_window": true,
+      "impressions_28d": 2,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
+        "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
+      ]
+    },
+    {
+      "query": "how to get into a sober house",
+      "first_seen": "2026-11-08",
+      "max_impressions_28d": 1,
+      "best_position": 87,
+      "last_seen": "2026-11-08",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
+      ]
+    },
+    {
+      "query": "how to get into a sober living house",
+      "first_seen": "2026-11-08",
+      "max_impressions_28d": 1,
+      "best_position": 97,
+      "last_seen": "2026-11-08",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
+      ]
+    },
+    {
       "query": "sober living calm environment",
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 48,
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -58,24 +98,63 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 36,
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
       "pages": [
         "https://detoxdenver.org/questions/what-is-sober-living-environment/"
       ]
+    },
+    {
+      "query": "sober living policies and procedures",
+      "first_seen": "2026-11-08",
+      "max_impressions_28d": 1,
+      "best_position": 50,
+      "last_seen": "2026-11-08",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/sober-living-rules-and-regulations/"
+      ]
+    },
+    {
+      "query": "sober living scholarships colorado",
+      "first_seen": "2026-11-08",
+      "max_impressions_28d": 1,
+      "best_position": 90,
+      "last_seen": "2026-11-08",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/"
+      ]
+    },
+    {
+      "query": "who pays for sober living homes",
+      "first_seen": "2026-11-08",
+      "max_impressions_28d": 1,
+      "best_position": 93,
+      "last_seen": "2026-11-08",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/"
+      ]
     }
   ],
   "weekly": [
     {
       "week": "2026-W45",
-      "end_date": "2026-11-05",
-      "collected_at": "2026-11-07T12:27:29.062Z",
+      "end_date": "2026-11-06",
+      "collected_at": "2026-11-08T12:27:51.167Z",
       "clicks": 0,
-      "impressions": 26,
-      "position": 45.46153846153846,
-      "queries_in_window": 4
+      "impressions": 33,
+      "position": 54.93939393939394,
+      "queries_in_window": 10
     }
   ]
 }
