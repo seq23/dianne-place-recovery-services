@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-07T13-21-50.786Z-42376553922",
-  "attempted_at": "2026-11-07T13:21:50.786Z",
+  "receipt_id": "2026-11-08T13-22-00.881Z-42484536452",
+  "attempted_at": "2026-11-08T13:22:00.881Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "718781004a5579b53dd840b1573274fa1bace3eb36872344203f4594a624af3d",
-    "url_count": 33
+    "sitemap_sha256": "02d2095d75050e25f6af921e5370a84173fa091c3088ee5efcfbecfacc413464",
+    "url_count": 35
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 33
+    "submitted_urls": 35
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -90,7 +90,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-02T20:07:49Z"
+        "last_crawl_time": "2026-11-08T02:09:47Z"
       },
       {
         "url": "https://detoxdenver.org/about/",
@@ -135,7 +135,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-26T01:43:02Z"
+        "last_crawl_time": "2026-11-07T09:09:47Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-07-16-relapse-prevention/",
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-07T13-21-50.786Z-42376553922.json"
+    "history_path": "data/distribution/receipts/2026-11-08T13-22-00.881Z-42484536452.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
