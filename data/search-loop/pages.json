@@ -970,7 +970,8 @@
         "b5 FAQ answer is 39 words (aim 40-60): \"What should I do in an emergency?\""
       ],
       "extra_queries": [
-        "what is transitional housing like"
+        "what is transitional housing like",
+        "how to get into transitional housing"
       ],
       "indexnow_at": "2026-11-07"
     },
@@ -1039,7 +1040,11 @@
       ],
       "linked_from": [],
       "checks": {},
-      "indexnow_at": "2026-11-07"
+      "indexnow_at": "2026-11-07",
+      "extra_queries": [
+        "what is discharge planning",
+        "what is the purpose of discharge planning"
+      ]
     },
     {
       "slug": "what-is-a-sober-living-house",
@@ -1072,7 +1077,8 @@
         "b5 FAQ answer is 34 words (aim 40-60): \"Can family members visit residents at Dianne's Pla\"",
         "b5 FAQ answer is 32 words (aim 40-60): \"What should I bring when moving into sober living?\"",
         "b5 FAQ answer is 32 words (aim 40-60): \"How do families and treatment staff make referrals\""
-      ]
+      ],
+      "indexnow_at": "2026-11-08"
     },
     {
       "slug": "what-is-a-recovery-residence",
@@ -1111,7 +1117,8 @@
         "b5 FAQ answer is 36 words (aim 40-60): \"Who can live in a recovery residence?\"",
         "b5 FAQ answer is 37 words (aim 40-60): \"Do I have to attend meetings while living there?\"",
         "b5 FAQ answer is 37 words (aim 40-60): \"How do families find the right home?\""
-      ]
+      ],
+      "indexnow_at": "2026-11-08"
     },
     {
       "slug": "can-you-work-while-in-sober-living",
@@ -1143,6 +1150,67 @@
         "b5 FAQ answer is 36 words (aim 40-60): \"What if I do not have a job when I move in?\"",
         "b5 FAQ answer is 32 words (aim 40-60): \"Is sober living the same as a half-way house or tr\"",
         "b5 FAQ answer is 32 words (aim 40-60): \"How do house rules accommodate work schedules?\""
+      ],
+      "indexnow_at": "2026-11-08"
+    },
+    {
+      "slug": "how-effective-are-halfway-houses",
+      "query": "how effective are halfway houses",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/how-effective-are-halfway-houses/index.html",
+      "route": "/questions/how-effective-are-halfway-houses/",
+      "url": "https://detoxdenver.org/questions/how-effective-are-halfway-houses/",
+      "published_at": "2026-11-08",
+      "status": "live",
+      "hash": "13d490db3615b1ac5dc1ad7afb42a02a378ab734a6f8d88c5d2d39a554a53b40",
+      "model": "free-route",
+      "facts": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3056134/",
+        "https://samhsa.gov/"
+      ],
+      "linked_from": [],
+      "checks": {},
+      "extra_queries": [
+        "what is halfway housing"
+      ]
+    },
+    {
+      "slug": "can-halfway-house-residents-work",
+      "query": "can halfway house residents work",
+      "lane": "striking",
+      "score": 25,
+      "reasons": [],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "bing_suggest": true,
+        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+      },
+      "rel": "public/questions/can-halfway-house-residents-work/index.html",
+      "route": "/questions/can-halfway-house-residents-work/",
+      "url": "https://detoxdenver.org/questions/can-halfway-house-residents-work/",
+      "published_at": "2026-11-08",
+      "status": "live",
+      "hash": "55482d33187c655ee63dc1a73fb6df7888b46dd19b35b9e610295ff63d109554",
+      "model": "free-route",
+      "facts": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK64254/",
+        "https://www.samhsa.gov/find-help/recovery"
+      ],
+      "linked_from": [],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 37 words (aim 40-60): \"What kind of jobs are best in early recovery?\"",
+        "b5 FAQ answer is 36 words (aim 40-60): \"Can I work night shifts?\"",
+        "b5 FAQ answer is 39 words (aim 40-60): \"What if I lose my job?\""
       ]
     }
   ],
@@ -1260,6 +1328,57 @@
         "b5 FAQ answer is 28 words (aim 40-60): \"Can families help with the referral process?\"",
         "b5 FAQ answer is 28 words (aim 40-60): \"What should I bring when moving into sober living?\"",
         "b5 FAQ answer is 27 words (aim 40-60): \"Is medical care provided inside transitional housi\""
+      ]
+    },
+    {
+      "query": "how long can you stay in transitional housing",
+      "at": "2026-11-08",
+      "gate": 2,
+      "reason": [
+        "b5 FAQ answer is 27 words (aim 40-60): \"Can I leave transitional housing early if I feel r\"",
+        "b5 FAQ answer is 26 words (aim 40-60): \"Does insurance pay for transitional housing?\"",
+        "b5 FAQ answer is 29 words (aim 40-60): \"What happens if I need extra time to stabilize?\""
+      ]
+    },
+    {
+      "query": "can halfway house be a positive experience",
+      "at": "2026-11-08",
+      "gate": 2,
+      "reason": [
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1)"
+      ]
+    },
+    {
+      "query": "transitional housing after rehab",
+      "at": "2026-11-08",
+      "gate": 2,
+      "reason": [
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1)"
+      ]
+    },
+    {
+      "query": "sober living apartments denver co",
+      "at": "2026-11-08",
+      "gate": 2,
+      "reason": [
+        "health: outcome or treatment claim \"heal\""
+      ]
+    },
+    {
+      "query": "denver sober living homes",
+      "at": "2026-11-08",
+      "gate": 2,
+      "reason": [
+        "b2 meta description is 45 chars (aim 120-160)"
+      ]
+    },
+    {
+      "query": "denver co sober living",
+      "at": "2026-11-08",
+      "gate": 2,
+      "reason": [
+        "b5 FAQ answer is 21 words (aim 40-60): \"Is sober living the same as inpatient treatment?\"",
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1)"
       ]
     }
   ],
@@ -1562,6 +1681,56 @@
       "kind": "sitemap",
       "matched_by": "high token overlap (0.67 >= 0.5)",
       "matched_text": "recovery housing",
+      "stage": "search"
+    },
+    {
+      "query": "recovery housing programs near me",
+      "at": "2026-11-08",
+      "url": "https://detoxdenver.org/recovery-housing/",
+      "route": "/recovery-housing/",
+      "kind": "sitemap",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "matched_text": "recovery housing",
+      "stage": "search"
+    },
+    {
+      "query": "what is halfway housing",
+      "at": "2026-11-08",
+      "url": "https://detoxdenver.org/questions/how-effective-are-halfway-houses/",
+      "route": "/questions/how-effective-are-halfway-houses/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "matched_text": "how effective are halfway houses",
+      "stage": "search"
+    },
+    {
+      "query": "how to get into transitional housing",
+      "at": "2026-11-08",
+      "url": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
+      "route": "/questions/how-does-transitional-housing-work/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "matched_text": "how does transitional housing work",
+      "stage": "search"
+    },
+    {
+      "query": "what is discharge planning",
+      "at": "2026-11-08",
+      "url": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
+      "route": "/questions/when-should-discharge-planning-be-initiated/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "matched_text": "when should discharge planning be initiated",
+      "stage": "search"
+    },
+    {
+      "query": "what is the purpose of discharge planning",
+      "at": "2026-11-08",
+      "url": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
+      "route": "/questions/when-should-discharge-planning-be-initiated/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "matched_text": "when should discharge planning be initiated",
       "stage": "search"
     }
   ]

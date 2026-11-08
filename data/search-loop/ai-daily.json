@@ -72,6 +72,21 @@
           "Amazonbot": 1
         }
       }
+    },
+    "2026-11-08": {
+      "ai_visitors": {
+        "total": 0,
+        "by_engine": {},
+        "by_path": {},
+        "source": "web-analytics"
+      },
+      "ai_bot_hits": {
+        "total": 2,
+        "by_bot": {
+          "GPTBot (OpenAI training)": 1,
+          "Amazonbot": 1
+        }
+      }
     }
   }
 }

@@ -2,13 +2,13 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W45",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-07T12:31:22.607Z",
+  "generated_at": "2026-11-08T12:31:40.614Z",
   "state": "slow",
   "published": 28,
   "indexed": "not read: no page old enough to inspect yet (14 days)",
   "pace": 3,
   "ai_visitors": 0,
-  "ai_bot_hits": 199,
+  "ai_bot_hits": 201,
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 0,
   "undone": 0,
@@ -194,18 +194,48 @@
       "strengthen": "https://detoxdenver.org/recovery-housing/",
       "matched_by": "high token overlap (0.67 >= 0.5)",
       "at": "2026-11-07"
+    },
+    {
+      "query": "recovery housing programs near me",
+      "strengthen": "https://detoxdenver.org/recovery-housing/",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-08"
+    },
+    {
+      "query": "what is halfway housing",
+      "strengthen": "https://detoxdenver.org/questions/how-effective-are-halfway-houses/",
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "at": "2026-11-08"
+    },
+    {
+      "query": "how to get into transitional housing",
+      "strengthen": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-08"
+    },
+    {
+      "query": "what is discharge planning",
+      "strengthen": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "at": "2026-11-08"
+    },
+    {
+      "query": "what is the purpose of discharge planning",
+      "strengthen": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-08"
     }
   ],
   "cap": {
     "max_live_pages": 11,
-    "live": 5,
-    "room": 6,
+    "live": 7,
+    "room": 4,
     "why": "up from 10 to 11: Google impressions 9 in the last 28 days beat 5 in the 28 before"
   },
   "notes": [
     "site config lowers the mode to slow",
-    "BUILD distinct gate: 1 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
-    "BUILD gate notes (not blocking): 3 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json",
+    "BUILD distinct gate: 5 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
+    "BUILD gate notes (not blocking): 1 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json",
     "CHECK runs weekly in mode=slow; last ran 2026-11-06"
   ],
   "lanes": {
@@ -220,7 +250,7 @@
       "hit_rate": "not read: no page in this lane has reached its 2-week check yet"
     },
     "striking": {
-      "pages": 28,
+      "pages": 30,
       "measured": 0,
       "top3": 0,
       "hit_rate": "not read: no page in this lane has reached its 2-week check yet"
@@ -234,5 +264,5 @@
     "weight_changes": [],
     "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
   },
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/42372849138"
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/42480662236"
 }

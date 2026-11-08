@@ -1051,6 +1051,51 @@
   ],
   "strengthen": [
     {
+      "query": "what is the purpose of discharge planning",
+      "page": "/questions/when-should-discharge-planning-be-initiated/",
+      "url": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-08"
+    },
+    {
+      "query": "what is discharge planning",
+      "page": "/questions/when-should-discharge-planning-be-initiated/",
+      "url": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "at": "2026-11-08"
+    },
+    {
+      "query": "how to get into transitional housing",
+      "page": "/questions/how-does-transitional-housing-work/",
+      "url": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-08"
+    },
+    {
+      "query": "what is halfway housing",
+      "page": "/questions/how-effective-are-halfway-houses/",
+      "url": "https://detoxdenver.org/questions/how-effective-are-halfway-houses/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "at": "2026-11-08"
+    },
+    {
+      "query": "recovery housing programs near me",
+      "page": "/recovery-housing/",
+      "url": "https://detoxdenver.org/recovery-housing/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-08"
+    },
+    {
       "query": "recovery housing near me",
       "page": "/recovery-housing/",
       "url": "https://detoxdenver.org/recovery-housing/",
