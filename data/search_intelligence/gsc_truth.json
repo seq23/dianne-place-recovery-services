@@ -1,29 +1,56 @@
 {
   "schema": "gsc-truth-v1",
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-10",
-  "end_date": "2026-11-06",
-  "collected_at": "2026-11-08T12:27:51.167Z",
+  "start_date": "2026-10-11",
+  "end_date": "2026-11-07",
+  "collected_at": "2026-11-09T12:30:16.993Z",
   "totals": {
     "clicks": 0,
-    "impressions": 33,
+    "impressions": 42,
     "ctr": 0,
-    "position": 54.93939393939394
+    "position": 56.357142857142854
   },
-  "queries_in_window": 10,
-  "queries_known": 10,
+  "queries_in_window": 12,
+  "queries_known": 12,
   "query_history": [
     {
       "query": "3/4 house meaning",
       "first_seen": "2026-11-06",
-      "max_impressions_28d": 3,
-      "best_position": 94.66666666666667,
-      "last_seen": "2026-11-08",
+      "max_impressions_28d": 5,
+      "best_position": 93,
+      "last_seen": "2026-11-09",
       "in_window": true,
-      "impressions_28d": 3,
+      "impressions_28d": 5,
       "clicks_28d": 0,
       "pages": [
+        "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
         "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
+      ]
+    },
+    {
+      "query": "how to get into a sober house",
+      "first_seen": "2026-11-08",
+      "max_impressions_28d": 2,
+      "best_position": 87,
+      "last_seen": "2026-11-09",
+      "in_window": true,
+      "impressions_28d": 2,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
+      ]
+    },
+    {
+      "query": "how to get into a sober living house",
+      "first_seen": "2026-11-08",
+      "max_impressions_28d": 2,
+      "best_position": 97,
+      "last_seen": "2026-11-09",
+      "in_window": true,
+      "impressions_28d": 2,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
       ]
     },
     {
@@ -31,7 +58,7 @@
       "first_seen": "2026-11-06",
       "max_impressions_28d": 2,
       "best_position": 100,
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -45,7 +72,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 2,
       "best_position": 95,
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -55,29 +82,29 @@
       ]
     },
     {
-      "query": "how to get into a sober house",
-      "first_seen": "2026-11-08",
+      "query": "halfway home meaning",
+      "first_seen": "2026-11-09",
       "max_impressions_28d": 1,
-      "best_position": 87,
-      "last_seen": "2026-11-08",
+      "best_position": 96,
+      "last_seen": "2026-11-09",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
       "pages": [
-        "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
+        "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/"
       ]
     },
     {
-      "query": "how to get into a sober living house",
-      "first_seen": "2026-11-08",
+      "query": "help paying for sober living",
+      "first_seen": "2026-11-09",
       "max_impressions_28d": 1,
-      "best_position": 97,
-      "last_seen": "2026-11-08",
+      "best_position": 58,
+      "last_seen": "2026-11-09",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
       "pages": [
-        "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
+        "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/"
       ]
     },
     {
@@ -85,7 +112,7 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 48,
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -98,7 +125,7 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 36,
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -111,7 +138,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 50,
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -124,7 +151,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 90,
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -137,7 +164,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 93,
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -149,12 +176,12 @@
   "weekly": [
     {
       "week": "2026-W45",
-      "end_date": "2026-11-06",
-      "collected_at": "2026-11-08T12:27:51.167Z",
+      "end_date": "2026-11-07",
+      "collected_at": "2026-11-09T12:30:16.993Z",
       "clicks": 0,
-      "impressions": 33,
-      "position": 54.93939393939394,
-      "queries_in_window": 10
+      "impressions": 42,
+      "position": 56.357142857142854,
+      "queries_in_window": 12
     }
   ]
 }
