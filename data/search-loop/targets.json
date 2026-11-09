@@ -1,333 +1,419 @@
 {
   "schema": "search-loop-targets-v1",
   "site": "detoxdenver.org",
-  "week": "2026-W45",
-  "generated_at": "2026-11-02T12:32:56.113Z",
+  "week": "2026-W46",
+  "generated_at": "2026-11-09T12:33:41.885Z",
   "sources": {
-    "search_console": "ok: 0 rows",
+    "search_console": "ok: 12 rows",
     "bing_webmaster": "ok: 0 rows",
+    "easy_wins": "ok: 0 easy win(s) in Search Console",
     "suggestqueries.google.com": "ok",
     "api.bing.com": "ok",
-    "relevance_screen": "ok: kept 82 of 150 (free model)"
+    "relevance_screen": "ok: kept 29 of 150 (free model)",
+    "top10": "ok: 15 top-10 read(s) via brave"
   },
   "targets": [
     {
-      "query": "what is a sober living home",
-      "variants": [
-        "how to start sober living home"
-      ],
+      "query": "do sober living homes provide meals",
+      "variants": [],
       "signals": {
         "words": 6,
         "question": true,
         "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.31,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 4,
+            "exact_answer": 2
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 4 thin or old, 2 answer the exact question"
+          ]
+        }
       },
-      "score": 45,
-      "kind": "new"
+      "scores": {
+        "striking": 30,
+        "can_be_one": 22.4
+      },
+      "score": 22.4,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "weak top 10 (0.31): 0 directories, 0 forums, 0 off-target national, 4 thin or old, 2 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
     },
     {
-      "query": "what is a sober living house",
-      "variants": [
-        "how to get a sober living house"
-      ],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 45,
-      "kind": "new"
-    },
-    {
-      "query": "what is a sober living halfway house",
-      "variants": [
-        "halfway house vs sober living"
-      ],
+      "query": "how to get into a sober house",
+      "variants": [],
       "signals": {
         "words": 7,
         "question": true,
         "google_suggest": true,
         "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 6
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 6 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
       },
       "score": 45,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (0 < 15)"
+      ]
     },
     {
-      "query": "how to find sober living",
+      "query": "how much does it cost to live in a sober house",
       "variants": [],
       "signals": {
-        "words": 5,
+        "words": 11,
         "question": true,
         "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.15,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 1,
+            "off_target_national": 0,
+            "thin_or_old": 1,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 0 directories, 1 forums, 0 off-target national, 1 thin or old, 0 answer the exact question"
+          ]
+        }
       },
-      "score": 45,
-      "kind": "new"
+      "scores": {
+        "striking": 30,
+        "can_be_one": 16
+      },
+      "score": 16,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "weak top 10 (0.15): 0 directories, 1 forums, 0 off-target national, 1 thin or old, 0 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
     },
     {
-      "query": "how to find sober living homes",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 45,
-      "kind": "new"
-    },
-    {
-      "query": "how to find a good sober living house",
+      "query": "how to get into a sober living house",
       "variants": [
-        "how to find a sober living house"
+        "how do you get into a sober living house"
       ],
       "signals": {
         "words": 8,
         "question": true,
         "google_suggest": true,
         "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 6
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 6 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
       },
       "score": 45,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (0 < 15)"
+      ]
     },
     {
-      "query": "sober living denver colorado",
-      "variants": [
-        "sober living in denver colorado"
-      ],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
-      "query": "sober living denver medicaid",
+      "query": "is sober living free",
       "variants": [],
       "signals": {
         "words": 4,
-        "question": false,
-        "google_suggest": true,
+        "question": true,
         "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "google_suggest": true,
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.08,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 1,
+            "exact_answer": 4
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 4 answer the exact question"
+          ]
+        }
       },
-      "score": 40,
-      "kind": "new"
+      "scores": {
+        "striking": 45,
+        "can_be_one": 13.2
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (13.2 < 15)"
+      ]
     },
     {
-      "query": "sober living denver women",
+      "query": "how do you pay for sober living",
       "variants": [
-        "sober living for women denver"
+        "how to pay for sober living"
       ],
       "signals": {
-        "words": 4,
-        "question": false,
+        "words": 7,
+        "question": true,
         "google_suggest": true,
         "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.08,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 1,
+            "exact_answer": 5
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 5 answer the exact question"
+          ]
+        }
       },
-      "score": 40,
-      "kind": "new"
+      "scores": {
+        "striking": 45,
+        "can_be_one": 13.2
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (13.2 < 15)"
+      ]
     },
     {
-      "query": "sober living denver medicaid accepted",
-      "variants": [
-        "sober living in denver that accepts medicaid"
-      ],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
-      "query": "sober living denver men",
-      "variants": [
-        "sober living for men denver"
-      ],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
-      "query": "tips for sober living",
-      "variants": [
-        "what is a sober living",
-        "how to start sober living",
-        "how to get sober living"
-      ],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing for women",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing near me",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
-      "query": "sober living rules and regulations",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
-      "query": "sober living house rules",
-      "variants": [
-        "rules for sober living house"
-      ],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 40,
-      "kind": "new"
-    },
-    {
-      "query": "sober living denver",
-      "variants": [
-        "sober living in denver",
-        "best sober living denver"
-      ],
-      "signals": {
-        "words": 3,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "how to qualify for sober living",
+      "query": "does medicaid pay for sober living",
       "variants": [],
       "signals": {
         "words": 6,
         "question": true,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "bing_suggest": true,
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 6
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 6 answer the exact question"
+          ]
+        }
       },
-      "score": 30,
-      "kind": "new"
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (0 < 15)"
+      ]
     },
     {
-      "query": "what is sober housing",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "what is a recovery residence",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "what is a sober living home mean",
-      "variants": [],
+      "query": "how to get funding for sober living",
+      "variants": [
+        "funding for sober living"
+      ],
       "signals": {
         "words": 7,
         "question": true,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "bing_suggest": true,
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question"
+          ]
+        }
       },
-      "score": 30,
-      "kind": "new"
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (0 < 15)"
+      ]
     },
     {
-      "query": "what does a sober living house look like",
+      "query": "who pays for sober living homes",
       "variants": [],
       "signals": {
-        "words": 8,
+        "words": 6,
         "question": true,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "bing_suggest": true,
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 5
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 5 answer the exact question"
+          ]
+        }
       },
-      "score": 30,
-      "kind": "new"
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (0 < 15)"
+      ]
     },
     {
-      "query": "what is the purpose of a sober living house",
+      "query": "sober living scholarships colorado",
+      "variants": [
+        "colorado sober living scholarships"
+      ],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 2
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 2 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 40,
+        "can_be_one": 0
+      },
+      "score": 40,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (0 < 15)"
+      ]
+    },
+    {
+      "query": "sober living grants colorado",
       "variants": [],
       "signals": {
-        "words": 9,
-        "question": true,
+        "words": 4,
+        "question": false,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "bing_suggest": true,
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question"
+          ]
+        }
       },
-      "score": 30,
-      "kind": "new"
+      "scores": {
+        "striking": 40,
+        "can_be_one": 0
+      },
+      "score": 40,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (0 < 15)"
+      ]
     },
     {
       "query": "how much is a sober living house",
@@ -336,217 +422,258 @@
         "words": 7,
         "question": true,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.08,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 1,
+            "exact_answer": 2
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 2 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 13.2
       },
       "score": 30,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (13.2 < 15)"
+      ]
     },
     {
-      "query": "sober living rules",
-      "variants": [
-        "what are sober living rules"
-      ],
-      "signals": {
-        "words": 3,
-        "question": false,
-        "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "is sober living a good idea",
+      "query": "how to find sober living homes",
       "variants": [],
       "signals": {
         "words": 6,
         "question": true,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 1,
+            "exact_answer": 4
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 4 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 0
       },
       "score": 30,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (0 < 15)"
+      ]
     },
     {
-      "query": "how does sober living work",
+      "query": "what is sober living homes",
       "variants": [],
       "signals": {
         "words": 5,
         "question": true,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.08,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 1,
+            "exact_answer": 2
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 2 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 13.2
       },
       "score": 30,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (13.2 < 15)"
+      ]
     },
     {
-      "query": "what is a sober living facility",
+      "query": "what is transitional living home",
+      "variants": [],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "google_suggest": true,
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 0
+      },
+      "score": 30,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (0 < 15)"
+      ]
+    },
+    {
+      "query": "do sober living houses have curfews",
       "variants": [],
       "signals": {
         "words": 6,
         "question": true,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 0
       },
       "score": 30,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
     },
     {
-      "query": "do you have to pay for sober living",
+      "query": "do sober living houses work",
       "variants": [],
       "signals": {
-        "words": 8,
+        "words": 5,
         "question": true,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 0
       },
       "score": 30,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
     },
     {
-      "query": "can you work while in sober living",
+      "query": "can you leave a sober living home",
       "variants": [],
       "signals": {
         "words": 7,
         "question": true,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 0
       },
       "score": 30,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
     },
     {
-      "query": "how to get sober living paid for",
+      "query": "are sober living homes covered by insurance",
       "variants": [],
       "signals": {
         "words": 7,
         "question": true,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 0
       },
       "score": 30,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
     },
     {
-      "query": "how to find sober housing",
+      "query": "are sober living homes coed",
       "variants": [],
       "signals": {
         "words": 5,
         "question": true,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 0
       },
       "score": 30,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
     },
     {
-      "query": "how long can you stay in transitional housing",
+      "query": "how to qualify for sober living",
       "variants": [],
       "signals": {
-        "words": 8,
+        "words": 6,
         "question": true,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 0
       },
       "score": 30,
-      "kind": "new"
-    },
-    {
-      "query": "sober living denver area",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "sober living denver metro",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "sober living denver cost",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is sober living environment",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing for men",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "recovery housing programs near me",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "levels of recovery housing",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "whats a sober living house",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
     },
     {
       "query": "how to get into sober living",
@@ -555,831 +682,349 @@
         "words": 6,
         "question": true,
         "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 25,
+        "can_be_one": 0
       },
       "score": 25,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
     },
     {
-      "query": "how do i find a sober living home",
-      "variants": [],
-      "signals": {
-        "words": 8,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how to find a sober living facility",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is a halfway house after jail",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is a halfway house for prisoners",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how to get into a halfway house",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how to find a halfway house",
+      "query": "what is a sober living program",
       "variants": [],
       "signals": {
         "words": 6,
         "question": true,
         "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 25,
+        "can_be_one": 0
       },
       "score": 25,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
     },
     {
-      "query": "how effective are halfway houses",
-      "variants": [
-        "are halfway houses effective"
-      ],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "can halfway house be a temporary residence",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "can halfway house residents work",
+      "query": "free sober living scholarships colorado",
       "variants": [],
       "signals": {
         "words": 5,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "can halfway house be a positive experience",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what exactly is a halfway house",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is a halfway house considered",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is halfway housing",
-      "variants": [
-        "what are halfway houses for"
-      ],
-      "signals": {
-        "words": 4,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "can halfway house residents leave",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "transitional housing after rehab",
-      "variants": [
-        "what is transitional housing after rehab"
-      ],
-      "signals": {
-        "words": 4,
         "question": false,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 25,
+        "can_be_one": 0
       },
       "score": 25,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
     },
     {
-      "query": "sober living transitional housing near me",
+      "query": "sober living programs near me",
+      "variants": [],
+      "signals": {
+        "words": 5,
+        "question": false,
+        "google_suggest": true,
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 25,
+        "can_be_one": 0
+      },
+      "score": 25,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
+    },
+    {
+      "query": "non profit sober living near me",
       "variants": [],
       "signals": {
         "words": 6,
         "question": false,
         "google_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 25,
+        "can_be_one": 0
       },
       "score": 25,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
     },
     {
-      "query": "how to get into transitional housing",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how does transitional housing work",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is considered transitional housing",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "how long is transitional housing",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is transitional housing like",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "when should discharge planning be initiated",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is discharge planning",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 25,
-      "kind": "new"
-    },
-    {
-      "query": "what is the purpose of discharge planning",
+      "query": "find a 3 4 house near me",
       "variants": [],
       "signals": {
         "words": 7,
-        "question": true,
+        "question": false,
         "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": "not read: outside this run's top-10 budget"
       },
-      "score": 25,
-      "kind": "new"
+      "scores": {
+        "striking": 20,
+        "can_be_one": 0
+      },
+      "score": 20,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
     },
     {
-      "query": "sober living apartments denver co",
+      "query": "benefits of sober living",
+      "variants": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "bing_suggest": true,
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 0
+      },
+      "score": 20,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
+    },
+    {
+      "query": "sober living in the area",
       "variants": [],
       "signals": {
         "words": 5,
         "question": false,
         "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 0
       },
       "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "denver sober living homes",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "denver co sober living",
-      "variants": [
-        "sober living denver co"
-      ],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living home denver",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living communities near denver",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living programs denver",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living facilities denver",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living homes in denver colorado",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living houses denver",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living houses denver colorado",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living in colorado",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober apartment living denver",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living home in colorado",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living programs colorado",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living houses in denver co",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
-    },
-    {
-      "query": "sober living houses in colorado",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
-      },
-      "score": 20,
-      "kind": "new"
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
     }
   ],
   "strengthen": [
     {
-      "query": "what is the purpose of discharge planning",
-      "page": "/questions/when-should-discharge-planning-be-initiated/",
-      "url": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.50 >= 0.5)",
-      "at": "2026-11-08"
-    },
-    {
-      "query": "what is discharge planning",
-      "page": "/questions/when-should-discharge-planning-be-initiated/",
-      "url": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.67 >= 0.5)",
-      "at": "2026-11-08"
-    },
-    {
-      "query": "how to get into transitional housing",
-      "page": "/questions/how-does-transitional-housing-work/",
-      "url": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.50 >= 0.5)",
-      "at": "2026-11-08"
-    },
-    {
-      "query": "what is halfway housing",
-      "page": "/questions/how-effective-are-halfway-houses/",
-      "url": "https://detoxdenver.org/questions/how-effective-are-halfway-houses/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.67 >= 0.5)",
-      "at": "2026-11-08"
-    },
-    {
-      "query": "recovery housing programs near me",
-      "page": "/recovery-housing/",
-      "url": "https://detoxdenver.org/recovery-housing/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.50 >= 0.5)",
-      "at": "2026-11-08"
-    },
-    {
-      "query": "recovery housing near me",
-      "page": "/recovery-housing/",
-      "url": "https://detoxdenver.org/recovery-housing/",
-      "score": 40,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.67 >= 0.5)",
-      "at": "2026-11-07"
-    },
-    {
-      "query": "what is transitional housing like",
-      "page": "/questions/how-does-transitional-housing-work/",
-      "url": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.67 >= 0.6)",
-      "at": "2026-11-06"
-    },
-    {
-      "query": "how long is transitional housing",
-      "page": "/questions/what-is-considered-transitional-housing/",
-      "url": "https://detoxdenver.org/questions/what-is-considered-transitional-housing/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-06"
-    },
-    {
-      "query": "how to find a halfway house",
-      "page": "/public/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.80 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "what is a halfway house for prisoners",
-      "page": "/questions/what-is-a-halfway-house-after-jail/",
-      "url": "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "how to find a sober living facility",
-      "page": "/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.75 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "how do i find a sober living home",
-      "page": "/questions/what-is-a-sober-living-home/",
-      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.75 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "how to get into sober living",
-      "page": "/public/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "whats a sober living house",
-      "page": "/questions/what-is-a-sober-living-halfway-house/",
-      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-halfway-house/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "recovery housing for men",
-      "page": "/public/questions/recovery-housing-for-women/",
-      "url": "https://detoxdenver.org/public/questions/recovery-housing-for-women/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "sober living denver cost",
-      "page": "/public/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "sober living denver metro",
-      "page": "/public/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "sober living denver area",
-      "page": "/public/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
-      "score": 25,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "how to find sober housing",
-      "page": "/questions/what-is-sober-housing/",
-      "url": "https://detoxdenver.org/questions/what-is-sober-housing/",
+      "query": "what is sober living homes",
+      "page": "/questions/do-sober-living-homes-provide-meals/",
+      "url": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
       "score": 30,
       "from": "distinct-gate",
-      "matched_by": "high token overlap (0.67 >= 0.6)",
-      "at": "2026-11-04"
+      "matched_by": "high token overlap (0.60 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "sober living grants colorado",
+      "page": "/questions/can-you-work-while-in-sober-living/",
+      "url": "https://detoxdenver.org/questions/can-you-work-while-in-sober-living/",
+      "score": 40,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "sober living scholarships colorado",
+      "page": "/questions/can-you-work-while-in-sober-living/",
+      "url": "https://detoxdenver.org/questions/can-you-work-while-in-sober-living/",
+      "score": 40,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "how to get funding for sober living",
+      "page": "/questions/what-is-a-sober-living-house/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "score": 45,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "how do you pay for sober living",
+      "page": "/questions/what-is-a-sober-living-house/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "score": 45,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "is sober living free",
+      "page": "/questions/what-is-a-sober-living-house/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "score": 45,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "how to get into a sober living house",
+      "page": "/questions/what-is-a-sober-living-house/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "score": 45,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.75 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "how to get into a sober house",
+      "page": "/questions/what-is-a-sober-living-house/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "score": 45,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "how to start a sober house",
+      "variants": [
+        "what is a sober house"
+      ],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "page": "/public/questions/what-is-a-sober-living-house/"
+    },
+    {
+      "query": "how to start a sober living",
+      "variants": [
+        "what is sober living",
+        "sober living what is it",
+        "what is a sober living"
+      ],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "bing_suggest": true,
+        "google_suggest": true
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "page": "/public/questions/can-you-work-while-in-sober-living/"
     },
     {
       "query": "how does sober living work",
-      "page": "/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
-      "score": 30,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "sober living rules",
-      "page": "/questions/sober-living-rules-and-regulations/",
-      "url": "https://detoxdenver.org/questions/sober-living-rules-and-regulations/",
-      "score": 30,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.75 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "how much is a sober living house",
-      "page": "/questions/what-is-a-sober-living-halfway-house/",
-      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-halfway-house/",
-      "score": 30,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "what is the purpose of a sober living house",
-      "page": "/questions/what-is-a-sober-living-halfway-house/",
-      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-halfway-house/",
-      "score": 30,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "what is a sober living home mean",
-      "page": "/questions/what-is-a-sober-living-home/",
-      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
-      "score": 30,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.75 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "how to qualify for sober living",
-      "page": "/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
-      "score": 30,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "sober living denver",
-      "page": "/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
-      "score": 30,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.75 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "sober living house rules",
-      "page": "/questions/what-is-a-sober-living-halfway-house/",
-      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-halfway-house/",
-      "score": 40,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "tips for sober living",
-      "page": "/questions/what-is-a-sober-living-home/",
-      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
-      "score": 40,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.67 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "sober living denver men",
-      "page": "/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
-      "score": 40,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "sober living denver medicaid accepted",
-      "page": "/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
-      "score": 40,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.67 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "sober living denver women",
-      "page": "/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
-      "score": 40,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "sober living denver medicaid",
-      "page": "/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
-      "score": 40,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "sober living denver colorado",
-      "page": "/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
-      "score": 40,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "how to find a good sober living house",
-      "page": "/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
+      "variants": [],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "bing_suggest": true,
+        "google_suggest": true
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
       "score": 45,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.75 >= 0.6)",
-      "at": "2026-11-03"
+      "page": "/public/questions/can-you-work-while-in-sober-living/"
     },
     {
-      "query": "how to find sober living homes",
-      "page": "/questions/how-to-find-sober-living/",
-      "url": "https://detoxdenver.org/questions/how-to-find-sober-living/",
-      "score": 45,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.75 >= 0.6)",
-      "at": "2026-11-03"
-    },
-    {
-      "query": "recovery housing",
+      "query": "what is a halfway house",
       "variants": [
-        "what is recovery housing",
-        "housing is recovery"
+        "halfway house meaning"
       ],
       "signals": {
-        "words": 2,
-        "question": false,
+        "words": 5,
+        "question": true,
         "google_suggest": true,
-        "bing_suggest": true,
-        "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+        "bing_suggest": true
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "page": "/public/questions/can-halfway-house-residents-work/"
+    },
+    {
+      "query": "what is a halfway house and how does it work",
+      "variants": [],
+      "signals": {
+        "words": 10,
+        "question": true,
+        "google_suggest": true
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 0
       },
       "score": 30,
-      "page": "/public/questions/how-to-apply-transitional-housing/"
+      "page": "/public/questions/can-halfway-house-residents-work/"
+    },
+    {
+      "query": "sober living sober tips",
+      "variants": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "bing_suggest": true
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 0
+      },
+      "score": 20,
+      "page": "/public/questions/can-you-work-while-in-sober-living/"
+    },
+    {
+      "query": "recovery ways sober living",
+      "variants": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "bing_suggest": true
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 0
+      },
+      "score": 20,
+      "page": "/public/questions/can-you-work-while-in-sober-living/"
     }
   ]
 }

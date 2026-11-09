@@ -1,14 +1,14 @@
 {
   "schema": "search-loop-week-v1",
-  "week": "2026-W45",
+  "week": "2026-W46",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-08T12:31:40.614Z",
+  "generated_at": "2026-11-09T12:33:41.885Z",
   "state": "slow",
   "published": 28,
   "indexed": "not read: no page old enough to inspect yet (14 days)",
   "pace": 3,
   "ai_visitors": 0,
-  "ai_bot_hits": 201,
+  "ai_bot_hits": 211,
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 0,
   "undone": 0,
@@ -224,18 +224,66 @@
       "strengthen": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
       "matched_by": "high token overlap (0.50 >= 0.5)",
       "at": "2026-11-08"
+    },
+    {
+      "query": "how to get into a sober house",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "how to get into a sober living house",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "matched_by": "high token overlap (0.75 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "is sober living free",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "how do you pay for sober living",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "how to get funding for sober living",
+      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "sober living scholarships colorado",
+      "strengthen": "https://detoxdenver.org/questions/can-you-work-while-in-sober-living/",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "sober living grants colorado",
+      "strengthen": "https://detoxdenver.org/questions/can-you-work-while-in-sober-living/",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-09"
+    },
+    {
+      "query": "what is sober living homes",
+      "strengthen": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
+      "matched_by": "high token overlap (0.60 >= 0.5)",
+      "at": "2026-11-09"
     }
   ],
   "cap": {
-    "max_live_pages": 11,
-    "live": 7,
-    "room": 4,
-    "why": "up from 10 to 11: Google impressions 9 in the last 28 days beat 5 in the 28 before"
+    "max_live_pages": 13,
+    "live": 8,
+    "room": 5,
+    "why": "up from 11 to 13: Google impressions 33 in the last 28 days beat 6 in the 28 before"
   },
   "notes": [
     "site config lowers the mode to slow",
-    "BUILD distinct gate: 5 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
-    "BUILD gate notes (not blocking): 1 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json",
+    "cap: up from 11 to 13: Google impressions 33 in the last 28 days beat 6 in the 28 before",
+    "BUILD distinct gate: 8 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
     "CHECK runs weekly in mode=slow; last ran 2026-11-06"
   ],
   "lanes": {
@@ -244,7 +292,7 @@
       "striking": 1
     },
     "can_be_one": {
-      "pages": 0,
+      "pages": 1,
       "measured": 0,
       "top3": 0,
       "hit_rate": "not read: no page in this lane has reached its 2-week check yet"
@@ -262,7 +310,7 @@
       "demand": 10
     },
     "weight_changes": [],
-    "competition": "not read: no free, ToS-safe competition signal (SERP scraping is not used)"
+    "competition": "ok: 15 top-10 read(s) via brave"
   },
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/42480662236"
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/42618015226"
 }
