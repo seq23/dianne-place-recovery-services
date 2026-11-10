@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-09T13-23-31.151Z-42624899604",
-  "attempted_at": "2026-11-09T13:23:31.151Z",
+  "receipt_id": "2026-11-10T13-22-03.014Z-42823742075",
+  "attempted_at": "2026-11-10T13:22:03.014Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "e1eef2591376d13cb0940092f562b2b95afedd4c0f6c57243a82ba4e8a5fd57d",
-    "url_count": 36
+    "sitemap_sha256": "6a2dc45bfa16dc08e749a40caa9a85a2804bc98ea14855d953b15ec5d494da8c",
+    "url_count": 38
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 36
+    "submitted_urls": 38
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -72,7 +72,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-29T16:56:19Z"
+        "last_crawl_time": "2026-11-04T18:13:55Z"
       },
       {
         "url": "https://detoxdenver.org/answers/",
@@ -204,10 +204,10 @@
         "url": "https://detoxdenver.org/blog/2026-07-09-family-support/",
         "status": "SUCCESS",
         "http_status": 200,
-        "verdict": "PASS",
-        "coverage_state": "Submitted and indexed",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Duplicate, Google chose different canonical than user",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-02T17:37:49Z"
+        "last_crawl_time": "2026-11-06T12:38:21Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-07-08-daily-sober-routines/",
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-09T13-23-31.151Z-42624899604.json"
+    "history_path": "data/distribution/receipts/2026-11-10T13-22-03.014Z-42823742075.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
