@@ -23,6 +23,13 @@
       "risk": "Pre-license site cannot publish licensed treatment claims or activate sensitive capabilities."
     },
     {
+      "id": "content",
+      "script": "validate:content",
+      "severity": "hard",
+      "category": "publishing",
+      "risk": "Approved scheduled content must be complete, dated, source-aware, disclaimer-aware, and eligible before autopublish."
+    },
+    {
       "id": "legal",
       "script": "validate:legal",
       "severity": "hard",
@@ -35,6 +42,13 @@
       "severity": "hard",
       "category": "client_governance",
       "risk": "Client-facing pages, admin controls, native publishing code, and original 2026 editorial identity must not drift."
+    },
+    {
+      "id": "page-seo",
+      "script": "validate:page-seo",
+      "severity": "hard",
+      "category": "seo",
+      "risk": "Pages without their own title/description or a definition paragraph lose snippet and answer-engine eligibility. Lengths over the band are notes; under fails only below 75% of the floor."
     },
     {
       "id": "clarity",

@@ -7,8 +7,10 @@
   },
   "hardFailValidators": [
     "validate:licensure-mode",
+    "validate:content",
     "validate:legal",
     "validate:protected-client-core",
+    "validate:page-seo",
     "validate:clarity"
   ],
   "strongSoftValidators": [],
