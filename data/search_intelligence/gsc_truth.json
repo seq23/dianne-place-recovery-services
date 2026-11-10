@@ -1,28 +1,30 @@
 {
   "schema": "gsc-truth-v1",
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-11",
-  "end_date": "2026-11-07",
-  "collected_at": "2026-11-09T12:30:16.993Z",
+  "start_date": "2026-10-12",
+  "end_date": "2026-11-08",
+  "collected_at": "2026-11-10T12:29:10.092Z",
   "totals": {
     "clicks": 0,
-    "impressions": 42,
+    "impressions": 53,
     "ctr": 0,
-    "position": 56.357142857142854
+    "position": 57.716981132075475
   },
-  "queries_in_window": 12,
-  "queries_known": 12,
+  "queries_in_window": 13,
+  "queries_known": 13,
   "query_history": [
     {
       "query": "3/4 house meaning",
       "first_seen": "2026-11-06",
-      "max_impressions_28d": 5,
-      "best_position": 93,
-      "last_seen": "2026-11-09",
+      "max_impressions_28d": 9,
+      "best_position": 90.5,
+      "last_seen": "2026-11-10",
       "in_window": true,
-      "impressions_28d": 5,
+      "impressions_28d": 9,
       "clicks_28d": 0,
       "pages": [
+        "https://detoxdenver.org/questions/levels-of-recovery-housing/",
+        "https://detoxdenver.org/questions/what-does-a-sober-living-house-look-like/",
         "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
         "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
       ]
@@ -30,11 +32,11 @@
     {
       "query": "how to get into a sober house",
       "first_seen": "2026-11-08",
-      "max_impressions_28d": 2,
+      "max_impressions_28d": 4,
       "best_position": 87,
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "in_window": true,
-      "impressions_28d": 2,
+      "impressions_28d": 4,
       "clicks_28d": 0,
       "pages": [
         "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
@@ -43,14 +45,28 @@
     {
       "query": "how to get into a sober living house",
       "first_seen": "2026-11-08",
-      "max_impressions_28d": 2,
+      "max_impressions_28d": 3,
       "best_position": 97,
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
+      "in_window": true,
+      "impressions_28d": 3,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
+      ]
+    },
+    {
+      "query": "halfway home meaning",
+      "first_seen": "2026-11-09",
+      "max_impressions_28d": 2,
+      "best_position": 95,
+      "last_seen": "2026-11-10",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
       "pages": [
-        "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
+        "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
+        "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
       ]
     },
     {
@@ -58,7 +74,7 @@
       "first_seen": "2026-11-06",
       "max_impressions_28d": 2,
       "best_position": 100,
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -72,7 +88,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 2,
       "best_position": 95,
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -82,24 +98,11 @@
       ]
     },
     {
-      "query": "halfway home meaning",
-      "first_seen": "2026-11-09",
-      "max_impressions_28d": 1,
-      "best_position": 96,
-      "last_seen": "2026-11-09",
-      "in_window": true,
-      "impressions_28d": 1,
-      "clicks_28d": 0,
-      "pages": [
-        "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/"
-      ]
-    },
-    {
       "query": "help paying for sober living",
       "first_seen": "2026-11-09",
       "max_impressions_28d": 1,
       "best_position": 58,
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -112,7 +115,7 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 48,
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -125,7 +128,7 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 36,
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -138,7 +141,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 50,
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -151,7 +154,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 90,
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -160,11 +163,24 @@
       ]
     },
     {
+      "query": "transitional housing for felons",
+      "first_seen": "2026-11-10",
+      "max_impressions_28d": 1,
+      "best_position": 83,
+      "last_seen": "2026-11-10",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/"
+      ]
+    },
+    {
       "query": "who pays for sober living homes",
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 93,
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-10",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -176,12 +192,12 @@
   "weekly": [
     {
       "week": "2026-W45",
-      "end_date": "2026-11-07",
-      "collected_at": "2026-11-09T12:30:16.993Z",
+      "end_date": "2026-11-08",
+      "collected_at": "2026-11-10T12:29:10.092Z",
       "clicks": 0,
-      "impressions": 42,
-      "position": 56.357142857142854,
-      "queries_in_window": 12
+      "impressions": 53,
+      "position": 57.716981132075475,
+      "queries_in_window": 13
     }
   ]
 }
