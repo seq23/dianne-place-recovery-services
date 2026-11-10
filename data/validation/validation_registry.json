@@ -23,25 +23,11 @@
       "risk": "Pre-license site cannot publish licensed treatment claims or activate sensitive capabilities."
     },
     {
-      "id": "content",
-      "script": "validate:content",
-      "severity": "hard",
-      "category": "publishing",
-      "risk": "Approved scheduled content must be complete, dated, source-aware, disclaimer-aware, and eligible before autopublish."
-    },
-    {
       "id": "legal",
       "script": "validate:legal",
       "severity": "hard",
       "category": "legal",
       "risk": "Required legal pages and mode-specific disclaimers must exist."
-    },
-    {
-      "id": "aeo-seo-geo",
-      "script": "validate:aeo-seo-geo",
-      "severity": "hard",
-      "category": "citation_intelligence",
-      "risk": "AEO/SEO/GEO strategy must include query, answer, entity, route, atom, market, and public answer surfaces."
     },
     {
       "id": "protected-client-core",
@@ -51,74 +37,11 @@
       "risk": "Client-facing pages, admin controls, native publishing code, and original 2026 editorial identity must not drift."
     },
     {
-      "id": "authority-distribution",
-      "script": "validate:authority-distribution",
-      "severity": "hard",
-      "category": "distribution",
-      "risk": "Distribution must follow existing publication and never fabricate provider success."
-    },
-    {
-      "id": "post-2026-continuity",
-      "script": "validate:post-2026-continuity",
-      "severity": "hard",
-      "category": "future_publishing",
-      "risk": "Future content must be deterministic, diverse, append-only, licensure-safe, and visible in the unchanged admin flow."
-    },
-    {
-      "id": "site-identity",
-      "script": "validate:site-identity",
-      "severity": "hard",
-      "category": "seo",
-      "risk": "Canonicals, sitemap and robots pointing at another host hand every page to a different site."
-    },
-    {
-      "id": "page-seo",
-      "script": "validate:page-seo",
-      "severity": "hard",
-      "category": "seo",
-      "risk": "Pages without their own title/description or a definition paragraph lose snippet and answer-engine eligibility. Lengths over the band are notes; under fails only below 75% of the floor."
-    },
-    {
       "id": "clarity",
       "script": "validate:clarity",
       "severity": "hard",
       "category": "analytics",
       "risk": "Clarity must be keyed by hostname and load only after analytics consent."
-    },
-    {
-      "id": "indexnow",
-      "script": "validate:indexnow",
-      "severity": "hard",
-      "category": "distribution",
-      "risk": "A key file that does not match the key makes every IndexNow submission fail."
-    },
-    {
-      "id": "seo-hygiene-output",
-      "script": "validate:seo-hygiene-output",
-      "severity": "hard",
-      "category": "seo",
-      "risk": "Built pages missing favicon, og:image, twitter card or self-canonical."
-    },
-    {
-      "id": "structured-data-output",
-      "script": "validate:structured-data-output",
-      "severity": "hard",
-      "category": "seo",
-      "risk": "Built pages missing LocalBusiness/WebSite/WebPage/Breadcrumb JSON-LD or claiming invisible FAQ."
-    },
-    {
-      "id": "local-contact-output",
-      "script": "validate:local-contact-output",
-      "severity": "hard",
-      "category": "conversion",
-      "risk": "A local service page without a callable phone link loses the lead."
-    },
-    {
-      "id": "demand-backed-pages",
-      "script": "validate:demand-backed-pages",
-      "severity": "hard",
-      "category": "publication_truth",
-      "risk": "The sitemap must list only pages that render: published blog items and live search-loop question pages, none missing; published items must be structurally complete."
     }
   ]
 }

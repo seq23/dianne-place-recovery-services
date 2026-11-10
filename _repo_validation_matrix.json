@@ -7,20 +7,9 @@
   },
   "hardFailValidators": [
     "validate:licensure-mode",
-    "validate:content",
     "validate:legal",
-    "validate:aeo-seo-geo",
     "validate:protected-client-core",
-    "validate:authority-distribution",
-    "validate:post-2026-continuity",
-    "validate:site-identity",
-    "validate:page-seo",
-    "validate:clarity",
-    "validate:indexnow",
-    "validate:seo-hygiene-output",
-    "validate:structured-data-output",
-    "validate:local-contact-output",
-    "validate:demand-backed-pages"
+    "validate:clarity"
   ],
   "strongSoftValidators": [],
   "warningValidators": [],

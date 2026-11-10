@@ -1,5 +1,5 @@
 {
-  "note": "Title, description and breadcrumb name per public route. Read by lib/seo.ts (seoFor/schemaFor); validate_page_seo.mjs requires every non-admin route in data/routing/route_registry.json to have an entry. Titles name the page's subject because Search Console shows impressions but no query rows (all anonymised) as of 2026-10-08. Since 7 Nov 2026 every rendered title ends with (or carries) the full site name, so a subject is at most 30 characters (lib/seo.ts documentTitle; Search Readiness b10).",
+  "note": "Title, description and breadcrumb name per public route. Read by lib/seo.ts (seoFor/schemaFor); the central search audit expects every non-admin route in data/routing/route_registry.json to have an entry. Titles name the page's subject because Search Console shows impressions but no query rows (all anonymised) as of 2026-10-08. Since 7 Nov 2026 every rendered title ends with (or carries) the full site name, so a subject is at most 30 characters (lib/seo.ts documentTitle; Search Readiness b10).",
   "pages": {
     "/": {
       "title": "Dianne's Place Recovery Services | Recovery Housing",
