@@ -838,6 +838,60 @@
   ],
   "strengthen": [
     {
+      "query": "sober living in the area",
+      "page": "/questions/what-is-a-sober-living-house/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "score": 20,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-10"
+    },
+    {
+      "query": "benefits of sober living",
+      "page": "/questions/what-is-a-sober-living-house/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "score": 20,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-10"
+    },
+    {
+      "query": "find a 3 4 house near me",
+      "page": "/questions/what-is-a-sober-living-house/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "score": 20,
+      "from": "distinct-gate",
+      "matched_by": "same 3 intent words plus modifiers",
+      "at": "2026-11-10"
+    },
+    {
+      "query": "what is a sober living program",
+      "page": "/questions/what-is-a-sober-living-house/",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "score": 25,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-10"
+    },
+    {
+      "query": "are sober living homes coed",
+      "page": "/questions/do-sober-living-homes-provide-meals/",
+      "url": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
+      "score": 30,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "at": "2026-11-10"
+    },
+    {
+      "query": "do sober living houses work",
+      "page": "/questions/can-you-work-while-in-sober-living/",
+      "url": "https://detoxdenver.org/questions/can-you-work-while-in-sober-living/",
+      "score": 30,
+      "from": "distinct-gate",
+      "matched_by": "high token overlap (0.60 >= 0.5)",
+      "at": "2026-11-10"
+    },
+    {
       "query": "what is sober living homes",
       "page": "/questions/do-sober-living-homes-provide-meals/",
       "url": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
