@@ -2,85 +2,19 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W46",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-10T12:32:21.455Z",
+  "generated_at": "2026-11-11T12:33:11.286Z",
   "state": "slow",
-  "published": 20,
+  "published": 11,
   "indexed": "not read: no page old enough to inspect yet (14 days)",
   "pace": 3,
   "ai_visitors": 0,
-  "ai_bot_hits": 240,
+  "ai_bot_hits": 244,
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 0,
   "undone": 0,
-  "merged": 23,
+  "merged": 1,
   "held_by_cap": 0,
   "redirected": [
-    {
-      "query": "how to find sober housing",
-      "strengthen": "https://detoxdenver.org/questions/what-is-sober-housing/",
-      "matched_by": "high token overlap (0.67 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "sober living denver area",
-      "strengthen": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "sober living denver metro",
-      "strengthen": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "sober living denver cost",
-      "strengthen": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "recovery housing for men",
-      "strengthen": "https://detoxdenver.org/public/questions/recovery-housing-for-women/",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "whats a sober living house",
-      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-halfway-house/",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "how to get into sober living",
-      "strengthen": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "how do i find a sober living home",
-      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-home/",
-      "matched_by": "high token overlap (0.75 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "how to find a sober living facility",
-      "strengthen": "https://detoxdenver.org/questions/how-to-find-sober-living/",
-      "matched_by": "high token overlap (0.75 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "what is a halfway house for prisoners",
-      "strengthen": "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/",
-      "matched_by": "high token overlap (0.60 >= 0.6)",
-      "at": "2026-11-04"
-    },
-    {
-      "query": "how to find a halfway house",
-      "strengthen": "https://detoxdenver.org/public/questions/how-to-find-sober-living/",
-      "matched_by": "high token overlap (0.80 >= 0.6)",
-      "at": "2026-11-04"
-    },
     {
       "query": "how long is transitional housing",
       "strengthen": "https://detoxdenver.org/questions/what-is-considered-transitional-housing/",
@@ -222,8 +156,7 @@
   },
   "notes": [
     "site config lowers the mode to slow",
-    "BUILD distinct gate: 6 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
-    "BUILD gate notes (not blocking): 2 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json",
+    "BUILD published 0 of quota 3: 0 draft(s) failed the gate and were dropped; 0 got no answer from the free model and stay queued",
     "CHECK runs weekly in mode=slow; last ran 2026-11-06"
   ],
   "lanes": {
@@ -252,5 +185,5 @@
     "weight_changes": [],
     "competition": "ok: 15 top-10 read(s) via brave"
   },
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/42816583151"
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/43021300577"
 }
