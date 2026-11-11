@@ -1,13 +1,13 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-12",
-  "end_date": "2026-11-08",
-  "collected_at": "2026-11-10T12:29:10.091Z",
+  "start_date": "2026-10-13",
+  "end_date": "2026-11-09",
+  "collected_at": "2026-11-11T12:30:00.621Z",
   "totals": {
     "clicks": 0,
-    "impressions": 53,
+    "impressions": 59,
     "ctr": 0,
-    "position": 57.716981132075475
+    "position": 59.59322033898305
   },
   "pages": [
     {
@@ -34,9 +34,16 @@
     {
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 10,
       "ctr": 0,
       "position": 9
+    },
+    {
+      "page": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 82.5
     },
     {
       "page": "https://detoxdenver.org/questions/how-to-apply-transitional-housing/",
@@ -48,16 +55,16 @@
     {
       "page": "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0,
       "position": 93
     },
     {
       "page": "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 83
+      "position": 85.8
     },
     {
       "page": "https://detoxdenver.org/questions/how-to-get-transitional-housing/",
@@ -76,9 +83,9 @@
     {
       "page": "https://detoxdenver.org/questions/recovery-housing-for-women/",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 92
+      "position": 92.5
     },
     {
       "page": "https://detoxdenver.org/questions/sober-living-rules-and-regulations/",
@@ -219,9 +226,9 @@
       "query": "how to get into a sober house",
       "page": "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 89
+      "position": 89.8
     },
     {
       "query": "how to get into a sober living house",
@@ -272,6 +279,14 @@
       "position": 83
     },
     {
+      "query": "transitional housing, what is transitional housing, transitional housing for recovering addicts, transitional housing programs",
+      "page": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 82.5
+    },
+    {
       "query": "what is a 3/4 house",
       "page": "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
       "clicks": 0,
@@ -306,6 +321,14 @@
     {
       "query": "who pays for sober living homes",
       "page": "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 95
+    },
+    {
+      "query": "womens sober living denver",
+      "page": "https://detoxdenver.org/questions/recovery-housing-for-women/",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
