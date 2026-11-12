@@ -1,24 +1,24 @@
 {
   "schema": "gsc-truth-v1",
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-13",
-  "end_date": "2026-11-09",
-  "collected_at": "2026-11-11T12:30:00.622Z",
+  "start_date": "2026-10-14",
+  "end_date": "2026-11-10",
+  "collected_at": "2026-11-12T12:30:53.408Z",
   "totals": {
     "clicks": 0,
-    "impressions": 59,
+    "impressions": 69,
     "ctr": 0,
-    "position": 59.59322033898305
+    "position": 54.492753623188406
   },
-  "queries_in_window": 15,
-  "queries_known": 15,
+  "queries_in_window": 16,
+  "queries_known": 16,
   "query_history": [
     {
       "query": "3/4 house meaning",
       "first_seen": "2026-11-06",
       "max_impressions_28d": 9,
       "best_position": 90.5,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 9,
       "clicks_28d": 0,
@@ -32,11 +32,11 @@
     {
       "query": "how to get into a sober house",
       "first_seen": "2026-11-08",
-      "max_impressions_28d": 5,
+      "max_impressions_28d": 6,
       "best_position": 87,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
-      "impressions_28d": 5,
+      "impressions_28d": 6,
       "clicks_28d": 0,
       "pages": [
         "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
@@ -47,7 +47,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 3,
       "best_position": 97,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 3,
       "clicks_28d": 0,
@@ -56,11 +56,25 @@
       ]
     },
     {
+      "query": "what is a 3/4 house",
+      "first_seen": "2026-11-06",
+      "max_impressions_28d": 3,
+      "best_position": 100,
+      "last_seen": "2026-11-12",
+      "in_window": true,
+      "impressions_28d": 3,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
+        "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
+      ]
+    },
+    {
       "query": "halfway home meaning",
       "first_seen": "2026-11-09",
       "max_impressions_28d": 2,
       "best_position": 95,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -74,7 +88,7 @@
       "first_seen": "2026-11-11",
       "max_impressions_28d": 2,
       "best_position": 82.5,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -83,25 +97,11 @@
       ]
     },
     {
-      "query": "what is a 3/4 house",
-      "first_seen": "2026-11-06",
-      "max_impressions_28d": 2,
-      "best_position": 100,
-      "last_seen": "2026-11-11",
-      "in_window": true,
-      "impressions_28d": 2,
-      "clicks_28d": 0,
-      "pages": [
-        "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
-        "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
-      ]
-    },
-    {
       "query": "what is a halfway house",
       "first_seen": "2026-11-08",
       "max_impressions_28d": 2,
       "best_position": 95,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -115,7 +115,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 2,
       "best_position": 93,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -124,11 +124,24 @@
       ]
     },
     {
+      "query": "do sober living homes provide meals",
+      "first_seen": "2026-11-12",
+      "max_impressions_28d": 1,
+      "best_position": 9,
+      "last_seen": "2026-11-12",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/"
+      ]
+    },
+    {
       "query": "help paying for sober living",
       "first_seen": "2026-11-09",
       "max_impressions_28d": 1,
       "best_position": 58,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -141,7 +154,7 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 48,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -154,7 +167,7 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 36,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -167,7 +180,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 50,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -180,7 +193,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 90,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -193,7 +206,7 @@
       "first_seen": "2026-11-10",
       "max_impressions_28d": 1,
       "best_position": 83,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -206,7 +219,7 @@
       "first_seen": "2026-11-11",
       "max_impressions_28d": 1,
       "best_position": 93,
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -227,12 +240,12 @@
     },
     {
       "week": "2026-W46",
-      "end_date": "2026-11-09",
-      "collected_at": "2026-11-11T12:30:00.622Z",
+      "end_date": "2026-11-10",
+      "collected_at": "2026-11-12T12:30:53.408Z",
       "clicks": 0,
-      "impressions": 59,
-      "position": 59.59322033898305,
-      "queries_in_window": 15
+      "impressions": 69,
+      "position": 54.492753623188406,
+      "queries_in_window": 16
     }
   ]
 }
