@@ -1396,6 +1396,178 @@
         "b5 FAQ answer is 39 words (aim 40-60): \"How long does the application process take?\""
       ],
       "indexnow_at": "2026-11-11"
+    },
+    {
+      "slug": "how-much-does-it-cost-to-live-in-a-sober-house",
+      "query": "how much does it cost to live in a sober house",
+      "lane": "can_be_one",
+      "score": 16,
+      "scores": {
+        "striking": 30,
+        "can_be_one": 16
+      },
+      "reasons": [
+        "weak top 10 (0.15): 0 directories, 1 forums, 0 off-target national, 1 thin or old, 0 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ],
+      "signals": {
+        "words": 11,
+        "question": true,
+        "google_suggest": true,
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.15,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 1,
+            "off_target_national": 0,
+            "thin_or_old": 1,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 0 directories, 1 forums, 0 off-target national, 1 thin or old, 0 answer the exact question"
+          ]
+        }
+      },
+      "rel": "public/questions/how-much-does-it-cost-to-live-in-a-sober-house/index.html",
+      "route": "/questions/how-much-does-it-cost-to-live-in-a-sober-house/",
+      "url": "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/",
+      "published_at": "2026-11-12",
+      "status": "live",
+      "hash": "4503147c1b989df7245c798a87822d9367f0b6787da2ca426fe7080731538af2",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/find-help/recovery",
+        "https://www.ncbi.nlm.nih.gov/books/NBK64088/"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/what-is-a-sober-living-house/index.html",
+          "route": "/public/questions/what-is-a-sober-living-house/",
+          "before_hash": "131a79df22dd83bbcdaa124a9e12c1f46b3573d8795d8b8e1793c08ee6f13d48",
+          "after_hash": "954792d055a992fedd87b34fe83ab3d6c4d50fe758d03e750c2d48343f74a1b5"
+        }
+      ],
+      "checks": {},
+      "gate_notes": [
+        "b1 title does not put the search first"
+      ]
+    },
+    {
+      "slug": "who-pays-for-sober-living-homes",
+      "query": "who pays for sober living homes",
+      "lane": "striking",
+      "score": 45,
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (0 < 15)"
+      ],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 5
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 5 answer the exact question"
+          ]
+        }
+      },
+      "rel": "public/questions/who-pays-for-sober-living-homes/index.html",
+      "route": "/questions/who-pays-for-sober-living-homes/",
+      "url": "https://detoxdenver.org/questions/who-pays-for-sober-living-homes/",
+      "published_at": "2026-11-12",
+      "status": "live",
+      "hash": "a692fafe549160b4bd78eec8909017746af9b4ba1beff7f94766b038e93d4349",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/find-help/recovery",
+        "https://www.ncbi.nlm.nih.gov/books/NBK64088/"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/what-is-a-sober-living-house/index.html",
+          "route": "/public/questions/what-is-a-sober-living-house/",
+          "before_hash": "954792d055a992fedd87b34fe83ab3d6c4d50fe758d03e750c2d48343f74a1b5",
+          "after_hash": "4dbd6b62e7552ce393fe476e9e5de4e7953bc2fd58947b5ecce5305696987bff"
+        },
+        {
+          "rel": "public/questions/do-sober-living-homes-provide-meals/index.html",
+          "route": "/public/questions/do-sober-living-homes-provide-meals/",
+          "before_hash": "ba49f75a1eef6c103193007fb0254aec7fdff008029d74d261da6a6baf8d5513",
+          "after_hash": "6bedd734a63781d0854f41a8d418f61de963fa6287796e544785af15966523cd"
+        }
+      ],
+      "checks": {}
+    },
+    {
+      "slug": "what-is-transitional-living-home",
+      "query": "what is transitional living home",
+      "lane": "striking",
+      "score": 30,
+      "scores": {
+        "striking": 30,
+        "can_be_one": 0
+      },
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 evidence too thin (0 < 15)"
+      ],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "google_suggest": true,
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question"
+          ]
+        }
+      },
+      "rel": "public/questions/what-is-transitional-living-home/index.html",
+      "route": "/questions/what-is-transitional-living-home/",
+      "url": "https://detoxdenver.org/questions/what-is-transitional-living-home/",
+      "published_at": "2026-11-12",
+      "status": "live",
+      "hash": "8f2a7afbcb61db2b0ad6b88fab2ab16f6e7973d0b1ad68b68c56a7e85da78f1f",
+      "model": "free-route",
+      "facts": [
+        "https://en.wikipedia.org/wiki/Sober_living_house",
+        "https://www.samhsa.gov/find-help/recovery"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/can-you-leave-a-sober-living-home/index.html",
+          "route": "/public/questions/can-you-leave-a-sober-living-home/",
+          "before_hash": "d4641f044b627fc4911fa0f4142067617e6ccdee38c10c79efd58cde55b565f8",
+          "after_hash": "31f8e5889c1499247937b054536034f79f3b88ee7bbc174abba0fd2eadfedd37"
+        }
+      ],
+      "checks": {}
     }
   ],
   "dropped": [
@@ -1630,6 +1802,14 @@
     {
       "query": "non profit sober living near me",
       "at": "2026-11-10",
+      "gate": 2,
+      "reason": [
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1)"
+      ]
+    },
+    {
+      "query": "does medicaid pay for sober living",
+      "at": "2026-11-12",
       "gate": 2,
       "reason": [
         "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1)"
