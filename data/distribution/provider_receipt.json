@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-11T13-22-31.321Z-43028427037",
-  "attempted_at": "2026-11-11T13:22:31.321Z",
+  "receipt_id": "2026-11-12T13-22-37.312Z-43226507556",
+  "attempted_at": "2026-11-12T13:22:37.312Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "6a2dc45bfa16dc08e749a40caa9a85a2804bc98ea14855d953b15ec5d494da8c",
-    "url_count": 38
+    "sitemap_sha256": "c23ea05ead2f70834ec754676719bdbd19b683b9152bcca400f92c574e91093b",
+    "url_count": 41
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 38
+    "submitted_urls": 41
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -99,7 +99,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-10-31T21:53:48Z"
+        "last_crawl_time": "2026-11-05T20:54:47Z"
       },
       {
         "url": "https://detoxdenver.org/contact/",
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-11T13-22-31.321Z-43028427037.json"
+    "history_path": "data/distribution/receipts/2026-11-12T13-22-37.312Z-43226507556.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
