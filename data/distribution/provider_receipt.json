@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-12T13-22-37.312Z-43226507556",
-  "attempted_at": "2026-11-12T13:22:37.312Z",
+  "receipt_id": "2026-11-13T10-17-30.896Z-43407915183",
+  "attempted_at": "2026-11-13T10:17:30.896Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -45,7 +45,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-11T03:24:22Z"
+        "last_crawl_time": "2026-11-12T23:31:22Z"
       },
       {
         "url": "https://detoxdenver.org/recovery-housing/",
@@ -90,7 +90,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-10T20:49:59Z"
+        "last_crawl_time": "2026-11-12T17:00:55Z"
       },
       {
         "url": "https://detoxdenver.org/about/",
@@ -162,7 +162,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-01T02:53:48Z"
+        "last_crawl_time": "2026-11-12T23:37:31Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-07-13-millennial-recovery/",
@@ -180,7 +180,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-06T13:39:08Z"
+        "last_crawl_time": "2026-11-12T17:49:40Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-07-11-lgbtq-recovery-support/",
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-12T13-22-37.312Z-43226507556.json"
+    "history_path": "data/distribution/receipts/2026-11-13T10-17-30.896Z-43407915183.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
