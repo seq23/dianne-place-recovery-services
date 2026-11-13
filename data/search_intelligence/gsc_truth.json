@@ -1,24 +1,24 @@
 {
   "schema": "gsc-truth-v1",
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-14",
-  "end_date": "2026-11-10",
-  "collected_at": "2026-11-12T12:30:53.408Z",
+  "start_date": "2026-10-15",
+  "end_date": "2026-11-11",
+  "collected_at": "2026-11-13T12:29:54.145Z",
   "totals": {
     "clicks": 0,
-    "impressions": 69,
+    "impressions": 85,
     "ctr": 0,
-    "position": 54.492753623188406
+    "position": 47.51764705882353
   },
-  "queries_in_window": 16,
-  "queries_known": 16,
+  "queries_in_window": 18,
+  "queries_known": 18,
   "query_history": [
     {
       "query": "3/4 house meaning",
       "first_seen": "2026-11-06",
       "max_impressions_28d": 9,
       "best_position": 90.5,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 9,
       "clicks_28d": 0,
@@ -32,11 +32,11 @@
     {
       "query": "how to get into a sober house",
       "first_seen": "2026-11-08",
-      "max_impressions_28d": 6,
+      "max_impressions_28d": 7,
       "best_position": 87,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
-      "impressions_28d": 6,
+      "impressions_28d": 7,
       "clicks_28d": 0,
       "pages": [
         "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
@@ -47,7 +47,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 3,
       "best_position": 97,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 3,
       "clicks_28d": 0,
@@ -60,7 +60,21 @@
       "first_seen": "2026-11-06",
       "max_impressions_28d": 3,
       "best_position": 100,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
+      "in_window": true,
+      "impressions_28d": 3,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
+        "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
+      ]
+    },
+    {
+      "query": "what is a halfway house",
+      "first_seen": "2026-11-08",
+      "max_impressions_28d": 3,
+      "best_position": 79.5,
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 3,
       "clicks_28d": 0,
@@ -74,7 +88,7 @@
       "first_seen": "2026-11-09",
       "max_impressions_28d": 2,
       "best_position": 95,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -88,7 +102,7 @@
       "first_seen": "2026-11-11",
       "max_impressions_28d": 2,
       "best_position": 82.5,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -97,25 +111,11 @@
       ]
     },
     {
-      "query": "what is a halfway house",
-      "first_seen": "2026-11-08",
-      "max_impressions_28d": 2,
-      "best_position": 95,
-      "last_seen": "2026-11-12",
-      "in_window": true,
-      "impressions_28d": 2,
-      "clicks_28d": 0,
-      "pages": [
-        "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
-        "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/"
-      ]
-    },
-    {
       "query": "who pays for sober living homes",
       "first_seen": "2026-11-08",
       "max_impressions_28d": 2,
       "best_position": 93,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -128,7 +128,7 @@
       "first_seen": "2026-11-12",
       "max_impressions_28d": 1,
       "best_position": 9,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -137,11 +137,37 @@
       ]
     },
     {
+      "query": "female recovery residence",
+      "first_seen": "2026-11-13",
+      "max_impressions_28d": 1,
+      "best_position": 56,
+      "last_seen": "2026-11-13",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/recovery-housing-for-women/"
+      ]
+    },
+    {
+      "query": "financial assistance for sober living colorado",
+      "first_seen": "2026-11-13",
+      "max_impressions_28d": 1,
+      "best_position": 5,
+      "last_seen": "2026-11-13",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/"
+      ]
+    },
+    {
       "query": "help paying for sober living",
       "first_seen": "2026-11-09",
       "max_impressions_28d": 1,
       "best_position": 58,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -154,7 +180,7 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 48,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -167,7 +193,7 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 36,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -180,7 +206,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 50,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -193,7 +219,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 90,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -206,7 +232,7 @@
       "first_seen": "2026-11-10",
       "max_impressions_28d": 1,
       "best_position": 83,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -219,7 +245,7 @@
       "first_seen": "2026-11-11",
       "max_impressions_28d": 1,
       "best_position": 93,
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -240,12 +266,12 @@
     },
     {
       "week": "2026-W46",
-      "end_date": "2026-11-10",
-      "collected_at": "2026-11-12T12:30:53.408Z",
+      "end_date": "2026-11-11",
+      "collected_at": "2026-11-13T12:29:54.145Z",
       "clicks": 0,
-      "impressions": 69,
-      "position": 54.492753623188406,
-      "queries_in_window": 16
+      "impressions": 85,
+      "position": 47.51764705882353,
+      "queries_in_window": 18
     }
   ]
 }

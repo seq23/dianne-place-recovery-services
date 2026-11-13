@@ -1,13 +1,13 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-14",
-  "end_date": "2026-11-10",
-  "collected_at": "2026-11-12T12:30:53.407Z",
+  "start_date": "2026-10-15",
+  "end_date": "2026-11-11",
+  "collected_at": "2026-11-13T12:29:54.144Z",
   "totals": {
     "clicks": 0,
-    "impressions": 69,
+    "impressions": 85,
     "ctr": 0,
-    "position": 54.492753623188406
+    "position": 47.51764705882353
   },
   "pages": [
     {
@@ -41,9 +41,9 @@
     {
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 11,
       "ctr": 0,
-      "position": 9
+      "position": 9.181818181818182
     },
     {
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-work/",
@@ -53,11 +53,18 @@
       "position": 2
     },
     {
+      "page": "https://detoxdenver.org/questions/can-you-work-while-in-sober-living/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
       "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 14,
       "ctr": 0,
-      "position": 6
+      "position": 5.5
     },
     {
       "page": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
@@ -76,16 +83,16 @@
     {
       "page": "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 10,
       "ctr": 0,
-      "position": 93.11111111111111
+      "position": 93
     },
     {
       "page": "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 85.8
+      "position": 72.33333333333333
     },
     {
       "page": "https://detoxdenver.org/questions/how-to-get-transitional-housing/",
@@ -104,9 +111,9 @@
     {
       "page": "https://detoxdenver.org/questions/recovery-housing-for-women/",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 92.5
+      "position": 80.33333333333333
     },
     {
       "page": "https://detoxdenver.org/questions/sober-living-rules-and-regulations/",
@@ -125,9 +132,9 @@
     {
       "page": "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0,
-      "position": 83.71428571428571
+      "position": 80.875
     },
     {
       "page": "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/",
@@ -228,6 +235,22 @@
       "position": 9
     },
     {
+      "query": "female recovery residence",
+      "page": "https://detoxdenver.org/questions/recovery-housing-for-women/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 56
+    },
+    {
+      "query": "financial assistance for sober living colorado",
+      "page": "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
       "query": "halfway home meaning",
       "page": "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
       "clicks": 0,
@@ -255,9 +278,9 @@
       "query": "how to get into a sober house",
       "page": "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 90.5
+      "position": 90.71428571428571
     },
     {
       "query": "how to get into a sober living house",
@@ -335,9 +358,9 @@
       "query": "what is a halfway house",
       "page": "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 98
+      "position": 79.5
     },
     {
       "query": "what is a halfway house",
