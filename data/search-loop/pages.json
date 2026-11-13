@@ -1452,7 +1452,8 @@
       "checks": {},
       "gate_notes": [
         "b1 title does not put the search first"
-      ]
+      ],
+      "indexnow_at": "2026-11-13"
     },
     {
       "slug": "who-pays-for-sober-living-homes",
@@ -1513,7 +1514,8 @@
           "after_hash": "6bedd734a63781d0854f41a8d418f61de963fa6287796e544785af15966523cd"
         }
       ],
-      "checks": {}
+      "checks": {},
+      "indexnow_at": "2026-11-13"
     },
     {
       "slug": "what-is-transitional-living-home",
@@ -1567,7 +1569,8 @@
           "after_hash": "31f8e5889c1499247937b054536034f79f3b88ee7bbc174abba0fd2eadfedd37"
         }
       ],
-      "checks": {}
+      "checks": {},
+      "indexnow_at": "2026-11-13"
     }
   ],
   "dropped": [
