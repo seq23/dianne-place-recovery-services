@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-13T13-22-28.767Z-43432887963",
-  "attempted_at": "2026-11-13T13:22:28.767Z",
+  "receipt_id": "2026-11-14T13-21-56.101Z-43599297666",
+  "attempted_at": "2026-11-14T13:21:56.101Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -144,7 +144,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-04T23:28:22Z"
+        "last_crawl_time": "2026-11-14T06:34:01Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-07-15-referral-guidance/",
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-13T13-22-28.767Z-43432887963.json"
+    "history_path": "data/distribution/receipts/2026-11-14T13-21-56.101Z-43599297666.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
