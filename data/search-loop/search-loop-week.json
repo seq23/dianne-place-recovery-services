@@ -2,49 +2,19 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W46",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-14T12:30:56.731Z",
+  "generated_at": "2026-11-15T12:31:05.685Z",
   "state": "slow",
-  "published": 8,
+  "published": 6,
   "indexed": "not read: no page old enough to inspect yet (14 days)",
   "pace": 3,
   "ai_visitors": 0,
-  "ai_bot_hits": 158,
+  "ai_bot_hits": 497,
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 0,
   "undone": 0,
   "merged": 0,
-  "held_by_cap": 6,
+  "held_by_cap": 9,
   "redirected": [
-    {
-      "query": "recovery housing programs near me",
-      "strengthen": "https://detoxdenver.org/recovery-housing/",
-      "matched_by": "high token overlap (0.50 >= 0.5)",
-      "at": "2026-11-08"
-    },
-    {
-      "query": "what is halfway housing",
-      "strengthen": "https://detoxdenver.org/questions/how-effective-are-halfway-houses/",
-      "matched_by": "high token overlap (0.67 >= 0.5)",
-      "at": "2026-11-08"
-    },
-    {
-      "query": "how to get into transitional housing",
-      "strengthen": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
-      "matched_by": "high token overlap (0.50 >= 0.5)",
-      "at": "2026-11-08"
-    },
-    {
-      "query": "what is discharge planning",
-      "strengthen": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
-      "matched_by": "high token overlap (0.67 >= 0.5)",
-      "at": "2026-11-08"
-    },
-    {
-      "query": "what is the purpose of discharge planning",
-      "strengthen": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
-      "matched_by": "high token overlap (0.50 >= 0.5)",
-      "at": "2026-11-08"
-    },
     {
       "query": "how to get into a sober house",
       "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
@@ -167,5 +137,5 @@
     "weight_changes": [],
     "competition": "ok: 15 top-10 read(s) via brave"
   },
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/43595194463"
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/43714238046"
 }
