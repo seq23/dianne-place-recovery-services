@@ -1,26 +1,39 @@
 {
   "schema": "gsc-truth-v1",
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-16",
-  "end_date": "2026-11-12",
-  "collected_at": "2026-11-14T12:27:44.883Z",
+  "start_date": "2026-10-17",
+  "end_date": "2026-11-13",
+  "collected_at": "2026-11-15T12:27:49.995Z",
   "totals": {
-    "clicks": 0,
-    "impressions": 106,
-    "ctr": 0,
-    "position": 46.660377358490564
+    "clicks": 1,
+    "impressions": 131,
+    "ctr": 0.007633587786259542,
+    "position": 41.412213740458014
   },
-  "queries_in_window": 27,
-  "queries_known": 27,
+  "queries_in_window": 30,
+  "queries_known": 30,
   "query_history": [
+    {
+      "query": "how to get into a sober house",
+      "first_seen": "2026-11-08",
+      "max_impressions_28d": 12,
+      "best_position": 87,
+      "last_seen": "2026-11-15",
+      "in_window": true,
+      "impressions_28d": 12,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
+      ]
+    },
     {
       "query": "3/4 house meaning",
       "first_seen": "2026-11-06",
-      "max_impressions_28d": 9,
-      "best_position": 90.5,
-      "last_seen": "2026-11-14",
+      "max_impressions_28d": 11,
+      "best_position": 38,
+      "last_seen": "2026-11-15",
       "in_window": true,
-      "impressions_28d": 9,
+      "impressions_28d": 11,
       "clicks_28d": 0,
       "pages": [
         "https://detoxdenver.org/questions/levels-of-recovery-housing/",
@@ -30,16 +43,18 @@
       ]
     },
     {
-      "query": "how to get into a sober house",
-      "first_seen": "2026-11-08",
-      "max_impressions_28d": 8,
-      "best_position": 87,
-      "last_seen": "2026-11-14",
+      "query": "can you leave a halfway house during the day",
+      "first_seen": "2026-11-14",
+      "max_impressions_28d": 4,
+      "best_position": 61.5,
+      "last_seen": "2026-11-15",
       "in_window": true,
-      "impressions_28d": 8,
+      "impressions_28d": 4,
       "clicks_28d": 0,
       "pages": [
-        "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/"
+        "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
+        "https://detoxdenver.org/questions/can-you-leave-a-sober-living-home/",
+        "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/"
       ]
     },
     {
@@ -47,7 +62,7 @@
       "first_seen": "2026-11-06",
       "max_impressions_28d": 4,
       "best_position": 100,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 4,
       "clicks_28d": 0,
@@ -57,26 +72,11 @@
       ]
     },
     {
-      "query": "can you leave a halfway house during the day",
-      "first_seen": "2026-11-14",
-      "max_impressions_28d": 3,
-      "best_position": 67,
-      "last_seen": "2026-11-14",
-      "in_window": true,
-      "impressions_28d": 3,
-      "clicks_28d": 0,
-      "pages": [
-        "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
-        "https://detoxdenver.org/questions/can-you-leave-a-sober-living-home/",
-        "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/"
-      ]
-    },
-    {
       "query": "how to get into a sober living house",
       "first_seen": "2026-11-08",
       "max_impressions_28d": 3,
       "best_position": 97,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 3,
       "clicks_28d": 0,
@@ -89,7 +89,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 3,
       "best_position": 79.5,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 3,
       "clicks_28d": 0,
@@ -99,11 +99,24 @@
       ]
     },
     {
+      "query": "do sober living homes provide meals",
+      "first_seen": "2026-11-12",
+      "max_impressions_28d": 2,
+      "best_position": 5,
+      "last_seen": "2026-11-15",
+      "in_window": true,
+      "impressions_28d": 2,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/"
+      ]
+    },
+    {
       "query": "halfway home meaning",
       "first_seen": "2026-11-09",
       "max_impressions_28d": 2,
       "best_position": 95,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -117,7 +130,7 @@
       "first_seen": "2026-11-09",
       "max_impressions_28d": 2,
       "best_position": 58,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -130,7 +143,7 @@
       "first_seen": "2026-11-11",
       "max_impressions_28d": 2,
       "best_position": 82.5,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -143,7 +156,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 2,
       "best_position": 93,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -156,7 +169,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 66,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -169,7 +182,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 72,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -178,24 +191,11 @@
       ]
     },
     {
-      "query": "do sober living homes provide meals",
-      "first_seen": "2026-11-12",
-      "max_impressions_28d": 1,
-      "best_position": 9,
-      "last_seen": "2026-11-14",
-      "in_window": true,
-      "impressions_28d": 1,
-      "clicks_28d": 0,
-      "pages": [
-        "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/"
-      ]
-    },
-    {
       "query": "female recovery residence",
       "first_seen": "2026-11-13",
       "max_impressions_28d": 1,
       "best_position": 56,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -208,7 +208,7 @@
       "first_seen": "2026-11-13",
       "max_impressions_28d": 1,
       "best_position": 5,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -221,7 +221,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 95,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -234,7 +234,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 1,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -247,7 +247,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 100,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -256,11 +256,37 @@
       ]
     },
     {
+      "query": "oxford house idaho falls",
+      "first_seen": "2026-11-15",
+      "max_impressions_28d": 1,
+      "best_position": 2,
+      "last_seen": "2026-11-15",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/"
+      ]
+    },
+    {
+      "query": "scholarships for sober living",
+      "first_seen": "2026-11-15",
+      "max_impressions_28d": 1,
+      "best_position": 16,
+      "last_seen": "2026-11-15",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 1,
+      "pages": [
+        "https://detoxdenver.org/questions/free-sober-living-scholarships-colorado/"
+      ]
+    },
+    {
       "query": "sober houses near me",
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 3,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -273,7 +299,7 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 48,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -286,7 +312,7 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 36,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -295,11 +321,24 @@
       ]
     },
     {
+      "query": "sober living ogden",
+      "first_seen": "2026-11-15",
+      "max_impressions_28d": 1,
+      "best_position": 3,
+      "last_seen": "2026-11-15",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/"
+      ]
+    },
+    {
       "query": "sober living policies and procedures",
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 50,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -312,7 +351,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 90,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -325,7 +364,7 @@
       "first_seen": "2026-11-10",
       "max_impressions_28d": 1,
       "best_position": 83,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -338,7 +377,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 80,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -351,7 +390,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 5,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -364,7 +403,7 @@
       "first_seen": "2026-11-11",
       "max_impressions_28d": 1,
       "best_position": 93,
-      "last_seen": "2026-11-14",
+      "last_seen": "2026-11-15",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -385,12 +424,12 @@
     },
     {
       "week": "2026-W46",
-      "end_date": "2026-11-12",
-      "collected_at": "2026-11-14T12:27:44.883Z",
-      "clicks": 0,
-      "impressions": 106,
-      "position": 46.660377358490564,
-      "queries_in_window": 27
+      "end_date": "2026-11-13",
+      "collected_at": "2026-11-15T12:27:49.995Z",
+      "clicks": 1,
+      "impressions": 131,
+      "position": 41.412213740458014,
+      "queries_in_window": 30
     }
   ]
 }
