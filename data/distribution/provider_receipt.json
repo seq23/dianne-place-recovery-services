@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-14T13-21-56.101Z-43599297666",
-  "attempted_at": "2026-11-14T13:21:56.101Z",
+  "receipt_id": "2026-11-15T13-21-52.437Z-43718514949",
+  "attempted_at": "2026-11-15T13:21:52.437Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -213,8 +213,8 @@
         "url": "https://detoxdenver.org/blog/2026-07-08-daily-sober-routines/",
         "status": "SUCCESS",
         "http_status": 200,
-        "verdict": "PASS",
-        "coverage_state": "Submitted and indexed",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Crawled - currently not indexed",
         "indexing_state": "INDEXING_ALLOWED",
         "last_crawl_time": "2026-10-15T01:05:29Z"
       }
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-14T13-21-56.101Z-43599297666.json"
+    "history_path": "data/distribution/receipts/2026-11-15T13-21-52.437Z-43718514949.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
