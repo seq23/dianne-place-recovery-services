@@ -1,21 +1,21 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-17",
-  "end_date": "2026-11-13",
-  "collected_at": "2026-11-15T12:27:49.994Z",
+  "start_date": "2026-10-18",
+  "end_date": "2026-11-14",
+  "collected_at": "2026-11-16T12:38:35.819Z",
   "totals": {
     "clicks": 1,
-    "impressions": 131,
-    "ctr": 0.007633587786259542,
-    "position": 41.412213740458014
+    "impressions": 156,
+    "ctr": 0.00641025641025641,
+    "position": 36.81410256410256
   },
   "pages": [
     {
       "page": "https://detoxdenver.org/questions/free-sober-living-scholarships-colorado/",
       "clicks": 1,
-      "impressions": 3,
-      "ctr": 0.3333333333333333,
-      "position": 11.333333333333334
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 10.5
     },
     {
       "page": "https://detoxdenver.org/",
@@ -41,9 +41,9 @@
     {
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 26,
       "ctr": 0,
-      "position": 13.789473684210526
+      "position": 12.307692307692308
     },
     {
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-work/",
@@ -55,9 +55,9 @@
     {
       "page": "https://detoxdenver.org/questions/can-you-leave-a-sober-living-home/",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 67
+      "position": 29.333333333333332
     },
     {
       "page": "https://detoxdenver.org/questions/can-you-work-while-in-sober-living/",
@@ -69,9 +69,9 @@
     {
       "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
       "clicks": 0,
-      "impressions": 31,
+      "impressions": 42,
       "ctr": 0,
-      "position": 4.516129032258064
+      "position": 4.595238095238095
     },
     {
       "page": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
@@ -90,9 +90,9 @@
     {
       "page": "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/",
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 17,
       "ctr": 0,
-      "position": 86.0625
+      "position": 85.94117647058823
     },
     {
       "page": "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/",
@@ -111,9 +111,9 @@
     {
       "page": "https://detoxdenver.org/questions/levels-of-recovery-housing/",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 38
+      "position": 30.75
     },
     {
       "page": "https://detoxdenver.org/questions/recovery-housing-for-women/",
@@ -139,9 +139,9 @@
     {
       "page": "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 13,
       "ctr": 0,
-      "position": 78.91666666666667
+      "position": 78.84615384615384
     },
     {
       "page": "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/",
@@ -153,9 +153,9 @@
     {
       "page": "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 10,
       "ctr": 0,
-      "position": 87
+      "position": 79
     },
     {
       "page": "https://detoxdenver.org/questions/what-is-a-sober-living-facility/",
@@ -220,9 +220,9 @@
       "query": "3/4 house meaning",
       "page": "https://detoxdenver.org/questions/levels-of-recovery-housing/",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 38
+      "position": 30.75
     },
     {
       "query": "3/4 house meaning",
@@ -252,9 +252,9 @@
       "query": "can you leave a halfway house during the day",
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 61.5
+      "position": 44.333333333333336
     },
     {
       "query": "can you leave a halfway house during the day",
@@ -292,9 +292,9 @@
       "query": "do sober living homes provide meals",
       "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 5
+      "position": 5.333333333333333
     },
     {
       "query": "female recovery residence",
@@ -356,9 +356,9 @@
       "query": "how to get into a sober house",
       "page": "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 13,
       "ctr": 0,
-      "position": 89
+      "position": 88.61538461538461
     },
     {
       "query": "how to get into a sober living house",
@@ -465,12 +465,20 @@
       "position": 101
     },
     {
+      "query": "what is a 3/4 house?",
+      "page": "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
       "query": "what is a halfway house",
       "page": "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 79.5
+      "position": 79
     },
     {
       "query": "what is a halfway house",
