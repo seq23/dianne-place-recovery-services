@@ -1080,7 +1080,6 @@
       ],
       "indexnow_at": "2026-11-08",
       "extra_queries": [
-        "how to get into a sober house",
         "how to get into a sober living house",
         "is sober living free",
         "how do you pay for sober living",
@@ -1088,7 +1087,9 @@
         "what is a sober living program",
         "find a 3 4 house near me",
         "benefits of sober living",
-        "sober living in the area"
+        "sober living in the area",
+        "sober housing rules",
+        "what is sober living mean"
       ]
     },
     {
@@ -1571,6 +1572,146 @@
       ],
       "checks": {},
       "indexnow_at": "2026-11-13"
+    },
+    {
+      "slug": "what-happens-if-you-relapse-in-sober-living",
+      "query": "what happens if you relapse in sober living",
+      "lane": "can_be_one",
+      "score": 46,
+      "scores": {
+        "striking": 30,
+        "can_be_one": 46
+      },
+      "reasons": [
+        "no site page answers this 5-word question, and the site holds its parts at position 1",
+        "weak top 10 (0.15): 0 directories, 0 forums, 0 off-target national, 3 thin or old, 3 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ],
+      "signals": {
+        "words": 8,
+        "question": true,
+        "google_suggest": true,
+        "unanswered": {
+          "words": 5,
+          "covered": 0.4,
+          "parts_best_position": 1,
+          "parts_rows": 4
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.15,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 3,
+            "exact_answer": 3
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 3 thin or old, 3 answer the exact question"
+          ]
+        }
+      },
+      "rel": "public/questions/what-happens-if-you-relapse-in-sober-living/index.html",
+      "route": "/questions/what-happens-if-you-relapse-in-sober-living/",
+      "url": "https://detoxdenver.org/questions/what-happens-if-you-relapse-in-sober-living/",
+      "published_at": "2026-11-16",
+      "status": "live",
+      "hash": "7a82da9b55d9060206cb0ce4c129742f3b4912046e9f0983a6cb9e981eb9daf2",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/data/report/2022-nsduh-annual-national-report",
+        "https://www.ncbi.nlm.nih.gov/books/NBK64116/"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/what-is-a-sober-living-house/index.html",
+          "route": "/public/questions/what-is-a-sober-living-house/",
+          "before_hash": "4dbd6b62e7552ce393fe476e9e5de4e7953bc2fd58947b5ecce5305696987bff",
+          "after_hash": "565be7a342d9e5ecfb753f88749cd0495793e238576633e71d8a9a6bb47e5809"
+        },
+        {
+          "rel": "public/questions/can-you-leave-a-sober-living-home/index.html",
+          "route": "/public/questions/can-you-leave-a-sober-living-home/",
+          "before_hash": "31f8e5889c1499247937b054536034f79f3b88ee7bbc174abba0fd2eadfedd37",
+          "after_hash": "11c4b5f7136aef30227c66b8297193c3e064e83656c6c82de951ce5b4839da2b"
+        }
+      ],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 30 words (aim 40-60): \"Do you have to leave the house immediately after u\"",
+        "b5 FAQ answer is 32 words (aim 40-60): \"Will staff members judge me if I experience a setb\"",
+        "b5 FAQ answer is 30 words (aim 40-60): \"Can I return to the house after getting more care?\"",
+        "b5 FAQ answer is 30 words (aim 40-60): \"Is a setback considered a personal failure in this\""
+      ],
+      "extra_queries": [
+        "relapse in sober living"
+      ]
+    },
+    {
+      "slug": "how-long-can-you-stay-in-transitional-housing",
+      "query": "how long can you stay in transitional housing",
+      "lane": "can_be_one",
+      "score": 27.5,
+      "scores": {
+        "striking": 30,
+        "can_be_one": 27.5
+      },
+      "reasons": [
+        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
+        "weak top 10 (0): 0 directories, 0 forums, 0 off-target national, 0 thin or old, 1 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ],
+      "signals": {
+        "words": 8,
+        "question": true,
+        "google_suggest": true,
+        "neighbour": {
+          "sim": 0.5,
+          "of": "how long can you stay in sober living",
+          "why": "top 1 with 1 impressions"
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 1
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 1 answer the exact question"
+          ]
+        }
+      },
+      "rel": "public/questions/how-long-can-you-stay-in-transitional-housing/index.html",
+      "route": "/questions/how-long-can-you-stay-in-transitional-housing/",
+      "url": "https://detoxdenver.org/questions/how-long-can-you-stay-in-transitional-housing/",
+      "published_at": "2026-11-16",
+      "status": "live",
+      "hash": "f7bd2a23ae234078deb3c89ad2d946159fbdac4fb2e9d7f3194cd23f17bf3e2e",
+      "model": "free-route",
+      "facts": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK582736/",
+        "https://www.samhsa.gov/find-help/recovery"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/how-does-transitional-housing-work/index.html",
+          "route": "/public/questions/how-does-transitional-housing-work/",
+          "before_hash": "f457c8f7b55467f92361ba3d735ff5a23a9660ef26860e51263e1a0a5eafd886",
+          "after_hash": "4b702859e700053f896faf0b02e3c12ed77aa197e1bdf30e6d751ab26f44fc91"
+        }
+      ],
+      "checks": {},
+      "gate_notes": [
+        "b2 meta description is 109 chars (aim 120-160)",
+        "b5 FAQ answer is 36 words (aim 40-60): \"How does transitional housing differ from clinical\""
+      ]
     }
   ],
   "dropped": [
@@ -1816,6 +1957,22 @@
       "gate": 2,
       "reason": [
         "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1)"
+      ]
+    },
+    {
+      "query": "how long can you stay in a sober living facility",
+      "at": "2026-11-16",
+      "gate": 2,
+      "reason": [
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1); these failed the check, replace each with a page that exists: https://www.huduser.gov/portal/periodicals/em/spring16/highlight2.html (HTTP 403: this site refuses automated checks, so cite a different publisher)"
+      ]
+    },
+    {
+      "query": "how long can you live at sober living",
+      "at": "2026-11-16",
+      "gate": 2,
+      "reason": [
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1); these failed the check, replace each with a page that exists: https://www.hud.gov/program_offices/comm_planning/recovery-housing (HTTP 404)"
       ]
     }
   ],
@@ -2303,6 +2460,36 @@
     {
       "query": "sober living in the area",
       "at": "2026-11-10",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "route": "/questions/what-is-a-sober-living-house/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "matched_text": "what is a sober living house",
+      "stage": "search"
+    },
+    {
+      "query": "sober housing rules",
+      "at": "2026-11-16",
+      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
+      "route": "/questions/what-is-a-sober-living-house/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.50 >= 0.5)",
+      "matched_text": "what is a sober living house",
+      "stage": "draft"
+    },
+    {
+      "query": "relapse in sober living",
+      "at": "2026-11-16",
+      "url": "https://detoxdenver.org/questions/what-happens-if-you-relapse-in-sober-living/",
+      "route": "/questions/what-happens-if-you-relapse-in-sober-living/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.60 >= 0.5)",
+      "matched_text": "what happens if you relapse in sober living",
+      "stage": "search"
+    },
+    {
+      "query": "what is sober living mean",
+      "at": "2026-11-16",
       "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
       "route": "/questions/what-is-a-sober-living-house/",
       "kind": "engine",
