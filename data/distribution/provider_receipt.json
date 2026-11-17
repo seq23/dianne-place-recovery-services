@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-16T13-42-58.515Z-43878325442",
-  "attempted_at": "2026-11-16T13:42:58.515Z",
+  "receipt_id": "2026-11-17T13-21-30.906Z-44091839863",
+  "attempted_at": "2026-11-17T13:21:30.906Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -108,7 +108,7 @@
         "verdict": "PASS",
         "coverage_state": "Submitted and indexed",
         "indexing_state": "INDEXING_ALLOWED",
-        "last_crawl_time": "2026-11-11T02:09:16Z"
+        "last_crawl_time": "2026-11-16T20:12:16Z"
       },
       {
         "url": "https://detoxdenver.org/blog/2026-07-31-recovery-housing-readiness/",
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-16T13-42-58.515Z-43878325442.json"
+    "history_path": "data/distribution/receipts/2026-11-17T13-21-30.906Z-44091839863.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
