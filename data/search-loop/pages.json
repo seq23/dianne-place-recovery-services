@@ -1647,7 +1647,8 @@
       ],
       "extra_queries": [
         "relapse in sober living"
-      ]
+      ],
+      "indexnow_at": "2026-11-17"
     },
     {
       "slug": "how-long-can-you-stay-in-transitional-housing",
@@ -1711,7 +1712,8 @@
       "gate_notes": [
         "b2 meta description is 109 chars (aim 120-160)",
         "b5 FAQ answer is 36 words (aim 40-60): \"How does transitional housing differ from clinical\""
-      ]
+      ],
+      "indexnow_at": "2026-11-17"
     }
   ],
   "dropped": [

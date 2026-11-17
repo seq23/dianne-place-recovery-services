@@ -2,55 +2,19 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W47",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-16T12:41:22.377Z",
+  "generated_at": "2026-11-17T12:33:21.129Z",
   "state": "slow",
-  "published": 7,
+  "published": 5,
   "indexed": "not read: no page old enough to inspect yet (14 days)",
   "pace": 3,
   "ai_visitors": 0,
-  "ai_bot_hits": 491,
+  "ai_bot_hits": 475,
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 0,
   "undone": 0,
   "merged": 0,
-  "held_by_cap": 10,
+  "held_by_cap": 13,
   "redirected": [
-    {
-      "query": "do sober living houses work",
-      "strengthen": "https://detoxdenver.org/questions/can-you-work-while-in-sober-living/",
-      "matched_by": "high token overlap (0.60 >= 0.5)",
-      "at": "2026-11-10"
-    },
-    {
-      "query": "are sober living homes coed",
-      "strengthen": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
-      "matched_by": "high token overlap (0.50 >= 0.5)",
-      "at": "2026-11-10"
-    },
-    {
-      "query": "what is a sober living program",
-      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
-      "matched_by": "high token overlap (0.50 >= 0.5)",
-      "at": "2026-11-10"
-    },
-    {
-      "query": "find a 3 4 house near me",
-      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
-      "matched_by": "same 3 intent words plus modifiers",
-      "at": "2026-11-10"
-    },
-    {
-      "query": "benefits of sober living",
-      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
-      "matched_by": "high token overlap (0.50 >= 0.5)",
-      "at": "2026-11-10"
-    },
-    {
-      "query": "sober living in the area",
-      "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
-      "matched_by": "high token overlap (0.50 >= 0.5)",
-      "at": "2026-11-10"
-    },
     {
       "query": "sober housing rules",
       "strengthen": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
@@ -78,13 +42,8 @@
   },
   "notes": [
     "site config lowers the mode to slow",
-    "FIND api.bing.com: not read: unavailable after 3 failures (last http 204)",
-    "cap: up from 13 to 15: Google impressions 131 in the last 28 days beat 6 in the 28 before",
-    "BUILD held by the cap: 15 live engine page(s), cap 15 (up from 13 to 15: Google impressions 131 in the last 28 days beat 6 in the 28 before); 1 more page(s) today would have gone over it, those searches stay queued",
-    "BUILD distinct gate: 3 search(es) had the same intent as an existing page and became strengthen briefs, not new pages (pages.json \"redirected\")",
-    "BUILD gate notes (not blocking): 2 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json",
-    "CHECK runs weekly in mode=slow; last ran 2026-11-12",
-    "IndexNow: 2 new page(s) not live yet; submitted when they answer 200"
+    "BUILD held by the cap: 15 live engine page(s), cap 15 (up from 13 to 15: Google impressions 131 in the last 28 days beat 6 in the 28 before); 3 more page(s) today would have gone over it, those searches stay queued",
+    "CHECK runs weekly in mode=slow; last ran 2026-11-12"
   ],
   "lanes": {
     "ratio": {
@@ -112,5 +71,5 @@
     "weight_changes": [],
     "competition": "ok: 15 top-10 read(s) via brave"
   },
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/43868833907"
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/44084216374"
 }
