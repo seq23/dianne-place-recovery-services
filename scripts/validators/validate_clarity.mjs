@@ -11,8 +11,19 @@ for (const [host, pid] of Object.entries(cfg.projects)) {
 // Pinned 2026-10-11: the project created for this site; the canonical host must resolve to it.
 assert(cfg.projects['detoxdenver.org'] === 'yw33z6e8yr', 'clarity project for detoxdenver.org must be yw33z6e8yr');
 const loader = readText('components/ClarityLoader.tsx');
-assert(loader.includes("clarity_projects.json"), 'ClarityLoader must read data/clarity_projects.json');
-assert(loader.includes('dprs-cookie-preferences') && loader.includes('functional'), 'ClarityLoader must wait for Functional/Analytics consent');
+assert(loader.includes('clarity_projects.json'), 'ClarityLoader must read data/clarity_projects.json');
+assert(loader.includes('/clarity-consent.js'), 'ClarityLoader must render the first-party loader public/clarity-consent.js');
+assert(fileExists('public/clarity-consent.js'), 'public/clarity-consent.js is required');
+const file = readText('public/clarity-consent.js');
+assert(file.includes('dprs-cookie-preferences') && file.includes('functional'), 'clarity-consent.js must wait for Functional/Analytics consent');
 assert(readText('app/layout.tsx').includes('<ClarityLoader />'), 'ClarityLoader must be mounted in app/layout.tsx');
+// Search Readiness e9 (owner, 25 Oct 2026): Clarity only where a visitor fills a form or buys.
+const paths = [...(loader.match(/CLARITY_PATHS = \[([^\]]*)\]/)?.[1] ?? '').matchAll(/'([^']+)'/g)].map((m) => m[1]);
+assert(paths.length > 0, 'ClarityLoader must list at least one form page in CLARITY_PATHS');
+for (const p of paths) {
+  assert(!p.startsWith('/admin'), `Clarity must never load on ${p}`);
+  const page = `app${p}/page.tsx`;
+  assert(fileExists(page) && readText(page).includes('<form'), `${p} is in CLARITY_PATHS but ${page} has no <form>`);
+}
 const n = Object.keys(cfg.projects).length;
 console.log(`[validate:clarity] OK: ${n} project(s)${n ? '' : ' (map empty: project id pending)'}`);

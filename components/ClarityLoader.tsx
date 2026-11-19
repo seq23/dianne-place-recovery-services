@@ -1,48 +1,35 @@
 'use client';
 
 import { useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import clarityProjects from '@/data/clarity_projects.json';
 
-type Prefs = { functional?: boolean };
-const projects = (clarityProjects as { projects: Record<string, string> }).projects;
+const projects = JSON.stringify((clarityProjects as { projects: Record<string, string> }).projects);
+const SRC = '/clarity-consent.js';
 
-// Microsoft Clarity, keyed by hostname from data/clarity_projects.json. Repo law
-// (REPO_IDENTITY.md, README.md) says no third-party tracking before explicit
-// consent, so the tag loads only after the visitor saves Functional / Analytics
-// = on in components/CookieConsent.tsx, and never on /admin.
+// Pages where a visitor fills a form. Search Readiness e9 (owner, 25 Oct 2026): Clarity only where
+// visitors fill a form or buy, so every other page renders nothing here. /admin is never listed.
+export const CLARITY_PATHS = ['/contact'];
+
+// Microsoft Clarity, keyed by hostname from data/clarity_projects.json. The tag is a first-party
+// script, public/clarity-consent.js, rendered into the form page's HTML so the loader is visible to
+// a crawler; that file reaches clarity.ms only after Functional / Analytics consent
+// (REPO_IDENTITY.md: no third-party tracking before explicit consent).
+// React does not run a <script> it inserts during client-side navigation, so the effect adds one
+// when the file has not run yet; the file guards itself against running twice.
 export function ClarityLoader() {
+  const path = (usePathname() || '/').replace(/\/+$/, '') || '/';
+  const active = CLARITY_PATHS.includes(path);
+
   useEffect(() => {
-    const host = window.location.hostname.toLowerCase().replace(/^www\./, '');
-    const id = projects[host];
-    if (!id || window.location.pathname.startsWith('/admin')) return;
+    const w = window as unknown as { __dprsClarity?: boolean };
+    if (!active || w.__dprsClarity) return;
+    const script = document.createElement('script');
+    script.src = SRC;
+    script.async = true;
+    script.setAttribute('data-clarity-projects', projects);
+    document.body.appendChild(script);
+  }, [active]);
 
-    let loaded = false;
-    const load = (prefs: Prefs | null) => {
-      if (loaded || !prefs?.functional) return;
-      loaded = true;
-      const w = window as unknown as { clarity?: ((...args: unknown[]) => void) & { q?: unknown[] } };
-      w.clarity =
-        w.clarity ||
-        Object.assign((...args: unknown[]) => {
-          (w.clarity!.q = w.clarity!.q || []).push(args);
-        }, {});
-      const script = document.createElement('script');
-      script.async = true;
-      script.src = `https://www.clarity.ms/tag/${id}`;
-      script.setAttribute('data-clarity-loader', host);
-      document.head.appendChild(script);
-    };
-
-    try {
-      const saved = window.localStorage.getItem('dprs-cookie-preferences');
-      if (saved) load(JSON.parse(saved) as Prefs);
-    } catch {
-      /* no stored preference: wait for the banner */
-    }
-    const onPrefs = (event: Event) => load((event as CustomEvent<Prefs>).detail);
-    window.addEventListener('dprs-cookie-preferences', onPrefs);
-    return () => window.removeEventListener('dprs-cookie-preferences', onPrefs);
-  }, []);
-
-  return null;
+  return active ? <script src={SRC} async data-clarity-projects={projects} /> : null;
 }

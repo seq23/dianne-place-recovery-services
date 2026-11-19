@@ -79,3 +79,22 @@ test('every built page title carries the full site name within 65 characters', (
   const home = decode(fs.readFileSync('out/index.html', 'utf8').match(/<title[^>]*>([\s\S]*?)<\/title>/i)[1]);
   assert.ok(home.includes(name), 'homepage title must contain the site name (f6)');
 });
+
+// Search Readiness q1/b3 (17 Nov 2026): /about/ had six H2s and none a question. Every route that
+// mounts <PageFaq> must get at least one question from data/aeo/answer_surface_registry.json, so
+// the shared "What do people often ask?" H2 renders there.
+test('every page that mounts PageFaq has at least one registry question', () => {
+  const registry = JSON.parse(fs.readFileSync('data/aeo/answer_surface_registry.json', 'utf8'));
+  const mounted = [];
+  const walk = (dir) => {
+    for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+      const p = `${dir}/${e.name}`;
+      if (e.isDirectory()) walk(p);
+      else if (e.name === 'page.tsx') for (const m of fs.readFileSync(p, 'utf8').matchAll(/<PageFaq path="([^"]+)"/g)) mounted.push(m[1]);
+    }
+  };
+  walk('app');
+  assert.ok(mounted.length > 0, 'zero PageFaq mounts must fail');
+  const empty = mounted.filter((route) => !registry.answerBlocks.some((b) => b.targetRoutes.includes(route) && /\?$/.test(b.question)));
+  assert.deepEqual(empty, [], `routes with no FAQ question: ${empty.join(', ')}`);
+});

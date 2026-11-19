@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T13:20:55.759Z",
-  "releaseDate": "2026-11-18",
+  "generatedAt": "2026-11-19T11:04:57.946Z",
+  "releaseDate": "2026-11-19",
   "mode": "pre_license",
   "disclaimer": "Answer blocks are educational and recovery-support oriented. They are not medical advice, treatment, diagnosis, or emergency support.",
   "answers": [
@@ -42,6 +42,13 @@
       "sourceIds": [
         "source-hhs-hipaa-tracking"
       ]
+    },
+    {
+      "id": "answer-about-mission",
+      "question": "What is the mission of Dianne's Place Recovery Services?",
+      "answer": "To provide recovery housing and connection-focused support that helps residents rebuild stability, confidence, healthy routines, and meaningful relationships, in a safe, structured, substance-free environment.",
+      "route": "/about/",
+      "sourceIds": []
     },
     {
       "id": "scheduled-dprs-2026-07-08-002",
