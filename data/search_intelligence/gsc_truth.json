@@ -1,24 +1,24 @@
 {
   "schema": "gsc-truth-v1",
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-20",
-  "end_date": "2026-11-16",
-  "collected_at": "2026-11-18T12:30:26.102Z",
+  "start_date": "2026-10-21",
+  "end_date": "2026-11-17",
+  "collected_at": "2026-11-19T20:47:43.459Z",
   "totals": {
     "clicks": 1,
-    "impressions": 203,
-    "ctr": 0.0049261083743842365,
-    "position": 31.137931034482758
+    "impressions": 230,
+    "ctr": 0.004347826086956522,
+    "position": 30.678260869565218
   },
-  "queries_in_window": 36,
-  "queries_known": 36,
+  "queries_in_window": 40,
+  "queries_known": 40,
   "query_history": [
     {
       "query": "how to get into a sober house",
       "first_seen": "2026-11-08",
       "max_impressions_28d": 13,
       "best_position": 87,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 13,
       "clicks_28d": 0,
@@ -31,7 +31,7 @@
       "first_seen": "2026-11-06",
       "max_impressions_28d": 12,
       "best_position": 30.75,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 12,
       "clicks_28d": 0,
@@ -45,11 +45,11 @@
     {
       "query": "can you leave a halfway house during the day",
       "first_seen": "2026-11-14",
-      "max_impressions_28d": 7,
-      "best_position": 30.4,
-      "last_seen": "2026-11-18",
+      "max_impressions_28d": 8,
+      "best_position": 26.166666666666668,
+      "last_seen": "2026-11-19",
       "in_window": true,
-      "impressions_28d": 7,
+      "impressions_28d": 8,
       "clicks_28d": 0,
       "pages": [
         "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
@@ -58,11 +58,51 @@
       ]
     },
     {
+      "query": "who pays for sober living homes",
+      "first_seen": "2026-11-08",
+      "max_impressions_28d": 5,
+      "best_position": 76,
+      "last_seen": "2026-11-19",
+      "in_window": true,
+      "impressions_28d": 5,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/",
+        "https://detoxdenver.org/questions/who-pays-for-sober-living-homes/"
+      ]
+    },
+    {
+      "query": "do sober living homes provide meals",
+      "first_seen": "2026-11-12",
+      "max_impressions_28d": 4,
+      "best_position": 5,
+      "last_seen": "2026-11-19",
+      "in_window": true,
+      "impressions_28d": 4,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/"
+      ]
+    },
+    {
+      "query": "sober living house rules",
+      "first_seen": "2026-11-17",
+      "max_impressions_28d": 4,
+      "best_position": 58,
+      "last_seen": "2026-11-19",
+      "in_window": true,
+      "impressions_28d": 4,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/sober-living-rules-and-regulations/"
+      ]
+    },
+    {
       "query": "what is a 3/4 house",
       "first_seen": "2026-11-06",
       "max_impressions_28d": 4,
       "best_position": 100,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 4,
       "clicks_28d": 0,
@@ -76,7 +116,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 4,
       "best_position": 79,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 4,
       "clicks_28d": 0,
@@ -86,24 +126,11 @@
       ]
     },
     {
-      "query": "do sober living homes provide meals",
-      "first_seen": "2026-11-12",
-      "max_impressions_28d": 3,
-      "best_position": 5,
-      "last_seen": "2026-11-18",
-      "in_window": true,
-      "impressions_28d": 3,
-      "clicks_28d": 0,
-      "pages": [
-        "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/"
-      ]
-    },
-    {
       "query": "how to get into a sober living house",
       "first_seen": "2026-11-08",
       "max_impressions_28d": 3,
       "best_position": 97,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 3,
       "clicks_28d": 0,
@@ -116,7 +143,7 @@
       "first_seen": "2026-11-11",
       "max_impressions_28d": 3,
       "best_position": 63.666666666666664,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 3,
       "clicks_28d": 0,
@@ -129,7 +156,7 @@
       "first_seen": "2026-11-09",
       "max_impressions_28d": 2,
       "best_position": 95,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -143,7 +170,7 @@
       "first_seen": "2026-11-09",
       "max_impressions_28d": 2,
       "best_position": 58,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 0,
@@ -156,7 +183,7 @@
       "first_seen": "2026-11-15",
       "max_impressions_28d": 2,
       "best_position": 16,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 2,
       "clicks_28d": 1,
@@ -165,24 +192,11 @@
       ]
     },
     {
-      "query": "who pays for sober living homes",
-      "first_seen": "2026-11-08",
-      "max_impressions_28d": 2,
-      "best_position": 93,
-      "last_seen": "2026-11-18",
-      "in_window": true,
-      "impressions_28d": 2,
-      "clicks_28d": 0,
-      "pages": [
-        "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/"
-      ]
-    },
-    {
       "query": "can you leave a halfway house",
       "first_seen": "2026-11-17",
       "max_impressions_28d": 1,
       "best_position": 11,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -195,7 +209,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 66,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -208,7 +222,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 72,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -221,7 +235,7 @@
       "first_seen": "2026-11-13",
       "max_impressions_28d": 1,
       "best_position": 56,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -234,7 +248,7 @@
       "first_seen": "2026-11-13",
       "max_impressions_28d": 1,
       "best_position": 5,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -247,7 +261,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 95,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -260,7 +274,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 1,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -273,7 +287,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 100,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -286,7 +300,7 @@
       "first_seen": "2026-11-15",
       "max_impressions_28d": 1,
       "best_position": 2,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -295,11 +309,24 @@
       ]
     },
     {
+      "query": "sober house cost",
+      "first_seen": "2026-11-19",
+      "max_impressions_28d": 1,
+      "best_position": 84,
+      "last_seen": "2026-11-19",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/"
+      ]
+    },
+    {
       "query": "sober house rules",
       "first_seen": "2026-11-17",
       "max_impressions_28d": 1,
       "best_position": 65,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -312,7 +339,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -325,12 +352,25 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 48,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
       "pages": [
         "https://detoxdenver.org/questions/what-is-sober-living-environment/"
+      ]
+    },
+    {
+      "query": "sober living cost",
+      "first_seen": "2026-11-19",
+      "max_impressions_28d": 1,
+      "best_position": 46,
+      "last_seen": "2026-11-19",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/"
       ]
     },
     {
@@ -338,7 +378,7 @@
       "first_seen": "2026-11-07",
       "max_impressions_28d": 1,
       "best_position": 36,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -347,24 +387,11 @@
       ]
     },
     {
-      "query": "sober living house rules",
-      "first_seen": "2026-11-17",
-      "max_impressions_28d": 1,
-      "best_position": 58,
-      "last_seen": "2026-11-18",
-      "in_window": true,
-      "impressions_28d": 1,
-      "clicks_28d": 0,
-      "pages": [
-        "https://detoxdenver.org/questions/sober-living-rules-and-regulations/"
-      ]
-    },
-    {
       "query": "sober living house rules pdf",
       "first_seen": "2026-11-17",
       "max_impressions_28d": 1,
       "best_position": 69,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -377,7 +404,7 @@
       "first_seen": "2026-11-15",
       "max_impressions_28d": 1,
       "best_position": 3,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -390,7 +417,20 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 50,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/sober-living-rules-and-regulations/"
+      ]
+    },
+    {
+      "query": "sober living rules",
+      "first_seen": "2026-11-19",
+      "max_impressions_28d": 1,
+      "best_position": 94,
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -403,7 +443,7 @@
       "first_seen": "2026-11-17",
       "max_impressions_28d": 1,
       "best_position": 98,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -416,7 +456,7 @@
       "first_seen": "2026-11-08",
       "max_impressions_28d": 1,
       "best_position": 90,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -429,7 +469,7 @@
       "first_seen": "2026-11-10",
       "max_impressions_28d": 1,
       "best_position": 83,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -442,7 +482,7 @@
       "first_seen": "2026-11-16",
       "max_impressions_28d": 1,
       "best_position": 7,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -455,7 +495,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 80,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -468,7 +508,7 @@
       "first_seen": "2026-11-14",
       "max_impressions_28d": 1,
       "best_position": 5,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -477,11 +517,24 @@
       ]
     },
     {
+      "query": "what is a transition home",
+      "first_seen": "2026-11-19",
+      "max_impressions_28d": 1,
+      "best_position": 61,
+      "last_seen": "2026-11-19",
+      "in_window": true,
+      "impressions_28d": 1,
+      "clicks_28d": 0,
+      "pages": [
+        "https://detoxdenver.org/questions/what-is-transitional-living-home/"
+      ]
+    },
+    {
       "query": "womens sober living denver",
       "first_seen": "2026-11-11",
       "max_impressions_28d": 1,
       "best_position": 93,
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "in_window": true,
       "impressions_28d": 1,
       "clicks_28d": 0,
@@ -511,12 +564,12 @@
     },
     {
       "week": "2026-W47",
-      "end_date": "2026-11-16",
-      "collected_at": "2026-11-18T12:30:26.102Z",
+      "end_date": "2026-11-17",
+      "collected_at": "2026-11-19T20:47:43.459Z",
       "clicks": 1,
-      "impressions": 203,
-      "position": 31.137931034482758,
-      "queries_in_window": 36
+      "impressions": 230,
+      "position": 30.678260869565218,
+      "queries_in_window": 40
     }
   ]
 }

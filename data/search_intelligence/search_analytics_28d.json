@@ -1,13 +1,13 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-20",
-  "end_date": "2026-11-16",
-  "collected_at": "2026-11-18T12:30:26.101Z",
+  "start_date": "2026-10-21",
+  "end_date": "2026-11-17",
+  "collected_at": "2026-11-19T20:47:43.457Z",
   "totals": {
     "clicks": 1,
-    "impressions": 203,
-    "ctr": 0.0049261083743842365,
-    "position": 31.137931034482758
+    "impressions": 230,
+    "ctr": 0.004347826086956522,
+    "position": 30.678260869565218
   },
   "pages": [
     {
@@ -23,13 +23,6 @@
       "impressions": 2,
       "ctr": 0,
       "position": 5.5
-    },
-    {
-      "page": "https://detoxdenver.org/blog/2026-10-11-recovery-housing-readiness/",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 59
     },
     {
       "page": "https://detoxdenver.org/blog/2026-10-29-millennial-recovery/",
@@ -48,9 +41,9 @@
     {
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
-      "impressions": 42,
+      "impressions": 50,
       "ctr": 0,
-      "position": 10.333333333333334
+      "position": 10
     },
     {
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-work/",
@@ -76,9 +69,9 @@
     {
       "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
       "clicks": 0,
-      "impressions": 65,
+      "impressions": 74,
       "ctr": 0,
-      "position": 4.661538461538461
+      "position": 4.5675675675675675
     },
     {
       "page": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
@@ -86,6 +79,13 @@
       "impressions": 3,
       "ctr": 0,
       "position": 63.666666666666664
+    },
+    {
+      "page": "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 70.25
     },
     {
       "page": "https://detoxdenver.org/questions/how-to-apply-transitional-housing/",
@@ -132,9 +132,9 @@
     {
       "page": "https://detoxdenver.org/questions/sober-living-rules-and-regulations/",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 10,
       "ctr": 0,
-      "position": 43.5
+      "position": 53.7
     },
     {
       "page": "https://detoxdenver.org/questions/what-does-a-sober-living-house-look-like/",
@@ -188,9 +188,9 @@
     {
       "page": "https://detoxdenver.org/questions/what-is-sober-housing/",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 39
+      "position": 22.5
     },
     {
       "page": "https://detoxdenver.org/questions/what-is-sober-living-environment/",
@@ -200,11 +200,18 @@
       "position": 30.333333333333332
     },
     {
-      "page": "https://www.detoxdenver.org/blog/2026-07-31-recovery-housing-readiness/",
+      "page": "https://detoxdenver.org/questions/what-is-transitional-living-home/",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 79.5
+      "position": 61
+    },
+    {
+      "page": "https://detoxdenver.org/questions/who-pays-for-sober-living-homes/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 76
     }
   ],
   "query_pages": [
@@ -260,9 +267,9 @@
       "query": "can you leave a halfway house during the day",
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 30.4
+      "position": 26.166666666666668
     },
     {
       "query": "can you leave a halfway house during the day",
@@ -300,9 +307,9 @@
       "query": "do sober living homes provide meals",
       "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 5.333333333333333
+      "position": 5
     },
     {
       "query": "female recovery residence",
@@ -393,6 +400,14 @@
       "position": 2
     },
     {
+      "query": "sober house cost",
+      "page": "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 84
+    },
+    {
       "query": "sober house rules",
       "page": "https://detoxdenver.org/questions/sober-living-rules-and-regulations/",
       "clicks": 0,
@@ -417,6 +432,14 @@
       "position": 48
     },
     {
+      "query": "sober living cost",
+      "page": "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 46
+    },
+    {
       "query": "sober living environment",
       "page": "https://detoxdenver.org/questions/what-is-sober-living-environment/",
       "clicks": 0,
@@ -428,9 +451,9 @@
       "query": "sober living house rules",
       "page": "https://detoxdenver.org/questions/sober-living-rules-and-regulations/",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 4,
       "ctr": 0,
-      "position": 58
+      "position": 60
     },
     {
       "query": "sober living house rules pdf",
@@ -455,6 +478,14 @@
       "impressions": 1,
       "ctr": 0,
       "position": 50
+    },
+    {
+      "query": "sober living rules",
+      "page": "https://detoxdenver.org/questions/sober-living-rules-and-regulations/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 94
     },
     {
       "query": "sober living scholarships",
@@ -545,12 +576,28 @@
       "position": 5
     },
     {
+      "query": "what is a transition home",
+      "page": "https://detoxdenver.org/questions/what-is-transitional-living-home/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 61
+    },
+    {
       "query": "who pays for sober living homes",
       "page": "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
       "position": 95
+    },
+    {
+      "query": "who pays for sober living homes",
+      "page": "https://detoxdenver.org/questions/who-pays-for-sober-living-homes/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 76
     },
     {
       "query": "womens sober living denver",
