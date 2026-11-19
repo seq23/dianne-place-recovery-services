@@ -257,6 +257,22 @@
           "Amazonbot": 21
         }
       }
+    },
+    "2026-11-19": {
+      "ai_visitors": {
+        "total": 0,
+        "by_engine": {},
+        "by_path": {},
+        "source": "web-analytics"
+      },
+      "ai_bot_hits": {
+        "total": 14,
+        "by_bot": {
+          "OAI-SearchBot (ChatGPT search)": 1,
+          "GPTBot (OpenAI training)": 1,
+          "Amazonbot": 12
+        }
+      }
     }
   }
 }

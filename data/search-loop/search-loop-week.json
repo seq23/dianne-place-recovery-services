@@ -2,18 +2,18 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W47",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-18T12:33:19.080Z",
+  "generated_at": "2026-11-19T20:51:11.861Z",
   "state": "slow",
-  "published": 5,
+  "published": 2,
   "indexed": "not read: no page old enough to inspect yet (14 days)",
   "pace": 3,
   "ai_visitors": 0,
-  "ai_bot_hits": 422,
+  "ai_bot_hits": 420,
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 0,
   "undone": 0,
   "merged": 0,
-  "held_by_cap": 16,
+  "held_by_cap": 19,
   "redirected": [
     {
       "query": "sober housing rules",
@@ -42,7 +42,8 @@
   },
   "notes": [
     "site config lowers the mode to slow",
-    "BUILD held by the cap: 15 live engine page(s), cap 15 (up from 13 to 15: Google impressions 131 in the last 28 days beat 6 in the 28 before); 3 more page(s) today would have gone over it, those searches stay queued"
+    "BUILD held by the cap: 15 live engine page(s), cap 15 (up from 13 to 15: Google impressions 131 in the last 28 days beat 6 in the 28 before); 3 more page(s) today would have gone over it, those searches stay queued",
+    "CHECK runs weekly in mode=slow; last ran 2026-11-18"
   ],
   "lanes": {
     "ratio": {
@@ -70,5 +71,5 @@
     "weight_changes": [],
     "competition": "ok: 15 top-10 read(s) via brave"
   },
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/44305009523"
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/44612830770"
 }
