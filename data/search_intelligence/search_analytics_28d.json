@@ -1,13 +1,13 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-21",
-  "end_date": "2026-11-17",
-  "collected_at": "2026-11-19T20:47:43.457Z",
+  "start_date": "2026-10-22",
+  "end_date": "2026-11-18",
+  "collected_at": "2026-11-20T20:31:29.573Z",
   "totals": {
     "clicks": 1,
-    "impressions": 230,
-    "ctr": 0.004347826086956522,
-    "position": 30.678260869565218
+    "impressions": 272,
+    "ctr": 0.003676470588235294,
+    "position": 27.13235294117647
   },
   "pages": [
     {
@@ -20,12 +20,19 @@
     {
       "page": "https://detoxdenver.org/",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 5.5
+      "position": 4
     },
     {
       "page": "https://detoxdenver.org/blog/2026-10-29-millennial-recovery/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "page": "https://detoxdenver.org/contact/",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
@@ -41,9 +48,9 @@
     {
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
-      "impressions": 50,
+      "impressions": 63,
       "ctr": 0,
-      "position": 10
+      "position": 9.34920634920635
     },
     {
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-work/",
@@ -69,9 +76,9 @@
     {
       "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
       "clicks": 0,
-      "impressions": 74,
+      "impressions": 96,
       "ctr": 0,
-      "position": 4.5675675675675675
+      "position": 4.59375
     },
     {
       "page": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
@@ -81,11 +88,18 @@
       "position": 63.666666666666664
     },
     {
-      "page": "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/",
+      "page": "https://detoxdenver.org/questions/how-long-can-you-stay-in-transitional-housing/",
       "clicks": 0,
       "impressions": 4,
       "ctr": 0,
-      "position": 70.25
+      "position": 9.25
+    },
+    {
+      "page": "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 73.6
     },
     {
       "page": "https://detoxdenver.org/questions/how-to-apply-transitional-housing/",
@@ -153,9 +167,9 @@
     {
       "page": "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 48.333333333333336
+      "position": 42.42857142857143
     },
     {
       "page": "https://detoxdenver.org/questions/what-is-a-halfway-house-considered/",
@@ -256,10 +270,26 @@
       "position": 96.2
     },
     {
-      "query": "can you leave a halfway house",
+      "query": "are sober living homes profitable",
+      "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "query": "are you allowed to leave a halfway house",
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
       "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "query": "can you leave a halfway house",
+      "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
+      "clicks": 0,
+      "impressions": 2,
       "ctr": 0,
       "position": 11
     },
@@ -312,6 +342,14 @@
       "position": 5
     },
     {
+      "query": "do they pay for food",
+      "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
       "query": "female recovery residence",
       "page": "https://detoxdenver.org/questions/recovery-housing-for-women/",
       "clicks": 0,
@@ -322,6 +360,14 @@
     {
       "query": "financial assistance for sober living colorado",
       "page": "https://detoxdenver.org/questions/how-to-get-sober-living-paid-for/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "query": "grit grounds sober living",
+      "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
@@ -368,6 +414,14 @@
       "position": 1
     },
     {
+      "query": "how much does it cost to live in a sober house",
+      "page": "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 87
+    },
+    {
       "query": "how to get into a sober house",
       "page": "https://detoxdenver.org/questions/how-to-get-into-a-halfway-house/",
       "clicks": 0,
@@ -384,6 +438,14 @@
       "position": 98.33333333333333
     },
     {
+      "query": "malcolm's place sober living",
+      "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
       "query": "meaning of halfway house",
       "page": "https://detoxdenver.org/questions/what-exactly-is-a-halfway-house/",
       "clicks": 0,
@@ -398,6 +460,14 @@
       "impressions": 1,
       "ctr": 0,
       "position": 2
+    },
+    {
+      "query": "rbh sober living",
+      "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
     },
     {
       "query": "sober house cost",
@@ -430,6 +500,14 @@
       "impressions": 1,
       "ctr": 0,
       "position": 48
+    },
+    {
+      "query": "sober living clearwater",
+      "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
     },
     {
       "query": "sober living cost",
