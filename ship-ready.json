@@ -1,1 +1,1 @@
-{ "kind": "site", "build": "npm install --no-audit --no-fund && npx next build", "serve": "npx next start -p 4173", "base_url": "http://127.0.0.1:4173" }
+{ "kind": "site", "build": "npm install --no-audit --no-fund && npx next build", "serve": "out" }
