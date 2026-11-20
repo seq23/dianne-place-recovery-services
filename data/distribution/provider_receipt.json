@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-19T21-33-18.746Z-44619832033",
-  "attempted_at": "2026-11-19T21:33:18.746Z",
+  "receipt_id": "2026-11-20T10-16-01.271Z-44717709544",
+  "attempted_at": "2026-11-20T10:16:01.271Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-19T21-33-18.746Z-44619832033.json"
+    "history_path": "data/distribution/receipts/2026-11-20T10-16-01.271Z-44717709544.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
