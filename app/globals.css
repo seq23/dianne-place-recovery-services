@@ -5,6 +5,8 @@
   --brown: #4b3026;
   --brown-soft: #735144;
   --gold: #b98b45;
+  /* Gold for text: --gold is 2.9:1 on cream, this is 5.9:1 (fills keep --gold) */
+  --gold-ink: #7d5a1e;
   --cream: #fff8ef;
   --cream-deep: #f5eadb;
   --ink: #223036;
@@ -76,7 +78,7 @@ select:focus-visible {
 
 .brand-script,
 .script {
-  color: var(--gold);
+  color: var(--gold-ink);
   font-family: "Segoe Print", "Lucida Handwriting", "Bradley Hand", "Apple Chancery", cursive;
   font-style: normal;
   font-weight: 700;
@@ -537,6 +539,10 @@ textarea {
 
 .site-footer a {
   color: var(--cream);
+}
+
+.site-footer .small-note {
+  color: var(--cream-deep);
 }
 
 .badge-grid {

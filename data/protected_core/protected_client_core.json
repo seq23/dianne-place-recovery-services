@@ -68,7 +68,7 @@
     },
     {
       "path": "app/globals.css",
-      "sha256": "d8668f19721e1edfe7d453002b0377a986b4a846ac10c31ff7db4b8f62d6f369"
+      "sha256": "4b295c3bc8a753171910e27b919716efd0cf9967612eb4585c9dfaa5cd7051a4"
     },
     {
       "path": "app/layout.tsx",
