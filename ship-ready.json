@@ -1,1 +1,1 @@
-{ "kind": "site", "build": "npm install --no-audit --no-fund && npx next build", "serve": "out" }
+{ "kind": "site", "build": "npm install --no-audit --no-fund && npm run build", "serve": "out" }
