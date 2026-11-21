@@ -1,6 +1,6 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "collected_at": "2026-11-20T20:32:08.778Z",
+  "collected_at": "2026-11-21T19:28:03.532Z",
   "sitemap_url_count": 43,
   "inspected_this_run": 43,
   "daily_cap": 150,
@@ -13,7 +13,7 @@
   "results": [
     {
       "url": "https://detoxdenver.org/",
-      "inspected_at": "2026-11-20T20:31:42.692Z",
+      "inspected_at": "2026-11-21T19:27:37.576Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -25,7 +25,7 @@
     },
     {
       "url": "https://detoxdenver.org/about/",
-      "inspected_at": "2026-11-20T20:31:55.638Z",
+      "inspected_at": "2026-11-21T19:27:50.438Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -37,7 +37,7 @@
     },
     {
       "url": "https://detoxdenver.org/diannes-legacy/",
-      "inspected_at": "2026-11-20T20:31:49.298Z",
+      "inspected_at": "2026-11-21T19:27:43.975Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -49,7 +49,7 @@
     },
     {
       "url": "https://detoxdenver.org/recovery-housing/",
-      "inspected_at": "2026-11-20T20:31:36.315Z",
+      "inspected_at": "2026-11-21T19:27:31.054Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -61,7 +61,7 @@
     },
     {
       "url": "https://detoxdenver.org/future-services/",
-      "inspected_at": "2026-11-20T20:31:55.655Z",
+      "inspected_at": "2026-11-21T19:27:50.288Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -73,19 +73,19 @@
     },
     {
       "url": "https://detoxdenver.org/referrals/",
-      "inspected_at": "2026-11-20T20:31:55.849Z",
+      "inspected_at": "2026-11-21T19:27:50.296Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "indexingState": "INDEXING_ALLOWED",
       "googleCanonical": "https://detoxdenver.org/referrals/",
       "userCanonical": "https://detoxdenver.org/referrals/",
-      "lastCrawlTime": "2026-11-09T01:40:16Z",
+      "lastCrawlTime": "2026-11-19T04:34:55Z",
       "pageFetchState": "SUCCESSFUL"
     },
     {
       "url": "https://detoxdenver.org/resources/",
-      "inspected_at": "2026-11-20T20:32:02.299Z",
+      "inspected_at": "2026-11-21T19:27:56.858Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -97,7 +97,7 @@
     },
     {
       "url": "https://detoxdenver.org/answers/",
-      "inspected_at": "2026-11-20T20:32:02.362Z",
+      "inspected_at": "2026-11-21T19:27:56.746Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -109,7 +109,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/",
-      "inspected_at": "2026-11-20T20:31:49.239Z",
+      "inspected_at": "2026-11-21T19:27:44.004Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -121,7 +121,7 @@
     },
     {
       "url": "https://detoxdenver.org/blog/",
-      "inspected_at": "2026-11-20T20:31:55.673Z",
+      "inspected_at": "2026-11-21T19:27:50.288Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -133,7 +133,7 @@
     },
     {
       "url": "https://detoxdenver.org/contact/",
-      "inspected_at": "2026-11-20T20:31:55.640Z",
+      "inspected_at": "2026-11-21T19:27:50.488Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -145,7 +145,7 @@
     },
     {
       "url": "https://detoxdenver.org/privacy/",
-      "inspected_at": "2026-11-20T20:31:49.296Z",
+      "inspected_at": "2026-11-21T19:27:43.896Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -157,7 +157,7 @@
     },
     {
       "url": "https://detoxdenver.org/terms/",
-      "inspected_at": "2026-11-20T20:32:02.187Z",
+      "inspected_at": "2026-11-21T19:27:56.934Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -169,7 +169,7 @@
     },
     {
       "url": "https://detoxdenver.org/medical-disclaimer/",
-      "inspected_at": "2026-11-20T20:31:49.291Z",
+      "inspected_at": "2026-11-21T19:27:43.964Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -181,7 +181,7 @@
     },
     {
       "url": "https://detoxdenver.org/outcomes-disclaimer/",
-      "inspected_at": "2026-11-20T20:31:49.223Z",
+      "inspected_at": "2026-11-21T19:27:43.908Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -193,7 +193,7 @@
     },
     {
       "url": "https://detoxdenver.org/cookie-policy/",
-      "inspected_at": "2026-11-20T20:31:49.230Z",
+      "inspected_at": "2026-11-21T19:27:44.021Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -205,7 +205,7 @@
     },
     {
       "url": "https://detoxdenver.org/blog/2026-07-08-daily-sober-routines/",
-      "inspected_at": "2026-11-20T20:32:02.200Z",
+      "inspected_at": "2026-11-21T19:27:56.955Z",
       "http_status": 200,
       "verdict": "NEUTRAL",
       "coverageState": "Crawled - currently not indexed",
@@ -217,19 +217,19 @@
     },
     {
       "url": "https://detoxdenver.org/blog/2026-07-09-family-support/",
-      "inspected_at": "2026-11-20T20:31:49.222Z",
+      "inspected_at": "2026-11-21T19:27:44.075Z",
       "http_status": 200,
       "verdict": "NEUTRAL",
       "coverageState": "Duplicate, Google chose different canonical than user",
       "indexingState": "INDEXING_ALLOWED",
       "googleCanonical": "https://www.detoxdenver.org/blog/2026-07-09-family-support/",
       "userCanonical": "https://detoxdenver.org/blog/2026-07-09-family-support/",
-      "lastCrawlTime": "2026-11-06T12:38:21Z",
+      "lastCrawlTime": "2026-11-21T07:38:01Z",
       "pageFetchState": "SUCCESSFUL"
     },
     {
       "url": "https://detoxdenver.org/blog/2026-07-10-women-in-recovery/",
-      "inspected_at": "2026-11-20T20:31:55.647Z",
+      "inspected_at": "2026-11-21T19:27:50.295Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -241,7 +241,7 @@
     },
     {
       "url": "https://detoxdenver.org/blog/2026-07-11-lgbtq-recovery-support/",
-      "inspected_at": "2026-11-20T20:32:08.759Z",
+      "inspected_at": "2026-11-21T19:28:03.532Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -253,7 +253,7 @@
     },
     {
       "url": "https://detoxdenver.org/blog/2026-07-12-minority-recovery-support/",
-      "inspected_at": "2026-11-20T20:31:55.601Z",
+      "inspected_at": "2026-11-21T19:27:50.305Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -265,7 +265,7 @@
     },
     {
       "url": "https://detoxdenver.org/blog/2026-07-13-millennial-recovery/",
-      "inspected_at": "2026-11-20T20:32:02.200Z",
+      "inspected_at": "2026-11-21T19:27:56.721Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -277,7 +277,7 @@
     },
     {
       "url": "https://detoxdenver.org/blog/2026-07-14-gen-z-recovery/",
-      "inspected_at": "2026-11-20T20:32:08.778Z",
+      "inspected_at": "2026-11-21T19:28:03.349Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -289,7 +289,7 @@
     },
     {
       "url": "https://detoxdenver.org/blog/2026-07-15-referral-guidance/",
-      "inspected_at": "2026-11-20T20:31:55.770Z",
+      "inspected_at": "2026-11-21T19:27:50.289Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -301,7 +301,7 @@
     },
     {
       "url": "https://detoxdenver.org/blog/2026-07-16-relapse-prevention/",
-      "inspected_at": "2026-11-20T20:32:08.693Z",
+      "inspected_at": "2026-11-21T19:28:03.140Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -313,7 +313,7 @@
     },
     {
       "url": "https://detoxdenver.org/blog/2026-07-17-employment-and-education/",
-      "inspected_at": "2026-11-20T20:32:02.199Z",
+      "inspected_at": "2026-11-21T19:27:56.766Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -325,7 +325,7 @@
     },
     {
       "url": "https://detoxdenver.org/blog/2026-07-18-community-reintegration/",
-      "inspected_at": "2026-11-20T20:32:02.326Z",
+      "inspected_at": "2026-11-21T19:27:56.722Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -337,7 +337,7 @@
     },
     {
       "url": "https://detoxdenver.org/blog/2026-07-31-recovery-housing-readiness/",
-      "inspected_at": "2026-11-20T20:32:02.128Z",
+      "inspected_at": "2026-11-21T19:27:56.685Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -349,7 +349,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/how-long-can-you-stay-in-transitional-housing/",
-      "inspected_at": "2026-11-20T20:31:36.337Z",
+      "inspected_at": "2026-11-21T19:27:31.176Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -361,7 +361,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/what-happens-if-you-relapse-in-sober-living/",
-      "inspected_at": "2026-11-20T20:31:36.292Z",
+      "inspected_at": "2026-11-21T19:27:31.147Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -373,7 +373,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/",
-      "inspected_at": "2026-11-20T20:31:42.686Z",
+      "inspected_at": "2026-11-21T19:27:37.540Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -385,7 +385,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/what-is-transitional-living-home/",
-      "inspected_at": "2026-11-20T20:31:36.351Z",
+      "inspected_at": "2026-11-21T19:27:31.155Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -397,7 +397,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/who-pays-for-sober-living-homes/",
-      "inspected_at": "2026-11-20T20:31:36.228Z",
+      "inspected_at": "2026-11-21T19:27:31.208Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -409,7 +409,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/can-you-leave-a-sober-living-home/",
-      "inspected_at": "2026-11-20T20:31:36.292Z",
+      "inspected_at": "2026-11-21T19:27:31.192Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -421,7 +421,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/free-sober-living-scholarships-colorado/",
-      "inspected_at": "2026-11-20T20:31:42.803Z",
+      "inspected_at": "2026-11-21T19:27:37.572Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -433,7 +433,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
-      "inspected_at": "2026-11-20T20:31:36.308Z",
+      "inspected_at": "2026-11-21T19:27:31.335Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -445,7 +445,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/can-halfway-house-residents-work/",
-      "inspected_at": "2026-11-20T20:31:36.301Z",
+      "inspected_at": "2026-11-21T19:27:31.192Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -457,7 +457,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/how-effective-are-halfway-houses/",
-      "inspected_at": "2026-11-20T20:31:42.726Z",
+      "inspected_at": "2026-11-21T19:27:37.667Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -469,7 +469,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/can-you-work-while-in-sober-living/",
-      "inspected_at": "2026-11-20T20:31:42.683Z",
+      "inspected_at": "2026-11-21T19:27:37.725Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -481,7 +481,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/what-is-a-recovery-residence/",
-      "inspected_at": "2026-11-20T20:31:42.883Z",
+      "inspected_at": "2026-11-21T19:27:37.743Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -493,7 +493,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
-      "inspected_at": "2026-11-20T20:31:49.227Z",
+      "inspected_at": "2026-11-21T19:27:44.098Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -505,7 +505,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
-      "inspected_at": "2026-11-20T20:31:42.682Z",
+      "inspected_at": "2026-11-21T19:27:37.598Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
@@ -517,7 +517,7 @@
     },
     {
       "url": "https://detoxdenver.org/questions/when-should-discharge-planning-be-initiated/",
-      "inspected_at": "2026-11-20T20:31:42.718Z",
+      "inspected_at": "2026-11-21T19:27:37.513Z",
       "http_status": 200,
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
