@@ -98,3 +98,26 @@ test('every page that mounts PageFaq has at least one registry question', () => 
   const empty = mounted.filter((route) => !registry.answerBlocks.some((b) => b.targetRoutes.includes(route) && /\?$/.test(b.question)));
   assert.deepEqual(empty, [], `routes with no FAQ question: ${empty.join(', ')}`);
 });
+
+// 22 Nov 2026 review of #20: the /questions/ template's classes had no rules, so the article ran
+// edge to edge, the header's right-aligned nav rule pushed the breadcrumb right, and the closing
+// contact link was a bare .button with no fill.
+test('question pages are laid out by the site stylesheet: gutter and measure, breadcrumb left, contact link filled', () => {
+  const css = fs.readFileSync('app/globals.css', 'utf8').replace(/\/\*[\s\S]*?\*\//g, '');
+  const rules = [...css.matchAll(/([^{}]+)\{([^{}]*)\}/g)].map((m) => ({ sel: m[1].trim(), body: m[2] }));
+  const dir = 'public/questions';
+  const pages = fs.readdirSync(dir).filter((d) => fs.existsSync(`${dir}/${d}/index.html`));
+  assert.ok(pages.length > 0, 'zero question pages must fail');
+  for (const p of pages) {
+    const html = fs.readFileSync(`${dir}/${p}/index.html`, 'utf8');
+    const article = /<article[\s\S]*<\/article>/.exec(html)?.[0] ?? '';
+    assert.ok(article, `${p} has no article`);
+    const cls = /<article class="([^"\s]+)/.exec(article)?.[1];
+    assert.equal(cls, 'search-loop-page', `${p}: the article is not the search-loop-page container`);
+    assert.ok(/<nav[^>]*class="breadcrumb"/.test(article) && /class="site-action"><a class="button"/.test(article), `${p}: breadcrumb or contact link missing`);
+  }
+  const container = rules.find((r) => /^\.search-loop-page$/.test(r.sel));
+  assert.ok(container && /padding[^;]*5vw/.test(container.body) && /max-width/.test(container.body), 'the article needs the site gutter (5vw) and a measure');
+  assert.ok(rules.some((r) => /breadcrumb/.test(r.sel) && /justify-content:\s*flex-start/.test(r.body)), 'the breadcrumb must sit left, not inherit the header nav');
+  assert.ok(rules.some((r) => /\.site-action[\s\S]*\.button/.test(r.sel) && /background:/.test(r.body)), 'the closing contact link must be a filled button');
+});
