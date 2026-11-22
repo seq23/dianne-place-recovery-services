@@ -639,3 +639,55 @@ textarea {
 .hero-call {
   margin-top: 1.25rem;
 }
+
+/* Question pages (/questions/, written by the search engine): the same 5vw gutter
+   as the header and footer, a readable line, and the site's primary button. */
+.search-loop-page {
+  max-width: calc(760px + 10vw);
+  margin: 0 auto;
+  padding: 2.5rem 5vw 4rem;
+  line-height: 1.65;
+}
+
+.search-loop-page nav.breadcrumb {
+  justify-content: flex-start;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.search-loop-page nav.breadcrumb a {
+  color: var(--brown);
+  font-weight: 700;
+}
+
+.search-loop-page h1 {
+  color: var(--blue-ink);
+  font-size: clamp(2rem, 6vw, 2.8rem);
+  line-height: 1.15;
+  margin: 1rem 0;
+}
+
+.search-loop-page .direct-answer {
+  font-size: 1.15rem;
+  color: var(--brown);
+}
+
+.search-loop-page .page-dates {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.search-loop-page h2 {
+  color: var(--blue-ink);
+  margin-top: 2.25rem;
+}
+
+.search-loop-page .site-action {
+  margin: 2.5rem 0 0;
+}
+
+.search-loop-page .site-action .button {
+  background: var(--brown);
+  color: var(--white);
+}
