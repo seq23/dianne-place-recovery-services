@@ -2,13 +2,13 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W47",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-21T19:35:06.205Z",
+  "generated_at": "2026-11-22T19:53:33.507Z",
   "state": "slow",
   "published": 2,
   "indexed": "not read: no page old enough to inspect yet (14 days)",
   "pace": 3,
   "ai_visitors": 0,
-  "ai_bot_hits": 477,
+  "ai_bot_hits": 139,
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 0,
   "undone": 0,
@@ -71,5 +71,5 @@
     "weight_changes": [],
     "competition": "ok: 15 top-10 read(s) via brave"
   },
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/44941704509"
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/45063258355"
 }
