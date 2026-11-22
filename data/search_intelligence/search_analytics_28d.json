@@ -1,15 +1,22 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-23",
-  "end_date": "2026-11-19",
-  "collected_at": "2026-11-21T19:27:24.308Z",
+  "start_date": "2026-10-24",
+  "end_date": "2026-11-20",
+  "collected_at": "2026-11-22T19:49:47.924Z",
   "totals": {
-    "clicks": 1,
-    "impressions": 294,
-    "ctr": 0.003401360544217687,
-    "position": 25.537414965986393
+    "clicks": 2,
+    "impressions": 319,
+    "ctr": 0.006269592476489028,
+    "position": 24.078369905956112
   },
   "pages": [
+    {
+      "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
+      "clicks": 1,
+      "impressions": 84,
+      "ctr": 0.011904761904761904,
+      "position": 8.523809523809524
+    },
     {
       "page": "https://detoxdenver.org/questions/free-sober-living-scholarships-colorado/",
       "clicks": 1,
@@ -46,18 +53,11 @@
       "position": 2
     },
     {
-      "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
-      "clicks": 0,
-      "impressions": 75,
-      "ctr": 0,
-      "position": 9.04
-    },
-    {
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-work/",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 4.5
+      "position": 6.333333333333333
     },
     {
       "page": "https://detoxdenver.org/questions/can-you-leave-a-sober-living-home/",
@@ -76,9 +76,9 @@
     {
       "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
       "clicks": 0,
-      "impressions": 105,
+      "impressions": 117,
       "ctr": 0,
-      "position": 4.561904761904762
+      "position": 4.547008547008547
     },
     {
       "page": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
@@ -90,9 +90,9 @@
     {
       "page": "https://detoxdenver.org/questions/how-long-can-you-stay-in-transitional-housing/",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 6,
       "ctr": 0,
-      "position": 9.25
+      "position": 7.666666666666667
     },
     {
       "page": "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/",
@@ -216,9 +216,9 @@
     {
       "page": "https://detoxdenver.org/questions/what-is-transitional-living-home/",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 61
+      "position": 62
     },
     {
       "page": "https://detoxdenver.org/questions/who-pays-for-sober-living-homes/",
@@ -305,9 +305,9 @@
       "query": "can you leave a halfway house during the day",
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 8,
       "ctr": 0,
-      "position": 26.166666666666668
+      "position": 21.625
     },
     {
       "query": "can you leave a halfway house during the day",
@@ -345,9 +345,9 @@
       "query": "do sober living homes provide meals",
       "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 5
+      "position": 4.8
     },
     {
       "query": "do they pay for food",
@@ -422,6 +422,14 @@
       "position": 1
     },
     {
+      "query": "how long can you stay in transitional housing",
+      "page": "https://detoxdenver.org/questions/how-long-can-you-stay-in-transitional-housing/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
       "query": "how much does it cost to live in a sober house",
       "page": "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/",
       "clicks": 0,
@@ -476,6 +484,14 @@
       "impressions": 1,
       "ctr": 0,
       "position": 2
+    },
+    {
+      "query": "oxford house okc",
+      "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
     },
     {
       "query": "rbh sober living",
@@ -598,6 +614,14 @@
       "position": 90
     },
     {
+      "query": "sobriety homes near me",
+      "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
       "query": "transitional housing for felons",
       "page": "https://detoxdenver.org/questions/what-is-a-halfway-house-after-jail/",
       "clicks": 0,
@@ -641,7 +665,7 @@
       "query": "what is a halfway house",
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 3
     },
@@ -684,6 +708,14 @@
       "impressions": 1,
       "ctr": 0,
       "position": 61
+    },
+    {
+      "query": "what is a transitional home",
+      "page": "https://detoxdenver.org/questions/what-is-transitional-living-home/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 63
     },
     {
       "query": "who pays for sober living homes",
