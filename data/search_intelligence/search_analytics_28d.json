@@ -1,21 +1,21 @@
 {
   "property": "sc-domain:detoxdenver.org",
-  "start_date": "2026-10-24",
-  "end_date": "2026-11-20",
-  "collected_at": "2026-11-22T19:49:47.924Z",
+  "start_date": "2026-10-26",
+  "end_date": "2026-11-22",
+  "collected_at": "2026-11-24T22:37:11.233Z",
   "totals": {
     "clicks": 2,
-    "impressions": 319,
-    "ctr": 0.006269592476489028,
-    "position": 24.078369905956112
+    "impressions": 362,
+    "ctr": 0.0055248618784530384,
+    "position": 21.930939226519335
   },
   "pages": [
     {
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 1,
-      "impressions": 84,
-      "ctr": 0.011904761904761904,
-      "position": 8.523809523809524
+      "impressions": 111,
+      "ctr": 0.009009009009009009,
+      "position": 7.963963963963964
     },
     {
       "page": "https://detoxdenver.org/questions/free-sober-living-scholarships-colorado/",
@@ -76,9 +76,9 @@
     {
       "page": "https://detoxdenver.org/questions/do-sober-living-homes-provide-meals/",
       "clicks": 0,
-      "impressions": 117,
+      "impressions": 130,
       "ctr": 0,
-      "position": 4.547008547008547
+      "position": 4.553846153846154
     },
     {
       "page": "https://detoxdenver.org/questions/how-does-transitional-housing-work/",
@@ -90,9 +90,9 @@
     {
       "page": "https://detoxdenver.org/questions/how-long-can-you-stay-in-transitional-housing/",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 9,
       "ctr": 0,
-      "position": 7.666666666666667
+      "position": 8.444444444444445
     },
     {
       "page": "https://detoxdenver.org/questions/how-much-does-it-cost-to-live-in-a-sober-house/",
@@ -289,25 +289,25 @@
       "query": "are you allowed to leave a halfway house",
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 7
+      "position": 8.5
     },
     {
       "query": "can you leave a halfway house",
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 11
+      "position": 10.666666666666666
     },
     {
       "query": "can you leave a halfway house during the day",
       "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 9,
       "ctr": 0,
-      "position": 21.625
+      "position": 20.444444444444443
     },
     {
       "query": "can you leave a halfway house during the day",
@@ -425,9 +425,9 @@
       "query": "how long can you stay in transitional housing",
       "page": "https://detoxdenver.org/questions/how-long-can-you-stay-in-transitional-housing/",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 1
+      "position": 6
     },
     {
       "query": "how much does it cost to live in a sober house",
@@ -468,6 +468,14 @@
       "impressions": 1,
       "ctr": 0,
       "position": 100
+    },
+    {
+      "query": "neelyville halfway house",
+      "page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
     },
     {
       "query": "ottumwa iowa halfway house",
