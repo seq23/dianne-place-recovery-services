@@ -1,18 +1,145 @@
 {
   "schema": "search-loop-targets-v1",
   "site": "detoxdenver.org",
-  "week": "2026-W47",
-  "generated_at": "2026-11-16T12:41:22.377Z",
+  "week": "2026-W48",
+  "generated_at": "2026-11-24T00:08:46.457Z",
   "sources": {
-    "search_console": "ok: 38 rows",
+    "search_console": "ok: 65 rows",
     "bing_webmaster": "ok: 0 rows",
-    "easy_wins": "ok: 4 easy win(s) in Search Console",
+    "easy_wins": "ok: 14 easy win(s) in Search Console",
     "suggestqueries.google.com": "ok",
-    "api.bing.com": "not read: unavailable after 3 failures (last http 204)",
-    "relevance_screen": "ok: kept 44 of 135 (free model)",
+    "api.bing.com": "ok",
+    "relevance_screen": "ok: kept 55 of 150 (free model)",
     "top10": "ok: 15 top-10 read(s) via brave"
   },
   "targets": [
+    {
+      "query": "how long do you have to stay in sober living",
+      "variants": [],
+      "signals": {
+        "words": 10,
+        "question": true,
+        "google_suggest": true,
+        "neighbour": {
+          "sim": 0.8,
+          "of": "how long can you stay in sober living",
+          "why": "top 1 with 1 impressions"
+        },
+        "unanswered": {
+          "words": 5,
+          "covered": 0.4,
+          "parts_best_position": 1,
+          "parts_rows": 11
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.15,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 2,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 2 thin or old, 0 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 74
+      },
+      "score": 74,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
+        "no site page answers this 5-word question, and the site holds its parts at position 1",
+        "weak top 10 (0.15): 0 directories, 0 forums, 0 off-target national, 2 thin or old, 0 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "can you leave a halfway house",
+      "variants": [],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "gsc_position": 11,
+        "gsc_impressions": 2,
+        "gsc_page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
+        "google_suggest": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.67,
+          "of": "neelyville halfway house",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 85.9,
+        "can_be_one": 33.5
+      },
+      "score": 85.9,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "already ranks 11 in Search Console (2 impressions)",
+        "can-be-#1 score 33.5 too (taken by the striking lane's turn)"
+      ]
+    },
+    {
+      "query": "sober houses near me for men",
+      "variants": [],
+      "signals": {
+        "words": 6,
+        "question": false,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.75,
+          "of": "sober houses near me",
+          "why": "top 3 with 1 impressions"
+        },
+        "unanswered": {
+          "words": 4,
+          "covered": 0.25,
+          "parts_best_position": 3,
+          "parts_rows": 1
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.15,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 1,
+            "exact_answer": 1
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 1 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 40,
+        "can_be_one": 72.3
+      },
+      "score": 72.3,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"sober houses near me\" (top 3 with 1 impressions)",
+        "no site page answers this 4-word question, and the site holds its parts at position 3",
+        "weak top 10 (0.15): 0 directories, 0 forums, 0 off-target national, 1 thin or old, 1 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
     {
       "query": "how long can you stay in a sober living facility",
       "variants": [],
@@ -29,7 +156,7 @@
           "words": 5,
           "covered": 0.4,
           "parts_best_position": 1,
-          "parts_rows": 4
+          "parts_rows": 11
         },
         "top10": {
           "provider": "brave",
@@ -62,57 +189,19 @@
       ]
     },
     {
-      "query": "how long can you stay in transitional housing near me",
+      "query": "can you leave a halfway house during the day",
       "variants": [],
       "signals": {
-        "words": 10,
+        "words": 9,
         "question": true,
+        "gsc_position": 21.6,
+        "gsc_impressions": 8,
+        "gsc_page": "https://detoxdenver.org/questions/can-halfway-house-residents-leave/",
         "google_suggest": true,
         "unanswered": {
           "words": 5,
           "covered": 0.4,
-          "parts_best_position": 1,
-          "parts_rows": 2
-        },
-        "top10": {
-          "provider": "brave",
-          "weakness": 0,
-          "counts": {
-            "results": 10,
-            "directories": 0,
-            "forums": 0,
-            "off_target_national": 0,
-            "thin_or_old": 0,
-            "exact_answer": 0
-          },
-          "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question"
-          ]
-        }
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 40
-      },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)",
-        "can-be-#1 score 40 too (taken by the striking lane's turn)"
-      ]
-    },
-    {
-      "query": "what happens if you relapse in sober living",
-      "variants": [],
-      "signals": {
-        "words": 8,
-        "question": true,
-        "google_suggest": true,
-        "unanswered": {
-          "words": 5,
-          "covered": 0.4,
-          "parts_best_position": 1,
+          "parts_best_position": 3,
           "parts_rows": 4
         },
         "top10": {
@@ -120,68 +209,125 @@
           "weakness": 0.15,
           "counts": {
             "results": 10,
-            "directories": 0,
+            "directories": 1,
             "forums": 0,
             "off_target_national": 0,
-            "thin_or_old": 3,
-            "exact_answer": 3
+            "thin_or_old": 0,
+            "exact_answer": 0
           },
           "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 3 thin or old, 3 answer the exact question"
+            "top 10: 1 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question"
           ]
         }
       },
       "scores": {
-        "striking": 30,
+        "striking": 58,
         "can_be_one": 46
       },
-      "score": 46,
+      "score": 58,
       "kind": "new",
-      "lane": "can_be_one",
+      "lane": "striking",
       "reasons": [
-        "no site page answers this 5-word question, and the site holds its parts at position 1",
-        "weak top 10 (0.15): 0 directories, 0 forums, 0 off-target national, 3 thin or old, 3 answer the exact question",
-        "people search it (autocomplete or impressions)"
+        "already ranks 21.6 in Search Console (8 impressions)",
+        "can-be-#1 score 46 too (taken by the striking lane's turn)"
       ]
     },
     {
-      "query": "sober housing rules",
-      "variants": [],
+      "query": "sober houses near me for women",
+      "variants": [
+        "sober houses for women near me"
+      ],
       "signals": {
-        "words": 3,
+        "words": 6,
         "question": false,
         "google_suggest": true,
+        "bing_suggest": true,
         "neighbour": {
-          "sim": 0.67,
+          "sim": 0.75,
           "of": "sober houses near me",
           "why": "top 3 with 1 impressions"
         },
+        "unanswered": {
+          "words": 4,
+          "covered": 0.25,
+          "parts_best_position": 3,
+          "parts_rows": 1
+        },
         "top10": {
           "provider": "brave",
-          "weakness": 0.23,
+          "weakness": 0.08,
           "counts": {
             "results": 10,
             "directories": 0,
             "forums": 0,
             "off_target_national": 0,
-            "thin_or_old": 2,
+            "thin_or_old": 1,
             "exact_answer": 0
           },
           "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 2 thin or old, 0 answer the exact question"
+            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 0 answer the exact question"
           ]
         }
       },
       "scores": {
-        "striking": 15,
-        "can_be_one": 42.7
+        "striking": 40,
+        "can_be_one": 69.5
       },
-      "score": 42.7,
+      "score": 69.5,
       "kind": "new",
       "lane": "can_be_one",
       "reasons": [
         "easy-win neighbour of \"sober houses near me\" (top 3 with 1 impressions)",
-        "weak top 10 (0.23): 0 directories, 0 forums, 0 off-target national, 2 thin or old, 0 answer the exact question",
+        "no site page answers this 4-word question, and the site holds its parts at position 3",
+        "weak top 10 (0.08): 0 directories, 0 forums, 0 off-target national, 1 thin or old, 0 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "clean and sober houses near me",
+      "variants": [],
+      "signals": {
+        "words": 6,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.75,
+          "of": "sober houses near me",
+          "why": "top 3 with 1 impressions"
+        },
+        "unanswered": {
+          "words": 4,
+          "covered": 0.25,
+          "parts_best_position": 3,
+          "parts_rows": 1
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.08,
+          "counts": {
+            "results": 10,
+            "directories": 1,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 1 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 69.5
+      },
+      "score": 69.5,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"sober houses near me\" (top 3 with 1 impressions)",
+        "no site page answers this 4-word question, and the site holds its parts at position 3",
+        "weak top 10 (0.08): 1 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question",
         "people search it (autocomplete or impressions)"
       ]
     },
@@ -194,10 +340,308 @@
         "words": 10,
         "question": true,
         "google_suggest": true,
+        "bing_suggest": true,
         "neighbour": {
           "sim": 0.8,
           "of": "how long can you stay in sober living",
           "why": "top 1 with 1 impressions"
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 1,
+            "exact_answer": 3
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 3 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 38
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 score 38 too (taken by the striking lane's turn)"
+      ]
+    },
+    {
+      "query": "how long does someone stay in sober living",
+      "variants": [
+        "how long can someone stay in sober living"
+      ],
+      "signals": {
+        "words": 8,
+        "question": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.8,
+          "of": "how long can you stay in sober living",
+          "why": "top 1 with 1 impressions"
+        },
+        "unanswered": {
+          "words": 5,
+          "covered": 0.4,
+          "parts_best_position": 1,
+          "parts_rows": 11
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 1
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 1 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 25,
+        "can_be_one": 68
+      },
+      "score": 68,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
+        "no site page answers this 5-word question, and the site holds its parts at position 1",
+        "weak top 10 (0): 0 directories, 0 forums, 0 off-target national, 0 thin or old, 1 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "long term sober living near me",
+      "variants": [],
+      "signals": {
+        "words": 6,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.6,
+          "of": "how long can you stay in sober living",
+          "why": "top 1 with 1 impressions"
+        },
+        "unanswered": {
+          "words": 5,
+          "covered": 0.4,
+          "parts_best_position": 1,
+          "parts_rows": 11
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.08,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 1,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 0 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 64.2
+      },
+      "score": 64.2,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
+        "no site page answers this 5-word question, and the site holds its parts at position 1",
+        "weak top 10 (0.08): 0 directories, 0 forums, 0 off-target national, 1 thin or old, 0 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "how long can you stay in sober living",
+      "variants": [
+        "how long do you stay in sober living",
+        "how long should you stay in sober living"
+      ],
+      "signals": {
+        "words": 8,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.5,
+          "of": "are sober living homes profitable",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 27.5
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 score 27.5 too (taken by the striking lane's turn)"
+      ]
+    },
+    {
+      "query": "sober living houses near me for men",
+      "variants": [],
+      "signals": {
+        "words": 7,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.6,
+          "of": "sober houses near me",
+          "why": "top 3 with 1 impressions"
+        },
+        "unanswered": {
+          "words": 5,
+          "covered": 0.4,
+          "parts_best_position": 1,
+          "parts_rows": 11
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.08,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 1,
+            "exact_answer": 1
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 1 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 64.2
+      },
+      "score": 64.2,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"sober houses near me\" (top 3 with 1 impressions)",
+        "no site page answers this 5-word question, and the site holds its parts at position 1",
+        "weak top 10 (0.08): 0 directories, 0 forums, 0 off-target national, 1 thin or old, 1 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "sober living houses near me for women",
+      "variants": [],
+      "signals": {
+        "words": 7,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.6,
+          "of": "sober houses near me",
+          "why": "top 3 with 1 impressions"
+        },
+        "unanswered": {
+          "words": 5,
+          "covered": 0.4,
+          "parts_best_position": 1,
+          "parts_rows": 11
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.08,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 1,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 0 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 64.2
+      },
+      "score": 64.2,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"sober houses near me\" (top 3 with 1 impressions)",
+        "no site page answers this 5-word question, and the site holds its parts at position 1",
+        "weak top 10 (0.08): 0 directories, 0 forums, 0 off-target national, 1 thin or old, 0 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "how to find sober living homes",
+      "variants": [],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.75,
+          "of": "are sober living homes profitable",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 36.3
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 score 36.3 too (taken by the striking lane's turn)"
+      ]
+    },
+    {
+      "query": "does health insurance cover sober living",
+      "variants": [],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "google_suggest": true,
+        "neighbour": {
+          "sim": 0.6,
+          "of": "are sober living homes covered by insurance",
+          "why": "top 3 with 1 impressions"
+        },
+        "unanswered": {
+          "words": 5,
+          "covered": 0.4,
+          "parts_best_position": 1,
+          "parts_rows": 10
         },
         "top10": {
           "provider": "brave",
@@ -217,18 +661,296 @@
       },
       "scores": {
         "striking": 30,
+        "can_be_one": 61
+      },
+      "score": 61,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"are sober living homes covered by insurance\" (top 3 with 1 impressions)",
+        "no site page answers this 5-word question, and the site holds its parts at position 1",
+        "weak top 10 (0): 0 directories, 0 forums, 0 off-target national, 0 thin or old, 1 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "sober living denver metro area",
+      "variants": [],
+      "signals": {
+        "words": 5,
+        "question": false,
+        "bing_suggest": true,
+        "unanswered": {
+          "words": 5,
+          "covered": 0.4,
+          "parts_best_position": 1,
+          "parts_rows": 10
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 40
+      },
+      "score": 40,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "no site page answers this 5-word question, and the site holds its parts at position 1",
+        "weak top 10 (0): 0 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "how to find a good sober living house",
+      "variants": [
+        "how to find a sober living house"
+      ],
+      "signals": {
+        "words": 8,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
+    },
+    {
+      "query": "sober living apartments denver co",
+      "variants": [],
+      "signals": {
+        "words": 5,
+        "question": false,
+        "bing_suggest": true,
+        "unanswered": {
+          "words": 5,
+          "covered": 0.4,
+          "parts_best_position": 1,
+          "parts_rows": 10
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 2
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 2 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 40
+      },
+      "score": 40,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "no site page answers this 5-word question, and the site holds its parts at position 1",
+        "weak top 10 (0): 0 directories, 0 forums, 0 off-target national, 0 thin or old, 2 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "how long can you stay in transitional housing near me",
+      "variants": [],
+      "signals": {
+        "words": 10,
+        "question": true,
+        "google_suggest": true,
+        "neighbour": {
+          "sim": 0.8,
+          "of": "how long can you stay in transitional housing",
+          "why": "top 1 with 1 impressions"
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 0,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question"
+          ]
+        }
+      },
+      "scores": {
+        "striking": 30,
         "can_be_one": 38
       },
-      "score": 30,
+      "score": 38,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"how long can you stay in transitional housing\" (top 1 with 1 impressions)",
+        "weak top 10 (0): 0 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "how to get into sober living",
+      "variants": [],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.5,
+          "of": "are sober living homes profitable",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 27.5
+      },
+      "score": 45,
       "kind": "new",
       "lane": "striking",
       "reasons": [
         "autocomplete demand (google/bing)",
-        "can-be-#1 score 38 too (taken by the striking lane's turn)"
+        "can-be-#1 score 27.5 too (taken by the striking lane's turn)"
       ]
     },
     {
-      "query": "how long can you live at sober living",
+      "query": "are sober living homes free",
+      "variants": [
+        "free sober living homes"
+      ],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.75,
+          "of": "are sober living homes profitable",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 25,
+        "can_be_one": 36.3
+      },
+      "score": 36.3,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"are sober living homes profitable\" (top 3 with 1 impressions)",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "sober living homes cost",
+      "variants": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.75,
+          "of": "are sober living homes profitable",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 36.3
+      },
+      "score": 36.3,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"are sober living homes profitable\" (top 3 with 1 impressions)",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "how to support someone in recovery",
+      "variants": [],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
+    },
+    {
+      "query": "long term sober living",
+      "variants": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.75,
+          "of": "how long can you stay in sober living",
+          "why": "top 1 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 36.3
+      },
+      "score": 36.3,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "how long can you live in transitional housing",
       "variants": [],
       "signals": {
         "words": 8,
@@ -236,76 +958,375 @@
         "google_suggest": true,
         "neighbour": {
           "sim": 0.75,
-          "of": "how long can you stay in sober living",
+          "of": "how long can you stay in transitional housing",
           "why": "top 1 with 1 impressions"
         },
-        "top10": {
-          "provider": "brave",
-          "weakness": 0.08,
-          "counts": {
-            "results": 10,
-            "directories": 0,
-            "forums": 0,
-            "off_target_national": 0,
-            "thin_or_old": 1,
-            "exact_answer": 1
-          },
-          "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 1 answer the exact question"
-          ]
-        }
+        "top10": "not read: outside this run's top-10 budget"
       },
       "scores": {
         "striking": 30,
-        "can_be_one": 39.5
+        "can_be_one": 36.3
       },
-      "score": 39.5,
+      "score": 36.3,
       "kind": "new",
       "lane": "can_be_one",
       "reasons": [
-        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
-        "weak top 10 (0.08): 0 directories, 0 forums, 0 off-target national, 1 thin or old, 1 answer the exact question",
+        "easy-win neighbour of \"how long can you stay in transitional housing\" (top 1 with 1 impressions)",
         "people search it (autocomplete or impressions)"
       ]
     },
     {
-      "query": "relapse in sober living",
+      "query": "how to help someone in recovery",
+      "variants": [],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
+    },
+    {
+      "query": "long term transitional housing",
+      "variants": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.75,
+          "of": "how long can you stay in transitional housing",
+          "why": "top 1 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 36.3
+      },
+      "score": 36.3,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"how long can you stay in transitional housing\" (top 1 with 1 impressions)",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "sober houses near me cost",
+      "variants": [],
+      "signals": {
+        "words": 5,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.75,
+          "of": "sober houses near me",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 36.3
+      },
+      "score": 36.3,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"sober houses near me\" (top 3 with 1 impressions)",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "how to support someone in alcohol recovery",
+      "variants": [],
+      "signals": {
+        "words": 7,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
+    },
+    {
+      "query": "sober living houses near me",
+      "variants": [],
+      "signals": {
+        "words": 5,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.75,
+          "of": "sober houses near me",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 36.3
+      },
+      "score": 36.3,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"sober houses near me\" (top 3 with 1 impressions)",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "sober living homes near me",
+      "variants": [],
+      "signals": {
+        "words": 5,
+        "question": false,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.75,
+          "of": "are sober living homes profitable",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 40,
+        "can_be_one": 36.3
+      },
+      "score": 36.3,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"are sober living homes profitable\" (top 3 with 1 impressions)",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "what to bring to sober living",
+      "variants": [],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.67,
+          "of": "rbh sober living",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 33.5
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 score 33.5 too (taken by the striking lane's turn)"
+      ]
+    },
+    {
+      "query": "sober living near me",
       "variants": [],
       "signals": {
         "words": 4,
         "question": false,
         "google_suggest": true,
+        "bing_suggest": true,
         "neighbour": {
           "sim": 0.67,
-          "of": "sober living ogden",
+          "of": "rbh sober living",
           "why": "top 3 with 1 impressions"
         },
-        "top10": {
-          "provider": "brave",
-          "weakness": 0.08,
-          "counts": {
-            "results": 10,
-            "directories": 0,
-            "forums": 0,
-            "off_target_national": 0,
-            "thin_or_old": 2,
-            "exact_answer": 7
-          },
-          "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 2 thin or old, 7 answer the exact question"
-          ]
-        }
+        "top10": "not read: outside this run's top-10 budget"
       },
       "scores": {
-        "striking": 25,
-        "can_be_one": 36.7
+        "striking": 40,
+        "can_be_one": 33.5
       },
-      "score": 36.7,
+      "score": 33.5,
       "kind": "new",
       "lane": "can_be_one",
       "reasons": [
-        "easy-win neighbour of \"sober living ogden\" (top 3 with 1 impressions)",
-        "weak top 10 (0.08): 0 directories, 0 forums, 0 off-target national, 2 thin or old, 7 answer the exact question",
+        "easy-win neighbour of \"rbh sober living\" (top 3 with 1 impressions)",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "halfway houses near me",
+      "variants": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.67,
+          "of": "sober houses near me",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 40,
+        "can_be_one": 33.5
+      },
+      "score": 33.5,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"sober houses near me\" (top 3 with 1 impressions)",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "how do you get into a sober living house",
+      "variants": [
+        "how to get into a sober living house"
+      ],
+      "signals": {
+        "words": 9,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
+    },
+    {
+      "query": "recovery houses near me",
+      "variants": [
+        "recovery housing near me"
+      ],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.67,
+          "of": "sober houses near me",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 40,
+        "can_be_one": 33.5
+      },
+      "score": 33.5,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"sober houses near me\" (top 3 with 1 impressions)",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "sober living rules",
+      "variants": [],
+      "signals": {
+        "words": 3,
+        "question": false,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.67,
+          "of": "rbh sober living",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 33.5
+      },
+      "score": 33.5,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"rbh sober living\" (top 3 with 1 impressions)",
+        "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "how to get into a sober house",
+      "variants": [],
+      "signals": {
+        "words": 7,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)"
+      ]
+    },
+    {
+      "query": "sober living denver",
+      "variants": [],
+      "signals": {
+        "words": 3,
+        "question": false,
+        "google_suggest": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.67,
+          "of": "rbh sober living",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 33.5
+      },
+      "score": 33.5,
+      "kind": "new",
+      "lane": "can_be_one",
+      "reasons": [
+        "easy-win neighbour of \"rbh sober living\" (top 3 with 1 impressions)",
         "people search it (autocomplete or impressions)"
       ]
     },
@@ -321,197 +1342,41 @@
           "of": "sober houses near me",
           "why": "top 3 with 1 impressions"
         },
-        "top10": {
-          "provider": "brave",
-          "weakness": 0,
-          "counts": {
-            "results": 10,
-            "directories": 0,
-            "forums": 0,
-            "off_target_national": 0,
-            "thin_or_old": 0,
-            "exact_answer": 1
-          },
-          "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 1 answer the exact question"
-          ]
-        }
+        "top10": "not read: outside this run's top-10 budget"
       },
       "scores": {
         "striking": 30,
         "can_be_one": 33.5
       },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)",
-        "can-be-#1 score 33.5 too (taken by the striking lane's turn)"
-      ]
-    },
-    {
-      "query": "what is sober living mean",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.67,
-          "of": "sober living ogden",
-          "why": "top 3 with 1 impressions"
-        },
-        "top10": {
-          "provider": "brave",
-          "weakness": 0.08,
-          "counts": {
-            "results": 10,
-            "directories": 0,
-            "forums": 0,
-            "off_target_national": 0,
-            "thin_or_old": 1,
-            "exact_answer": 1
-          },
-          "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 1 answer the exact question"
-          ]
-        }
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 36.7
-      },
-      "score": 36.7,
+      "score": 33.5,
       "kind": "new",
       "lane": "can_be_one",
       "reasons": [
-        "easy-win neighbour of \"sober living ogden\" (top 3 with 1 impressions)",
-        "weak top 10 (0.08): 0 directories, 0 forums, 0 off-target national, 1 thin or old, 1 answer the exact question",
+        "easy-win neighbour of \"sober houses near me\" (top 3 with 1 impressions)",
         "people search it (autocomplete or impressions)"
       ]
     },
     {
-      "query": "sober living rules",
+      "query": "sober houses near me",
       "variants": [
-        "what are sober living rules"
+        "sober housing near me"
       ],
       "signals": {
-        "words": 3,
+        "words": 4,
         "question": false,
         "google_suggest": true,
-        "neighbour": {
-          "sim": 0.67,
-          "of": "sober living ogden",
-          "why": "top 3 with 1 impressions"
-        },
-        "top10": {
-          "provider": "brave",
-          "weakness": 0,
-          "counts": {
-            "results": 10,
-            "directories": 0,
-            "forums": 0,
-            "off_target_national": 0,
-            "thin_or_old": 2,
-            "exact_answer": 9
-          },
-          "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 2 thin or old, 9 answer the exact question"
-          ]
-        }
+        "bing_suggest": true,
+        "top10": "not read: outside this run's top-10 budget"
       },
       "scores": {
-        "striking": 15,
-        "can_be_one": 33.5
+        "striking": 40,
+        "can_be_one": 0
       },
-      "score": 33.5,
-      "kind": "new",
-      "lane": "can_be_one",
-      "reasons": [
-        "easy-win neighbour of \"sober living ogden\" (top 3 with 1 impressions)",
-        "weak top 10 (0): 0 directories, 0 forums, 0 off-target national, 2 thin or old, 9 answer the exact question",
-        "people search it (autocomplete or impressions)"
-      ]
-    },
-    {
-      "query": "what to bring to sober living",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.67,
-          "of": "sober living ogden",
-          "why": "top 3 with 1 impressions"
-        },
-        "top10": {
-          "provider": "brave",
-          "weakness": 0,
-          "counts": {
-            "results": 10,
-            "directories": 0,
-            "forums": 0,
-            "off_target_national": 0,
-            "thin_or_old": 0,
-            "exact_answer": 6
-          },
-          "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 6 answer the exact question"
-          ]
-        }
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 33.5
-      },
-      "score": 30,
+      "score": 40,
       "kind": "new",
       "lane": "striking",
       "reasons": [
-        "autocomplete demand (google/bing)",
-        "can-be-#1 score 33.5 too (taken by the striking lane's turn)"
-      ]
-    },
-    {
-      "query": "sober living denver",
-      "variants": [],
-      "signals": {
-        "words": 3,
-        "question": false,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.67,
-          "of": "sober living ogden",
-          "why": "top 3 with 1 impressions"
-        },
-        "top10": {
-          "provider": "brave",
-          "weakness": 0,
-          "counts": {
-            "results": 10,
-            "directories": 0,
-            "forums": 0,
-            "off_target_national": 0,
-            "thin_or_old": 0,
-            "exact_answer": 8
-          },
-          "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 8 answer the exact question"
-          ]
-        }
-      },
-      "scores": {
-        "striking": 15,
-        "can_be_one": 33.5
-      },
-      "score": 33.5,
-      "kind": "new",
-      "lane": "can_be_one",
-      "reasons": [
-        "easy-win neighbour of \"sober living ogden\" (top 3 with 1 impressions)",
-        "weak top 10 (0): 0 directories, 0 forums, 0 off-target national, 0 thin or old, 8 answer the exact question",
-        "people search it (autocomplete or impressions)"
+        "autocomplete demand (google/bing)"
       ]
     },
     {
@@ -523,24 +1388,10 @@
         "google_suggest": true,
         "neighbour": {
           "sim": 0.67,
-          "of": "sober living ogden",
+          "of": "rbh sober living",
           "why": "top 3 with 1 impressions"
         },
-        "top10": {
-          "provider": "brave",
-          "weakness": 0,
-          "counts": {
-            "results": 10,
-            "directories": 0,
-            "forums": 0,
-            "off_target_national": 0,
-            "thin_or_old": 0,
-            "exact_answer": 0
-          },
-          "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question"
-          ]
-        }
+        "top10": "not read: outside this run's top-10 budget"
       },
       "scores": {
         "striking": 30,
@@ -550,94 +1401,7 @@
       "kind": "new",
       "lane": "can_be_one",
       "reasons": [
-        "easy-win neighbour of \"sober living ogden\" (top 3 with 1 impressions)",
-        "weak top 10 (0): 0 directories, 0 forums, 0 off-target national, 0 thin or old, 0 answer the exact question",
-        "people search it (autocomplete or impressions)"
-      ]
-    },
-    {
-      "query": "how long can you stay in sober living",
-      "variants": [
-        "how long do you stay in sober living",
-        "how long should you stay in sober living"
-      ],
-      "signals": {
-        "words": 8,
-        "question": true,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.5,
-          "of": "sober living ogden",
-          "why": "top 3 with 1 impressions"
-        },
-        "top10": {
-          "provider": "brave",
-          "weakness": 0,
-          "counts": {
-            "results": 10,
-            "directories": 0,
-            "forums": 0,
-            "off_target_national": 0,
-            "thin_or_old": 1,
-            "exact_answer": 6
-          },
-          "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 1 thin or old, 6 answer the exact question"
-          ]
-        }
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 27.5
-      },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)",
-        "can-be-#1 score 27.5 too (taken by the striking lane's turn)"
-      ]
-    },
-    {
-      "query": "how long can you stay in transitional housing",
-      "variants": [
-        "how long do you stay in transitional housing"
-      ],
-      "signals": {
-        "words": 8,
-        "question": true,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
-        },
-        "top10": {
-          "provider": "brave",
-          "weakness": 0,
-          "counts": {
-            "results": 10,
-            "directories": 0,
-            "forums": 0,
-            "off_target_national": 0,
-            "thin_or_old": 0,
-            "exact_answer": 1
-          },
-          "reasons": [
-            "top 10: 0 directories, 0 forums, 0 off-target national, 0 thin or old, 1 answer the exact question"
-          ]
-        }
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 27.5
-      },
-      "score": 27.5,
-      "kind": "new",
-      "lane": "can_be_one",
-      "reasons": [
-        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
-        "weak top 10 (0): 0 directories, 0 forums, 0 off-target national, 0 thin or old, 1 answer the exact question",
+        "easy-win neighbour of \"rbh sober living\" (top 3 with 1 impressions)",
         "people search it (autocomplete or impressions)"
       ]
     },
@@ -648,23 +1412,51 @@
         "words": 4,
         "question": false,
         "google_suggest": true,
+        "bing_suggest": true,
         "neighbour": {
           "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
+          "of": "are sober living homes profitable",
+          "why": "top 3 with 1 impressions"
         },
         "top10": "not read: outside this run's top-10 budget"
       },
       "scores": {
-        "striking": 25,
+        "striking": 40,
         "can_be_one": 27.5
       },
       "score": 27.5,
       "kind": "new",
       "lane": "can_be_one",
       "reasons": [
-        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
+        "easy-win neighbour of \"are sober living homes profitable\" (top 3 with 1 impressions)",
         "people search it (autocomplete or impressions)"
+      ]
+    },
+    {
+      "query": "sober living house rules",
+      "variants": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "bing_suggest": true,
+        "google_suggest": true,
+        "neighbour": {
+          "sim": 0.5,
+          "of": "are sober living homes profitable",
+          "why": "top 3 with 1 impressions"
+        },
+        "top10": "not read: outside this run's top-10 budget"
+      },
+      "scores": {
+        "striking": 40,
+        "can_be_one": 27.5
+      },
+      "score": 40,
+      "kind": "new",
+      "lane": "striking",
+      "reasons": [
+        "autocomplete demand (google/bing)",
+        "can-be-#1 score 27.5 too (taken by the striking lane's turn)"
       ]
     },
     {
@@ -676,8 +1468,8 @@
         "google_suggest": true,
         "neighbour": {
           "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
+          "of": "are sober living homes profitable",
+          "why": "top 3 with 1 impressions"
         },
         "top10": "not read: outside this run's top-10 budget"
       },
@@ -685,219 +1477,11 @@
         "striking": 30,
         "can_be_one": 27.5
       },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)",
-        "can-be-#1 score 27.5 too (taken by the striking lane's turn)"
-      ]
-    },
-    {
-      "query": "sober living denver women",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
-        },
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 25,
-        "can_be_one": 27.5
-      },
       "score": 27.5,
       "kind": "new",
       "lane": "can_be_one",
       "reasons": [
-        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
-        "people search it (autocomplete or impressions)"
-      ]
-    },
-    {
-      "query": "sober living denver area",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
-        },
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 25,
-        "can_be_one": 27.5
-      },
-      "score": 27.5,
-      "kind": "new",
-      "lane": "can_be_one",
-      "reasons": [
-        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
-        "people search it (autocomplete or impressions)"
-      ]
-    },
-    {
-      "query": "how much is a sober living house",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
-        },
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 27.5
-      },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)",
-        "can-be-#1 score 27.5 too (taken by the striking lane's turn)"
-      ]
-    },
-    {
-      "query": "sober living denver men",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
-        },
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 25,
-        "can_be_one": 27.5
-      },
-      "score": 27.5,
-      "kind": "new",
-      "lane": "can_be_one",
-      "reasons": [
-        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
-        "people search it (autocomplete or impressions)"
-      ]
-    },
-    {
-      "query": "sober living denver metro",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
-        },
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 25,
-        "can_be_one": 27.5
-      },
-      "score": 27.5,
-      "kind": "new",
-      "lane": "can_be_one",
-      "reasons": [
-        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
-        "people search it (autocomplete or impressions)"
-      ]
-    },
-    {
-      "query": "how to find sober living homes",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
-        },
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 27.5
-      },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)",
-        "can-be-#1 score 27.5 too (taken by the striking lane's turn)"
-      ]
-    },
-    {
-      "query": "sober living denver cost",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
-        },
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 25,
-        "can_be_one": 27.5
-      },
-      "score": 27.5,
-      "kind": "new",
-      "lane": "can_be_one",
-      "reasons": [
-        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
-        "people search it (autocomplete or impressions)"
-      ]
-    },
-    {
-      "query": "whats a sober living house",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
-        },
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 25,
-        "can_be_one": 27.5
-      },
-      "score": 27.5,
-      "kind": "new",
-      "lane": "can_be_one",
-      "reasons": [
-        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
+        "easy-win neighbour of \"are sober living homes profitable\" (top 3 with 1 impressions)",
         "people search it (autocomplete or impressions)"
       ]
     },
@@ -919,82 +1503,29 @@
         "striking": 30,
         "can_be_one": 27.5
       },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)",
-        "can-be-#1 score 27.5 too (taken by the striking lane's turn)"
-      ]
-    },
-    {
-      "query": "help paying for sober living",
-      "variants": [
-        "how to get help paying for sober living"
-      ],
-      "signals": {
-        "words": 5,
-        "question": false,
-        "google_suggest": true,
-        "neighbour": {
-          "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
-        },
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 25,
-        "can_be_one": 27.5
-      },
       "score": 27.5,
       "kind": "new",
       "lane": "can_be_one",
       "reasons": [
-        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
+        "easy-win neighbour of \"sober houses near me\" (top 3 with 1 impressions)",
         "people search it (autocomplete or impressions)"
       ]
     },
     {
-      "query": "sober living house rules",
+      "query": "sober living house rules and regulations",
       "variants": [],
       "signals": {
-        "words": 4,
+        "words": 6,
         "question": false,
         "google_suggest": true,
-        "neighbour": {
-          "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
-        },
+        "bing_suggest": true,
         "top10": "not read: outside this run's top-10 budget"
       },
       "scores": {
-        "striking": 25,
-        "can_be_one": 27.5
-      },
-      "score": 27.5,
-      "kind": "new",
-      "lane": "can_be_one",
-      "reasons": [
-        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
-        "people search it (autocomplete or impressions)"
-      ]
-    },
-    {
-      "query": "how to find a good sober living house",
-      "variants": [],
-      "signals": {
-        "words": 8,
-        "question": true,
-        "google_suggest": true,
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 30,
+        "striking": 40,
         "can_be_one": 0
       },
-      "score": 30,
+      "score": 40,
       "kind": "new",
       "lane": "striking",
       "reasons": [
@@ -1006,46 +1537,6 @@
       "variants": [],
       "signals": {
         "words": 8,
-        "question": true,
-        "google_suggest": true,
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 0
-      },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)"
-      ]
-    },
-    {
-      "query": "how to support someone in recovery",
-      "variants": [],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 0
-      },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)"
-      ]
-    },
-    {
-      "query": "how to help someone in recovery",
-      "variants": [],
-      "signals": {
-        "words": 6,
         "question": true,
         "google_suggest": true,
         "top10": "not read: outside this run's top-10 budget"
@@ -1102,26 +1593,6 @@
       ]
     },
     {
-      "query": "how to support someone in alcohol recovery",
-      "variants": [],
-      "signals": {
-        "words": 7,
-        "question": true,
-        "google_suggest": true,
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 0
-      },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)"
-      ]
-    },
-    {
       "query": "how to support someone in early recovery",
       "variants": [],
       "signals": {
@@ -1162,74 +1633,10 @@
       ]
     },
     {
-      "query": "how do you get into a sober living house",
-      "variants": [
-        "how to get into a sober living house"
-      ],
-      "signals": {
-        "words": 9,
-        "question": true,
-        "google_suggest": true,
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 0
-      },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)"
-      ]
-    },
-    {
-      "query": "is relapse a part of recovery",
-      "variants": [
-        "why is relapse a part of recovery"
-      ],
-      "signals": {
-        "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 0
-      },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)"
-      ]
-    },
-    {
-      "query": "what is a relapse in recovery",
+      "query": "do sober living houses provide meals",
       "variants": [],
       "signals": {
         "words": 6,
-        "question": true,
-        "google_suggest": true,
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 0
-      },
-      "score": 30,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)"
-      ]
-    },
-    {
-      "query": "how to get into a sober house",
-      "variants": [],
-      "signals": {
-        "words": 7,
         "question": true,
         "google_suggest": true,
         "top10": "not read: outside this run's top-10 budget"
@@ -1284,102 +1691,89 @@
       "reasons": [
         "autocomplete demand (google/bing)"
       ]
-    },
-    {
-      "query": "transitional housing after rehab",
-      "variants": [
-        "what is transitional housing after rehab"
-      ],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true,
-        "top10": "not read: outside this run's top-10 budget"
-      },
-      "scores": {
-        "striking": 25,
-        "can_be_one": 0
-      },
-      "score": 25,
-      "kind": "new",
-      "lane": "striking",
-      "reasons": [
-        "autocomplete demand (google/bing)"
-      ]
     }
   ],
   "strengthen": [
     {
-      "query": "what is sober living mean",
-      "page": "/questions/what-is-a-sober-living-house/",
-      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
-      "score": 36.7,
+      "query": "how long does someone stay in sober living",
+      "page": "/questions/how-long-do-you-have-to-stay-in-sober-living/",
+      "url": "https://detoxdenver.org/questions/how-long-do-you-have-to-stay-in-sober-living/",
+      "score": 68,
       "from": "distinct-gate",
-      "matched_by": "high token overlap (0.50 >= 0.5)",
-      "at": "2026-11-16"
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "at": "2026-11-23"
     },
     {
-      "query": "relapse in sober living",
-      "page": "/questions/what-happens-if-you-relapse-in-sober-living/",
-      "url": "https://detoxdenver.org/questions/what-happens-if-you-relapse-in-sober-living/",
-      "score": 36.7,
+      "query": "how long can you stay in a sober living facility",
+      "page": "/questions/how-long-do-you-have-to-stay-in-sober-living/",
+      "url": "https://detoxdenver.org/questions/how-long-do-you-have-to-stay-in-sober-living/",
+      "score": 71.2,
       "from": "distinct-gate",
-      "matched_by": "high token overlap (0.60 >= 0.5)",
-      "at": "2026-11-16"
-    },
-    {
-      "query": "sober housing rules",
-      "page": "/questions/what-is-a-sober-living-house/",
-      "url": "https://detoxdenver.org/questions/what-is-a-sober-living-house/",
-      "score": 42.7,
-      "from": "distinct-gate",
-      "matched_by": "high token overlap (0.50 >= 0.5)",
-      "at": "2026-11-16"
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "at": "2026-11-23"
     },
     {
       "query": "scholarships for sober living",
-      "variants": [
-        "how to get a scholarship for sober living"
-      ],
+      "variants": [],
       "signals": {
         "words": 4,
         "question": false,
-        "gsc_position": 16,
-        "gsc_impressions": 1,
+        "gsc_position": 17.5,
+        "gsc_impressions": 2,
         "gsc_page": "https://detoxdenver.org/questions/free-sober-living-scholarships-colorado/",
         "google_suggest": true,
+        "bing_suggest": true,
         "neighbour": {
           "sim": 0.67,
-          "of": "sober living ogden",
+          "of": "rbh sober living",
           "why": "top 3 with 1 impressions"
         }
       },
       "scores": {
-        "striking": 54.5,
+        "striking": 69.1,
         "can_be_one": 33.5
       },
-      "score": 54.5,
+      "score": 69.1,
       "page": "/questions/free-sober-living-scholarships-colorado/"
     },
     {
-      "query": "how to get sober living",
+      "query": "what is a halfway house",
       "variants": [],
       "signals": {
         "words": 5,
         "question": true,
         "google_suggest": true,
+        "bing_suggest": true,
         "neighbour": {
           "sim": 0.67,
-          "of": "sober living ogden",
+          "of": "neelyville halfway house",
           "why": "top 3 with 1 impressions"
         }
       },
       "scores": {
-        "striking": 30,
+        "striking": 45,
         "can_be_one": 33.5
       },
-      "score": 30,
-      "page": "/questions/can-you-leave-a-sober-living-home/"
+      "score": 45,
+      "page": "/questions/can-halfway-house-residents-work/"
+    },
+    {
+      "query": "what is a relapse in recovery",
+      "variants": [
+        "how to deal with relapse in recovery"
+      ],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "google_suggest": true,
+        "bing_suggest": true
+      },
+      "scores": {
+        "striking": 45,
+        "can_be_one": 0
+      },
+      "score": 45,
+      "page": "/questions/what-happens-if-you-relapse-in-sober-living/"
     },
     {
       "query": "how to start a sober house",
@@ -1389,51 +1783,38 @@
       "signals": {
         "words": 6,
         "question": true,
-        "google_suggest": true
+        "google_suggest": true,
+        "bing_suggest": true
       },
       "scores": {
-        "striking": 30,
+        "striking": 45,
         "can_be_one": 0
       },
-      "score": 30,
+      "score": 45,
       "page": "/questions/how-much-does-it-cost-to-live-in-a-sober-house/"
     },
     {
-      "query": "how do you pay for sober living",
+      "query": "scholarships for sober living in colorado",
       "variants": [
-        "how to pay for sober living"
+        "scholarships for sober living colorado"
       ],
       "signals": {
-        "words": 7,
-        "question": true,
+        "words": 6,
+        "question": false,
         "google_suggest": true,
+        "bing_suggest": true,
         "neighbour": {
-          "sim": 0.67,
-          "of": "sober living ogden",
+          "sim": 0.5,
+          "of": "are sober living homes profitable",
           "why": "top 3 with 1 impressions"
         }
       },
       "scores": {
-        "striking": 30,
-        "can_be_one": 33.5
+        "striking": 40,
+        "can_be_one": 27.5
       },
-      "score": 30,
-      "page": "/questions/who-pays-for-sober-living-homes/"
-    },
-    {
-      "query": "what is a halfway house",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
-        "google_suggest": true
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 0
-      },
-      "score": 30,
-      "page": "/questions/can-halfway-house-residents-work/"
+      "score": 40,
+      "page": "/questions/free-sober-living-scholarships-colorado/"
     },
     {
       "query": "what is a halfway house and how does it work",
@@ -1441,25 +1822,10 @@
       "signals": {
         "words": 10,
         "question": true,
-        "google_suggest": true
-      },
-      "scores": {
-        "striking": 30,
-        "can_be_one": 0
-      },
-      "score": 30,
-      "page": "/questions/can-halfway-house-residents-work/"
-    },
-    {
-      "query": "how does sober living work",
-      "variants": [],
-      "signals": {
-        "words": 5,
-        "question": true,
         "google_suggest": true,
         "neighbour": {
           "sim": 0.67,
-          "of": "sober living ogden",
+          "of": "neelyville halfway house",
           "why": "top 3 with 1 impressions"
         }
       },
@@ -1468,59 +1834,223 @@
         "can_be_one": 33.5
       },
       "score": 30,
-      "page": "/questions/can-you-work-while-in-sober-living/"
+      "page": "/questions/can-halfway-house-residents-work/"
     },
     {
-      "query": "scholarships for sober living in colorado",
+      "query": "recovery housing",
       "variants": [],
       "signals": {
-        "words": 6,
+        "words": 2,
         "question": false,
         "google_suggest": true,
+        "bing_suggest": true
+      },
+      "scores": {
+        "striking": 30,
+        "can_be_one": 0
+      },
+      "score": 30,
+      "page": "/questions/how-does-transitional-housing-work/"
+    },
+    {
+      "query": "what are sober living homes",
+      "variants": [
+        "sober living homes"
+      ],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "bing_suggest": true,
         "neighbour": {
-          "sim": 0.5,
-          "of": "how long can you stay in sober living",
-          "why": "top 1 with 1 impressions"
+          "sim": 0.75,
+          "of": "are sober living homes profitable",
+          "why": "top 3 with 1 impressions"
         }
       },
       "scores": {
         "striking": 25,
-        "can_be_one": 27.5
-      },
-      "score": 25,
-      "page": "/questions/free-sober-living-scholarships-colorado/"
-    },
-    {
-      "query": "steps to recovery homes",
-      "variants": [],
-      "signals": {
-        "words": 4,
-        "question": false,
-        "google_suggest": true
-      },
-      "scores": {
-        "striking": 25,
-        "can_be_one": 0
+        "can_be_one": 36.3
       },
       "score": 25,
       "page": "/questions/do-sober-living-homes-provide-meals/"
     },
     {
-      "query": "recovery housing",
-      "variants": [
-        "what is recovery housing"
-      ],
+      "query": "how long is transitional housing",
+      "variants": [],
       "signals": {
-        "words": 2,
-        "question": false,
-        "google_suggest": true
+        "words": 5,
+        "question": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.75,
+          "of": "how long can you stay in transitional housing",
+          "why": "top 1 with 1 impressions"
+        }
       },
       "scores": {
-        "striking": 15,
+        "striking": 25,
+        "can_be_one": 36.3
+      },
+      "score": 25,
+      "page": "/questions/how-long-can-you-stay-in-transitional-housing/"
+    },
+    {
+      "query": "how to start sober living",
+      "variants": [
+        "how to start a sober living",
+        "what is sober living"
+      ],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.67,
+          "of": "rbh sober living",
+          "why": "top 3 with 1 impressions"
+        }
+      },
+      "scores": {
+        "striking": 25,
+        "can_be_one": 33.5
+      },
+      "score": 25,
+      "page": "/questions/can-you-leave-a-sober-living-home/"
+    },
+    {
+      "query": "relapse in sober living",
+      "variants": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "google_suggest": true,
+        "neighbour": {
+          "sim": 0.67,
+          "of": "rbh sober living",
+          "why": "top 3 with 1 impressions"
+        }
+      },
+      "scores": {
+        "striking": 25,
+        "can_be_one": 33.5
+      },
+      "score": 25,
+      "page": "/questions/what-happens-if-you-relapse-in-sober-living/"
+    },
+    {
+      "query": "what is a sober home",
+      "variants": [],
+      "signals": {
+        "words": 5,
+        "question": true,
+        "bing_suggest": true
+      },
+      "scores": {
+        "striking": 25,
         "can_be_one": 0
       },
-      "score": 15,
-      "page": "/questions/how-does-transitional-housing-work/"
+      "score": 25,
+      "page": "/questions/can-you-leave-a-sober-living-home/"
+    },
+    {
+      "query": "how to pay for sober living",
+      "variants": [],
+      "signals": {
+        "words": 6,
+        "question": true,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.67,
+          "of": "rbh sober living",
+          "why": "top 3 with 1 impressions"
+        }
+      },
+      "scores": {
+        "striking": 25,
+        "can_be_one": 33.5
+      },
+      "score": 25,
+      "page": "/questions/who-pays-for-sober-living-homes/"
+    },
+    {
+      "query": "cost of sober living",
+      "variants": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.67,
+          "of": "rbh sober living",
+          "why": "top 3 with 1 impressions"
+        }
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 33.5
+      },
+      "score": 20,
+      "page": "/questions/how-much-does-it-cost-to-live-in-a-sober-house/"
+    },
+    {
+      "query": "sober living vs recovery house",
+      "variants": [],
+      "signals": {
+        "words": 5,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.5,
+          "of": "are sober living homes profitable",
+          "why": "top 3 with 1 impressions"
+        }
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 27.5
+      },
+      "score": 20,
+      "page": "/questions/what-is-a-sober-living-house/"
+    },
+    {
+      "query": "sober living sober tips",
+      "variants": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.67,
+          "of": "rbh sober living",
+          "why": "top 3 with 1 impressions"
+        }
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 33.5
+      },
+      "score": 20,
+      "page": "/questions/can-you-leave-a-sober-living-home/"
+    },
+    {
+      "query": "sober living recovery homes",
+      "variants": [],
+      "signals": {
+        "words": 4,
+        "question": false,
+        "bing_suggest": true,
+        "neighbour": {
+          "sim": 0.75,
+          "of": "are sober living homes profitable",
+          "why": "top 3 with 1 impressions"
+        }
+      },
+      "scores": {
+        "striking": 20,
+        "can_be_one": 36.3
+      },
+      "score": 20,
+      "page": "/questions/do-sober-living-homes-provide-meals/"
     }
   ]
 }

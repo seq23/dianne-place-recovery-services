@@ -1714,6 +1714,83 @@
         "b5 FAQ answer is 36 words (aim 40-60): \"How does transitional housing differ from clinical\""
       ],
       "indexnow_at": "2026-11-17"
+    },
+    {
+      "slug": "how-long-do-you-have-to-stay-in-sober-living",
+      "query": "how long do you have to stay in sober living",
+      "lane": "can_be_one",
+      "score": 74,
+      "scores": {
+        "striking": 30,
+        "can_be_one": 74
+      },
+      "reasons": [
+        "easy-win neighbour of \"how long can you stay in sober living\" (top 1 with 1 impressions)",
+        "no site page answers this 5-word question, and the site holds its parts at position 1",
+        "weak top 10 (0.15): 0 directories, 0 forums, 0 off-target national, 2 thin or old, 0 answer the exact question",
+        "people search it (autocomplete or impressions)"
+      ],
+      "signals": {
+        "words": 10,
+        "question": true,
+        "google_suggest": true,
+        "neighbour": {
+          "sim": 0.8,
+          "of": "how long can you stay in sober living",
+          "why": "top 1 with 1 impressions"
+        },
+        "unanswered": {
+          "words": 5,
+          "covered": 0.4,
+          "parts_best_position": 1,
+          "parts_rows": 11
+        },
+        "top10": {
+          "provider": "brave",
+          "weakness": 0.15,
+          "counts": {
+            "results": 10,
+            "directories": 0,
+            "forums": 0,
+            "off_target_national": 0,
+            "thin_or_old": 2,
+            "exact_answer": 0
+          },
+          "reasons": [
+            "top 10: 0 directories, 0 forums, 0 off-target national, 2 thin or old, 0 answer the exact question"
+          ]
+        }
+      },
+      "rel": "public/questions/how-long-do-you-have-to-stay-in-sober-living/index.html",
+      "route": "/questions/how-long-do-you-have-to-stay-in-sober-living/",
+      "url": "https://detoxdenver.org/questions/how-long-do-you-have-to-stay-in-sober-living/",
+      "published_at": "2026-11-23",
+      "status": "live",
+      "hash": "21a1591307ffaa609148fb02024eace5cd122bb65686ddb713c5345e8b00d54a",
+      "model": "free-route",
+      "facts": [
+        "https://www.samhsa.gov/find-help/recovery",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3056157/"
+      ],
+      "linked_from": [
+        {
+          "rel": "public/questions/can-you-leave-a-sober-living-home/index.html",
+          "route": "/questions/can-you-leave-a-sober-living-home/",
+          "before_hash": "86bf2a7bc5e903004dd6c9273ae01619bc62093d6cda1ca87c54087bed439dbc",
+          "after_hash": "357838e02fbb45ea3c14ae279f8a4afc7707f7e841a3afbd570dc75d0800b8cc"
+        }
+      ],
+      "checks": {},
+      "gate_notes": [
+        "b5 FAQ answer is 38 words (aim 40-60): \"Can I leave the home whenever I want?\"",
+        "b5 FAQ answer is 38 words (aim 40-60): \"What happens if I need more time than originally p\"",
+        "b5 FAQ answer is 38 words (aim 40-60): \"Is a stay in sober living mandatory after treatmen\"",
+        "b5 FAQ answer is 37 words (aim 40-60): \"How do families participate in the transition proc\""
+      ],
+      "extra_queries": [
+        "how long can you stay in a sober living facility",
+        "how long does someone stay in sober living"
+      ]
     }
   ],
   "dropped": [
@@ -1975,6 +2052,57 @@
       "gate": 2,
       "reason": [
         "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1); these failed the check, replace each with a page that exists: https://www.hud.gov/program_offices/comm_planning/recovery-housing (HTTP 404)"
+      ]
+    },
+    {
+      "query": "sober houses near me for men",
+      "at": "2026-11-23",
+      "gate": 2,
+      "reason": [
+        "b5 FAQ answer is 28 words (aim 40-60): \"Are men's sober houses considered medical treatmen\"",
+        "b5 FAQ answer is 23 words (aim 40-60): \"What is required of residents in a sober house?\"",
+        "b5 FAQ answer is 23 words (aim 40-60): \"Can family members help coordinate a placement?\"",
+        "b5 FAQ answer is 24 words (aim 40-60): \"What should I do in an active medical emergency?\"",
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1); these failed the check, replace each with a page that exists: https://www.fcc.gov/988-suicide-crisis-lifeline (HTTP 403: this site refuses automated checks, so cite a different publisher)"
+      ]
+    },
+    {
+      "query": "sober houses near me for women",
+      "at": "2026-11-23",
+      "gate": 2,
+      "reason": [
+        "b5 FAQ answer is 29 words (aim 40-60): \"What are the rules in a women's sober house?\"",
+        "b5 FAQ answer is 26 words (aim 40-60): \"How can family members support someone in a sober \"",
+        "b5 FAQ answer is 26 words (aim 40-60): \"What should I look for when choosing a sober house\"",
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 0); these failed the check, replace each with a page that exists: https://www.samhsa.gov/find-help/recovery-housing (HTTP 202); https://nida.nih.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/principles-effective-treatment (HTTP 202)"
+      ]
+    },
+    {
+      "query": "clean and sober houses near me",
+      "at": "2026-11-23",
+      "gate": 2,
+      "reason": [
+        "b2 meta description is 61 chars (aim 120-160)",
+        "b5 FAQ answer is 28 words (aim 40-60): \"Is sober living the same as a treatment center?\"",
+        "b5 FAQ answer is 27 words (aim 40-60): \"What rules do residents follow in these houses?\"",
+        "b5 FAQ answer is 28 words (aim 40-60): \"Can family members help coordinate a placement?\"",
+        "b5 FAQ answer is 27 words (aim 40-60): \"What should I do if I need immediate medical help?\""
+      ]
+    },
+    {
+      "query": "long term sober living near me",
+      "at": "2026-11-23",
+      "gate": 2,
+      "reason": [
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 1); these failed the check, replace each with a page that exists: https://www.samhsa.gov/find-help/recovery (HTTP 202)"
+      ]
+    },
+    {
+      "query": "sober living houses near me for men",
+      "at": "2026-11-23",
+      "gate": 2,
+      "reason": [
+        "facts: needs at least 2 distinct sources whose URLs answered 200 (found 0); these failed the check, replace each with a page that exists: https://www.hudexchange.info/homelessness-assistance/resources-for-use-with-federal-programs/recovery-housing/ (HTTP 404); https://bhsonline.org/recovery-housing/ (HTTP 404)"
       ]
     }
   ],
@@ -2497,6 +2625,26 @@
       "kind": "engine",
       "matched_by": "high token overlap (0.50 >= 0.5)",
       "matched_text": "what is a sober living house",
+      "stage": "search"
+    },
+    {
+      "query": "how long can you stay in a sober living facility",
+      "at": "2026-11-23",
+      "url": "https://detoxdenver.org/questions/how-long-do-you-have-to-stay-in-sober-living/",
+      "route": "/questions/how-long-do-you-have-to-stay-in-sober-living/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "matched_text": "how long do you have to stay in sober living",
+      "stage": "search"
+    },
+    {
+      "query": "how long does someone stay in sober living",
+      "at": "2026-11-23",
+      "url": "https://detoxdenver.org/questions/how-long-do-you-have-to-stay-in-sober-living/",
+      "route": "/questions/how-long-do-you-have-to-stay-in-sober-living/",
+      "kind": "engine",
+      "matched_by": "high token overlap (0.67 >= 0.5)",
+      "matched_text": "how long do you have to stay in sober living",
       "stage": "search"
     }
   ]

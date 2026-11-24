@@ -1,8 +1,8 @@
 {
   "schema": "search-loop-discovery-v1",
   "site": "detoxdenver.org",
-  "week": "2026-W47",
-  "generated_at": "2026-11-16T12:41:22.377Z",
+  "week": "2026-W48",
+  "generated_at": "2026-11-24T00:08:46.457Z",
   "paid_calls": 0,
   "cost_usd": 0,
   "hosts": {
@@ -19,15 +19,15 @@
       "cost_usd": 0
     },
     "suggestqueries.google.com": {
-      "calls": 77,
-      "ok": 73,
-      "failed": 4,
+      "calls": 40,
+      "ok": 39,
+      "failed": 1,
       "cost_usd": 0
     },
     "api.bing.com": {
-      "calls": 3,
-      "ok": 0,
-      "failed": 3,
+      "calls": 40,
+      "ok": 40,
+      "failed": 0,
       "cost_usd": 0
     },
     "api.search.brave.com": {
@@ -38,24 +38,24 @@
     }
   },
   "sources": {
-    "search_console": "ok: 38 rows",
+    "search_console": "ok: 65 rows",
     "bing_webmaster": "ok: 0 rows",
-    "easy_wins": "ok: 4 easy win(s) in Search Console",
+    "easy_wins": "ok: 14 easy win(s) in Search Console",
     "suggestqueries.google.com": "ok",
-    "api.bing.com": "not read: unavailable after 3 failures (last http 204)",
-    "relevance_screen": "ok: kept 44 of 135 (free model)",
+    "api.bing.com": "ok",
+    "relevance_screen": "ok: kept 55 of 150 (free model)",
     "top10": "ok: 15 top-10 read(s) via brave"
   },
   "seeds": {
-    "planned": 118,
-    "asked": 73,
+    "planned": 157,
+    "asked": 40,
     "topics": 12,
     "topics_asked": 12,
     "priority_topics": 0,
     "priority_targets": 0
   },
   "notes": [
-    "autocomplete stopped at its budget of 80 calls (73 of 118 planned questions asked)"
+    "autocomplete stopped at its budget of 80 calls (40 of 157 planned questions asked)"
   ],
   "competition": "ok: 15 top-10 read(s) via brave",
   "lanes": {
@@ -63,8 +63,8 @@
       "can_be_one": 2,
       "striking": 1
     },
-    "can_be_one": 19,
-    "striking": 25,
+    "can_be_one": 31,
+    "striking": 24,
     "weights": {
       "neighbour": 35,
       "unanswered": 30,
@@ -73,9 +73,9 @@
     }
   },
   "counts": {
-    "candidates": 165,
-    "targets": 44,
-    "strengthen_candidates": 10,
+    "candidates": 479,
+    "targets": 55,
+    "strengthen_candidates": 17,
     "dropped_shared_audience": 0
   }
 }
