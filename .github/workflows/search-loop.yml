@@ -34,7 +34,7 @@ permissions:
   actions: write
 
 concurrency:
-  group: ${{ github.event_name == 'pull_request' && format('search-loop-pr-{0}', github.ref) || 'search-loop' }}
+  group: ${{ github.event_name == 'pull_request' && format('search-loop-pr-{0}', github.ref) || 'site-publication' }}
   cancel-in-progress: false
 
 jobs:
@@ -42,6 +42,8 @@ jobs:
     uses: seq23/search-loop/.github/workflows/search-loop.yml@v1
     with:
       engine_ref: v1
+      # The workflow run may have been queued before Content Publish updated the sitemap.
+      setup_command: bash .github/scripts/sync-search-publisher.sh
       # Owner ruling 3 Nov 2026: distinct pages only, under a cap that grows with
       # results. search-loop.config.json sets mode slow (<=3/day), cap 10 and the
       # distinct gate over public/sitemap.xml, so template fan-out cannot return.
