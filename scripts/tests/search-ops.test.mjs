@@ -2,6 +2,11 @@
 // weekly outcome report turns red on a real drop or a stopped collection (i9).
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { spawnSync, execFileSync } from 'node:child_process';
+import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { gscTruth } from '../search_intelligence/gsc_truth.mjs';
 import { outcome } from '../search_intelligence/weekly_outcome_report.mjs';
 
@@ -35,4 +40,44 @@ test('the weekly report is red on a 25% drop, green on the first week, red when 
   const stale = outcome({ truth: flat, status: live, now: new Date('2026-11-20T00:00:00Z') });
   assert.equal(stale.red, true);
   assert.equal(outcome({ truth: flat, status: { status: 'NAMED_STOP', reason: 'no secret' }, now }).red, true);
+});
+
+test('scheduled search publisher starts from the release already on main', t => {
+  const root = mkdtempSync(join(tmpdir(), 'search-publisher-'));
+  t.after(() => rmSync(root, { recursive: true, force: true }));
+  const origin = join(root, 'origin');
+  const runner = join(root, 'runner');
+  const report = 'sitemap-build.json';
+  const git = (cwd, ...args) => execFileSync('git', args, { cwd, stdio: ['ignore', 'pipe', 'pipe'] }).toString().trim();
+  git(root, 'init', '-b', 'main', origin);
+  const release = value => {
+    writeFileSync(join(origin, report), JSON.stringify({ release: value }));
+    git(origin, 'add', '--', report);
+    git(origin, '-c', 'user.name=Regression Test', '-c', 'user.email=test@example.com', 'commit', '-m', value);
+  };
+  release('queued');
+  git(root, 'clone', origin, runner);
+  const queued = git(runner, 'rev-parse', 'HEAD');
+  release('released');
+  const latest = git(origin, 'rev-parse', 'HEAD');
+  const script = fileURLToPath(new URL('../../.github/scripts/sync-search-publisher.sh', import.meta.url));
+  const sync = (cwd, publish) => spawnSync('bash', [script], {
+    cwd, env: { ...process.env, PUBLISH: publish }, encoding: 'utf8',
+  });
+
+  for (const publish of [undefined, 'false']) {
+    const proof = sync(runner, publish);
+    assert.equal(proof.status, 0, proof.stderr);
+    assert.match(proof.stdout, /SEARCH_PROOF_BRANCH/);
+    assert.equal(git(runner, 'rev-parse', 'HEAD'), queued);
+  }
+
+  const publish = sync(runner, 'true');
+  assert.equal(publish.status, 0, publish.stderr);
+  assert.equal(git(runner, 'rev-parse', 'HEAD'), latest);
+  assert.notEqual(latest, queued);
+  assert.match(publish.stdout, /OUTPUT 1/);
+  const empty = sync(root, 'true');
+  assert.ok(empty.status > 0, 'an empty checkout must fail');
+  assert.doesNotMatch(empty.stdout, /OUTPUT 1/);
 });
