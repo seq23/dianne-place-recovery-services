@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "receipt_id": "2026-11-24T23-01-38.968Z-45506233804",
-  "attempted_at": "2026-11-24T23:01:38.968Z",
+  "receipt_id": "2026-11-25T22-32-28.357Z-45714036550",
+  "attempted_at": "2026-11-25T22:32:28.357Z",
   "publication_trigger": "ONLY_AFTER_EXISTING_CONTENT_PUBLISH_WORKFLOW_SUCCEEDS",
   "chain": [
     "successful_publish",
@@ -15,14 +15,14 @@
   "sitemap_refresh": {
     "status": "SUCCESS",
     "sitemap_url": "https://detoxdenver.org/sitemap.xml",
-    "sitemap_sha256": "acd13b78628af327d655a82ff7617141a58c8dcfca09d28827733f657ccbe166",
-    "url_count": 44
+    "sitemap_sha256": "930d869d6f828f813bcaef0d78c83e2f01d3cf3ff52290edab10421d5f382575",
+    "url_count": 45
   },
   "indexnow": {
     "status": "SUCCESS",
     "attempted": true,
     "http_status": 200,
-    "submitted_urls": 44
+    "submitted_urls": 45
   },
   "gsc_sitemap_submission": {
     "status": "SUCCESS",
@@ -223,7 +223,7 @@
   "durable_receipt": {
     "status": "SUCCESS",
     "latest_path": "data/distribution/provider_receipt.json",
-    "history_path": "data/distribution/receipts/2026-11-24T23-01-38.968Z-45506233804.json"
+    "history_path": "data/distribution/receipts/2026-11-25T22-32-28.357Z-45714036550.json"
   },
   "observation_feedback": {
     "status": "SUCCESS",
