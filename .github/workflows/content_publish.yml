@@ -10,8 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  # Search Loop also writes the sitemap and its validation packet.
-  group: site-publication
+  group: content-publish-main
   cancel-in-progress: false
 
 jobs:
