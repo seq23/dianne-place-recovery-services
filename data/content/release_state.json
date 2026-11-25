@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T23:00:47.172Z",
-  "releaseDate": "2026-11-24",
+  "generatedAt": "2026-11-25T22:31:35.360Z",
+  "releaseDate": "2026-11-25",
   "mode": "seeded_backlog",
   "calendarStart": "2026-07-07",
   "seededCalendarEnd": "2026-12-31",
@@ -8,6 +8,6 @@
   "livePublicCount": 12,
   "todaysReleaseCount": 0,
   "todaysRoutes": [],
-  "futureHiddenCount": 37,
+  "futureHiddenCount": 36,
   "publicationBoundary": "Only approved content scheduled on or before releaseDate is public. Future approved backlog stays internal/admin-only."
 }
