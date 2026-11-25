@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [[ "${PUBLISH:?expected the search engine publishing mode}" == true ]]; then
+if [[ "${PUBLISH:-false}" == true ]]; then
   git pull --ff-only origin main
   printf 'OUTPUT 1 publishing baseline verified\n'
 else

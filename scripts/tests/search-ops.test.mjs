@@ -65,10 +65,12 @@ test('scheduled search publisher starts from the release already on main', t => 
     cwd, env: { ...process.env, PUBLISH: publish }, encoding: 'utf8',
   });
 
-  const proof = sync(runner, 'false');
-  assert.equal(proof.status, 0, proof.stderr);
-  assert.match(proof.stdout, /SEARCH_PROOF_BRANCH/);
-  assert.equal(git(runner, 'rev-parse', 'HEAD'), queued);
+  for (const publish of [undefined, 'false']) {
+    const proof = sync(runner, publish);
+    assert.equal(proof.status, 0, proof.stderr);
+    assert.match(proof.stdout, /SEARCH_PROOF_BRANCH/);
+    assert.equal(git(runner, 'rev-parse', 'HEAD'), queued);
+  }
 
   const publish = sync(runner, 'true');
   assert.equal(publish.status, 0, publish.stderr);
