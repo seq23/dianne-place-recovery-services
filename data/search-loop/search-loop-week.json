@@ -2,13 +2,13 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W48",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-25T21:52:07.486Z",
+  "generated_at": "2026-11-26T21:47:01.192Z",
   "state": "slow",
   "published": 2,
   "indexed": 10,
   "pace": 3,
   "ai_visitors": 0,
-  "ai_bot_hits": 125,
+  "ai_bot_hits": 123,
   "conversions": "not read: no conversion source configured for this site (form fills / checkouts)",
   "wins": 4,
   "undone": 0,
@@ -37,8 +37,8 @@
   "notes": [
     "site config lowers the mode to slow",
     "not read: AI answer misses (no BOSS_OPEN_LOOPS_TOKEN in this run (pass it in the caller's secrets: block)); could not tell this run",
-    "BUILD held by the cap: 17 live engine page(s), cap 17 (up from 15 to 17: Google impressions 342 in the last 28 days beat 9 in the 28 before); 2 more page(s) today would have gone over it, those searches stay queued",
-    "BUILD gate notes (not blocking): 1 published page(s) are outside a length or style aim; each is listed under gate_notes in pages.json"
+    "BUILD held by the cap: 17 live engine page(s), cap 17 (up from 15 to 17: Google impressions 342 in the last 28 days beat 9 in the 28 before); 3 more page(s) today would have gone over it, those searches stay queued",
+    "CHECK runs weekly in mode=slow; last ran 2026-11-25"
   ],
   "lanes": {
     "ratio": {
@@ -74,7 +74,7 @@
     "new_candidates": [],
     "skipped": [],
     "rejected": [],
-    "could_not_tell": 2
+    "could_not_tell": 3
   },
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/45708210330"
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/45900441755"
 }
