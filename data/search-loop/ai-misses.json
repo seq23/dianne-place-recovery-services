@@ -16,6 +16,11 @@
       "at": "2026-11-26T21:47:01.192Z",
       "status": "could_not_tell",
       "reason": "no BOSS_OPEN_LOOPS_TOKEN in this run (pass it in the caller's secrets: block)"
+    },
+    {
+      "at": "2026-11-27T17:55:57.429Z",
+      "status": "could_not_tell",
+      "reason": "no BOSS_OPEN_LOOPS_TOKEN in this run (pass it in the caller's secrets: block)"
     }
   ]
 }

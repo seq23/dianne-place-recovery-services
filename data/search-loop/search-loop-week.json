@@ -2,7 +2,7 @@
   "schema": "search-loop-week-v1",
   "week": "2026-W48",
   "site": "detoxdenver.org",
-  "generated_at": "2026-11-26T21:47:01.192Z",
+  "generated_at": "2026-11-27T17:55:57.429Z",
   "state": "slow",
   "published": 2,
   "indexed": 10,
@@ -74,7 +74,8 @@
     "new_candidates": [],
     "skipped": [],
     "rejected": [],
-    "could_not_tell": 3
+    "could_not_tell": 4
   },
-  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/45900441755"
+  "comparison": "not read: FIND has not run since v1.16.0",
+  "run_url": "https://github.com/seq23/dianne-place-recovery-services/actions/runs/46045593473"
 }
